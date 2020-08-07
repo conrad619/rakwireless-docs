@@ -31,7 +31,10 @@ All external expansion interfaces of the RAK5804 module are equipped with a TVS 
 
 
 
-## Overview
+## Specifications
+
+
+### Overview
 
 The RAK5804 module can be mounted on the WisIO slot of the WisBase board. Figure 1 shows the mounting mechanism of the RAK5804 on a WisBase module, such as a RAK5005.
 
@@ -41,7 +44,6 @@ The RAK5804 module can be mounted on the WisIO slot of the WisBase board. Figure
   caption="RAK5804 Mounting Mechanism on a WisBase module"
 />
 
-## Specifications
 
 ### Hardware
 
