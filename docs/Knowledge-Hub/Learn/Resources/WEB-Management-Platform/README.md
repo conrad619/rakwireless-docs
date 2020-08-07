@@ -5,12 +5,12 @@ rak_desc: This is some text to describe this article - Lorem ipsum dolor sit ame
 tags:
   - User-Manual
 header:
-  title: Web Management Platform
+  title: WEB Management Platform
   caption: by <b>RAKwireless Team</b>
   img: /assets/images/user-manual/web-management-platform/1.webui.jpg
 ---
 
-# Web Management Platform
+# WEB Management Platform
 
 * [Accessing the Web Management Platform](#accessing-the-web-management-platform)
 * [Status Page](#status-page)

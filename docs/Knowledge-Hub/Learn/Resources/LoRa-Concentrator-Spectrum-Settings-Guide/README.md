@@ -5,12 +5,12 @@ rak_desc: This is some text to describe this article - Lorem ipsum dolor sit ame
 tags:
   - User-Manual
 header:
-  title: Frequency Band Spectrum Settings Guide
+  title: LoRa® Concentrator Spectrum Settings Guide
   caption: by <b>RAKwireless Team</b>
   img: /assets/images/_/banner.png
 ---
 
-# Frequency Band Spectrum Settings Guide
+# LoRa® Concentrator Spectrum Settings Guide
 
 * [EU868 Spectrum Settings](#eu868-spectrum-settings)
 * [KR920 Spectrum Settings](#kr920-spectrum-settings)

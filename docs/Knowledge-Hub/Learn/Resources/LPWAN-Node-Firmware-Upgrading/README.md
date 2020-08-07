@@ -5,12 +5,12 @@ rak_desc: This is some text to describe this article - Lorem ipsum dolor sit ame
 tags:
   - User-Manual
 header:
-  title: Node Firmware Upgrading
+  title: LPWAN Node Firmware Upgrading
   caption: by <b>RAKwireless Team</b>
   img: /assets/images/_/banner.png
 ---
 
-# Node Firmware Upgrading
+# LPWAN Node Firmware Upgrading
 
 It is always best for your RAK LPWAN Node to upgrade to its latest firmware to have the optimum performance.
 
@@ -26,7 +26,7 @@ Download or install the requisites listed below:
 For this sample demonstration, we will be using the RAK4200 LPWAN Node.
 :::
 
-1. Connect your LPWAN intoindows machine as instructed in the [Quick Start Guide](/Product-Categories/) of your chosen LPWAN Node.
+1. Connect your LPWAN into your windows machine as instructed in the [Quick Start Guide](/Product-Categories/) of your chosen LPWAN Node.
 
 2. Open the RAK Serial Port Tool you have just installed and let your RAK LPWAN Node work in boot mode by setting an AT command through serial port as follows: 
 
