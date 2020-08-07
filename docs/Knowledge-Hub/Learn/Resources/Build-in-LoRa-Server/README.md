@@ -1,7 +1,96 @@
 ---
-prev: built-in-lora-network-server
-next: false
+sidebar: false
+rak_img: 
+rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+tags:
+  - Deployment-Guide
+header:
+  title: Build-in LoRa® Network Server Configuration
+  caption:
+  img: /assets/images/_/banner.png
 ---
+
+#  Build-in LoRa® Network Server Configuration
+
+* [Gateway Built-in LoRa® NS](#gateway-built-in-lora®-ns)
+* [RAK LPWAN Node](#rak-lpwan-node)
+
+This section is a sample demonstration on how to interconnect your **RAK7249 Macro Outdoor Gateway** with its **Built-in LoRa Network Server** and make an application for the **RAK LPWAN Node**. For this sample demonstration, we will be using the RAK811 LPWAN Node. 
+
+## Requirements
+1. RAK811 LPWAN Node
+2. RAK7249 Macro Outdoor Gateway (LoRa® Server in use)
+
+
+# Gateway Built-in LoRa® NS
+
+This document is the detailed discussion on how to set-up the built-in LoRa® Server for your RAK7249 Marco Outdoor Gateway using the Web Management Platform.
+
+We will first set-up the built-in LoRa®  network server. Before going through the steps, access the Web Management Platform as discussed in the prior section.
+
+## Packet Forwarder Set-up 
+
+:::tip 📝 NOTE
+ For other settings and detailed documentation for this section, browse the [LoRaWAN Gateway Configuration](/Knowledge-Hub/Learn/Resources/user-manual/web-management-platform/lora-network.html#packet-forwarder) section.
+:::
+
+1. By navigating through LoRa® Gateway tab-> LoRa® Packet Forwarder-> General Setup, set the Protocol in the drop-down list to **Build-in LoRa ® Server**.
+
+2. You can leave the rest of the settings with their default values. Remember to "**Save & Apply**".
+
+<rk-img
+  src="/assets/images/deployment-guide/build-in-lora-server/build-in-lora-server.png"
+  width="100%"
+  figure-number="1"
+  caption="Build-in LoRa Server Protocol in Gateway"
+/>
+
+## Configure the LoRa® Server
+
+:::tip 📝 NOTE
+ For other settings and detailed documentation for this section, browse the [LoRa Network Server](/Knowledge-Hub/Learn/Resources/user-manual/web-management-platform/lora-network.html#packet-forwarder) section.
+:::
+
+1. Navigate through LoRa® Network Server tab -> General and turn-on this feature using the Enable slider. 
+
+2. Select your Region (Frequency Band). For this demonstration, we are going to use **EU863-870 frequency band**.
+
+<rk-img
+  src="/assets/images/deployment-guide/build-in-lora-server/lora-network-server-general.png"
+  width="100%"
+  figure-number="2"
+  caption="LoRa Network Server General"
+/>
+
+## Register RAK7249 Gateway
+
+1. Navigate through LoRa® Network Server-> Gateway and enter the **Gateway EUI** in the field.
+
+<rk-img
+  src="/assets/images/deployment-guide/build-in-lora-server/adding-gateway-eui.png"
+  width="100%"
+  figure-number="3"
+  caption="Adding Gateway EUI"
+/>
+
+2. By pressing the "**Add**" button, you will be redirected into a new tab where you will need to fill the mandatory parameters: **Name** and **Description**.
+
+:::tip 📝 NOTE
+ The **Latitude**, **Longitude** and **Altitude** parameters are not mandatory. You can leave them for later, or leave them empty if the gateway is not stationary.
+:::
+
+3. If everything is set-up correctly, you should see the same set-up with the image shown below:
+
+:::tip 📝 NOTE
+ In order to see the Last Seen status update you need to refresh the page. There should be a value of a couple of seconds, if so than everything went well. In case there is a message **Never Seen**, there is an issue and you best redo the configuration.
+:::
+
+<rk-img
+  src="/assets/images/deployment-guide/build-in-lora-server/gateway-successful-add.jpg"
+  width="100%"
+  figure-number="4"
+  caption="Gateway Successful Adding"
+/>
 
 # RAK LPWAN Node
 
@@ -125,3 +214,6 @@ at+set_config=device:restart
   figure-number="7"
   caption="Live Device Data Monitoring"
 />
+
+
+
