@@ -34,6 +34,9 @@ The RAK2305 module is a 2.4 GHz Wi-Fi and Bluetooth in a single module. The core
 
 ### Overview
 
+The overview covers the RAK2305 WisBlock™ board overview and block diagram. It also shows how to mount the board into to the baseboard. 
+
+
 #### Board Overview
 
 <rk-img
@@ -41,6 +44,9 @@ The RAK2305 module is a 2.4 GHz Wi-Fi and Bluetooth in a single module. The core
   width="50%"
   caption="Board Overview"
 />
+
+
+#### Mounting Sketch
 
 Figure 3 shows how RAK2305 module (a WisIO module) is integrated with the
 RAK5005 base board. The mounting sketch is shown.
@@ -53,8 +59,6 @@ RAK5005 base board. The mounting sketch is shown.
 
 #### Block Diagram
 
-Figure 4 shows the block diagram of the RAK2305 Module.
-
 <rk-img
   src="/assets/images/wisblock/rak2305/datasheet/block_diagram_rak2305.png"
   width="50%"
@@ -62,6 +66,8 @@ Figure 4 shows the block diagram of the RAK2305 Module.
 />
 
 ### Hardware 
+
+The hardware specification is categorized into four parts. It discuses the interfacing of the module and its corresponding functions and diagrams. It also covers the electrical and mechanical parameters that include the tabular data of the functionalities and standard values of the RAK2305 WisBlock WisIO Module.
 
 
 #### Interfaces
@@ -100,7 +106,7 @@ The RAK2305 module uses the UART0 interface to download customized application c
 />
 
 :::warning ⚠️ WARNING
-Before Download, you need to pull down IO0.
+Before download, you need to pull down IO0.
 :::
 
 #### Electrical Characteristics
@@ -130,12 +136,12 @@ Figure 6 shows the dimensions and the mechanic drawing of the RAK2305 Module.
 <rk-img
   src="/assets/images/wisblock/rak2305/datasheet/rak2305_dimensions.png"
   width="100%"
-  caption="RAK2305 Dimensions"
+  caption="RAK2305 Module Dimensions"
 />
 
 #### Schematic Diagram
 
-The following sections will describe the schematic of the RAK2305 module.
+The following sections describes the schematic of the RAK2305 module.
 
 ##### Power Supply
 

@@ -16,7 +16,7 @@ tags:
 />
 
 
-### Description
+### Product Description
 
 The RAK4631 module is part of the WisBlock series, specifically it’s one of the modules that belongs to the WisCore category. 
 
@@ -28,7 +28,7 @@ The module complies with LoRaWAN® 1.0.2 protocols, it also supports LoRa® poin
 
 The RF communication characteristic of the module (Lora® + BLE) make it suitable for a variety of applications in the IoT field such as home automation, sensor networks, building automation, personal area networks applications (health/fitness sensors and monitors, etc.).
 
-### Features
+### Product Features
 
 - TCXO crystal for LoRa chip
 - I/O ports: UART/I2C/GPIO/USB/SPI (optional NFC interface)
@@ -45,6 +45,8 @@ The RF communication characteristic of the module (Lora® + BLE) make it suitabl
 
 ### Overview
 
+The overview covers the RAK4631 WisBlock™ board overview and the mounting mechanics of the board into the baseboard.
+
 #### Board Overview
 
 <rk-img
@@ -53,17 +55,20 @@ The RF communication characteristic of the module (Lora® + BLE) make it suitabl
   caption="Board Realistic View"
 />
 
-##### RAK4631 Mounting Sketch
+#### Mounting Sketch
 
 The RAK4631 module is designed to work with the RAK5505 base board. The Figure 2 shows how a RAK4631 module should be mounted on top of the RAK5505.
 
 <rk-img
   src="/assets/images/wisblock/rak4631/datasheet/mounting-sketch.png"
   width="75%"
-  caption="RAK4631 mounting sketch"
+  caption="RAK4631 Mounting Sketch"
 />
 
 ### Hardware
+
+The hardware specification is categorized into four parts. It discusses the pinouts of the module and its corresponding functions and diagrams. It also covers the RF, electrical, and mechanical parameters that include the tabular data of the functionalities and standard values of the RAK4631 WisBlock™ Module.
+
 
 #### Pin Definition
 
@@ -127,7 +132,7 @@ The breakout module allows the RAK4630 stamp module’s pinout to be transferred
 
 ##### WisConnector Pin Order
 
-The Figure 2 shows the pin order of the WisConnector , which is located in the bottom layer of the module.
+The Figure 2 shows the pin order of the WisConnector which is located in the bottom layer of the module.
 
 <rk-img
   src="/assets/images/wisblock/rak4631/datasheet/wisconnector-pin-order.jpg"
@@ -275,9 +280,7 @@ The RAK4631 WisBlock WisCore module supports the LoRaWAN bands shown in the tabl
 | VBUS | VBUS USB supply voltage | 4.35 | 5.0 | 5.5 | V | 
 | VBAT_NRF | NRF52840 high voltage power supply | 2.5 |  | 5.5 | V | 
 
-#### Mechanical Dimensions
-
-##### Board Dimensions 
+#### Mechanical Characteristics
 
 <rk-img
   src="/assets/images/wisblock/rak4631/datasheet/board-dimensions.jpg"

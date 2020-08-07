@@ -14,7 +14,7 @@ prev: /Product-Categories/WisDuo/RAK4200-Breakout-Board/Overview/
   caption="RAK4200 WisBee™ Breakout Module"
 />
 
-## Product Description
+### Product Description
 
 **RAK4200 WisBee™ Breakout Module** is specifically designed to allow easy excess to the pins on the module in order to simplify development and testing. The breakout board utilized is of an Xbee form factor and its main purpose is to allow the RAK4200 stamp module form factor pinout to be transferred to 2.54mm headers.
 
@@ -28,7 +28,7 @@ suitable for a variety of applications in the IoT field such as home
 automation, sensor networks, building automation, personal area networks applications
 (health/fitness sensors and monitors, etc.).
 
-## Product Features
+### Product Features
 
 LoRa® module for Smart City, Smart Agriculture, Smart Industry
 
@@ -48,7 +48,8 @@ LoRa® module for Smart City, Smart Agriculture, Smart Industry
 
 ### Overview
 
-Figure 2 below shows the top view of the RAK4200 WisBee™ Breakout Module:
+The RAK4200 WisBee™ Breakout Module is shown in Figure 2. It displays the top view of the module.
+
 
 <rk-img
   src="/assets/images/wisduo/rak4200-breakout-board/datasheet/rak4200-breakout-board-illustration.png"
@@ -58,7 +59,8 @@ Figure 2 below shows the top view of the RAK4200 WisBee™ Breakout Module:
 
 ### Hardware
 
-The hardware specifications are categorized into four parts that discuss the interfacing, pinouts, operating frequencies, and the standard values of the board. These categories also include tabular data and diagrams of the RAK4200 WisBee Breakout Module.
+
+The hardware specification is categorized into four parts. It discusses the interfacing, pinouts, and its corresponding functions and diagrams. It also covers the electrical, mechanical, and environmental parameters that include the tabular data of the functionalities and standard values of the RAK4200 WisBee™ Breakout Module.
 
 
 #### Interfaces
@@ -184,7 +186,7 @@ The RAK4200 WisBee™ Breakout Board circuit is shown below:
 
 ### Software
 
-Download the latest firmware and bootloader of the RAK811 WisBee Breakout Module provided in the table below.
+Download the latest firmware and bootloader of the RAK400 WisBee™ Breakout Module provided in the table below.
 
 
 #### Firmware

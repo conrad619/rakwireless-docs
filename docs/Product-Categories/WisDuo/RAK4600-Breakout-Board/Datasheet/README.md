@@ -41,8 +41,7 @@ The RF communication capabilities of the module (LoRa® + BLE) make it suitable 
 
 ### Overview
 
-
-The figure below shows the top view of the RAK4600 WisBee™ Breakout Module.
+The RAK4600 WisBee™ Breakout Module is shown in Figure 2 that displays the top view of the module.
 
 <rk-img
   src="/assets/images/wisduo/rak4600-breakout-board/datasheet/board-overview/cwr7pftlffhyogeuzahz.jpg"
@@ -52,7 +51,7 @@ The figure below shows the top view of the RAK4600 WisBee™ Breakout Module.
 
 ### Hardware
 
-Hardware specifications are categorized into five parts that covers the interfacing and functionalities of the pinouts. It also covers the standrard values of the board including standard freqiencies of the coard.mThese categories also include tabular data and diagrams of the RAK4600 Breakout Module.
+Hardware specification is categorized into five parts that covers the interfacing, pinouts, and its corresponding functions and diagrams. It also covers the RF and electrical parameters that include the tabular data of the functionalities and standard values of the RAK4600 WisBee™ Breakout Board.
 
 
 #### Interfaces
@@ -89,7 +88,7 @@ The following pins are intended for I2C (_require 10k resistance pull-up_):
 
 Both are utilizing an IPEX connector, where one is for the LoRa® antenna and the other for the BLE.
 
-NFC interface
+##### NFC interface
 
 Two physical pins can be configured either as NFC antenna pins (factory default), or as GPIOs, When configured as NFC antenna pins, the GPIOs on those pins will automatically be set to DISABLE state and a protection circuit will be enabled preventing the chip from being damaged in the presence of a strong NFC field. The protection circuit will short the two pins together if the voltage difference exceeds approximately 2V.
 
@@ -182,8 +181,7 @@ The RAK4600 WisBee™ Breakout Board circuit is shown below:
 
 ### Software
 
-Downloadable the latest firmware for the RAK4600 Breakout Module that is provided down below.
-
+Download the latest firmware of the RAK4600 WisBee™ Breakout Module in the table provided.
 
 #### Firmware
 

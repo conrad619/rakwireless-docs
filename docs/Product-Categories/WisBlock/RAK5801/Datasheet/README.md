@@ -35,6 +35,10 @@ Also, this module integrates a **12V power supply**, which can be used by users 
 
 ### Overview
 
+
+The overview discusses the block diagram of the board. It also shows the installation mechanism on how to mount the board into the baseboard.
+
+
 #### Block Diagram
 
 The RAK5801 module was designed to convert 4-20mA current signals into voltage signals by applying a resistor. As shown in Figure 1, this voltage signal is conditioned with an operational amplifier to the level supported by an analog input of an MCU. Inside of the MCU, the analog signal is then digitalized by an ADC.
@@ -59,7 +63,7 @@ Where:
 
 ##### Mounting Mechanism
 
-The RAK5801 module is part of the WisIO category, which connects to the baseboard through the _WisIO_ slot. To install the module, execute the following steps:
+The RAK5801 module is part of the WisIO category, which connects to the baseboard through the WisIO slot. To install the module, execute the following steps:
 
 1.Keep the RAK5801 module **parallel to the baseboard**. Gently place its WisConnector and plug it into the WisIO slot receptacle of the baseboard. The WisIO slot has an outer silkscreen on it to assist the alignment. At this point, apply force evenly along with the module and press again. There will be a sound to confirm the successful completion of the attachment process. 
 

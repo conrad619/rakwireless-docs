@@ -47,6 +47,8 @@ The RAK5804 module can be mounted on the WisIO slot of the WisBase board. Figure
 
 ### Hardware
 
+The hardware specification is categorized into four parts. It discusses the interfacing, pinouts, and its corresponding functions and diagrams of the module. It also covers the electrical and mechanical characteristics that include the tabular data of the functionalities and standard values of the RAK5804 WisBlock™ Module.
+
 #### Interfaces
 
 The RAK5804 presents an application to the IO pins and I2C and UART communication ports through the J2, J3, and J4 connectors. Users and connect through these connectors, sensors, digital I/O, analog I/O, and slave device through the I2C and UART ports to complete their final IoT solution. These pins are routed to the WisCore through the WisIO connector. 
@@ -102,6 +104,9 @@ The RAK5804 presents an application to the IO pins and I2C and UART communicatio
 | 5 | GND | 
 
 <br>
+
+#### Pin Definition
+
 
 The RAK5804 module, as one of the WisIO module, comprises a standard WisIO connector. This connector allows the RAK5804 module to be mounted on a WisBlock baseboard, such as RAK5005. The pin order of the connector is shown in Figure 3.
 

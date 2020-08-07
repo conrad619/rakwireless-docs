@@ -21,9 +21,8 @@ certifications:
   caption="RAK811 Breakout Module"
 />
 
-## Overview
 
-### Description
+### Product Description
 
 **RAK811 Breakout Module** is an easy to use, compact and low power long range LoRa® technology with wireless transceiver capabilities. A combination of RAK811 chipset and RAK811 Breakout Board with Semtech SX1276 at its core which takes advantage of all LoRa® features.
 
@@ -33,7 +32,7 @@ The node can work in a number of modes, with different data rates and read data 
 
 This module is a complete solution in developing your LoRaWAN® protocol techniques. A few of its application includes: Automated Meters Reading, Home and Building Automation, Wireless Alarm and Security Systems, Industrial Monitoring and Control and Long Range Irrigation Systems.
 
-### Features
+### Product Features
 
 - Based on **Semtech SX1276**
 - Full **LoRaWAN® 1.0.2** stack support
@@ -54,7 +53,7 @@ This module is a complete solution in developing your LoRaWAN® protocol techniq
 
 ### Overview
 
-The **RAK811 WisBee™ Breakout Module** has a board dimension of **42mm x 25mm** and weighs at about **0.2kg**.
+The **RAK811 WisBee™ Breakout Module** is shown in Figure 2 with its corresponding board dimension of **42mm x 25mm**. This module weighs only at about **0.2kg**.
 
 <rk-img
   src="/assets/images/wisduo/rak811-breakout-board/datasheet/2.dimensions.png"
@@ -63,7 +62,7 @@ The **RAK811 WisBee™ Breakout Module** has a board dimension of **42mm x 25mm*
 />
 
 ### Hardware
-The hardware specifications are categorized into five parts that discuss the interfacing, pinouts, and standard values of the board in terms of electrical, mechanical, and environmental. These categories include tabular data and diagrams of the RAK811 WisBee Breakout Module.
+The hardware specification is categorized into five parts. It discusses the interfacing, pinouts, and its corresponding functions and diagrams. It also covers the electrical, mechanical, and environmental parameters that include the tabular data of the functionalities and standard values of the RAK811 WisBee™ Breakout Module.
 
 #### Interfaces
 
@@ -247,7 +246,7 @@ Referred to IPC/JEDEC standard:
 
 ### Software
 
-Download the latest firmware of the RAK811 WisBee Breakout Module — both in low and high frequency — provided in the table below.
+Download the latest firmware of the RAK811 WisBee™ Breakout Module — both in low and high frequency — provided in the table below.
 
 #### Firmware / OS
 

@@ -4,7 +4,9 @@ next: false
 tags:
   - datasheet
   - wisblock
+  - wisio
 ---
+
 # RAK5860 WisBlock WisIO Module Datasheet
 
 <rk-img
@@ -37,6 +39,8 @@ For debugging purpose, a Micro-USB connector is used for sending AT commands, da
 
 ### Overview
 
+The overview shows the realistic view of the RAK5860 module and its block diagram. It also covers the installation mechanism of the module into the baseboard.
+
 #### Board Overview
 
 Figure 2 shows a realistic view and main component description of the RAK5860 Module
@@ -47,10 +51,10 @@ Figure 2 shows a realistic view and main component description of the RAK5860 Mo
   caption="RAK5860 Board Realistic View"
 />
 
-##### RAK2305 Mounting Sketch
+#### Mounting Sketch
 
 Figure 3 shows how RAK5860 module (a WisIO module) is integrated with the
-RAK5005 base board. The mounting sketch is shown.
+RAK5005 baseboard. The mounting sketch is shown.
 
 <rk-img
   src="/assets/images/wisblock/rak5860/datasheet/mounting-sketch.png"
@@ -60,7 +64,7 @@ RAK5005 base board. The mounting sketch is shown.
 
 
 #### Block Diagram
-Figure 4 shows the block diagram of the RAK5860 Module
+
 
 <rk-img
   src="/assets/images/wisblock/rak5860/datasheet/block_diagram.png"
@@ -69,6 +73,9 @@ Figure 4 shows the block diagram of the RAK5860 Module
 />
 
 ### Hardware
+
+The hardware specification of the RAK5860 is categorized into two. It covers the electrical standard ratings and the functionalities of the module. It also discusses the diagram of the module and its mechanism.
+
 
 #### Electrical Characteristics
 ##### Absolute Maximum Ratings

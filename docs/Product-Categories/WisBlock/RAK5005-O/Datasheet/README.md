@@ -168,6 +168,9 @@ The 3V3_S is another 3.3V power supply. It can be controlled by the MCU in order
 - Set **IO2=0**, 3V3_S is off.
 
 ### Hardware
+
+The hardware specification is categorized into six parts. It discusses the interfacing, pinouts, and its corresponding fuctions and diagrams. It also covers the electrical, mechanical, and environmental parameters that include the tabular data of the functionalities and standard values of the RAK5005-O WisBase Board.
+
 #### Interfaces
 
 RAK5005-O provides the following **interfaces**, **headers**, **jumpers**, **buttons** and **connectors**:
@@ -592,7 +595,7 @@ Figure 15 shows the detailed mechanical dimensions of RAK5005-O.
   caption="Mechanical Dimensions"
 />
 
-#### Environmental Requirements
+#### Environmental Characteristics
 
 The table below lists the operation and storage temperature requirements of RAK5005-O:
 
