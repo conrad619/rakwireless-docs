@@ -1,5 +1,5 @@
 ---
-prev: /Product-Categories/WisBee/RAK4260-Breakout-Board/Overview/
+prev: /Product-Categories/WisDuo/RAK4260-Breakout-Board/Overview/
 next: false
 ---
 
@@ -273,7 +273,7 @@ We need to execute these steps in order for our device to connect with TTN, basi
 />
 
 - As the firmware is ready now you are going to proceed to flashing it. In order to do this, you need to utilize your J-link hardware tool and the J-link Flasher software tool.
-- Connect the J-link tool in accordance with the diagram shown the [Interfacing with RAK4260 Breakout Module](/Product-Categories/WisBee/RAK4260-Breakout-Board/Quickstart/#j-link-connection) in section.
+- Connect the J-link tool in accordance with the diagram shown the [Interfacing with RAK4260 Breakout Module](/Product-Categories/WisDuo/RAK4260-Breakout-Board/Quickstart/#j-link-connection) in section.
 
 Once you are done connecting the board, you need to open the J-Flash tool and configure it to work with this particular chip model.
 
@@ -353,7 +353,7 @@ You are now done with flashing the modified firmware and can close the J-Flash t
 
 ##### Connecting to TTN
 
-- Connect your USB to UART converter to the pin header on the RAK4260 via a set of 4 dupont lines. Refer to the [Interfacing with RAK4260 Breakout Module](/Product-Categories/WisBee/RAK4260-Breakout-Board/Quickstart/#interfacing-with-rak4260-lpwan-breakout-module) section for more details.
+- Connect your USB to UART converter to the pin header on the RAK4260 via a set of 4 dupont lines. Refer to the [Interfacing with RAK4260 Breakout Module](/Product-Categories/WisDuo/RAK4260-Breakout-Board/Quickstart/#interfacing-with-rak4260-lpwan-breakout-module) section for more details.
 
 ###### Regional Band and Join Network Setup
 

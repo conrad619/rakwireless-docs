@@ -1,4 +1,3 @@
-var wisbee = require('./wisbee')
 var wisduino = require('./wisduino')
 var wisduo = require('./wisduo')
 var wisgate = require('./wisgate')
@@ -10,7 +9,6 @@ var wistrio = require('./wistrio')
 var wisblock = require('./wisblock')
 
 module.exports = {
-  ...wisbee,
   ...wisduino,
   ...wisduo, 
   ...wisgate,

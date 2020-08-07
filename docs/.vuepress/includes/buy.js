@@ -114,5 +114,76 @@ export default {
     img: '/assets/images/wisbee/rak4600-breakout-board/datasheet/board-overview/cwr7pftlffhyogeuzahz.jpg',
     store: 'https://store.rakwireless.com/products/rak4600-breakout-board'
   },
+
+  //WisDuo
+  '/Product-Categories/WisDuo/RAK811-Module/': {
+    img: '/assets/images/wisduo/rak811-module/overview/nwgqobrzwanalynildkc.jpg',
+    store: 'https://store.rakwireless.com/products/rak811-lpwan-module'
+  },
+  '/Product-Categories/WisDuo/RAK813-Module/': {
+    img: '/assets/images/wisduo/rak813-module/overview/RAK813.jpg',
+    store: 'https://store.rakwireless.com/'
+  },
+  '/Product-Categories/WisDuo/RAK4200-Evaluation-Board/': {
+    img: '/assets/images/wisduo/rak4200-evaluation-board/overview/RAK4200-evaluation-board.svg',
+    store: 'https://store.rakwireless.com/products/rak4200-evaluation-board'
+  },
+  '/Product-Categories/WisDuo/RAK4200-Module/': {
+    img: '/assets/images/wisduo/rak4200-module/overview/overview.png',
+    store: 'https://store.rakwireless.com/products/rak4200-lora-module'
+  },
+  '/Product-Categories/WisDuo/RAK4260-Evaluation-Board/': {
+    img: '/assets/images/wisduo/rak4260-evaluation-board/overview/RAK4260_Evaluation_Board.png',
+    store: 'https://store.rakwireless.com/products/rak4260-evaluation-board'
+  },
+  '/Product-Categories/WisDuo/RAK4260-Module/': {
+    img: '/assets/images/wisduo/rak4260-module/overview/RAK4260_LoRa_Module.png',
+    store: 'https://store.rakwireless.com/products/rak4260-lora-module'
+  },
+  '/Product-Categories/WisDuo/RAK4600-Evaluation-Board/': {
+    img: '/assets/images/wisduo/rak4600-evaluation-board/overview/RAK4600_Evaluation_Board.png',
+    store: 'https://store.rakwireless.com/products/rak4600-evaluation-board'
+  },
+  '/Product-Categories/WisDuo/RAK4600-Module/': {
+    img: '/assets/images/wisduo/rak4600-module/overview/RAK4600_LoRa_Module.png',
+    store: 'https://store.rakwireless.com/products/rak4600-lora-module'
+  },
+
+
+  // Wisgate
+  '/Product-Categories/WisGate/RAK7240/': {
+    img: '/assets/images/wisgate/rak7240/datasheet/1.rak7240-overview.jpg',
+    store: 'https://store.rakwireless.com'
+  },
+  '/Product-Categories/WisGate/RAK7243/': {
+    img: '/assets/images/wisgate/rak7243/quickstart/1.main/RAK7243.svg',
+    store: 'https://store.rakwireless.com/products/rak7243c-pilot-gateway'
+  },
+  '/Product-Categories/WisGate/RAK7243C/': {
+    img: '/assets/images/wisgate/rak7243c/datasheet/1.rak7243c-overview.png',
+    store: 'https://store.rakwireless.com/products/rak7243c-pilot-gateway'
+  },
+  '/Product-Categories/WisGate/RAK7244/': {
+    img: '/assets/images/wisgate/rak7244/quickstart/1.main/RAK7244.svg',
+    store: 'https://store.rakwireless.com/products/rak7244-lpwan-developer-gateway'
+  },
+  '/Product-Categories/WisGate/RAK7244C/': {
+    img: '/assets/images/wisgate/rak7244c/datasheet/overview/i2ufeol4hn7vl7kaikq7.png',
+    store: 'https://store.rakwireless.com/products/rak7244-lpwan-developer-gateway?variant=31446039691309'
+  },
+  '/Product-Categories/WisGate/RAK7246G/': {
+    img: '/assets/images/wisgate/rak7246g/quickstart/rak7246g.svg',
+    store: 'https://store.rakwireless.com/products/rak7246-lpwan-developer-gateway?variant=32143952511021'
+  },
+  '/Product-Categories/WisGate/RAK7249/': {
+    img: '/assets/images/wisgate/rak7249/quickstart/1.main/RAK7249.svg',
+    store: 'https://store.rakwireless.com/products/rak7249-diy-outdoor-gateway'
+  },
+  '/Product-Categories/WisGate/RAK7258/': {
+    img: '/assets/images/wisgate/rak7258/quickstart/1.main/RAK7258.svg',
+    store: 'https://store.rakwireless.com/products/rak7258-micro-gateway'
+  },
 }
+  
+
 

@@ -1,34 +1,18 @@
 ---
-params:
-  qlinks1:
-    learnMore:
-      - name: Projects
-        href: https://www.hackster.io/search?q=rak811&i=projects
-      - name: Community
-        href: https://forum.rakwireless.com
-      - name: Support
-        href: mailto:support@rakwireless.com
-    resources:
-      - name: Datasheet
-        href: /WisDuo/RAK811-Module/Datasheet/
-      - name: Certification Reports
-        href: /WisDuo/RAK811-Module/Datasheet/#certification
-      - name: User Manual
-        href: /user-manual/
-      - name: Deployment Guide
-        href: /deployment-guide/
 rak_img: /assets/images/wisduo/rak811-module/overview/nwgqobrzwanalynildkc.jpg
 rak_desc: RAK811 Low-Power Long Range LoRa® Technology Transceiver module provides an easy to use, small size, low-power solution for long range wireless data transmission.
-rak_grp: wisduo
+rak_grp: [wisduo, module]
 ---
 
 # RAK811 LPWAN Module
+Thank You For choosing **RAK811 LPWAN Module** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
-<rk-img
+* [Datasheet](../Datasheet/)
+<!-- <rk-img
   src="/assets/images/wisduo/rak811-module/overview/nwgqobrzwanalynildkc.jpg"
   width="40%"
   caption="RAK811 LPWAN Module"
-/>
+/> -->
 
 ## Product Description
 
@@ -38,12 +22,12 @@ The RAK811 module complies with the latest LoRaWAN® Class A & C protocol specif
 
 The RAK811 Module is integrated with Semtech's SX1276 and STM32L which offers user a way communicating with AT Commands through UART Interface. Users will also be able to make their projects turn into reality such as Long Range Sensor data applications, RAK811 also offers a low power feature that is suitable for battery powered applications.
 
-<rk-btn
+<!-- <rk-btn
   src="../Datasheet/"
   label="View Datasheet for the RAK811 LPWAN Module"
 />
 
-<rk-quick-links :params="$page.frontmatter.params.qlinks1"/>
+<rk-quick-links :params="$page.frontmatter.params.qlinks1"/> -->
 
 ## Product Features
 
@@ -64,8 +48,8 @@ The RAK811 Module is integrated with Semtech's SX1276 and STM32L which offers us
   improving immunity to the interference when combined with integrated forward error
   correction.
 
-<rk-btn
+<!-- <rk-btn
   src="https://store.rakwireless.com/products/rak811-lpwan-module"
   label="Buy a RAK811 LPWAN Module"
   _blank
-/>
+/> -->

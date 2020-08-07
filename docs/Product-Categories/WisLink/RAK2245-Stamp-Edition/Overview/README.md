@@ -1,7 +1,7 @@
 ---
 rak_img: /assets/images/wislink-lora/rak2245-stamp-edition/quickstart/overview/RAK2245-stamp-edition.svg
 rak_desc: The RAK2245 Stamp Edition is a complete and cost efficient gateway solution base on Semtech SX1301 fully utilizing the LoRa System. This LPWAN Concentrator module supports eight channels and is available for all LoRaWAN® international standard bands.
-rak_grp: wislink
+rak_grp: [wislink, lpwan]
 prev: false
 next: false
 ---

@@ -32,7 +32,7 @@ The module complies with LoRaWAN® 1.0.2 protocols. It also supports Lora® Poin
 The low power, long range LoRa® communication capabilities of the module make it suitable for a variety of applications in the IoT field such as home automation, sensor networks, building automation, personal area networks applications (health/fitness sensors and monitors, etc.).
 
 <!-- <rk-btn
-  src="/Product-Categories/WisBee/RAK4260-Breakout-Board/Quickstart/#quick-start-guide"
+  src="/Product-Categories/WisDuo/RAK4260-Breakout-Board/Quickstart/#quick-start-guide"
   label="Get Started with RAK4260 LPWAN Evaluation Board"
 />
 

@@ -1,7 +1,7 @@
 ---
 rak_img: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/1.product-overview/1.index/RAK2245-pi-hat.svg
 rak_desc: RAK2245 Pi HAT is a module with Raspberry PI form factor. It can be plugged into Raspberry PI such as Raspberry Pi 3 Model B+ as a complete RF front end of gateway. 
-rak_grp: wislink
+rak_grp: [wislink, lpwan]
 prev: false
 next: false
 ---

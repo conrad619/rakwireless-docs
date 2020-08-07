@@ -5,31 +5,13 @@ rak_desc: The RAK7244 LPWAN Developer Gateway is a complete and cost efficient G
 rak_grp: [wisgate, developer]
 prev: false
 next: false
-params:
-  qlinks1:
-    learnMore:
-      - name: Projects
-        href: https://www.hackster.io/search?i=projects&q=rak7244
-      - name: Community
-        href: https://forum.rakwireless.com
-      - name: Support
-        href: mailto:support@rakwireless.com
-    resources:
-      - name: Datasheet
-        href: /Product-Categories/WisGate/RAK7244/Datasheet/
-      - name: User Manual
-        href: /user-manual/
-      - name: Deployment Guide
-        href: /deployment-guide/
 ---
 
 # RAK7244 LPWAN Developer D4 Gateway
+Thank You For choosing **RAK7244 LPWAN Developer D4 Gateway** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
-<rk-img
-  :src="`${$frontmatter.static_root}/rak7244_overview.jpg`"
-  width="75%"
-  caption="RAK7244 Developer"
-/>
+* [Quick Start Guide](../Quickstart/)
+* [Datasheet](../Datasheet/)
 
 ## Product Background
 
@@ -39,14 +21,6 @@ The gateway has a powerful LoRa® digital signal processing engine from Semtech 
 
 Overall, this gateway has various functionalities that are ideal for prototyping, proof-of-concept demonstrations and evaluation on future deployment scenarios. With its ready to use Raspbian based firmware, it is now possible to connect the Gateway to any standard LoRaWAN® Server. The device is capable of tackling applications related to Smart Grids, Intelligent Farms and other IoT Enterprise applications.
 
-<rk-btn
-  src="/Product-Categories/WisGate/RAK7244/Quickstart/"
-  label="Get Started with RAK7244 Developer"
-/>
-
-&nbsp;
-
-<rk-quick-links :params="$page.frontmatter.params.qlinks1" />
 
 ## Product Features
 
@@ -59,9 +33,4 @@ Overall, this gateway has various functionalities that are ideal for prototyping
 - Rx Sensitivity: **-139dBm**
 - Integrates **Ublox MAX-7Q GPS module**
 
-<rk-btn
-  src="https://store.rakwireless.com/products/rak7244-lpwan-developer-gateway"
-  label="Buy a RAK7244 Developer"
-  _blank
-/>
 

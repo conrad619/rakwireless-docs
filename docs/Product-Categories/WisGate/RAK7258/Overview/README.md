@@ -5,36 +5,16 @@ rak_desc: The RAK7258 Micro Gateway is a full 8-channel Gateway with built-in Et
 rak_grp: [wisgate, edge]
 prev: false
 next: false
-params:
-  qlinks1:
-    learnMore:
-      - name: Projects Using the RAK7258
-        href: https://www.hackster.io/search?q=RAK7258&i=projects
-      - name: Community
-        href: https://forum.rakwireless.com
-      - name: Support
-        href: mailto:support@rakwireless.com
-    resources:
-      - name: Datasheet
-        href: /Product-Categories/WisGate/RAK7258/Datasheet/
-      - name: Certification Reports
-        href: /Product-Categories/WisGate/RAK7258/Datasheet/#certification-reports
-      - name: User Manual
-        href: /user-manual/
-      - name: Deployment Guide
-        href: /deployment-guide/
 ---
 
 # RAK7258 Lite
+Thank You For choosing **RAK7258 Lite** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
-<rk-img
-  :src="`${$frontmatter.static_root}/rak7258_overview.jpg`"
-  width="85%"
-  figure-number="1"
-  caption="RAK7258 Micro Gateway"
-/>
+* [Quick Start Guide](../Quickstart/)
+* [Datasheet](../Datasheet/)
 
-## Product Background
+
+## Product Description
 
 The **RAK7258 Micro Gateway** is a full 8-channel Gateway with built-in Ethernet connectivity for a straightforward setup. Additionally, there is an on-board Wi-Fi setup that allows it to be easily configured via the default Wi-Fi AP mode.
 
@@ -48,12 +28,6 @@ The Gateway has Line-of-Sight (LoS) ranges of up to **15 kilometers**, while for
 
 The RAK Micro Gateway package includes a LoRa® antenna, mounting screws, and anchors. It is a full 8-channel Gateway with built-in Ethernet connectivity for a straightforward.
 
-<rk-btn
-  src="/Product-Categories/WisGate/RAK7258/Quickstart/"
-  label="Get Started with RAK7258 WisGate™ Edge Lite"
-/>
-
-<rk-quick-links :params="$page.frontmatter.params.qlinks1" />
 
 ## Product Features
 
@@ -65,8 +39,3 @@ The RAK Micro Gateway package includes a LoRa® antenna, mounting screws, and an
 - Built-in LoRaServer for easey deployment of applications and integration of Gateways
 - TF card for log backup
 
-<rk-btn
-  src="https://store.rakwireless.com/products/rak7258-micro-gateway"
-  label="Buy a RAK7258 WisGate™ Edge Lite"
-  _blank
-/>

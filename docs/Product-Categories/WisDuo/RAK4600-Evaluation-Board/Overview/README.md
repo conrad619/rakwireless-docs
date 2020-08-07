@@ -2,38 +2,15 @@
 static_root: /assets/images/wisduo/rak4600-evaluation-board/overview
 rak_img: /assets/images/wisduo/rak4600-evaluation-board/overview/RAK4600_Evaluation_Board.png
 rak_desc: RAK4600 LPWAN Evaluation Board is a WisBlock product that consists of RAK4600 LPWAN Module and RAK5005 WisBase. This development board allows access to all serial and GPIO ports for easy configuration.
-rak_grp: wisduo
+rak_grp: [wisduo, evb]
 prev: false
 next: false
-params:
-  qlinks1:
-    learnMore:
-      - name: Projects
-        href: https://www.hackster.io/search?i=projects&q=rak4600
-      - name: Community
-        href: https://forum.rakwireless.com
-      - name: Support
-        href: mailto:support@rakwireless.com
-    resources:
-      - name: Datasheet
-        href: /WisDuo/RAK4600-Module/Datasheet/
-      - name: Schematic Diagram
-        href: https://downloads.rakwireless.com/en/LoRa/RAK4600/Hardware-Specification/RAK4600_EVB_Schematic.pdf
-      - name: Firmware
-        href: https://downloads.rakwireless.com/LoRa/RAK4600/Firmware/
-      - name: Downloads
-        href: https://downloads.rakwireless.com/LoRa/RAK4600/
-     
 ---
 
 # RAK4600 LPWAN Evaluation Board
+Thank You For choosing **RAK4600 LPWAN Evaluation Board** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
-<rk-img
-  :src="`${$frontmatter.static_root}/fnzdgl9lx3nyimumyq1j.jpg`"
-  width="50%"
-  figure-number="1"
-  caption="RAK4600 LPWAN Evaluation Board"
-/>
+* [Quick Start Guide](../Quickstart/)
 
 ## Product Background
 
@@ -42,16 +19,7 @@ Ultra-Low Power Consumption of 2.0 uA in sleep mode, high LoRa® output power up
 20dB max in work mode, and Bluetooth output power up to 4dBm. The module complies with LoRaWAN® 1.0.2 protocols. It also supports LoRa® Point to Point
 communications.
 
-The Module supports Bluetooth 5.0 in addition to LoRa®. Its RF
-communication capabilities (LoRa® + Bluetooth) make it suitable for a variety of applications in
-the IoT field.
-
-<rk-btn
-  src="../Quickstart/"
-  label="Setup your RAK4600 LPWAN Evaluation Board"
-/>
-
-<rk-quick-links :params="$page.frontmatter.params.qlinks1" />
+The Module supports Bluetooth 5.0 in addition to LoRa®. Its RF communication capabilities (LoRa® + Bluetooth) make it suitable for a variety of applications in the IoT field.
 
 ## Product Features
 
@@ -66,9 +34,3 @@ the IoT field.
 - Ultra-Low Power Consumption 2.0uA in sleep mode
 - Boost mode with 20dBm output power
 - BLE5.0 (Tx power -20 to +4 dBm in 4dB steps)
-
-<rk-btn
-  src="https://store.rakwireless.com/products/rak4260-lora-module"
-  label="Buy a RAK4260 LPWAN Module"
-  _blank
-/>

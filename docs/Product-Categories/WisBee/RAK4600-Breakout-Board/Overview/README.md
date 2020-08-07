@@ -30,7 +30,7 @@ The RF communication capabilities of the module (LoRa® + BLE) make it suitable 
 
 
 <!-- <rk-btn
-  src="/Product-Categories/WisBee/RAK4600-Breakout-Board/Quickstart/#quick-start-guide"
+  src="/Product-Categories/WisDuo/RAK4600-Breakout-Board/Quickstart/#quick-start-guide"
   label="Get Started with RAK4600 LPWAN Evaluation Board"
 />
 

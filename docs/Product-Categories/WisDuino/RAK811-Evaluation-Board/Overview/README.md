@@ -4,7 +4,6 @@ rak_desc: The RAK811 LPWAN Evaluation Board is a development board which comes i
 rak_grp: wisduino
 prev: false
 next: false
-params:
 ---
 
 # RAK811 LPWAN Evaluation Board

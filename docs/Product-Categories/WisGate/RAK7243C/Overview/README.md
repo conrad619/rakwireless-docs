@@ -5,34 +5,13 @@ rak_desc: The RAK7243C Developer D3+ Gateway is a complete and cost efficient Ga
 rak_grp: [wisgate, developer]
 prev: false
 next: false
-params:
-  qlinks:
-    learnMore:
-      - name: Projects
-        href: https://www.hackster.io/search?q=RAK7243C&i=projects
-      - name: Community
-        href: https://forum.rakwireless.com/
-      - name: Support
-        href: mailto:support@rakwireless.com
-    resources:
-      - name: Datasheet
-        href: /Product-Categories/WisGate/RAK7243C/Datasheet/
-      - name: Certification Report
-        href: /Product-Categories/WisGate/RAK7243C/Datasheet/#certification
-      - name: User Manual
-        href: /user-manual/
-      - name: Deployment Guide
-        href: /deployment-guide/
-
 ---
 
 # RAK7243C Developer D3+ Gateway
+Thank You For choosing **RAK7243C Developer D3+ Gateway** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
-<rk-img
-  :src="`${$frontmatter.static_root}/1.pnebj6mub4bpzc83ehzw.jpg`"
-  width="75%"
-  caption="RAK7243C Developer Gateway"
-/>
+* [Quick Start Guide](../Quickstart/)
+* [Datasheet](../Datasheet/)
 
 ## Product Background
 
@@ -40,12 +19,6 @@ The **RAK7243C Developer D3+ Gateway** is a complete and cost efficient Gateway 
 
 The RAK7243C Developer is ideal for prototyping, proof-of concept evaluation and demonstration. It includes everything you need to help you get started in building your own LoRaWAN® Network in just a couple of minutes. It provides great value and flexible functionality for a variety of applications: Smart Grids, Intelligent Farming and other IoT applications.
 
-<rk-btn
-  src="/Product-Categories/WisGate/RAK7243C/Quickstart/#quick-start-guide"
-  label="Get Started with RAK7243C Developer Gateway"
-/>
-
-<rk-quick-links :params="$frontmatter.params.qlinks" />
 
 ## Product Features
 
@@ -63,8 +36,3 @@ The RAK7243C Developer is ideal for prototyping, proof-of concept evaluation and
 :::
 
 
-<rk-btn
-  src="https://store.rakwireless.com/products/rak7243c-pilot-gateway"
-  label="Buy a RAK7243C Developer Gateway"
-  _blank
-/>

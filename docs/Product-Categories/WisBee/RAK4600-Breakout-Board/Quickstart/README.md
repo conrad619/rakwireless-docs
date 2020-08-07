@@ -1,5 +1,5 @@
 ---
-prev: /Product-Categories/WisBee/RAK4600-Breakout-Board/Overview/
+prev: /Product-Categories/WisDuo/RAK4600-Breakout-Board/Overview/
 next: false
 ---
 

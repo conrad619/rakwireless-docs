@@ -5,36 +5,16 @@ rak_desc: RAK7249 Max is an ideal product for IoT commercial deployment. Its mod
 rak_grp: [wisgate, edge]
 prev: false
 next: false
-params:
-  qlinks1:
-    learnMore:
-      - name: Projects
-        href: https://www.hackster.io/search?q=RAK7249&i=projects
-      - name: Community
-        href: https://forum.rakwireless.com
-      - name: Support
-        href: mailto:support@rakwireless.com
-    resources:
-      - name: Datasheet
-        href: /Product-Categories/WisGate/RAK7249/Datasheet/
-      - name: Certification Reports
-        href: /Product-Categories/WisGate/RAK7249/Datasheet/#certification-reports
-      - name: User Manual
-        href: /user-manual/
-      - name: Deployment Guide
-        href: /deployment-guide/
 ---
 
 # RAK7249 Max
+Thank You For choosing **RAK7249 Max** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
-<rk-img
-  :src="`${$frontmatter.static_root}/rak7249_overview.jpg`"
-  width="70%"
+* [Quick Start Guide](../Quickstart/)
+* [Datasheet](../Datasheet/)
 
-  caption="RAK7249 Max with Support Plate Attached"
-/>
 
-## Product Background
+## Product Description
 
 **RAK7249 Max** is an ideal product for IoT commercial deployment. Its modularity and customization options allow for flexibility when deploying a solution. With its industrial-grade components, it achieves a high standard of reliability.
 
@@ -42,14 +22,7 @@ The Gateway provides for a solid out of the box experience for quick deployment.
 
 Thus the RAK7249 is suited for any use case scenario, be it rapid deployment or customization with regards to UI and functionality.
 
-<rk-btn
-  src="/Product-Categories/WisGate/RAK7249/Quickstart/"
-  label="Get Started with RAK7249 Max"
-/>
-
-<rk-quick-links :params="$page.frontmatter.params.qlinks1" />
-
-## Key Features
+## Product Features
 
 ### Hardware
 
@@ -70,9 +43,3 @@ Thus the RAK7249 is suited for any use case scenario, be it rapid deployment or 
 - **MQTT v3.1** Bridging with **TLS encryption**
 - **Buffering of LoRa® frames** in case of NS outage (no data loss)
 
-
-<rk-btn
-  src="https://store.rakwireless.com/products/rak7249-diy-outdoor-gateway"
-  label="Buy a RAK7249 Max"
-  _blank
-/>

@@ -1,5 +1,5 @@
 ---
-prev: /Product-Categories/WisBee/RAK811-Breakout-Board/Overview/
+prev: /Product-Categories/WisDuo/RAK811-Breakout-Board/Overview/
 next: false
 ---
 
@@ -28,7 +28,7 @@ Before going through each and every step in the installation and guide of the LP
 ::: tip 📝 NOTE
 The bootloader of the RAK811 Breakout Module is already pre-installed upon manufacturing so flashing the bootloader is not necessary for you to perform. If you find that the bootloader of your RAK811 Breakout Module damaged, kindly contact our support though our [RAKwireless forum](https://forum.rakwireless.com/). However, if you want to upgrade the firmware of the device, please refer to the documentation below:
 
-1. [Upgrading the Firmware](/Product-Categories/WisBee/RAK811-Breakout-Board/Quickstart/#upgrading-the-firmware)
+1. [Upgrading the Firmware](/Product-Categories/WisDuo/RAK811-Breakout-Board/Quickstart/#upgrading-the-firmware)
    :::
 
 ### What's included in the package?
@@ -891,4 +891,4 @@ at+set_config=device:restart
 
 This information means that you have uploaded the Firmware successfully!
 
-If you want to configure your RAK811 Breakout Module using the available **AT commands**, check [AT Commands for RAK811 Breakout Module](/Product-Categories/WisBee/RAK811-Breakout-Board/Quickstart/#at-commands-for-rak811-lpwan-breakout-module).
+If you want to configure your RAK811 Breakout Module using the available **AT commands**, check [AT Commands for RAK811 Breakout Module](/Product-Categories/WisDuo/RAK811-Breakout-Board/Quickstart/#at-commands-for-rak811-lpwan-breakout-module).

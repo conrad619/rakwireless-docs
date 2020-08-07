@@ -28,7 +28,7 @@ The module itself has the RAK4200 at its core, integrating an **STM32L071 MCU an
 The module complies with **LoRaWAN® 1.0.2 protocols**. It also supports Lora® Point to Point (P2P) communication. The RF communication capabilities of the module make it suitable for a variety of applications in the IoT field such as home automation, sensor networks, building automation, personal area networks applications (health/fitness sensors and monitors, etc.).
 
 <!-- <rk-btn
-  src="/Product-Categories/WisBee/RAK4200-Breakout-Board/Quickstart/#quick-start-guide"
+  src="/Product-Categories/WisDuo/RAK4200-Breakout-Board/Quickstart/#quick-start-guide"
   label="Get Started with RAK4200 WisBee™ Breakout Module"
 /> -->
 

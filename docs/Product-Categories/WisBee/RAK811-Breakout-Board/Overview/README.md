@@ -30,7 +30,7 @@ Overall, this node has various functionalities and applications designed in sing
 
 <!-- 
 <rk-btn
-  src="/Product-Categories/WisBee/RAK811-Breakout-Board/Quickstart/#quick-start-guide"
+  src="/Product-Categories/WisDuo/RAK811-Breakout-Board/Quickstart/#quick-start-guide"
   label="Get Started with RAK811 Breakout Module"
 /> -->
 

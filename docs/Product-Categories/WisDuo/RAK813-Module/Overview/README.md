@@ -1,24 +1,17 @@
 ---
-params:
-  qlinks1:
-    learnMore:
-      - name: Projects
-        href: https://www.hackster.io/search?q=rak813&i=projects
-      - name: Community
-        href: https://forum.rakwireless.com
-      - name: Support
-        href: mailto:support@rakwireless.com
 rak_img: /assets/images/wisduo/rak813-module/datasheet/overview/RAK813.jpg
 rak_desc: The RAK813 is a combination of the BLE and LoRa® in a single module. The BLE short-range technology combined with low-power LoRa® can provide long-distance wireless communication capabilities. Both technologies are low power, eliminating the need to change batteries frequently.
-rak_grp: wisduo
+rak_grp: [wisduo, module]
 ---
 # RAK813  BLE+LoRa®
+Thank You For choosing **RAK813  BLE+LoRa®** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
-<rk-img
+* [Datasheet](../Datasheet/)
+<!-- <rk-img
   src="/assets/images/wisduo/rak813-module/datasheet/overview/RAK813.jpg"
   width="30%"
   caption="RAK813 Module"
-/>
+/> -->
 
 ## Product Description
 
@@ -37,12 +30,12 @@ improve the decoding rate, so as to enhance the communication quality.
 
 RAK813 supports various protocols, including the newest BLE and LoRaWAN®, where customers can choose multi frequency, including: 433MHz, 470MHz, 868MHz, and 915MHz.
 
-<rk-btn
+<!-- <rk-btn
   src="../Datasheet/"
   label="View Datasheet for the RAK813 BLE+LoRa® Module"
 />
 
-<rk-quick-links :params="$page.frontmatter.params.qlinks1"/>
+<rk-quick-links :params="$page.frontmatter.params.qlinks1"/> -->
 
 ## Product Features
 

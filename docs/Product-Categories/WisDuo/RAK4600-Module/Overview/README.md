@@ -1,14 +1,5 @@
 ---
-params:
-  qlinks1:
-    learnMore:
-      - name: Projects
-        href: https://www.hackster.io/search?q=rak4200&i=projects
-      - name: Community
-        href: https://forum.rakwireless.com
-      - name: Support
-        href: mailto:support@rakwireless.com
-rak_grp: wisduo
+rak_grp: [wisduo, module]
 rak_img: /assets/images/wisduo/rak4600-module/overview/RAK4600_LoRa_Module.png
 rak_desc: RAK4600 LPWAN Module includes an nRF52832 MCU and an SX1276 LoRa® chip. It has Ultra-Low Power Consumption of 2.0uA in sleep mode, high LoRa® output power up to 20dB max in work mode, and BLE output power up to 4dBm.
 prev: false
@@ -16,12 +7,15 @@ next: false
 ---
 
 # RAK4600 LPWAN Module
+Thank You For choosing **RAK4600 LPWAN Module** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
-<rk-img
+* [Datasheet](../Datasheet/)
+
+<!-- <rk-img
   src="/assets/images/wisduo/rak4600-module/overview/yb23mhfij8dwh5muoavk.png"
   width="45%"
   caption="RAK4600 LPWAN Module"
-/>
+/> -->
 
 ## Product Description
 
@@ -29,12 +23,12 @@ RAK4600 LPWAN Module includes an nRF52832 MCU and an SX1276 LoRa® chip. It has 
 
 The module complies with LoRaWAN® 1.0.2 protocols. It also supports LoRa® Point to Point communications. The Module supports BLE 5.0 in addition to LoRa®. Its RF communication capabilities (LoRa®+BLE) make it suitable for a variety of applications in the IoT field.
 
-<rk-btn
+<!-- <rk-btn
   src="../Datasheet/"
   label="View Datasheet for the RAK4600 LPWAN Module"
 />
 
-<rk-quick-links :params="$page.frontmatter.params.qlinks1"/>
+<rk-quick-links :params="$page.frontmatter.params.qlinks1"/> -->
 
 ## Product Features
 
@@ -50,8 +44,8 @@ The module complies with LoRaWAN® 1.0.2 protocols. It also supports LoRa® Poin
 - LoRa® Boost mode with 20dBm output power
 - BLE 5.0 (Tx power -20 to +4 dBm in 4dB steps)
 
-<rk-btn
+<!-- <rk-btn
   src="https://store.rakwireless.com/products/rak4260-lora-module"
   label="Buy a RAK4260 LPWAN Module"
   _blank
-/>
+/> -->

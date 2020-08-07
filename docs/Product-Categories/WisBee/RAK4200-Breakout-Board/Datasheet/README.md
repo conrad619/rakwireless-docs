@@ -2,7 +2,7 @@
 tags:
   - datasheet
   - wisbee
-prev: /Product-Categories/WisBee/RAK4200-Breakout-Board/Overview/
+prev: /Product-Categories/WisDuo/RAK4200-Breakout-Board/Overview/
 
 ---
 

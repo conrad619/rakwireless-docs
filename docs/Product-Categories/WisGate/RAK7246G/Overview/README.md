@@ -5,32 +5,13 @@ rak_desc: The RAK7246G is an LPWAN Developer Gateway with GPS function. It is a 
 rak_grp: [wisgate, developer]
 prev: false
 next: false
-params:
-  qlinks1:
-    learnMore:
-      - name: Projects
-        href: https://www.hackster.io/search?i=projects&q=rak7246g
-      - name: Community
-        href: https://forum.rakwireless.com
-      - name: Support
-        href: mailto:support@rakwireless.com
-    resources:
-      - name: Datasheet
-        href: /Product-Categories/WisGate/RAK7246G/Datasheet/
-      - name: User Manual
-        href: /user-manual/
-      - name: Deployment Guide
-        href: /deployment-guide/
-
 ---
 
 # RAK7246G Developer D0+
+Thank You For choosing **RAK7246G Developer D0+** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
-<rk-img
-  :src="`${$frontmatter.static_root}/rak7246.jpg`"
-  width="100%"
-  caption="RAK7246G Developer"
-/>
+* [Quick Start Guide](../Quickstart/)
+* [Datasheet](../Datasheet/)
 
 ## Product Background
 
@@ -40,12 +21,6 @@ The RAK2246 Pi HAT is based on a **Semtech SX1308** chip, which allows for simul
 
 The RAK7246G Developer is an ideal choice for prototype design, concept verification and demonstrations, development evaluation and other scenarios. It is developer-friendly due to its minimalistic design that reduces cost and allows for easily accessing the internals. It is easy to set-up, which makes it a good choice for both experienced and novice LoRa® specialists.
 
-<rk-btn
-  src="/Product-Categories/WisGate/RAK7246G/Quickstart/"
-  label="Get Started with RAK7246G Developer"
-/>
-
-<rk-quick-links :params="$page.frontmatter.params.qlinks1" />
 
 ## Product Features
 
@@ -55,8 +30,3 @@ The RAK7246G Developer is an ideal choice for prototype design, concept verifica
 - Covers the entirety of the LoRa® high-frequency band space: RU864, IN865, EU868, US915, AU915, KR920, AS923;
 - Power supply 5V / 2.5A (power adapter sold separately).
 
-<rk-btn
-  src="https://store.rakwireless.com/products/rak7246-lorawan-developer-gateway"
-  label="Buy a RAK7246G Developer"
-  _blank
-/>

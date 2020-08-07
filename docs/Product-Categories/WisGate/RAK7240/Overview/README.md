@@ -4,36 +4,15 @@ rak_desc: The RAK7240 Prime is an ideal product for large scale LPWAN deployment
 rak_grp: [wisgate, edge]
 prev: false
 next: false
-params:
-  qlinks1:
-    learnMore:
-      - name: Projects
-        href: https://www.hackster.io/search?q=RAK7240&i=projects
-      - name: Community
-        href: https://forum.rakwireless.com
-      - name: Support
-        href: mailto:support@rakwireless.com
-    resources:
-      - name: Datasheet
-        href: /Product-Categories/WisGate/RAK7240/Datasheet/
-      - name: Certification Report
-        href: /Product-Categories/WisGate/RAK7240/Datasheet/#certification
-      - name: User Manual
-        href: /user-manual/
-      - name: Deployment Guide
-        href: /deployment-guide/
 ---
 
 # RAK7240 Prime
+Thank You For choosing **RAK7240 Prime** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
-<rk-img
-  src="/assets/images/wisgate/rak7240/quickstart/1.rak7240-overview.jpg"
-  width="100%"
-  caption="RAK7240 Prime""
-/>
+* [Quick Start Guide](../Quickstart/)
+* [Datasheet](../Datasheet/)
 
-
-## Product Background
+## Product Description
 
 The **RAK7240 Prime** is an ideal product for large scale LPWAN deployment where cost is essential, however there is no compromises to be made on quality. Its wide range of customization options allow for flexibility when deploying a solution. With its industrial-grade components and high class of ingress protection, it achieves a high standard of reliability.
 
@@ -41,14 +20,7 @@ The Gateway provides for a solid out of the box experience where quick deploymen
 
 Thus, the **RAK7240 Prime**, is suited for any use case scenario, be it rapid deployment or customization with regards to User Interface and functionality.
 
-<rk-btn
-  src="/Product-Categories/WisGate/RAK7240/Quickstart/#quick-start-guide"
-  label="Get Started with RAK7240 Prime"
-/>
-
-<rk-quick-links :params="$page.frontmatter.params.qlinks1" />
-
-## Key Features
+## Product Features
 
 ### Hardware
 
@@ -69,10 +41,4 @@ Thus, the **RAK7240 Prime**, is suited for any use case scenario, be it rapid de
 - **MQTT v3.1** Bridging with **TLS** encryption
 - **Buffering of LoRa® frames** in case of NS outage (no data loss)
 
-
-<rk-btn
-  src="https://store.rakwireless.com/"
-  label="Buy a RAK7240 Prime"
-  _blank
-/>
 

@@ -1,6 +1,6 @@
 ---
 rak_img: /assets/images/wislink-lora/rak831/datasheet/rak831-overview.png
-rak_grp: wislink
+rak_grp: [wislink, lpwan]
 rak_desc: This is something that describes this product - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula est ex, in ullamcorper mauris pretium non. Sed egestas elit nec fermentum aliquet. Nulla molestie nisl fringilla lacus viverra tristique quis ut tellus. 
 prev: false
 next: false

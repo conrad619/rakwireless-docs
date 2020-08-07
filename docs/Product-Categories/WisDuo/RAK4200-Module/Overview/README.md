@@ -1,25 +1,28 @@
 ---
-params:
-  qlinks1:
-    learnMore:
-      - name: Projects
-        href: https://www.hackster.io/search?q=rak4200&i=projects
-      - name: Community
-        href: https://forum.rakwireless.com
-      - name: Support
-        href: mailto:support@rakwireless.com
+# params:
+#   qlinks1:
+#     learnMore:
+#       - name: Projects
+#         href: https://www.hackster.io/search?q=rak4200&i=projects
+#       - name: Community
+#         href: https://forum.rakwireless.com
+#       - name: Support
+#         href: mailto:support@rakwireless.com
 rak_img: /assets/images/wisduo/rak4200-module/datasheet/overview.png
 rak_desc: RAK4200 LPWAN Module includes an STM32L071 MCU and an SX1276 LoRa® chip. It has Ultra-Low Power Consumption of 1.5uA in sleep mode and high LoRa® output power up to 19dBm max in work mode.
-rak_grp: wisduo
+rak_grp: [wisduo, module]
 ---
 # RAK4200 LPWAN Module
+Thank You For choosing **RAK4200 LPWAN Module** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
-<rk-img
+* [Datasheet](../Datasheet/)
+
+<!-- <rk-img
   src="/assets/images/wisduo/rak4200-module/datasheet/overview.png"
   width="50%"
   figure-number="1"
   caption="RAK4200 Module"
-/>
+/> -->
 
 ## Product Description
 
@@ -27,12 +30,12 @@ rak_grp: wisduo
 
 The module complies with LoRaWAN® 1.0.2 protocols. It also supports LoRa® Point to Point communications. The module is suitable for various applications that require long range data acquisition and low power consumption.
 
-<rk-btn
+<!-- <rk-btn
   src="../Datasheet/"
   label="View Datasheet for the RAK4200 LPWAN Module"
 />
 
-<rk-quick-links :params="$page.frontmatter.params.qlinks1"/>
+<rk-quick-links :params="$page.frontmatter.params.qlinks1"/> -->
 
 ## Product Features
 
@@ -50,8 +53,8 @@ The module complies with LoRaWAN® 1.0.2 protocols. It also supports LoRa® Poin
 * 20KB RAM
 * 6KB of data EEPROM with ECC
 
-<rk-btn
+<!-- <rk-btn
   src="https://store.rakwireless.com/products/rak4200-lora-module"
   label="Buy a RAK4200 LPWAN Module"
   _blank
-/>
+/> -->
