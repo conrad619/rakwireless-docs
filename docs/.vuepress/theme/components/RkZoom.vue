@@ -6,9 +6,9 @@
         style="z-index: 99"
         icon="close"
         color="grey-8"
+        @click="onClose"
         round
         flat
-        v-close-popup
       />
       <q-card-section
         v-touch-pan.prevent.mouse="handlePan"
@@ -43,7 +43,16 @@ export default {
     height: null
   }),
   methods: {
+    onClose() {
+      // re-enable smooth scroll
+      setTimeout(() => {
+        document.documentElement.style.scrollBehavior = 'smooth'
+      }, 100)
+      this.zoom = false
+    },
     onGlobalZoom(path, [width, height]) {
+      // temporarily disable smooth scroll
+      document.documentElement.style.scrollBehavior = 'unset'
       // console.log('globalzoom: ', path, width, height)
       this.img = path
       this.width = width

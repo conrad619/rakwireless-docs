@@ -91,10 +91,32 @@
           </template>
         </rk-sidebar>
       </q-drawer>
-      <q-page-container>
+      <q-page-container @scroll="onPageScroll">
         <rk-header v-if="shouldHaveHeader" />
         <rk-page :sidebar-items="sidebarItems" />
         <rk-zoom />
+        <q-page-sticky position="top-right" :offset="[15, 15]">
+          <transition
+            appear
+            enter-active-class="animated bounceIn"
+            leave-active-class="animated bounceOut"
+          >
+            <q-btn
+              v-if="showBack2Top"
+              color="primary"
+              icon="fas fa-chevron-up"
+              @click="back2Top"
+              round
+              v-ripple
+            >
+              <q-tooltip
+                content-class="bg-black text-white"
+                transition-show="scale"
+                transition-hide="scale"
+              >Back to Top</q-tooltip>
+            </q-btn>
+          </transition>
+        </q-page-sticky>
       </q-page-container>
       <q-footer>
         <rk-footer />
@@ -140,7 +162,8 @@ export default {
     return {
       isSidebarOpen: false,
       mounted: false,
-      showDrawer: true
+      showDrawer: true,
+      showBack2Top: false
     }
   },
 
@@ -207,6 +230,8 @@ export default {
     document.documentElement.style.fontSize = '14px'
     // console.log('mounted: ', window.innerHeight, window.innerWidth, min, document.documentElement.style)
     // console.log('sidebaritems: ', this.sidebarItems)
+
+    window.onscroll = this.onPageScroll
   },
   updated() {
     // replace all table with q-table instances
@@ -237,6 +262,18 @@ export default {
   },
 
   methods: {
+    back2Top() {
+      document.body.scrollTop = 0
+      document.documentElement.scrollTop = 0
+    },
+    onPageScroll() {
+      if (
+        document.body.scrollTop > 50 ||
+        document.documentElement.scrollTop > 50
+      )
+        this.showBack2Top = true
+      else this.showBack2Top = false
+    },
     openLink(url, opt = '_self') {
       window.open(url, opt)
     },
@@ -270,7 +307,7 @@ export default {
 </script>
 
 <style>
-html {
+/* html {
   scroll-behavior: unset !important;
-}
+} */
 </style>
