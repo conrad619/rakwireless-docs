@@ -28,26 +28,29 @@ export default {
     id: ''
   }),
   mounted() {
-    const el = document.getElementById(this.id)
-    const parent = el.parentElement
-    const children = parent.children
-    for (var i = 0; i < children.length; ++i) {
-      if (children[i].id === this.id) {
-        if (children[i - 1]) {
-          el.id = children[i - 1].id
-          el.style.cssText = ''
-          const style = window.getComputedStyle(children[i - 1]).cssText
-          const props = ['padding-top', 'margin-top', 'margin-bottom']
-          style.split(';').map(l => {
-            if (props.includes(l.split(':')[0].trim()))
-              el.style.cssText += `${l};`
-          })
-          parent.replaceChild(el, children[i - 1])
+    const self = this
+    setTimeout(() => {
+      const el = document.getElementById(self.id)
+      const parent = el.parentElement
+      const children = parent.children
+      for (var i = 0; i < children.length; ++i) {
+        if (children[i].id === self.id) {
+          if (children[i - 1]) {
+            el.id = children[i - 1].id
+            el.style.cssText = ''
+            const style = window.getComputedStyle(children[i - 1]).cssText
+            const props = ['padding-top', 'margin-top', 'margin-bottom']
+            style.split(';').map(l => {
+              if (props.includes(l.split(':')[0].trim()))
+                el.style.cssText += `${l};`
+            })
+            parent.replaceChild(el, children[i - 1])
+          }
+          break
         }
-        break
       }
-    }
-    // console.log(el, parent, children)
+      // console.log(el, parent, children)
+    }, 100)
   },
   created() {
     this.id = `rk-head-${uid()
