@@ -21,7 +21,7 @@ WisBlock is build up on a WisBase, a platform carrier that allows easy plug-in o
 
 </rk-head>
 
-<rk-products :tags="['wisblock', 'base']" />
+<rk-products :tags="['wisblock', 'wisbase']" />
 
 ## WisBlock Core
 
@@ -33,7 +33,7 @@ WisCore is the processing unit of your IoT solution. Select the processing power
 
 </rk-head>
 
-<rk-products :tags="['wisblock', 'core']" />
+<rk-products :tags="['wisblock', 'wiscore']" />
 
 ## WisBlock Sensor
 
@@ -44,7 +44,7 @@ WisSensor offers a range of sensors for sensing environmental conditions (temper
 
 </rk-head>
 
-<rk-products :tags="['wisblock', 'sensor']" />
+<rk-products :tags="['wisblock', 'wissensor']" />
 
 ## WisBlock IO
 
@@ -56,4 +56,4 @@ This includes : IO connectors to add user interfaces like keyboards, buttons and
 
 </rk-head>
 
-<rk-products :tags="['wisblock', 'io']" />
+<rk-products :tags="['wisblock', 'wisio']" />
