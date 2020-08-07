@@ -163,13 +163,13 @@ The Application ID is an unique combination of lower case, alphanumerical charac
 
 You can get the **“Device EUI**” of your RAK811 with the following command, which will display all node parameters:
 
-```bash
+```sh
 at+get_config=lora:status
 ```
 
 In case you have had TTN generate a new **“Device EUI**” you can use the command below to import it into the RAK811 configuration parameters (**XXXX is the Device_EUI you want to update**):
 
-```bash
+```sh
 at+set_config=lora:dev_eui:XXXX
 ```
 
@@ -208,15 +208,15 @@ The default LoRa® working mode for the RAK811 is LoRaWAN® 1.0.2, while the def
 
 1. Set mode to OTAA, device class to Class A and your LoRaWAN® region to your correct frequency band, with the following set of commands below. Remember to replace XXX with your LoRaWAN® region, see this link for your country's available frequency.
 
-```bash
+```sh
 at+set_config=lora:join_mode:0
 ```
 
-```bash
+```sh
 at+set_config=lora:class:0
 ```
 
-```bash
+```sh
 at+set_config=lora:region:XXX
 ```
 
@@ -228,15 +228,15 @@ at+set_config=lora:region:XXX
 
 2. Now that the modes are set, enter the parameters: **Device EUI, Application EUI** and **App Key**. Use the commands below. Remember to replace the **"XXXX"** with the corresponding parameter value for your particular case:
 
-```bash
+```sh
 at+set_config=lora:dev_eui:XXXX
 ```
 
-```bash
+```sh
 at+set_config=lora:app_eui:XXXX
 ```
 
-```bash
+```sh
 at+set_config=lora:app_key:XXXX
 ```
 
@@ -250,7 +250,7 @@ You should end up with a window as the one in **Figure 18** above with **a serie
 
 3. Finally execute the join command:
 
-```bash
+```sh
 at+join
 ```
 
@@ -262,7 +262,7 @@ at+join
 
 4. You can test the connection by sending an uplink frame. Use the following for example:
 
-```bash
+```sh
 at+send=lora:1:12345678
 ```
 
@@ -308,7 +308,7 @@ Be sure to have this window opened prior to sending data through the RAK Serial 
 
 4. Now we need to update the RAK811 configuration (mode and parameters). Open the Serial Tool and type the command below to change the region (in case you have not done so already):
 
-```bash
+```sh
 at+set_config=lora:region:EU868
 ```
 
@@ -322,7 +322,7 @@ As you can see in Figure 24, since we are in the same region (EU868), nothing ha
 
 5. Change the mode to **ABP** with the command:
 
-```bash
+```sh
 at+set_config=lora:join_mode:1
 ```
 
@@ -334,15 +334,15 @@ at+set_config=lora:join_mode:1
 
 6. Now that the mode has been changed, enter the parameters: **Device Address, Network Session Key**, and **Application Session Key**. Use the commands below. Remember to replace the **"XXXX"** with the corresponding parameter value for your particular case (See Figure 22 for reference of the parameters):
 
-```bash
+```sh
 at+set_config=lora:dev_addr:XXXX
 ```
 
-```bash
+```sh
 at+set_config=lora:nwks_key:XXXX
 ```
 
-```bash
+```sh
 at+set_config=lora:apps_key:XXXX
 ```
 
@@ -356,7 +356,7 @@ You should end up with a window as the one in **Figure 26** above with **a serie
 
 7. Finally execute the join command:
 
-```bash
+```sh
 at+join
 ```
 
@@ -368,7 +368,7 @@ at+join
 
 8. You can test the connection by sending an uplink frame. Use the following as an example:
 
-```bash
+```sh
 at+send=lora:1:12345678
 ```
 
@@ -493,7 +493,7 @@ The Application EUI which was into RAK811 Breakout Module as “**app_eui**” i
 
 4. Next, let’s **configure** RAK811 Breakout Module by using **AT commands**. To do this, connect your RAK811 Breakout Module to a PC, power it on and open **RAK Serial Port Tool** on your computer.
 
-```bash
+```sh
 at+version
 ```
 
@@ -507,11 +507,11 @@ at+version
 
 5. If the join mode is not in OTAA, just set the LoRa® join mode to **OTAA** and LoRa® class to **Class A** by typing the AT commands shown in the picture below.
 
-```bash
+```sh
 at+set_config=lora:join_mode:0
 ```
 
-```bash
+```sh
 at+set_config-lora:class:0
 ```
 
@@ -523,19 +523,19 @@ at+set_config-lora:class:0
 
 6. Type the following AT command to set the:**Frequency/Region, Device EUI, Application EUI and Application Key.** Remember to replace "**XXX"** and "**XXXX"** with the parameters set in the previous steps.
 
-```bash
+```sh
 at+set_config=lora:region:EU868
 ```
 
-```bash
+```sh
 at+set_config=lora:dev_eui:XXXX
 ```
 
-```bash
+```sh
 at+set_config=lora:app_eui:XXXX
 ```
 
-```bash
+```sh
 at+set_config=lora:app_key:XXXX
 ```
 
@@ -553,7 +553,7 @@ at+set_config=lora:app_key:XXXX
 
 7. Then, **join** in OTAA mode.
 
-```bash
+```sh
 at+join
 ```
 
@@ -575,7 +575,7 @@ at+join
 
 9. Let’s try sending data from our RAK811 Breakout Module to the ChirpStack by typing the command below in the serial port.
 
-```bash
+```sh
 at+send=lora:2:1234567890
 ```
 
@@ -619,7 +619,7 @@ Frequency AS923 in ABP Mode is not supported in Chirpstack.
 
 3. Use these parameters to set RAK811 LPWAN Breakout Board by using AT command. Set **LoRa® join** mode to **ABP**:
 
-```bash
+```sh
 at+set_config=lora:join_mode:1
 ```
 
@@ -631,7 +631,7 @@ at+set_config=lora:join_mode:1
 
 4. Set LoRa® class to **Class A**:
 
-```bash
+```sh
 at+set_config=lora:class:0
 ```
 
@@ -643,7 +643,7 @@ at+set_config=lora:class:0
 
 5. Set the frequency/region to **EU868**:
 
-```bash
+```sh
 at+set_config=lora:region:EU868
 ```
 
@@ -655,7 +655,7 @@ at+set_config=lora:region:EU868
 
 6. Set the **Device Address**:
 
-```bash
+```sh
 at+set_config=lora:dev_addr:XXXX
 ```
 
@@ -667,7 +667,7 @@ at+set_config=lora:dev_addr:XXXX
 
 7. Set the **Network Session Key**:
 
-```bash
+```sh
 at+set_config=lora:nwks_key:XXXX
 ```
 
@@ -679,7 +679,7 @@ at+set_config=lora:nwks_key:XXXX
 
 8. Set the **Application Session Key**:
 
-```bash
+```sh
 at+set_config=lora:apps_key:XXXX
 ```
 
@@ -695,7 +695,7 @@ After configuring all parameters, you need to reset RAK811 LPWAN Breakout Board 
 
 9. After resetting RAK811 LPWAN Breakout Board, join in ABP mode:
 
-```bash
+```sh
 at+join
 ```
 
@@ -712,7 +712,7 @@ validate the parameters which you just set for ABP mode.
 
 10. Now, let’s try to send a data from RAK811 LPWAN Breakout Board to ChirpStack:
 
-```bash
+```sh
 at+send=lora:2:1234567890
 ```
 
@@ -741,7 +741,7 @@ In this section, I’ll show how to use LoRa® P2P mode. We will be using EU868 
 
 3. Now, configure them to both work in LoRaP2P mode as follow:
 
-```bash
+```sh
 at+set_config=lora:work_mode:1
 ```
 
@@ -753,7 +753,7 @@ at+set_config=lora:work_mode:1
 
 4. Then configure LoRaP2P parameters for both of them as follow for example:
 
-```bash
+```sh
 at+set_config=lorap2p:869525000:7:0:1:5:5
 ```
 
@@ -765,7 +765,7 @@ at+set_config=lorap2p:869525000:7:0:1:5:5
 
 5. OK! Try to send a message from LPWAN Breakout Module 2 (the right one) to LPWAN Breakout Module 1 (the left one):
 
-```bash
+```sh
 at+send=lorap2p:1234567890
 ```
 
@@ -777,7 +777,7 @@ at+send=lorap2p:1234567890
 
 6. Successfully! Now, send more messages.
 
-```bash
+```sh
 at+send=lorap2p:12345678901234567890
 ```
 
@@ -829,7 +829,7 @@ If the firmware version of your **RAK811 LPWAN** **Breakout Module** is newer th
 
 1. In case you have not just burned the bootloader, as instructed in the previous section you need to manually go into **boot mode**. Connect you board via the USB interface and enter the following **AT command** after you have connected via the proper COM port:
 
-```bash
+```sh
 at+set_config=device:boot
 ```
 
@@ -879,7 +879,7 @@ at+set_config=device:boot
 
 7. Choose the correct **COM port** and set the baud rate to **115200**. Then open the serial port and enter the AT command shown below to restart. Another option is to press the **RST** button on the RAK811 Breakout Module.
 
-```bash
+```sh
 at+set_config=device:restart
 ```
 

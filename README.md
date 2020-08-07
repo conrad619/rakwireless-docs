@@ -5,7 +5,7 @@ This is a [VuePress](https://vuepress.vuejs.org/) site which [Travis](hhttps://t
 Check out our docs at https://docs.rakwireless.com/.
 
 # Install
-```bash
+```sh
 # install globally
 yarn global add vuepress # OR npm install -g vuepress
 

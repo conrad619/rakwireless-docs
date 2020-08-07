@@ -2,13 +2,13 @@
 
 This part supports **RAK5010** and **RAK8212**(M) only.
 
-```C
+```c
 rui_cellular_xxx()
 ```
 
 ## RUI Cellular Send
 
-```C
+```c
 RUI_RETURN_STATUS rui_cellular_send(uint8_t *data)
 ```
 
@@ -20,7 +20,7 @@ RUI_RETURN_STATUS rui_cellular_send(uint8_t *data)
 
 ## RUI Cellular Response
 
-```C
+```c
 RUI_RETURN_STATUS rui_cellular_response(uint8_t *response, uint32_t len, uint32_t timeout)
 ```
 
@@ -33,7 +33,7 @@ RUI_RETURN_STATUS rui_cellular_response(uint8_t *response, uint32_t len, uint32_
 
 ## RUI Cellular Register Receive Callback
 
-```C
+```c
 typdef void(*cellular_receive)(uint8_t *data);
 RUI_RETURN_STATUS rui_cellular_register_recv_callback(cellular_receive callback)
 ```
@@ -47,7 +47,7 @@ RUI_RETURN_STATUS rui_cellular_register_recv_callback(cellular_receive callback)
 
 ## RUI Cellular Set Mode
 
-```C
+```c
 RUI_RETURN_STATUS rui_cellular_set_mode(DRIVER_MODE mode)
 ```
 
@@ -59,7 +59,7 @@ RUI_RETURN_STATUS rui_cellular_set_mode(DRIVER_MODE mode)
 
 ## RUI Cellular Open Socket
 
-```C
+```c
 RUI_RETURN_STATUS rui_cellular_open_socket(uint8_t* data)
 ```
 
@@ -72,7 +72,7 @@ RUI_RETURN_STATUS rui_cellular_open_socket(uint8_t* data)
 
 ## RUI Cellular Set Operator
 
-```C
+```c
 RUI_RETURN_STATUS rui_cellular_set_operator(uint8_t *APN,uint8_t *operator_long_name,uint8_t *operator_short_name,uint8_t operator_net)
 ```
 
@@ -85,7 +85,7 @@ RUI_RETURN_STATUS rui_cellular_set_operator(uint8_t *APN,uint8_t *operator_long_
 
 ## RUI Cellular Mode
 
-```C
+```c
 RUI_RETURN_STATUS rui_cellular_mode(uint8_t on);
 ```
 

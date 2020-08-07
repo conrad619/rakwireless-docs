@@ -148,7 +148,7 @@ If the OS of your PC is Linux, you should do the same as the Mac OS, except the 
 
 Assumings you have successfully logged into your Gateway using SSH. Enter the following command in the command line:
 
-```bash
+```sh
 sudo gateway-config
 ```
 
@@ -261,7 +261,7 @@ The RAK7244C comes with the RAK2013 Cellular making it capable of connecting thr
 **2.** Then, log into the Gateway through SSH, and
 enter the command:
 
-```bash
+```sh
 sudo gateway-config
 ```
 
@@ -288,7 +288,7 @@ After that, you need to configure the LTE network operator’s information. Make
 
 **4.** Execute the command below in the console to start minicom tool:
 
-```bash
+```sh
 sudo minicom -D /dev/ttyAMA0 -b 115200
 ```
 
@@ -391,7 +391,7 @@ Great! You have finished configuring your LTE network. Now, let's test and verif
 
 **1.** Execute the command. in the terminal.
 
-```bash
+```sh
 sudo pppd call gprs
 ```
 
@@ -431,7 +431,7 @@ In the event that you have entered either or both icorrect Wi-Fi SSID and Passwo
 
 - Using your "**Command Prompt**" or "**Terminal**", navigate to your SD Card and type this command to generate the "**rak_ap**" file.
 
-```bash
+```sh
 cd > rak_ap
 ```
 
@@ -442,7 +442,7 @@ cd > rak_ap
 
 Assuming you have successfully logged into your Gateway using SSH. Enter the following command in the command line:
 
-```bash
+```sh
 sudo gateway-config
 ```
 
@@ -469,7 +469,7 @@ You will now then see a page like the following picture below:
 
 There is also another way to get your "Gateway ID", just enter the command below in the command line:
 
-```bash
+```sh
 sudo gateway-version
 ```
 

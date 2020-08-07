@@ -87,7 +87,7 @@ In case the driver is still not installed upon doing the previous steps, kindly 
 
 - To verify connectivity, let's try sending AT+Commands. In the RAK Serial Port Tool, there are built-in AT+Commands within it at the right side. Try sending the code below to check the firmware version of your RAK7200 WisNode Track Lite. If connection is successful, in the monitor panel at the left, the firmware version should appear same with the image shown below:
 
-```bash
+```sh
 at+version
 ```
 
@@ -199,15 +199,15 @@ The default LoRa® work mode is LoRaWAN® 1.0.2, the default LoRa® join mode is
 
 1. Set mode to **OTAA** and LoRa® device class to **Class A**, with the following set of commands:
 
-```bash
+```sh
 at+set_config=lora:join_mode:0
 ```
 
-```bash
+```sh
 at+set_config=lora:class:0
 ```
 
-```bash
+```sh
 at+set_config=lora:region:AU915
 ```
 
@@ -219,15 +219,15 @@ at+set_config=lora:region:AU915
 
 2. Now that the modes are set, enter the parameters: : **Device EUI, Application EUI** and **App Key**. Use the commands below. Remember to replace the **"XXXX"** with the corresponding parameter value for your particular case:
 
-```bash
+```sh
 at+set_config=lora:dev_eui:XXXX
 ```
 
-```bash
+```sh
 at+set_config=lora:app_eui:XXXX
 ```
 
-```bash
+```sh
 at+set_config=lora:app_key:XXXX
 ```
 
@@ -241,7 +241,7 @@ at+set_config=lora:app_key:XXXX
 
 3. Finally execute the join command:
 
-```bash
+```sh
 at+join
 ```
 
@@ -281,7 +281,7 @@ at+join
 
 4. Now we need to update the RAK7200 WisNode Track Lite configuration (mode and parameters). Open the Serial Tool and type the command below to change the region (in case you have not done so already):
 
-```bash
+```sh
 at+set_config=lora:region:EU868
 ```
 
@@ -295,7 +295,7 @@ As you can see in **Figure 3**, as we were in the same region (EU868), there was
 
 5. Change the mode to **ABP** with the command:
 
-```bash
+```sh
 at+set_config=lora:join_mode:1
 ```
 
@@ -307,15 +307,15 @@ at+set_config=lora:join_mode:1
 
 6. Now that the mode has been changed, enter the parameters: **Device Address, Network Session Key**, and **Application Session Key**. Use the commands below. Remember to replace the **"X"** with the corresponding parameter value for your particular case (Figure 2 for reference of the parameters):
 
-```bash
+```sh
 at+set_config=lora:dev_addr:X
 ```
 
-```bash
+```sh
 at+set_config=lora:nwks_key:X
 ```
 
-```bash
+```sh
 at+set_config=lora:apps_key:X
 ```
 
@@ -327,7 +327,7 @@ at+set_config=lora:apps_key:X
 
 7. Finally execute the join command:
 
-```bash
+```sh
 at+join
 ```
 
@@ -339,7 +339,7 @@ at+join
 
 8. You can test the connection by sending an uplink frame. Use the following for example:
 
-```bash
+```sh
 at+send=lora:1:12345678
 ```
 
@@ -848,7 +848,7 @@ If the firmware version of your **RAK7200 WisNode Track Lite** is newer than V3.
 
 1. In case you have not just burned the bootloader, as instructed in the previous section you need to manually go into **boot mode**. Open and download the [RAK Serial Port Tool](https://downloads.rakwireless.com/en/LoRa/WisTrio-LoRa-RAK5205/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip). Connect your board via the USB interface and enter the following **AT command**
 
-```bash
+```sh
 at+set_config=device:boot
 ```
 
@@ -896,7 +896,7 @@ at+set_config=device:boot
 
 7. In order for you to check if you have successfully installed the firmware on your RAK7200 WisNode Track Lite, open the Serial Port tool again. Press the "Reset button" or type the command below. If everything works perfectly, you should see the following message below:
 
-```bash
+```sh
 at+set_config=device:restart
 ```
 

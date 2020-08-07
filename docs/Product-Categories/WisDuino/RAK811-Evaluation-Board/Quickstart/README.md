@@ -93,7 +93,7 @@ In case the driver is still not installed upon doing the previous steps, kindly 
 
 - To verify connectivity, let's try sending AT+Commands. In the RAK Serial Port Tool, there are built-in AT+Commands within it at the right side. Try sending the code below to check the firmware version of your RAK811 LPWAN Evaluation Board. If connection is successful, in the monitor panel at the left, the firmware version should appear same with the image shown below:
 
-```bash
+```sh
 at+version
 ```
 
@@ -207,15 +207,15 @@ The default LoRa® working mode for the RAK811 is LoRaWAN® 1.0.2, while the def
 
 1. Set mode to **OTAA** and LoRa® device class to **Class A**, with the following set of commands:
 
-```bash
+```sh
 at+set_config=lora:join_mode:0
 ```
 
-```bash
+```sh
 at+set_config=lora:class:0
 ```
 
-```bash
+```sh
 at+set_config=lora:region:EU868
 ```
 
@@ -227,15 +227,15 @@ at+set_config=lora:region:EU868
 
 2. Now that the modes are set, enter the parameters: : **Device EUI, Application EUI** and **App Key**. Use the commands below. Remember to replace the **"XXXX"** with the corresponding parameter value for your particular case:
 
-```bash
+```sh
 at+set_config=lora:dev_eui:XXXX
 ```
 
-```bash
+```sh
 at+set_config=lora:app_eui:XXXX
 ```
 
-```bash
+```sh
 at+set_config=lora:app_key:XXXX
 ```
 
@@ -249,7 +249,7 @@ at+set_config=lora:app_key:XXXX
 
 3. Finally execute the join command:
 
-```bash
+```sh
 at+join
 ```
 
@@ -261,7 +261,7 @@ at+join
 
 4. You can test the connection by sending an uplink frame. Use the following for example:
 
-```bash
+```sh
 at+send=lora:1:12345678
 ```
 
@@ -304,7 +304,7 @@ Be sure to have this window opened prior to sending data through the RAK Serial 
 
 4. Now, we need to update the RAK811 configuration (mode and parameters). Open the RAK Serial Port Tool and type the command below to change the region (in case you have not done so already):
 
-```bash
+```sh
 at+set_config=lora:region:EU868
 ```
 
@@ -318,7 +318,7 @@ As you can see in **Figure** below, as we were in the same region (EU868), there
 
 5. Change the mode to **ABP** with the command:
 
-```bash
+```sh
 at+set_config=lora:join_mode:1
 ```
 
@@ -330,15 +330,15 @@ at+set_config=lora:join_mode:1
 
 6. Now that the mode has been changed, enter the parameters: **Device Address, Network Session Key**, and **Application Session Key**. Use the commands below. Remember to replace the **"X"** with the corresponding parameter value for your particular case (**Figure 22** for reference of the parameters):
 
-```bash
+```sh
 at+set_config=lora:dev_addr:X
 ```
 
-```bash
+```sh
 at+set_config=lora:nwks_key:X
 ```
 
-```bash
+```sh
 at+set_config=lora:apps_key:X
 ```
 
@@ -352,7 +352,7 @@ You should end up with a window as the one in **Figure** above (**a series of OK
 
 7. Finally, execute the join command:
 
-```bash
+```sh
 at+join
 ```
 
@@ -364,7 +364,7 @@ caption="Join Command""
 
 8. You can test the connection by sending an uplink frame. Use the following for example:
 
-```bash
+```sh
 at+send=lora:1:12345678
 ```
 
@@ -716,7 +716,7 @@ If the firmware version of your RAK811 LPWAN Evaluation Board is newer than V3.0
 Make sure to choose the correct port in the COM Port field. You can check this in the [Interfacing with RAK 811 Development Board](/Product-Categories/WisDuino/RAK811-Evaluation-Board/Quickstart/#interfacing-with-rak811-lpwan-evaluation-board) section.
 :::
 
-```bash
+```sh
 at+set_config=device:boot
 ```
 
@@ -762,7 +762,7 @@ at+set_config=device:boot
 
 7. Choose the correct **COM port** and set the baud rate to **115200**. Then open the serial port and enter the AT command shown below to restart. Another option is to press the **RST** button on the RAK811 LPWAN Evaluation Board.
 
-```bash
+```sh
 at+set_config=device:restart
 ```
 

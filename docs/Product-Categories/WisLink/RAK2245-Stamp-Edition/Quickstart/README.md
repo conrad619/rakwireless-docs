@@ -143,7 +143,7 @@ If the OS of your PC is Linux, you should do the same as the Mac OS, except for 
 
 Assuming you have successfully logged into your Gateway using SSH, enter the following command in the command line:
 
-```bash
+```sh
 sudo gateway-config
 ```
 
@@ -263,7 +263,7 @@ In the event that you have entered either or both icorrect Wi-Fi SSID and Passwo
 
 - Using your "**Command Prompt**" or "**Terminal**", navigate to your SD Card and type this command to generate the "**rak_ap**" file.
 
-```bash
+```sh
 cd > rak_ap
 ```
 
@@ -276,7 +276,7 @@ cd > rak_ap
 
 Assuming you have successfully logged into your Gateway using SSH, enter the following command in the command line:
 
-```bash
+```sh
 sudo gateway-config
 ```
 

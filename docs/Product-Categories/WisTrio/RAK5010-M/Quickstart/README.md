@@ -107,7 +107,7 @@ Any serial tool will work, but it is recommended to use the [**RAK Serial Port T
 
 - Try to send a simple AT command to RAK5010-M to get the current firmware’s version by sending the command below using the RAK Serial Port Tool. Similarly, you can send other AT commands of RAK5010-M in the same way.
 
-```
+```sh
 at+version
 ```
 
@@ -131,7 +131,7 @@ To establish a connection to a Cellular network, the following element are neces
 
 1. Scan the available cellular network providers. Send the following AT command.
 
-```
+```sh
 at+scan=cellular
 ```
 
@@ -156,7 +156,7 @@ at+scan=cellular
 
 Once the Cellular network operator is identified, send the following AT command to choose the Cellular operator compatible with the SIM card in use. As shown in the Figure 9, in this example, the SIM card belongs to CHINA MOBILE.
 
-```
+```sh
 at+set_config=cellular:(AT+COPS=1,0,\"CHINA MOBILE\",0)
 ```
 
@@ -171,7 +171,7 @@ at+set_config=cellular:(AT+COPS=1,0,\"CHINA MOBILE\",0)
 
 The next step is to configure the APN required by the Cellular operator. In the case, CHINA MOBILE’s APN is “CMCC”. The username and password are not required, therefore empty “ ” is applied instead. The final parameter “1” refers to the authentication mode (PAP). The following command is sent, as shown in the Figure 10.
 
-```
+```sh
 at+set_config=cellular:(AT+QICSGP=1,1,\"CMCC\",\"\",\"\",1)
 ```
 <rk-img
@@ -187,7 +187,7 @@ at+set_config=cellular:(AT+QICSGP=1,1,\"CMCC\",\"\",\"\",1)
 Once the APN is configured, the PDP context must be activated, in order to use the GPRS interface. The following AT command is sent, as shown in the Figure 11.
 
 
-```
+```sh
 at+set_config=cellular:(AT+QIACT=1)
 ```
 
@@ -203,7 +203,7 @@ at+set_config=cellular:(AT+QIACT=1)
 
  Then, set the IP address of the server which will receive the packet sending from RAK5010-M. In the example, the remote server has the IP address of 118.21.121.60, and there is a process listening at the port 12111.
 
-```
+```sh
 at+set_config=cellular:118.31.121.60:12111:CHINA MOBILE:CMMC:CMMNET:0
 ```
 
@@ -221,7 +221,7 @@ This IP address is just\nused for example, and it is my testing server actually.
 
 Finally, The RAK5010-M is configured properly, and it’s ready for sending data over the Cellular network. In this case, some random characters are sent: “123456”. The following AT command is sent, as shown in the Figure 13.
 
-```
+```sh
 At+send=cellular:123456
 ```
 
@@ -276,7 +276,7 @@ the APN
 
 In order to activate the automatic data transmission, the following AT command must be sent. As shown in the Figure 15, an interval of 180000 milliseconds (3 minutes) was configured. The “1” before the interval indicates the periodic data sending loop is activated.
 
-```
+```sh
 at+set_config=cellular:send_interval:1:180000
 ```
 
@@ -292,7 +292,7 @@ As you see, this setting means that we open the sending loop and the interval ti
 
 To apply the new configuration, the module must be restarted. Send the following AT command as shown in the Figure 16.
 
-```
+```sh
 at+set_config=device:restart
 ```
 

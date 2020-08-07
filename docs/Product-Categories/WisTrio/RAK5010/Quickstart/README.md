@@ -205,7 +205,7 @@ You can configure your RAK5010 WisTrio NB-IoT Tracker by sending AT Commands eit
 />  
 
 2. Try to send a simple AT command to RAK5010 to get the current firmware’s version by sending the command below using the RAK Serial Port Tool. Similarly, you can send other AT commands of RAK5010 in the same way.
-```
+```sh
 at+version
 ```
 
@@ -463,7 +463,7 @@ Great! As we see, the server has received the packet which RAK5010 sends out suc
 
 There are three BLE modes in RAK5010 from the firmware V3.0.0.6 on, the **Peripheral Mode**, the **Central Mode** and the **Beacon Scan Mode**. You can change the work mode of RAK5010’s BLE using this command provided below which is defined [here](/Product-Categories/WisTrio/RAK5010/Quickstart/#at-commands-for-rak5010-wistrio-nb-iot-tracker)
 
-```
+```sh
 at+set_config=ble:work_mode:X:Y
 ```
 **Description:** Set the work mode for BLE.

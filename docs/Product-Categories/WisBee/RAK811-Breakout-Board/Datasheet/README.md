@@ -54,13 +54,7 @@ This module is a complete solution in developing your LoRaWAN® protocol techniq
 
 ### Overview
 
-<<<<<<< HEAD
-#### Module Overview
-
-The **RAK811 Breakout Module** has a board dimension of **42mm x 25mm** and weighs at about **0.2kg**.
-=======
 The **RAK811 WisBee™ Breakout Module** has a board dimension of **42mm x 25mm** and weighs at about **0.2kg**.
->>>>>>> 709700640f5165cb1ea36a2223380125adedf3f5
 
 <rk-img
   src="/assets/images/wisbee/rak811-breakout-board/datasheet/2.dimensions.png"

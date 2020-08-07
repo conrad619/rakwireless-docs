@@ -96,7 +96,7 @@ If the OS of your PC is Linux, you should do the same as the Mac OS, except the 
 
 Assuming you have successfully logged into your Gateway using SSH, enter the following command in the command line:
 
-```bash
+```sh
 sudo gateway-config
 ```
 

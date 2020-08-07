@@ -1,104 +1,106 @@
 <template>
-  <q-layout view="hHh LpR lfr">
-    <q-header class="bg-primary text-white">
-      <q-toolbar style="height: 70px">
-        <q-btn
-          flat
-          @click="showDrawer = !showDrawer"
-          round
-          dense
-          :icon="showDrawer ? 'menu_open' : 'menu'"
-          class="lt-sm"
-        />
-        <div class="full-height flex flex-center">
-          <q-item :to="`/`" class="q-pa-none full-height">
-            <q-item-section>
-              <!-- <a href="/"> -->
-              <img :src="`/assets/rakwireless/rak-white.svg`" style="width: 7.5rem" />
-              <!-- </a> -->
-            </q-item-section>
-          </q-item>
-        </div>
-        <q-toolbar-title>{{ $siteTitle }}</q-toolbar-title>
-        <q-space />
-        <rk-dropdown label="RAK Services">
-          <q-list style="min-width: 100px">
-            <q-item class="q-py-md" :to="`/RUI`">
+  <ClientOnly>
+    <q-layout view="hHh LpR lfr">
+      <q-header class="bg-primary text-white">
+        <q-toolbar style="height: 70px">
+          <q-btn
+            flat
+            @click="showDrawer = !showDrawer"
+            round
+            dense
+            :icon="showDrawer ? 'menu_open' : 'menu'"
+            class="lt-sm"
+          />
+          <div class="full-height flex flex-center">
+            <q-item :to="`/`" class="q-pa-none full-height">
               <q-item-section>
-                <q-item-label>RUI</q-item-label>
-                <q-item-label caption>Rakwireless Unified Interface</q-item-label>
+                <!-- <a href="/"> -->
+                <img :src="`/assets/rakwireless/rak-white.svg`" style="width: 7.5rem" />
+                <!-- </a> -->
               </q-item-section>
             </q-item>
-          </q-list>
-        </rk-dropdown>
-        <rk-dropdown label="Knowledge Hub">
-          <q-list style="min-width: 100px">
-            <q-item class="q-py-md" :to="`/Knowledge-Hub/Learn`">
-              <q-item-section>
-                <q-item-label>Learn Section</q-item-label>
-                <q-item-label caption>Learning is never boring</q-item-label>
-              </q-item-section>
-            </q-item>
-            <q-item class="q-py-md" :to="`/Knowledge-Hub/FAQs`">
-              <q-item-section>
-                <q-item-label>FAQs</q-item-label>
-                <q-item-label caption>Frequently Asked Questions</q-item-label>
-              </q-item-section>
-            </q-item>
-          </q-list>
-        </rk-dropdown>
-        <q-btn
-          label="Community"
-          class="full-height"
-          size="1rem"
-          @click="openLink('https://forum.rakwireless.com', '_blank')"
-          flat
-          no-caps
-        />
-        <rk-search-box />
-        <rk-dropdown label="Languages">
-          <q-list style="min-width: 100px">
-            <q-item class="q-py-md" @click="openLink('https://doc.rakwireless.com')" clickable>
-              <q-item-section>
-                <q-item-label>English (US)</q-item-label>
-                <q-item-label caption>en-US</q-item-label>
-              </q-item-section>
-            </q-item>
-            <q-item class="q-py-md" @click="openLink('https://doc.rakwireless.com.cn')" clickable>
-              <q-item-section>
-                <q-item-label>Chinese</q-item-label>
-                <q-item-label caption>zh-CN</q-item-label>
-              </q-item-section>
-            </q-item>
-          </q-list>
-        </rk-dropdown>
-      </q-toolbar>
-      <q-separator class="bg-primary" style="padding: 0.1px" />
-    </q-header>
+          </div>
+          <q-toolbar-title>{{ $siteTitle }}</q-toolbar-title>
+          <q-space />
+          <rk-dropdown label="RAK Services">
+            <q-list style="min-width: 100px">
+              <q-item class="q-py-md" :to="`/RUI`">
+                <q-item-section>
+                  <q-item-label>RUI</q-item-label>
+                  <q-item-label caption>Rakwireless Unified Interface</q-item-label>
+                </q-item-section>
+              </q-item>
+            </q-list>
+          </rk-dropdown>
+          <rk-dropdown label="Knowledge Hub">
+            <q-list style="min-width: 100px">
+              <q-item class="q-py-md" :to="`/Knowledge-Hub/Learn`">
+                <q-item-section>
+                  <q-item-label>Learn Section</q-item-label>
+                  <q-item-label caption>Learning is never boring</q-item-label>
+                </q-item-section>
+              </q-item>
+              <q-item class="q-py-md" :to="`/Knowledge-Hub/FAQs`">
+                <q-item-section>
+                  <q-item-label>FAQs</q-item-label>
+                  <q-item-label caption>Frequently Asked Questions</q-item-label>
+                </q-item-section>
+              </q-item>
+            </q-list>
+          </rk-dropdown>
+          <q-btn
+            label="Community"
+            class="full-height"
+            size="1rem"
+            @click="openLink('https://forum.rakwireless.com', '_blank')"
+            flat
+            no-caps
+          />
+          <rk-search-box />
+          <rk-dropdown label="Languages">
+            <q-list style="min-width: 100px">
+              <q-item class="q-py-md" @click="openLink('https://doc.rakwireless.com')" clickable>
+                <q-item-section>
+                  <q-item-label>English (US)</q-item-label>
+                  <q-item-label caption>en-US</q-item-label>
+                </q-item-section>
+              </q-item>
+              <q-item class="q-py-md" @click="openLink('https://doc.rakwireless.com.cn')" clickable>
+                <q-item-section>
+                  <q-item-label>Chinese</q-item-label>
+                  <q-item-label caption>zh-CN</q-item-label>
+                </q-item-section>
+              </q-item>
+            </q-list>
+          </rk-dropdown>
+        </q-toolbar>
+        <q-separator class="bg-primary" style="padding: 0.1px" />
+      </q-header>
 
-    <q-drawer
-      v-if="shouldShowSidebar"
-      v-model="showDrawer"
-      content-class="bg-grey-1 text-grey-9 q-pa-none"
-    >
-      <rk-sidebar class="fit" :items="sidebarItems">
-        <template #top>
-          <slot name="sidebar-top" />
-        </template>
-        <template #bottom>
-          <slot name="sidebar-bottom" />
-        </template>
-      </rk-sidebar>
-    </q-drawer>
-    <q-page-container>
-      <rk-header v-if="shouldHaveHeader" />
-      <rk-page :sidebar-items="sidebarItems" />
-      <rk-zoom />
-    </q-page-container>
-    <q-footer>
-      <rk-footer />
-    </q-footer>
-  </q-layout>
+      <q-drawer
+        v-if="shouldShowSidebar"
+        v-model="showDrawer"
+        content-class="bg-grey-1 text-grey-9 q-pa-none"
+      >
+        <rk-sidebar class="fit" :items="sidebarItems">
+          <template #top>
+            <slot name="sidebar-top" />
+          </template>
+          <template #bottom>
+            <slot name="sidebar-bottom" />
+          </template>
+        </rk-sidebar>
+      </q-drawer>
+      <q-page-container>
+        <rk-header v-if="shouldHaveHeader" />
+        <rk-page :sidebar-items="sidebarItems" />
+        <rk-zoom />
+      </q-page-container>
+      <q-footer>
+        <rk-footer />
+      </q-footer>
+    </q-layout>
+  </ClientOnly>
 </template>
 
 <script>

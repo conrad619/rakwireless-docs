@@ -2,7 +2,7 @@
 
 ## General Format
 
-```C
+```c
 rui_lora_xxx()
 ```
 ---
@@ -11,7 +11,7 @@ rui_lora_xxx()
 
 ### LORA_JOIN_MODE
 
-```C
+```c
 typedef enum LORA_JOIN_MODE
 {
     RUI_OTAA = 0,
@@ -20,7 +20,7 @@ typedef enum LORA_JOIN_MODE
 ```
 ### LORA_CLASS_MODE
 
-```C
+```c
 typedef enum LORA_CLASS_MODE
 {
     CLASS_A = 0,
@@ -31,7 +31,7 @@ typedef enum LORA_CLASS_MODE
 
 ### LORA_WORK_MODE
 
-```C
+```c
 typedef enum LORA_WORK_MODE
 {
     RUI_LORAWAN = 0,
@@ -42,7 +42,7 @@ typedef enum LORA_WORK_MODE
 
 ### LORA_REGION
 
-```C
+```c
 typedef enum LORA_REGION
 {
     AS923,
@@ -60,7 +60,7 @@ typedef enum LORA_REGION
 
 ### RUI_LORA_STATUS
 
-```C
+```c
 typedef struct RUI_LORA_STATUS
 {
     uint32_t dev_addr;
@@ -84,7 +84,7 @@ typedef struct RUI_LORA_STATUS
 
 ### RUI_LORA_AUTO_SEND_MODE
 
-```C
+```c
 typedef enum RUI_LORA_AUTO_SEND_MODE
 {
     RUI_AUTO_DISABLE=0,     // Disable lora auto send.    RUI_AUTO_ENABLE_SLEEP,  // Enable lora auto send, sleep when the system is idle.
@@ -95,7 +95,7 @@ typedef enum RUI_LORA_AUTO_SEND_MODE
 
 ## RUI LoRa Join
 
-```C
+```c
 RUI_RETURN_STATUS rui_lora_join(void);
 ```
 
@@ -109,7 +109,7 @@ RUI_RETURN_STATUS rui_lora_join(void);
 
 ## RUI LoRa Send
 
-```C
+```c
 RUI_RETURN_STATUS rui_lora_send(uint8_t port,uint8_t* data,uint8_t len)
 ```
 
@@ -123,7 +123,7 @@ RUI_RETURN_STATUS rui_lora_send(uint8_t port,uint8_t* data,uint8_t len)
 
 ## RUI LoRa Register Receive Callback
 
-```C
+```c
 typdef void (*lora_receive)(uint8_t *data);
 RUI_RETURN_STATUS rui_lora_register_recv_callback(lora_receive callback)
 ```
@@ -138,7 +138,7 @@ RUI_RETURN_STATUS rui_lora_register_recv_callback(lora_receive callback)
 
 ## RUI LoRa Set Device Mode
 
-```C
+```c
 RUI_RETURN_STATUS rui_lora_set_device_mode(DRIVER_MODE mode)
 ```
 
@@ -152,7 +152,7 @@ RUI_RETURN_STATUS rui_lora_set_device_mode(DRIVER_MODE mode)
 
 ## RUI LoRa Set Device EUI
 
-```C
+```c
 RUI_RETURN_STATUS rui_lora_set_dev_eui(uint8_t *dev_eui)
 ```
 
@@ -166,7 +166,7 @@ RUI_RETURN_STATUS rui_lora_set_dev_eui(uint8_t *dev_eui)
 
 ## RUI LoRa Set Application EUI
 
-```C
+```c
 RUI_RETURN_STATUS rui_lora_set_app_eui(uint8_t *app_eui)
 ```
 
@@ -181,7 +181,7 @@ RUI_RETURN_STATUS rui_lora_set_app_eui(uint8_t *app_eui)
 
 ## RUI LoRa Set Application Key
 
-```C
+```c
 RUI_RETURN_STATUS rui_lora_set_app_key(uint8_t *app_key)
 ```
 
@@ -195,7 +195,7 @@ RUI_RETURN_STATUS rui_lora_set_app_key(uint8_t *app_key)
 
 ## RUI LoRa Set Device Address
 
-```C
+```c
 RUI_RETURN_STATUS rui_lora_set_dev_addr(uint8_t *dev_addr)
 ```
 
@@ -209,7 +209,7 @@ RUI_RETURN_STATUS rui_lora_set_dev_addr(uint8_t *dev_addr)
 
 ## RUI LoRa Set Application Session Key
 
-```C
+```c
 RUI_RETURN_STATUS rui_lora_set_apps_key(uint8_t *apps_key
 ```
 
@@ -223,7 +223,7 @@ RUI_RETURN_STATUS rui_lora_set_apps_key(uint8_t *apps_key
 
 ## RUI LoRa Set Network Session Key
 
-```C
+```c
 RUI_RETURN_STATUS rui_lora_set_nwks_key(uint8_t *nwks_key)
 ```
 
@@ -237,7 +237,7 @@ RUI_RETURN_STATUS rui_lora_set_nwks_key(uint8_t *nwks_key)
 
 ## RUI LoRa Set Channel Mask
 
-```C
+```c
 RUI_RETURN_STATUS rui_lora_set_channel_mask(uint8_t channel, uint8_t on_off)
 ```
 
@@ -251,7 +251,7 @@ RUI_RETURN_STATUS rui_lora_set_channel_mask(uint8_t channel, uint8_t on_off)
 
 ## RUI LoRa Class
 
-```C
+```c
 RUI_RETURN_STATUS rui_lora_set_class(LORA_CLASS_MODE class)
 ```
 
@@ -265,7 +265,7 @@ RUI_RETURN_STATUS rui_lora_set_class(LORA_CLASS_MODE class)
 
 ## RUI LoRa Set Confirm
 
-```C
+```c
 RUI_RETURN_STATUS rui_lora_set_confirm(bool is_confirm);
 ```
 
@@ -279,7 +279,7 @@ RUI_RETURN_STATUS rui_lora_set_confirm(bool is_confirm);
 
 ## RUI LoRa Set ADR
 
-```C
+```c
 RUI_RETURN_STATUS rui_lora_set_adr(bool is_enable)
 ```
 
@@ -293,7 +293,7 @@ RUI_RETURN_STATUS rui_lora_set_adr(bool is_enable)
 
 ## RUI LoRa Set DR
 
-```C
+```c
 RUI_RETURN_STATUS rui_lora_set_dr(uint8_t dr);
 ```
 
@@ -307,7 +307,7 @@ RUI_RETURN_STATUS rui_lora_set_dr(uint8_t dr);
 
 ## RUI LoRa Set Join Mode
 
-```C
+```c
 RUI_RETURN_STATUS rui_lora_set_join_mode(LORA_JOIN_MODE mode)
 ```
 
@@ -321,7 +321,7 @@ RUI_RETURN_STATUS rui_lora_set_join_mode(LORA_JOIN_MODE mode)
 
 ## RUI LoRa Set Work Mode
 
-```C
+```c
 RUI_RETURN_STATUS rui_lora_set_work_mode(LORA_WORK_MODE mode)
 ```
 
@@ -335,7 +335,7 @@ RUI_RETURN_STATUS rui_lora_set_work_mode(LORA_WORK_MODE mode)
 
 ## RUI LoRa Set Send Interval
 
-```C
+```c
 RUI_RETURN_STATUS
 rui_lora_set_send_interval(RUI_LORA_AUTO_SEND_MODE mode,uint16_t interval_time);
 ```
@@ -350,7 +350,7 @@ rui_lora_set_send_interval(RUI_LORA_AUTO_SEND_MODE mode,uint16_t interval_time);
 
 ## RUI LoRa Region Convert
 
-```C
+```c
 LORA_REGION rui_lora_region_convert(uint8_t *p_buf);
 ```
 
@@ -364,7 +364,7 @@ LORA_REGION rui_lora_region_convert(uint8_t *p_buf);
 
 ## RUI LoRa Set Region
 
-```C
+```c
 RUI_RETURN_STATUS rui_lora_set_region(LORA_REGION region)
 ```
 
@@ -378,7 +378,7 @@ RUI_RETURN_STATUS rui_lora_set_region(LORA_REGION region)
 
 ## RUI LoRa Get Status
 
-```C
+```c
 RUI_RETURN_STATUS rui_lora_get_status(bool IsPrint,RUI_LORA_STATUS_T *status);
 ```
 
@@ -392,7 +392,7 @@ RUI_RETURN_STATUS rui_lora_get_status(bool IsPrint,RUI_LORA_STATUS_T *status);
 
 ## RUI LoRa Channel List
 
-```C
+```c
 RUI_RETURN_STATUS rui_get_channel_list(void);
 ```
 
@@ -407,7 +407,7 @@ RUI_RETURN_STATUS rui_get_channel_list(void);
 
 ## RUI LoRa Autosend Callback
 
-```C
+```c
 void rui_lora_autosend_callback(void);
 ```
 
@@ -421,7 +421,7 @@ void rui_lora_autosend_callback(void);
 
 ## RUI LoRa P2P Config
 
-```C
+```c
 RUI_RETURN_STATUS rui_lorap2p_config(uint32_t Frequency,uint8_t  Spreadfact,uint8_t  Bandwidth,uint8_t  Codingrate,uint16_t  Preamlen,uint8_t  Powerdbm);
 ```
 
@@ -435,7 +435,7 @@ RUI_RETURN_STATUS rui_lorap2p_config(uint32_t Frequency,uint8_t  Spreadfact,uint
 
 ## RUI LoRa P2P Send
 
-```C
+```c
 RUI_RETURN_STATUS rui_lorap2p_send(uint8_t* data,uint16_t len);
 ```
 
@@ -449,7 +449,7 @@ RUI_RETURN_STATUS rui_lorap2p_send(uint8_t* data,uint16_t len);
 
 ## RUI LoRa P2P Register Receive Callback
 
-```C
+```c
 typedef void (*lorap2p_receive)(RUI_LORAP2P_RECEIVE_T *data);
 RUI_RETURN_STATUS rui_lorap2p_register_recv_callback(lorap2p_receive callback);
 ```
@@ -464,7 +464,7 @@ RUI_RETURN_STATUS rui_lorap2p_register_recv_callback(lorap2p_receive callback);
 
 ## RUI LoRajoin Register Callback
 
-```C
+```c
 typedef void (*lorajoin)(uint32_t status);
 RUI_RETURN_STATUS rui_lorajoin_register_callback(lorajoin callback);
 ```
@@ -479,7 +479,7 @@ RUI_RETURN_STATUS rui_lorajoin_register_callback(lorajoin callback);
 
 ## RUI LoRasend Complete Register Callback
 
-```C
+```c
 typedef void (*lorasend)(RUI_MCPS_T type);
 RUI_RETURN_STATUS rui_lorasend_complete_register_callback(lorasend callback);
 ```
@@ -494,7 +494,7 @@ RUI_RETURN_STATUS rui_lorasend_complete_register_callback(lorasend callback);
 
 ## RUI LoRa Set TX Power
 
-```C
+```c
 RUI_RETURN_STATUS rui_lora_set_tx_power(uint8_t power_value);
 ```
 
@@ -508,7 +508,7 @@ RUI_RETURN_STATUS rui_lora_set_tx_power(uint8_t power_value);
 
 ## RUI LoRa Get DR
 
-```C
+```c
 RUI_RETURN_STATUS rui_lora_get_dr(uint8_t* dr, uint16_t* lengthM)
 ```
 

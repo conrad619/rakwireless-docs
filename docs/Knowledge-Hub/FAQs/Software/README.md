@@ -176,7 +176,7 @@ The MQTT integration exposes all events as documented by [Event Types](https://w
 
 **Example Payload:**
 
-```C
+```json
 {
     "confirmed": true,                        // whether the payload must be sent as confirmed data down or not
     "fPort": 10,                              // FPort to use (must be > 0)

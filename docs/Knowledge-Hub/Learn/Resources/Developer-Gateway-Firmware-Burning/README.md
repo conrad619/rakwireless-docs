@@ -1,11 +1,22 @@
 ---
-prev: /Knowledge-Hub/Learn/Resources/user-manual/gateway-firmware-burning/
-next: firmware-burning
+sidebar: false
+rak_img: 
+rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+tags:
+  - User-Manual
+header:
+  title: Developer Gateway Firmware Setup
+  caption: by <b>RAKwireless Team</b>
+  img: /assets/images/_/banner.png
 ---
+
+# Developer Gateway Firmware Setup
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra orci porttitor ipsum efficitur, ut ornare nibh ultrices. Ut id metus nec neque fringilla hendrerit id vitae augue. Nullam finibus turpis eu aliquet aliquet. Aliquam porta metus luctus ipsum posuere commodo. Duis id ligula justo.
 
 # Firmwares
 
-Welcome to the Developer Gateways Firmware Catalog. Download the latest firmware on your chosen device and proceed to the [Firmware Burning](firmware-burning) section to burn it.
+Welcome to the Developer Gateways Firmware Catalog. Download the latest firmware on your chosen device and proceed to the [Firmware Burning](#burn-the-firmware) section to burn it.
 
 | Model                                                          | Raspberry Board     | Firmware Version | Source                                                                                                                                           |
 | -------------------------------------------------------------- | ------------------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -17,3 +28,33 @@ Welcome to the Developer Gateways Firmware Catalog. Download the latest firmware
 | RAK7244 LPWAN Developer Gateway                                | Raspberry Pi 4      | 4.2.0_20200312   | [Download](https://downloads.rakwireless.com/en/LoRa/Developer-LoRaWAN-Gateway-RAK7244%26RAK7244P/Firmware/RAK7244_Latest_Firmware.zip)          |
 | RAK7244C LPWAN Developer Gateway                               | Raspberry Pi 4      | 4.2.0_20200312   | [Download](https://downloads.rakwireless.com/en/LoRa/Developer-LoRaWAN-Gateway-RAK7244C/Firmware/RAK7244C_Latest_Firmware.zip)                   |
 | RAK7246G LPWAN Developer Gateway                               | Raspberry Pi Zero W | 4.2.0_20200312   | [Download](https://downloads.rakwireless.com/en/LoRa/NeoPi-Gateway-RAK7246/Firmware/RAK7246_Latest_Firmware.zip)                                 |
+
+# Burn the Firmware
+
+::: tip 📝 NOTE:
+ All LPWAN Developer Gateways mentioned in the previous section are pre-installed with its latest firmware upon purchase. Follow these steps if you intend to re-install the firmware of your device.
+:::
+1. Download the latest firmware in the [Firmwares](#firmwares) section which is based on the Raspbian OS.
+
+2. An image writing tool is needed to install the downloaded firmware into the SD Card. For this instruction, the open source utility software [Etcher](https://www.balena.io/etcher/) will be used for burning the image file.
+
+3. Insert the SD Card into the SD Card reader and plug it into the Computer.
+
+4. Open the Etcher Software and select the necessary settings as shown in Figure 1:
+    * **Select Image Button**: Select the image to be burned in the SD Card
+    * **Select Drive Button**: The SD Card where the firmware will be burned
+ 
+ <!---
+Feel free to change the description for Select Image and Select Drive buttons
+-->
+
+::: tip 📝 NOTE:
+ The SD Card should be automatically detected by the Etcher in the Select Drive Button in Figure 1. If not, kindly ensure proper connection.
+:::
+
+<rk-img
+  src="/assets/images/user-manual/developer-gateways/firmware-burning/firmwareburn.png"
+  caption="Balena Etcher Software"
+/>
+
+5. Click **"Flash!"** and wait until the process completes automatically.

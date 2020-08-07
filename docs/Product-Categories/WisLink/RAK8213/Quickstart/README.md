@@ -298,7 +298,7 @@ This will start minicom, a Linux tool that allows serial communication. In this 
 
 The following code block is a summary of the commands you need to execute in the same order. Each code is discussed and an example output is provided at the end of this section.
 
-```
+```sh
 AT+CPIN? // Checks the SIM card status.
 AT+QCFG="nwscanmode",1,1 // Chooses only GSM (disables LTE).
 AT+COPS=? // Lists the available network providers.
@@ -461,7 +461,7 @@ SEND OK
 
 Listed below are the summary of commands with their corresponding outputs:
 
-```
+```sh
 AT+CPIN? 
 +CPIN: READY 
 OK 

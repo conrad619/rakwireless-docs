@@ -154,43 +154,43 @@ If you do not have an Applicate key, you can create one yourself. It must be a u
 Boot information : Welcome to RAK811
 
 **Send**: 
-```
+```sh
 at+mode=0 /* SET LoraWAN work mode */
 ```
 **Return**:
-```
+```sh
  OK
 ```
 
 **Send**:
-``` 
+``` sh
 at+set_config=dev_eui:60C5A8FFFE000001   /* GET Dev_EUI check if NULL ,set the enter before information */
 ```
 **Return**: 
-```
+```sh
 OK
 ```
 
 **Send**:  
-```
+```sh
 at+set_config=app_eui:1122334455667788&app_key:11223344556677881122334455667788 /* SET LoraGateway app_eui and app_key , big endian, you set at Step 4*/
 ```
 **Return**: 
-```
+```sh
 OK
 ```
 
 **Send**:  
-```
+```sh
 at+join=otaa  /* Join OTAA type*/
 ```
 **Return**: 
-```
+```sh
 OK
 ```
 
 **Return**: 
-```
+```sh
 at+recv=3,0,0  /* Join status success*/
 ```
 
@@ -203,20 +203,20 @@ at+recv=3,0,0  /* Join status success*/
 9. After join gateway success, then can send and receive data, refresh dashboard page, we can see Active Device(s) is 1 , it means our module connect with server。
 
 **Send**:  
-```
+```sh
 at+send=0,2,000000000000007F0000000000000000 /*APP port:2, battery level 50%, unconfirmed message*/
 ```
 **Return**: 
-```
+```sh
 at+recv=2,0,0  /*unconfirmed mean tx success*/
 ```
 
 **Send**:  
-```
+```sh
 at+send=1,2,000000000000007F0000000000000000 /*APP port :2, battery level 50%, confirmed message*/
 ```
 **Return**: 
-```
+```sh
 at+recv=1,0,0  /*confirmed mean receive ack from gateway*/
 ```
 ![Active Devices](/assets/images/knowledge-hub/tutorials/how-to-connect-lora-module-rak811-to-actility/active-devices.png)

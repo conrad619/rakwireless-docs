@@ -186,19 +186,19 @@ Execute the following commands one by one and in the order given.
 
 1. Set the LoRa® join mode to **OTAA** as follows:
 
-```
+```sh
 at+set_config=lora:join_mode:0
 ```
 
 2. Set the LoRa® class to **Class A**:
 
-```
+```sh
 at+set_config=lora:class:0
 ```
 
 3. Set the frequency/region to **EU868**:
 
-```
+```sh
 at+set_config=lora:region:EU868
 ```
 
@@ -214,19 +214,19 @@ Execute the following commands one by one and in the order given.
 
 4. Set the **Device EUI.**
 
-```
+```sh
 at+set_config=lora:dev_eui:XXXX
 ```
 
 5. Set the **Application EUI**:
 
-```
+```sh
 at+set_config=lora:app_eui:XXXX
 ```
 
 6. Set the **Application Key**:
 
-```
+```sh
 at+set_config=lora:app_key:XXXX
 ```
 
@@ -238,13 +238,13 @@ at+set_config=lora:app_key:XXXX
 
 7. Reboot the RAK4200 Breakout Module to save the parameters.
 
-```
+```sh
 at+set_config=device:restart
 ```
 
 8. After resetting RAK4200 Breakout Module, join in OTAA mode:
 
-```
+```sh
 at+join
 ```
 
@@ -256,7 +256,7 @@ at+join
 
 9. Joined successfully! Now, let’s try to send a data from the RAK4200 Breakout Module to TTN:
 
-```
+```sh
 at+send=lora:2:1234567890
 ```
 

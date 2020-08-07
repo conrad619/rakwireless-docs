@@ -6,7 +6,7 @@ tags:
   - Deployment-Guide
 header:
   title: Amazon Web Service
-  caption:
+  caption: by <b>RAKwireless Team</b>
   img: /assets/images/_/banner.png
 ---
 
@@ -58,7 +58,7 @@ To enjoy the free cloud services of Amazon, make an account through their [Amazo
   caption="Selecting the Operating System"
 />
 
-4. In the next window, you can configure your Instance. However, leave it as it is. Just select the _**t2.Micro**_ for the **instance type** as in figure 4 shown below and click “**Review and Launch**”.
+4. In the next window, you can configure your Instance. However, leave it as it is. Just select the _**t2.Micro**_ for the **instance type** as in Figure 4 shown below and click “**Review and Launch**”.
 
 <rk-img
   src="/assets/images/deployment-guide/amazon-web-service/4.select-instance-type.png"
@@ -66,7 +66,7 @@ To enjoy the free cloud services of Amazon, make an account through their [Amazo
   caption="Selecting the Instance Type"
 />
 
-5. Confirm your choice and Launch. Security groups will be edited in the next section so you can go ahead and confirm your choice by pressing the “**Launch**” button as shown in figure 5 below.
+5. Confirm your choice and Launch. Security groups will be edited in the next section so you can go ahead and confirm your choice by pressing the “**Launch**” button as shown in Figure 5 below.
 
 <rk-img
   src="/assets/images/deployment-guide/amazon-web-service/5.launch-instance-f.png"
@@ -76,7 +76,7 @@ To enjoy the free cloud services of Amazon, make an account through their [Amazo
 
 ### Accessing Instance via SSH
 
-To have an SSH session to the Instance, you nee to create the appropriate access keys. Thus, after Launching, you will see window the same as figure 6 below.
+To have an SSH session to the Instance, you nee to create the appropriate access keys. Thus, after Launching, you will see window the same as Figure 6 below.
 
 <rk-img
   src="/assets/images/deployment-guide/amazon-web-service/6.key-pair.png"
@@ -156,7 +156,7 @@ user_name@public_dns_name
     * **user_name**: ubuntu
     * **public_dns_name**: ec2-3-120-237-38.eu-central-1.compute.amazonaws.com
     * **Host name**: [ubuntu@ec2-3-120-237-38.eu-central-1.compute.amazonaws.com](mailto:ubuntu@ec2-3-120-237-38.eu-central-1.compute.amazonaws.com)
-    * To know more about "**public_dns___name**" , follow the instructions shown in figure 12.
+    * To know more about "**public_dns___name**" , follow the instructions shown in Figure 12.
 
 
 <rk-img
@@ -237,7 +237,7 @@ journalctl -u chirpstack-network-server -f -n 50
 journalctl -u chirpstack-application-server -f -n 50
 ```
 
-6. You should see no errors as in Figure 1. Make sure you interrupt the output of the commands above with the key combination “Ctrl+z” so you can continue with the configuration process.
+6. You should see no errors as in Figure 16. Make sure you interrupt the output of the commands above with the key combination “Ctrl+z” so you can continue with the configuration process.
 
 <rk-img
   src="/assets/images/deployment-guide/amazon-web-service/16.chirpstack-journal.png"
@@ -246,9 +246,9 @@ journalctl -u chirpstack-application-server -f -n 50
 />
 
 
-In case you want to use the Semtech Packet Forwarder to connect your Gateway to the LoRa Network Server proceed [here](install-the-gateway-bridge). If you are going to use the MQTT Bridge instead proceed directly [here](configure-aws-security)
+In case you want to use the Semtech Packet Forwarder to connect your Gateway to the LoRa Network Server proceed [here](#installing-the-gateway-bridge). If you are going to use the MQTT Bridge instead proceed directly [here](#amazon-web-service-security)
 
-* Below is the text form of the logs shown in Figure 1:
+* Below is the text form of the logs shown in Figure 16:
 
 ```
 ubuntu@ip-172-31-33-125:~$ journalctl -u chirpstack-network-server -f -n 50
@@ -325,7 +325,6 @@ journalctl -u lora-gateway-bridge -f -n 50
 <rk-img
   src="/assets/images/deployment-guide/amazon-web-service/17.gateway-bridge-journal.png"
   width="100%"
-  figure-number="1"
   caption="Gateway Bridge Journal Control Output (no errors)"
 />
 
@@ -352,7 +351,6 @@ By default, all inbound traffic to an AWS Instance is blocked, only port 22 (SSH
 <rk-img
   src="/assets/images/deployment-guide/amazon-web-service/18.aws-sec-group.png"
   width="100%"
-  figure-number="1"
   caption="AWS Security Groups"
 />
 
@@ -361,7 +359,6 @@ By default, all inbound traffic to an AWS Instance is blocked, only port 22 (SSH
 <rk-img
   src="/assets/images/deployment-guide/amazon-web-service/19.inbound-rules.png"
   width="100%"
-  figure-number="2"
   caption="Security Group Inbound Rules"
 />
 
@@ -370,7 +367,6 @@ By default, all inbound traffic to an AWS Instance is blocked, only port 22 (SSH
 <rk-img
   src="/assets/images/deployment-guide/amazon-web-service/20.add-inbound-rules.png"
   width="100%"
-  figure-number="3"
   caption="Adding Inbound Rules"
 />
 
@@ -385,7 +381,6 @@ By default, all inbound traffic to an AWS Instance is blocked, only port 22 (SSH
 <rk-img
   src="/assets/images/deployment-guide/amazon-web-service/21.chirpstack-login.jpg"
   width="100%"
-  figure-number="4"
   caption="Chirpstack Login Page"
 />
 
@@ -402,13 +397,12 @@ By default, all inbound traffic to an AWS Instance is blocked, only port 22 (SSH
 1. In the Web Management Platform, navigate through **LoRa® Network > Network Settings > Packet Forwarder Settings > General Setup**, and set the Protocol in the drop-down list to **Semtech UDP GWMP Protocol**. You only need to change the Server Address to forward the traffic to your ChirpStack running on the Ubuntu Instance (AWS). Enter your Instance Public IP Address in the field marked with the red rectangle in the image below:
 
 :::tip 📝 NOTE
-Read the [LoRa Network](/Knowledge-Hub/Learn/Resources/user-manual/web-management-platform/lora-network.html#_1-network-settings) section in the Web Management Platform to know more about the other modes aside from the Packet Forwarder Setup.
+Read the [LoRa Network](/Knowledge-Hub/Learn/Resources/Web-Management-Platform/#lora®-network) section in the Web Management Platform to know more about the other modes aside from the Packet Forwarder Setup.
 :::
 
 <rk-img
   src="/assets/images/deployment-guide/amazon-web-service/22.chirpstack-packet-forwader.png"
   width="100%"
-  figure-number="1"
   caption="ChirpStack Packet Forwarder Configuration"
 />
 
@@ -417,7 +411,6 @@ Read the [LoRa Network](/Knowledge-Hub/Learn/Resources/user-manual/web-managemen
 <rk-img
   src="/assets/images/deployment-guide/amazon-web-service/23.chirpstack-add-gateway.png"
   width="100%"
-  figure-number="2"
   caption="ChirpStack Gateways Creation"
 />
 
@@ -426,7 +419,6 @@ Read the [LoRa Network](/Knowledge-Hub/Learn/Resources/user-manual/web-managemen
 <rk-img
   src="/assets/images/deployment-guide/amazon-web-service/24.chirpstack-gateway-param.png"
   width="100%"
-  figure-number="3"
   caption="ChirpStack Gateway Parameters"
 />
 
@@ -435,7 +427,6 @@ Read the [LoRa Network](/Knowledge-Hub/Learn/Resources/user-manual/web-managemen
 <rk-img
   src="/assets/images/deployment-guide/amazon-web-service/25.chirpstack-gateway-details.png"
   width="100%"
-  figure-number="4"
   caption="ChirpStack Gateway Details"
 />
 
@@ -448,7 +439,6 @@ If you want to use the MQTT Bridge to forward your LoRa® Traffic to your LoRa®
 <rk-img
   src="/assets/images/deployment-guide/amazon-web-service/26.chirpstack-mqtt-bridge.png"
   width="100%"
-  figure-number="5"
   caption="Gateway MQTT Bridge Protocol"
 />
 
@@ -459,9 +449,8 @@ If you want to use the MQTT Bridge to forward your LoRa® Traffic to your LoRa®
 <rk-img
   src="/assets/images/deployment-guide/amazon-web-service/27.chirpstack-gateway-mqtt-param.png"
   width="100%"
-  figure-number="6"
   caption="Gateway MQTT Bridge Parameters"
 />
 
-4. Lastly, register your Gateway to Chirpstack if you have not done so. You can follow the steps undergone in the Packet Forwarder Set-up section of the [**Configuring your Gateway**](/Knowledge-Hub/Learn/Resources/user-manual/web-management-platform/lora-network.html#packet-forwarder) document.
+4. Lastly, register your Gateway to Chirpstack if you have not done so. You can follow the steps undergone in the Packet Forwarder Set-up section of the [**Web Management Platform**](/Knowledge-Hub/Learn/Resources/Web-Management-Platform/#lora®-network) document.
 

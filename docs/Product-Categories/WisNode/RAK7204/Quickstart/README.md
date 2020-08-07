@@ -195,15 +195,15 @@ The default LoRa® working mode for the RAK7204 WisNode Sense is LoRaWAN® 1.0.2
 
 1. Set mode to **OTAA**, device class to **Class A** and your LoRaWAN® region to your correct frequency band, with the following set of commands below. Remember to replace **XXX** with the your LoRaWAN® region, check [here](https://www.thethingsnetwork.org/docs/lorawan/frequencies-by-country.html) for your frequency plan.
 
-```
+```sh
 at+set_config=lora:join_mode:0
 ```
 
-```
+```sh
 at+set_config=lora:class:0
 ```
 
-```
+```sh
 at+set_config=lora:region:XXX
 ```
 
@@ -215,15 +215,15 @@ at+set_config=lora:region:XXX
 
 2. Now that the modes are set, enter the parameters: : **Device EUI, Application EUI** and **App Key**. Use the commands below. Remember to replace the **"XXXX"** with the corresponding parameter value for your particular case:
 
-```
+```sh
 at+set_config=lora:dev_eui:XXXX
 ```
 
-```
+```sh
 at+set_config=lora:app_eui:XXXX
 ```
 
-```
+```sh
 at+set_config=lora:app_key:XXXX
 ```
 
@@ -237,7 +237,7 @@ at+set_config=lora:app_key:XXXX
 
 3. Finally, execute the join command:
 
-```
+```sh
 at+join
 ```
 
@@ -249,7 +249,7 @@ at+join
 
 4. You can test the connection by sending an uplink frame. Use the following for example:
 
-```
+```sh
 at+send=lora:1:12345678
 ```
 
@@ -292,7 +292,7 @@ Be sure to have this window opened prior to sending data through the RAK Serial 
 
 4. Now we need to update the RAK7204 WisNode Sense configuration (mode and parameters). Open the Serial Tool and type the command below to change the region (in case you have not done so already):
 
-```
+```sh
 at+set_config=lora:region:EU868
 ```
 
@@ -306,7 +306,7 @@ at+set_config=lora:region:EU868
 
 5. Change the mode to **ABP** with the command:
 
-```
+```sh
 at+set_config=lora:join_mode:1
 ```
 
@@ -318,15 +318,15 @@ at+set_config=lora:join_mode:1
 
 6. Now that the mode has been changed, enter the parameters: **Device Address, Network Session Key**, and **Application Session Key**. Use the commands below. Remember to replace the **"XXXX"** with the corresponding parameter value for your particular case (Figure 22 for reference of the parameters):
 
-```
+```sh
 at+set_config=lora:dev_addr:XXXX
 ```
 
-```
+```sh
 at+set_config=lora:nwks_key:XXXX
 ```
 
-```
+```sh
 at+set_config=lora:apps_key:XXXX
 ```
 
@@ -340,7 +340,7 @@ You should end up with a window as the one in **Figure 25** above with **a serie
 
 7. Finally, execute the join command:
 
-```
+```sh
 at+join
 ```
 
@@ -352,7 +352,7 @@ at+join
 
 8. You can test the connection by sending an uplink frame. Use the following as an example:
 
-```
+```sh
 at+send=lora:1:12345678
 ```
 
@@ -470,7 +470,7 @@ The Application EUI which was into RAK7204 WisNode Sense as “app_eui” is not
 
 4. Next, let’s **configure** RAK7204 WisNode Sense by using **AT commands**. To do this, connect yourRAK7204 WisNode Sense to a PC, power it on and open **RAK Serial Port Tool** on your computer.
 
-```
+```sh
 at+version
 ```
 
@@ -484,11 +484,11 @@ at+version
 
 5. If the join mode is not in OTAA, just set the LoRa® join mode to **OTAA** and LoRa® class to **Class A** by typing the AT commands shown in the picture below.
 
-```
+```sh
 at+set_config=lora:join_mode:0
 ```
 
-```
+```sh
 at+set_config-lora:class:0
 ```
 
@@ -500,19 +500,19 @@ at+set_config-lora:class:0
 
 6. Type the following AT command to set the: **Frequency/Region, Device EUI, Application EUI and Application Key.** Remember to replace the **"XXXX"** with the corresponding parameter value for your particular case:
 
-```
+```sh
 at+set_config=lora:region:XXXX
 ```
 
-```
+```sh
 at+set_config=lora:dev_eui:XXXX
 ```
 
-```
+```sh
 at+set_config=lora:app_eui:XXXX
 ```
 
-```
+```sh
 at+set_config=lora:app_key:XXXX
 ```
 
@@ -530,7 +530,7 @@ at+set_config=lora:app_key:XXXX
 
 7. Then, **join** in OTAA mode.
 
-```
+```sh
 at+join
 ```
 
@@ -551,7 +551,7 @@ at+join
 
 9. Let’s try sending data from our RAK7204 WisNode Sense to the ChirpStack by typing the command below in the serial port.
 
-```
+```sh
 at+send=lora:2:1234567890
 ```
 
@@ -1062,7 +1062,7 @@ The setup process for the RAK7204 WisNode Sense in LoRaP2P Mode is just the same
 2. Next, connect these two RAK7204 WisNode Sense with PC through USB cable, and open two serial port tool on PC.
 3. Now, configure them to both work in LoRaP2P mode as follow:
 
-```
+```sh
 at+set_config=lora:work_mode:1
 ```
 
@@ -1073,7 +1073,7 @@ at+set_config=lora:work_mode:1
 />
 
 Then configure LoRaP2P parameters for both of them as follow for example:
-```
+```sh
 at+set_config=lorp2p:869525000:7:0:1:5:5
 ```
 <rk-img
@@ -1084,7 +1084,7 @@ at+set_config=lorp2p:869525000:7:0:1:5:5
 
 OK! Try to send a message from RAK7204 WisNode Sense - 2 (the right one) to RAK7204 WisNode Sense - 1 (the left one):
 
-```
+```sh
 at+send=lorap2p:1234567890
 ```
 <rk-img
@@ -1110,13 +1110,13 @@ You can use RAK7204 WisNode Sense LoRaP2P mode according to it.
 
 You can open the ADR feature of RAK7204 WisNode Sense by using the following AT command:
 
-```
+```sh
 at+set_config=lora:adr:1
 ```
 
 or you can close the ADR feature of RAK7204 WisNode Sense by using this AT command: 
 
-```
+```sh
 at+set_config=lora:adr:0
 ```
 
@@ -1129,7 +1129,7 @@ There is also an AT command which is used to set the DataRate(DR):
 
 
 For example, if you want to set the current DR to DR0, you just do as follow: 
-```
+```sh
 at+set_config=lora:dr:0
 ```
 
@@ -1280,7 +1280,7 @@ If the firmware version of your **RAK7204 WisNode Sense**  is newer than V3.0.0.
  Before configuring your RAK7204 WisNode Sense, make sure you already connected the Battery provided  on your device in order for you to communicate with the device successfully.
 :::
 
-```
+```sh
 at+set_config=device:boot
 ```
 

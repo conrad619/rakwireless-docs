@@ -815,7 +815,7 @@ Default value is 0xAA.
 
 When the working state of the module changes, an event notification will be output through the AT command-line interface.
 The event notification format is:
-```
+```sh
 EVENT:[EVENT_ID]:[EVENT_MSG]:<ADDITIONAL_INFO>
 ```
 | Event | Description|
@@ -836,33 +836,33 @@ The module supports the following event notifications:
 
 1. <b>STARTUP Event</b> - Appears after system initialization.
     * **Message format**: 
-```
+```sh
 EVENT:0:STARTUP
 No additional information.
 ```
 
 2. <b>JOIN_NETWORK Event</b> - LoRaWAN network activation successful. It appears after OTAA join successful. 
     * **Message format**: 
-```
+```sh
 EVENT:1:JOIN_NETWORK
 No additional information.
 ```
 
 3. <b>LORA_LEAVE_NETWORK Event</b> - In OTAA activation mode, if eight consecutive uplink confirmed packets do not receive a response, the LORA_LEAVE_NETWORK event will be triggered. After the LORA_LEAVE_NETWORK event is triggered, the module will stop sending LoRaWAN message and start OTAA activation again.
     * **Message format**: 
-```
+```sh
 EVENT:2:LEAVE_NETWORK
 No additional information.
 ```
 4. <b>SYSTEM_WAKEUP Event</b> - A module in a low-power state can be awaken by receiving input from the AT command line interface. After wakeup, the module will no longer enter low-power mode. If you want the module to enter low power mode again, use the command: `AT+SLEEP\r\n`
     * **Message format**: 
-```
+```sh
 EVENT:5:SYSTEM_WAKEUP
 ```
 
 5.	<b>RESTART Event</b> - Triggered before the module restarts.
     * **Message format**:
-```
+```sh
 EVENT:6:RESTART
 ```
 

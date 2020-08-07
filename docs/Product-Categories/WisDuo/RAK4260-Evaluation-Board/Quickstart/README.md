@@ -307,7 +307,7 @@ In this section, we will be connecting the RAK4260 LPWAN Evaluation Board to The
 
 2. As you see, RAK4260 has joined with TTN successfully. The default join mode is OTAA, and the default frequency is EU868. After resetting it, RAK4260 will join automatically because the dev_eui, app_eui, and app_key have been configured in the source code.
 
-```C
+```c
 /* ABP Join Parameters */
 #define DEMO_DEVICE_ADDRESS                     0xdeafface
 #define DEMO_APPLICATION_SESSION_KEY            {0x41, 0x63, 0x74, 0x69, 0x6C, 0x69, 0x74, 0x79, 0x00, 0x04, 0xA3, 0x0B, 0x00, 0x04, 0xA3, 0x0B}

@@ -2,7 +2,7 @@
 
 ## General Format
 
-```C
+```c
 rui_ble_xxx()
 ```
 
@@ -10,7 +10,7 @@ rui_ble_xxx()
 
 ### BLE_CLIENT_EVT_TYPE
 
-```C
+```c
 typedef enum
 {
     BLE_CLIENT_EVT_DISCOVERY_COMPLETE = 1,
@@ -21,7 +21,7 @@ typedef enum
 
 ### BLE_DATA
 
-```C
+```c
 typedef struct
 {
     uint8_t   *p_data;
@@ -31,7 +31,7 @@ typedef struct
 
 ### BLE_HANDLE
 
-```C
+```c
 typedef struct
 {
     uint16_t write_handle;
@@ -42,7 +42,7 @@ typedef struct
 
 ### BLE_CLIENT_EVT
 
-```C
+```c
 typedef struct
 {
     BLE_CLIENT_EVT_TYPE evt_type;
@@ -56,12 +56,12 @@ typedef struct
 ```
 ### BLE_CLIENT_EVT_HANDLER
 
-```C
+```c
 typedef void (* BLE_CLIENT_EVT_HANDLER) (BLE_CLIENT * p_ble_rcs_c, BLE_CLIENT_EVT * p_evt);
 ```
 ### BLE_CLIENT
 
-```C
+```c
 **@brief Rak Custom Service Client structure. */
 struct BLE_CLIENT
 {
@@ -75,7 +75,7 @@ struct BLE_CLIENT
 
 ## RUI BLE Scan Advertise Data
 
-```C
+```c
 void rui_ble_scan_adv(int8_t rssi_value, uint8_t *p_adv_data, uint16_t adv_data_len, uint8_t *p_device_mac)
 ```
 
@@ -89,7 +89,7 @@ void rui_ble_scan_adv(int8_t rssi_value, uint8_t *p_adv_data, uint16_t adv_data_
 
 ## RUI BLE Event Register Callback
 
-```C
+```c
 typedef void (*ble_evt_connect)(void);
 typedef void (*ble_evt_disconnect)(void);
 uint32_t rui_ble_evt_register_callback(ble_evt_connect callback1, ble_evt_disconnect callback2);
@@ -104,7 +104,7 @@ uint32_t rui_ble_evt_register_callback(ble_evt_connect callback1, ble_evt_discon
 
 ## RUI BLE Set Work Mode
 
-```C
+```c
 RUI_RETURN_STATUS rui_ble_set_work_mode(BLE_WORK_MODE mode, bool long_range_enable);
 ```
 
@@ -118,7 +118,7 @@ RUI_RETURN_STATUS rui_ble_set_work_mode(BLE_WORK_MODE mode, bool long_range_enab
 
 ## RUI BLE Receive Data Notify
 
-```C
+```c
 void rui_ble_rx_data_notify(uint8_t *pdata, uint16_t len)
 ```
 
@@ -132,7 +132,7 @@ void rui_ble_rx_data_notify(uint8_t *pdata, uint16_t len)
 
 ## RUI BLE Receive Data Read
 
-```C
+```c
 void rui_ble_rx_data_read(uint8_t *pdata, uint16_t len)
 ```
 
@@ -146,7 +146,7 @@ void rui_ble_rx_data_read(uint8_t *pdata, uint16_t len)
 
 ## RUI BLE Send Data Write
 
-```C
+```c
 RUI_RETURN_STATUS rui_ble_tx_data_write(BLE_CLIENT * p_ble_rcs_c, uint8_t *pdata, uint16_t len)
 ```
 
@@ -160,7 +160,7 @@ RUI_RETURN_STATUS rui_ble_tx_data_write(BLE_CLIENT * p_ble_rcs_c, uint8_t *pdata
 
 ## RUI BLE Send Data Read
 
-```C
+```c
 RUI_RETURN_STATUS rui_ble_tx_data_read(BLE_CLIENT * p_ble_rcs_c)
 ```
 
@@ -174,7 +174,7 @@ RUI_RETURN_STATUS rui_ble_tx_data_read(BLE_CLIENT * p_ble_rcs_c)
 
 ## RUI BLE Advertising Start
 
-```C
+```c
 void rui_ble_advertising_start(void);
 ```
 

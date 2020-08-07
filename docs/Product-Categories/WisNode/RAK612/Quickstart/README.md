@@ -79,7 +79,7 @@ In case the driver is still not installed upon doing the previous steps, kindly 
 
 6. To verify connectivity, let's try sending AT+Commands. In the RAK Serial Port Tool, there are built-in AT+Commands within it at the right side. Try sending the code below to check the firmware version of your RAK612 WisNode Button. If connection is successful, in the monitor panel at the left, the firmware version should appear same with the image shown below:
 
-```
+```sh
 at+version
 ```
 
@@ -191,7 +191,7 @@ As an example, let's join in OTAA mode and EU868 frequency.
 
 1. Set the LoRa® join mode to **OTAA** as follows:
 
-```
+```sh
 at+set_config=join_mode:1
 ```
 <rk-img
@@ -202,7 +202,7 @@ at+set_config=join_mode:1
 
 2. Set the frequency/region to **EU868**:
 
-```
+```sh
 at+band=EU868
 ```
 
@@ -214,7 +214,7 @@ at+band=EU868
 
 3. Set the **Device EUI.**
 
-```
+```sh
 at+set_config=dev_eui:XXXX
 ```
 
@@ -226,7 +226,7 @@ at+set_config=dev_eui:XXXX
 
 4. Set the **Application EUI**:
 
-```
+```sh
 at+set_config=app_eui:XXXX
 ```
 <rk-img
@@ -237,7 +237,7 @@ at+set_config=app_eui:XXXX
 
 5. Set the **Application Key**:
 
-```
+```sh
 at+set_config=app_key:XXXX
 ```
 
@@ -253,7 +253,7 @@ After configuring all the parameters, you need to reset your RAK612 WisNode Butt
 
 6. After resetting RAK612 WisNode Button, join in OTAA mode:
 
-```
+```sh
 at+join=otaa
 ```
 <rk-img
@@ -312,7 +312,7 @@ As an example, let's join in ABP mode and EU868 frequency.
 
 4. Set the frequency/region to **EU868**:
 
-```
+```sh
 at+band=EU868
 ```
 
@@ -324,7 +324,7 @@ at+band=EU868
 
 5. Set the **Device Address**:
 
-```
+```sh
 at+set_config=dev_addr:XXXX
 ```
 
@@ -336,7 +336,7 @@ at+set_config=dev_addr:XXXX
 
 6. Set the **Network Session Key**:
 
-```
+```sh
 at+set_config=nwks_key:XXXX
 ```
 
@@ -348,7 +348,7 @@ at+set_config=nwks_key:XXXX
 
 7. Set the **Application Session Key**:
 
-```
+```sh
 at+set_config=apps_key:XXXX
 ```
 
@@ -410,7 +410,7 @@ Listed below are the default messages send by the RAK612 WisNode Button whenever
 
 To fully customize the messages sent by the RAK612 WisNode Button in each key pressed, we must configure it using the [RAK Serial Port Tool](https://downloads.rakwireless.com/en/LoRa/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip) with the AT Command below:
 
-```
+```sh
 at+key_config=<key>,<frame_port>,<message>
 ```
 
@@ -422,7 +422,7 @@ at+key_config=<key>,<frame_port>,<message>
 
 2. Using the same RAK Serial Port Tool used in the previous step and the AT Command syntax, let us try configuring your RAK612 WisNode Button keys. As an example, try sending the AT Command same with the image shown below:
 
-```
+```sh
 at+key_config=2,37,Hello Mark Angelo!
 ```
 

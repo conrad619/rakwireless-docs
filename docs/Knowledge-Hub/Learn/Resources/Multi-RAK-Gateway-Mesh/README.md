@@ -6,7 +6,7 @@ tags:
   - Deployment-Guide
 header:
   title: Multi-RAK Gateway Mesh
-  caption:
+  caption: by <b>RAKwireless Team</b>
   img: /assets/images/_/banner.png
 ---
 
@@ -34,7 +34,7 @@ We will first set-up the built-in LoRa®  network server. Before going through t
 ## Packet Forwarder Set-up
 
 :::tip 📝 NOTE
- For other settings and detailed documentation for this section, browse the [LoRaWAN Gateway Configuration](/Knowledge-Hub/Learn/Resources/user-manual/web-management-platform/lora-network.html#packet-forwarder) section.
+ For other settings and detailed documentation for this section, browse the [LoRa® Network](/Knowledge-Hub/Learn/Resources/Web-Management-Platform/#lora®-network) section of the Web Management Platform document.
 :::
 
 1. By navigating through LoRa® Gateway tab-> LoRa® Packet Forwarder-> General Setup, set the Protocol in the drop-down list to **Build-in LoRa ® Server**.
@@ -44,14 +44,13 @@ We will first set-up the built-in LoRa®  network server. Before going through t
 <rk-img
   src="/assets/images/deployment-guide/rak-gateway-mesh/build-in-lora-server.png"
   width="100%"
-  figure-number="1"
   caption="Build-in LoRa Server Protocol in Gateway"
 />
 
 ## Configure the LoRa® Server
 
 :::tip 📝 NOTE
- For other settings and detailed documentation for this section, browse the [LoRa Network Server](/Knowledge-Hub/Learn/Resources/user-manual/web-management-platform/lora-network.html#packet-forwarder) section.
+ For other settings and detailed documentation for this section, browse the [LoRa® Network](/Knowledge-Hub/Learn/Resources/Web-Management-Platform/#lora®-network) section of the Web Management Platform document.
 :::
 
 1. Navigate through LoRa® Network Server tab -> General and turn-on this feature using the Enable slider. 
@@ -61,7 +60,6 @@ We will first set-up the built-in LoRa®  network server. Before going through t
 <rk-img
   src="/assets/images/deployment-guide/rak-gateway-mesh/lora-network-server-general.png"
   width="100%"
-  figure-number="2"
   caption="LoRa Network Server General"
 />
 
@@ -72,7 +70,6 @@ We will first set-up the built-in LoRa®  network server. Before going through t
 <rk-img
   src="/assets/images/deployment-guide/rak-gateway-mesh/adding-gateway-eui.png"
   width="100%"
-  figure-number="3"
   caption="Adding Gateway EUI"
 />
 
@@ -91,7 +88,6 @@ We will first set-up the built-in LoRa®  network server. Before going through t
 <rk-img
   src="/assets/images/deployment-guide/rak-gateway-mesh/gateway-successful-add.jpg"
   width="100%"
-  figure-number="4"
   caption="Gateway Successful Adding"
 />
 
@@ -106,7 +102,6 @@ In this section, we will demonstrate on how to point the External RAK7249-B Macr
 <rk-img
   src="/assets/images/deployment-guide/rak-gateway-mesh/mqtt-bridge-protocol.png"
   width="100%"
-  figure-number="1"
   caption="Set LoRa® Gateway MQTT Bridge Protocol"
 />
 
@@ -122,7 +117,6 @@ In this section, we will demonstrate on how to point the External RAK7249-B Macr
 <rk-img
   src="/assets/images/deployment-guide/rak-gateway-mesh/lora-gateway-mqtt-bridge.png"
   width="100%"
-  figure-number="2"
   caption="LoRa® Gateway MQTT Bridge Configuration"
 />
 
@@ -130,12 +124,11 @@ In this section, we will demonstrate on how to point the External RAK7249-B Macr
 
 ## Registering RAK7249-B in RAK7249-A's LoRa® Network Server
 
-This procedure is the same as when you registered RAK7249-A in its built-in LoRa® Network Server. Please refer to the [Set-up RAK7249-A with Built-in LoRa® Network  Server](/Knowledge-Hub/Learn/Resources/user-manual/web-management-platform/lora-network.html#packet-forwarder) and repeat the process. The image below is the representation of what your configuration should look like with the two Gateways are added.
+This procedure is the same as when you registered RAK7249-A in its built-in LoRa® Network Server. Please refer to the [Gateway-A with Built-in LoRa® Network Server](/Knowledge-Hub/Learn/Resources/Multi-RAK-Gateway-Mesh/#gateway-a-with-built-in-lora®-network-server) and repeat the process. The image below is the representation of what your configuration should look like with the two Gateways are added.
 
 <rk-img
   src="/assets/images/deployment-guide/rak-gateway-mesh/gateway-list.png"
   width="100%"
-  figure-number="3"
   caption="LoRa® Network Server Gateway List"
 />
 
@@ -175,7 +168,6 @@ ifconfig
 <rk-img
   src="/assets/images/deployment-guide/rak-gateway-mesh/rpi-interfaces.jpg"
   width="75%"
-  figure-number="1"
   caption="Raspberry Pi interfaces"
 />
 
@@ -189,7 +181,6 @@ sudo apt install mosquitto mosquitto-clients
 <rk-img
   src="/assets/images/deployment-guide/rak-gateway-mesh/mqtt-installation.jpg"
   width="80%"
-  figure-number="2"
   caption="Mosquitto installation"
 />
 
@@ -212,7 +203,6 @@ We will now then configure the Gateway to connect to our external MQTT broker. F
 <rk-img
   src="/assets/images/deployment-guide/rak-gateway-mesh/protocol-selection.jpg"
   width="100%"
-  figure-number="3"
   caption="Protocol selection"
 />
 
@@ -221,7 +211,6 @@ We will now then configure the Gateway to connect to our external MQTT broker. F
 <rk-img
   src="/assets/images/deployment-guide/rak-gateway-mesh/builtin-server-activation.jpg"
   width="100%"
-  figure-number="4"
   caption="Built-in LoRa® Server activation"
 />
 
@@ -230,7 +219,6 @@ We will now then configure the Gateway to connect to our external MQTT broker. F
 <rk-img
   src="/assets/images/deployment-guide/rak-gateway-mesh/lora-gateway-config.jpg"
   width="100%"
-  figure-number="5"
   caption="LoRa® Server Gateway configuration"
 />
 
@@ -239,7 +227,6 @@ We will now then configure the Gateway to connect to our external MQTT broker. F
 <rk-img
   src="/assets/images/deployment-guide/rak-gateway-mesh/set-global-integration.jpg"
   width="100%"
-  figure-number="6"
   caption="Setting up the Global Integration"
 />
 
@@ -254,7 +241,6 @@ There is a convenient tool in the Built-in LoRa® Server for sending a Downlink 
 <rk-img
   src="/assets/images/deployment-guide/rak-gateway-mesh/downlink.jpg"
   width="100%"
-  figure-number="7"
   caption="LoRa® Network Server Device Downlink tool"
 />
 
@@ -263,7 +249,6 @@ There is a convenient tool in the Built-in LoRa® Server for sending a Downlink 
 <rk-img
   src="/assets/images/deployment-guide/rak-gateway-mesh/rec-downlink-frm.jpg"
   width="100%"
-  figure-number="8"
   caption="Received Downlink Frame"
 />
 
@@ -302,7 +287,7 @@ sudo mosquito_pub application/{{application_ID{{/device/{{device_EUI}}/ tx –f 
 ```
 
 * The packet will be scheduled for downlink, which you can see in the Gateway Packet logger.
-* When the next uplink frame that comes for the Application/Device specified by the **application_ID** and **device_EUI** is received, the Gateway will send the data in the RX1 window to the node. You should have a response similar to the one in **Figure 8**.
+* When the next uplink frame that comes for the Application/Device specified by the **application_ID** and **device_EUI** is received, the Gateway will send the data in the RX1 window to the node. You should have a response similar to the one in **Figure 15**.
 
 # RAK LPWAN Node
 
@@ -310,19 +295,18 @@ This document discusses the steps on how to add your RAK811 LPWAN Node Applicati
 
 ## Register the Application
 
-1. Connect your RAK811 to your computer by following the [Interfacing your RAK811 LPWAN Node](/Product-Categories/WisDuino/RAK811-Evaluation-Board/Quickstart/#interfacing-with-rak811-lpwan-evaluation-board) section or the RAK811 LPWAN Node. Once connecting is successful, open the RAK Serial Port Tool and press the **RESET Button (RST)** to reboot your device to check the LoRa® parameters same with the image shown below:
+1. Connect your RAK811 to your computer by following the [Interfacing your RAK811 LPWAN Node](/Product-Categories/WisDuino/RAK811-Evaluation-Board/Quickstart/#what-do-you-need) section or the RAK811 LPWAN Node. Once connecting is successful, open the RAK Serial Port Tool and press the **RESET Button (RST)** to reboot your device to check the LoRa® parameters same with the image shown below:
 
 <rk-img
   src="/assets/images/deployment-guide/build-in-lora-server/rak811-parameters.png"
   width="100%"
-  figure-number="1"
   caption="RAK811 LPWAN Node Parameters"
 />
 
 - In case your device is already configured to work in OTAA same with the image above, it will attempt connecting to the gateway but does not get authenticated as it is not registered yet and needs to be configured first.
 
 :::tip 📝 NOTE
-Open the [AT Commands for RAK811 LPWAN Node](/Product-Categories/WisDuino/RAK811-Evaluation-Board/Quickstart/#at-commands-for-rak811-lpwan-evaluation-board) section of the RAK811 LPWAN Node to check the complete list of AT Commands compatible.
+Open the [AT Commands for RAK811 LPWAN Node](/Product-Categories/WisDuino/RAK811-Evaluation-Board/Quickstart/#miscellaneous) section of the RAK811 LPWAN Node to check the complete list of AT Commands compatible.
 :::
 
 2. Set the Region/Band by plugging in the AT Command below in the RAK Serial Port Tool. For this demonstration, EU868 frequency band shall be used.
@@ -344,16 +328,14 @@ at+set_config=lora:join_mode:0
 <rk-img
   src="/assets/images/deployment-guide/build-in-lora-server/add-application.png"
   width="100%"
-  figure-number="2"
   caption="Adding Application"
 />
 
-5. Refer back to the RAK Serial Port Tool shown in **Figure 1: RAK811 LPWAN Node Parameters** and take note the **Application EUI** and **Application Key**. Input those into the corresponding fields in the **Application Configuration** screen in the Gateway:
+5. Refer back to the RAK Serial Port Tool shown in **Figure 16: RAK811 LPWAN Node Parameters** and take note the **Application EUI** and **Application Key**. Input those into the corresponding fields in the **Application Configuration** screen in the Gateway:
 
 <rk-img
   src="/assets/images/deployment-guide/build-in-lora-server/set-otaa-parameters.png"
   width="100%"
-  figure-number="3"
   caption="Adding Application EUI and Key"
 />
 
@@ -382,7 +364,6 @@ at+set_config=lora:app_key:XXXX"
 <rk-img
   src="/assets/images/deployment-guide/build-in-lora-server/edit-applications.png"
   width="100%"
-  figure-number="4"
   caption="Editing the Application"
 />
 
@@ -391,7 +372,6 @@ at+set_config=lora:app_key:XXXX"
 <rk-img
   src="/assets/images/deployment-guide/build-in-lora-server/add-device-in-application.png"
   width="100%"
-  figure-number="5"
   caption="Adding Device in the Application"
 />
 
@@ -400,7 +380,6 @@ at+set_config=lora:app_key:XXXX"
 <rk-img
   src="/assets/images/deployment-guide/build-in-lora-server/edit-device-parameters.png"
   width="100%"
-  figure-number="6"
   caption="Editing Device Parameters"
 />
 
@@ -423,7 +402,6 @@ at+set_config=device:restart
 <rk-img
   src="/assets/images/deployment-guide/build-in-lora-server/data-monitoring.png"
   width="100%"
-  figure-number="7"
   caption="Live Device Data Monitoring"
 />
 
@@ -445,7 +423,6 @@ mosquitto_sub -t application/{{application_ID}}/device/{{device_EUI}}/rx -v
 <rk-img
   src="/assets/images/deployment-guide/rak-gateway-mesh/app-id.jpg"
   width="100%"
-  figure-number="1"
   caption="Application ID"
 />
 
@@ -457,7 +434,6 @@ at+send=lora:1:1110
 <rk-img
   src="/assets/images/deployment-guide/rak-gateway-mesh/test-uplink.jpg"
   width="100%"
-  figure-number="2"
   caption="Test Uplink (Application)"
 />
 
@@ -476,7 +452,6 @@ mosquitto_sub -t gateway/{{eui}}/rx -v
 <rk-img
   src="/assets/images/deployment-guide/rak-gateway-mesh/app-test-gateway.jpg"
   width="100%"
-  figure-number="3"
   caption="Test Uplink (Gateway)"
 />
 
@@ -491,7 +466,6 @@ There is a convenient tool in the Built-in LoRa® Server for sending a Downlink 
 <rk-img
   src="/assets/images/deployment-guide/rak-gateway-mesh/downlink-tool.jpg"
   width="100%"
-  figure-number="4"
   caption="LoRa® Network Server Device Downlink Tool"
 />
 
@@ -500,7 +474,6 @@ There is a convenient tool in the Built-in LoRa® Server for sending a Downlink 
 <rk-img
   src="/assets/images/deployment-guide/rak-gateway-mesh/downlink-frame.jpg"
   width="100%"
-  figure-number="5"
   caption="Received Downlink Frame"
 />
 
@@ -537,5 +510,5 @@ sudo mosquito_pub application/{{application_ID{{/device/{{device_EUI}}/ tx –f 
 ```
 
 * The packet will be scheduled for downlink, which you can see in the Gateway Packet logger.
-* When the next uplink frame that comes for the Application/Device specified by the **application_ID** and **device_EUI** is received, the Gateway will send the data in the RX1 window to the node. You should have a response similar to the one in **Figure 5**.
+* When the next uplink frame that comes for the Application/Device specified by the **application_ID** and **device_EUI** is received, the Gateway will send the data in the RX1 window to the node. You should have a response similar to the one in **Figure 27**.
 

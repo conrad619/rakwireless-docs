@@ -39,19 +39,19 @@ Another specification that needs to be determined is the Depth of Discharge (DoD
 
 * The **LoRaWAN® gateway** for this example consumes **500mA at 12V**. This means that its energy consumption is:
 
-```
+```sh
 0.5Ah at 12V per hour
 ```
 * For one full day, it will need:
-```
+```sh
 24hrs x 0.5Ah = 12Ah at 12V
 ```
 * Since we will need 3 days of autonomy, the required energy becomes:
-```
+```sh
 12Ah at 12V x 3 days = 36Ah at 12V
 ```
 * Taking into account the depth of discharge, the minimum required battery capacity becomes:
-```
+```sh
 36Ah/0.8 = 45Ah at 12V = 540Wh
 ```
 
@@ -65,13 +65,13 @@ To maximize the energy produced by the solar panel, it must be pointed to the Eq
 
 We will need to set the worst-case scenario where we have the minimum number of sunshine days per our maximum number of continuous rainy days. To maximize our system’s reliability, we can set 2 sunshine days per 3 continuous rainy days. This means that in these 2 sunshine days, our solar panel must be able to produce energy for our gateway and fully charge the batteries. The total of this energy is equal to:
 
-```
+```sh
 432Wh (36Ah at 12V) + 288Wh (0.5Ah at 12V for 2 days) = 720Wh
 
 720Wh/5 (irradiance)/0.8 (correction for efficiency) = 180W
 ```
 * Since this is for 2 days:
-```
+```sh
 180W/2 = 90W ≈ 100W
 ```
 

@@ -203,7 +203,7 @@ For the full list of AT Commands available for configuring your RAK4600, kindly 
 
 2. Try to send a simple AT command to RAK4600 to get the current firmware’s version by sending the command below using the RAK Serial Port Tool. Similarly, you can send other AT commands of RAK4600 in the same way.
 
-```
+```sh
 at+version
 ```
 
@@ -366,7 +366,7 @@ As an example, let’s join in OTAA mode, EU868 frequency and the default LoRa®
 
 1. Set the LoRa® join mode to **OTAA** as follows:
 
-```
+```sh
 at+set_config=lora:join_mode:0
 ```
 
@@ -378,7 +378,7 @@ at+set_config=lora:join_mode:0
 
 2. Set the LoRa® class to **Class A**:
 
-```
+```sh
 at+set_config=lora:class:0
 ```
 
@@ -390,7 +390,7 @@ at+set_config=lora:class:0
 
 3. Set the frequency/region to **EU868**:
 
-```
+```sh
 at+set_config=lora:region:EU868
 ```
 
@@ -402,7 +402,7 @@ at+set_config=lora:region:EU868
 
 4. Set the **Device EUI.**
 
-```
+```sh
 at+set_config=lora:dev_eui:XXXX
 ```
 
@@ -414,7 +414,7 @@ at+set_config=lora:dev_eui:XXXX
 
 5. Set the **Application EUI**:
 
-```
+```sh
 at+set_config=lora:app_eui:XXXX
 ```
 
@@ -426,7 +426,7 @@ at+set_config=lora:app_eui:XXXX
 
 6. Set the **Application Key**:
 
-```
+```sh
 at+set_config=lora:app_key:XXXX
 ```
 
@@ -442,7 +442,7 @@ After configuring all parameters, you need to reset RAK4600 LPWAN Evaluation Boa
 
 7. After resetting RAK4600 LPWAN Evaluation Board, join in OTAA mode:
 
-```
+```sh
 at+join
 ```
 
@@ -454,7 +454,7 @@ at+join
 
 8. Joined successfully! Now, let’s try to send a data from the RAK4600 LPWAN Evaluation Board to TTN:
 
-```
+```sh
 at+send=lora:2:1234567890
 ```
 
@@ -498,7 +498,7 @@ As an example, let's join in ABP mode, EU868 frequency, and LoRa® class is Clas
 
 3. If the join mode is not in ABP Mode, just set the LoRa® join mode to **ABP** as follows:
 
-```
+```sh
 at+set_config=lora:join_mode:1
 ```
 
@@ -510,7 +510,7 @@ at+set_config=lora:join_mode:1
 
 4. Set the LoRa® class to **Class A**:
 
-```
+```sh
 at+set_config=lora:class:0
 ```
 
@@ -522,7 +522,7 @@ at+set_config=lora:class:0
 
 5. Set the frequency/region to **EU868**:
 
-```
+```sh
 at+set_config=lora:region:EU868
 ```
 
@@ -534,7 +534,7 @@ at+set_config=lora:region:EU868
 
 6. Set the **Device Address**:
 
-```
+```sh
 at+set_config=lora:dev_addr:XXXX
 ```
 
@@ -546,7 +546,7 @@ at+set_config=lora:dev_addr:XXXX
 
 7. Set the **Network Session Key**:
 
-```
+```sh
 at+set_config=lora:nwks_key:XXXX
 ```
 
@@ -558,7 +558,7 @@ at+set_config=lora:nwks_key:XXXX
 
 8. Set the **Application Session Key**:
 
-```
+```sh
 at+set_config=lora:apps_key:XXXX
 ```
 
@@ -574,7 +574,7 @@ After configuring all parameters, you need to reset RAK4600 LPWAN Evaluation Boa
 
 9. After resetting your RAK4600 LPWAN Evaluation Board, join in **ABP mode**:
 
-```
+```sh
 at+join
 ```
 
@@ -696,7 +696,7 @@ The default join mode is **OTAA**, the default class is **Class A** and the defa
 
 7. If the **join mode** is not in OTAA, just set the LoRa® join mode to **OTAA** as follows:
 
-```
+```sh
 at+set_config=lora:join_mode:0
 ```
 
@@ -708,7 +708,7 @@ at+set_config=lora:join_mode:0
 
 8. Set the LoRa® class to **Class A**:
 
-```
+```sh
 at+set_config-lora:class:0
 ```
 
@@ -720,7 +720,7 @@ at+set_config-lora:class:0
 
 9. Set the frequency/region to **EU868**:
 
-```
+```sh
 at+set_config=lora:region:EU868
 ```
 
@@ -732,7 +732,7 @@ at+set_config=lora:region:EU868
 
 10. Set the **Device EUI**:
 
-```
+```sh
 at+set_config=lora:dev_eui:XXXX
 ```
 
@@ -744,7 +744,7 @@ at+set_config=lora:dev_eui:XXXX
 
 11. Set the **Application EUI**:
 
-```
+```sh
 at+set_config=lora:app_eui:XXXX
 ```
 
@@ -756,7 +756,7 @@ at+set_config=lora:app_eui:XXXX
 
 12. Set the **Application Key**:
 
-```
+```sh
 at+set_config=lora:app_key:XXXX
 ```
 
@@ -772,7 +772,7 @@ After configuring all parameters, you need to reset RAK4600 LPWAN Evaluation Boa
 
 13. After resetting, start to join:
 
-```
+```sh
 at+join
 ```
 
@@ -791,7 +791,7 @@ at+join
 
 15. Let’s try to send a data from RAK4600 LPWAN Evaluation Board to ChirpStack:
 
-```
+```sh
 at+send=lora:2:1234567890
 ```
 
@@ -834,7 +834,7 @@ Frequency AS923  in ABP Mode is not supported in Chirpstack.
 />
 
 3. Use these parameters to set RAK4600 LPWAN Evaluation Board by using AT command. Set **LoRa® join** mode to **ABP**:
-```
+```sh
 at+set_config=lora:join_mode:1
 ```
 <rk-img
@@ -844,7 +844,7 @@ at+set_config=lora:join_mode:1
 />
 
 4. Set LoRa® class to **Class A**:
-```
+```sh
 at+set_config=lora:class:0
 ```
 <rk-img
@@ -854,7 +854,7 @@ at+set_config=lora:class:0
 />
 
 5. Set the frequency/region to **EU868**:
-```
+```sh
 at+set_config=lora:region:EU868
 ```
 <rk-img
@@ -864,7 +864,7 @@ at+set_config=lora:region:EU868
 />
 
 6. Set the **Device Address**:
-```
+```sh
 at+set_config=lora:dev_addr:XXXX
 ```
 <rk-img
@@ -874,7 +874,7 @@ at+set_config=lora:dev_addr:XXXX
 />
 
 7. Set the **Network Session Key**:
-```
+```sh
 at+set_config=lora:nwks_key:XXXX
 ```
 <rk-img
@@ -884,7 +884,7 @@ at+set_config=lora:nwks_key:XXXX
 />
 
 8. Set the **Application Session Key**:
-```
+```sh
 at+set_config=lora:apps_key:XXXX
 ```
 <rk-img
@@ -898,7 +898,7 @@ at+set_config=lora:apps_key:XXXX
 :::
 
 9. After resetting RAK4600 LPWAN Evaluation Board, join in ABP mode:
-```
+```sh
 at+join
 ```
 <rk-img
@@ -912,7 +912,7 @@ at+join
 :::
 
 10. Now, let’s try to send a data from RAK4600 LPWAN Evaluation Board to ChirpStack:
-```
+```sh
 at+send=lora:2:123456789
 ```
 <rk-img
@@ -966,7 +966,7 @@ The purpose of this document is to demonstrate on how to configure the RAK4600 L
 
 There are three BLE modes in RAK4600 from the firmware V3.0.0.6 on, the **Peripheral Mode**, the **Central Mode** and the **Beacon Scan Mode**. You can change the work mode of RAK4600’s BLE using this command provided below which is defined [here](#at-commands-for-rak4600-lpwan-evaluation-board)
 
-```
+```sh
 at+set_config=ble:work_mode:X:Y
 ```
 **Description:** Set the work mode for BLE.

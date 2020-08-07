@@ -6,7 +6,7 @@ tags:
   - Deployment-Guide
 header:
   title: Build-in LoRa® Network Server Configuration
-  caption:
+  caption: by <b>RAKwireless Team</b>
   img: /assets/images/_/banner.png
 ---
 
@@ -31,7 +31,7 @@ We will first set-up the built-in LoRa®  network server. Before going through t
 ## Packet Forwarder Set-up 
 
 :::tip 📝 NOTE
- For other settings and detailed documentation for this section, browse the [LoRaWAN Gateway Configuration](/Knowledge-Hub/Learn/Resources/user-manual/web-management-platform/lora-network.html#packet-forwarder) section.
+ For other settings and detailed documentation for this section, browse the [Packet Forwarder](/Knowledge-Hub/Learn/Resources/Web-Management-Platform/#lora®-network) section.
 :::
 
 1. By navigating through LoRa® Gateway tab-> LoRa® Packet Forwarder-> General Setup, set the Protocol in the drop-down list to **Build-in LoRa ® Server**.
@@ -41,14 +41,13 @@ We will first set-up the built-in LoRa®  network server. Before going through t
 <rk-img
   src="/assets/images/deployment-guide/build-in-lora-server/build-in-lora-server.png"
   width="100%"
-  figure-number="1"
   caption="Build-in LoRa Server Protocol in Gateway"
 />
 
 ## Configure the LoRa® Server
 
 :::tip 📝 NOTE
- For other settings and detailed documentation for this section, browse the [LoRa Network Server](/Knowledge-Hub/Learn/Resources/user-manual/web-management-platform/lora-network.html#packet-forwarder) section.
+ For other settings and detailed documentation for this section, browse the [LoRa Network](/Knowledge-Hub/Learn/Resources/Web-Management-Platform/#lora®-network) section.
 :::
 
 1. Navigate through LoRa® Network Server tab -> General and turn-on this feature using the Enable slider. 
@@ -58,7 +57,6 @@ We will first set-up the built-in LoRa®  network server. Before going through t
 <rk-img
   src="/assets/images/deployment-guide/build-in-lora-server/lora-network-server-general.png"
   width="100%"
-  figure-number="2"
   caption="LoRa Network Server General"
 />
 
@@ -69,7 +67,6 @@ We will first set-up the built-in LoRa®  network server. Before going through t
 <rk-img
   src="/assets/images/deployment-guide/build-in-lora-server/adding-gateway-eui.png"
   width="100%"
-  figure-number="3"
   caption="Adding Gateway EUI"
 />
 
@@ -88,7 +85,6 @@ We will first set-up the built-in LoRa®  network server. Before going through t
 <rk-img
   src="/assets/images/deployment-guide/build-in-lora-server/gateway-successful-add.jpg"
   width="100%"
-  figure-number="4"
   caption="Gateway Successful Adding"
 />
 
@@ -98,30 +94,29 @@ This document discusses the steps on how to add your RAK811 LPWAN Node Applicati
 
 ## Register the Application
 
-1. Connect your RAK811 to your computer by following the [Interfacing your RAK811 LPWAN Node](/Product-Categories/WisDuino/RAK811-Evaluation-Board/Quickstart/#interfacing-with-rak811-lpwan-evaluation-board) section or the RAK811 LPWAN Node. Once connecting is successful, open the RAK Serial Port Tool and press the **RESET Button (RST)** to reboot your device to check the LoRa® parameters same with the image shown below:
+1. Connect your RAK811 to your computer by following the [Interfacing your RAK811 LPWAN Node](/Product-Categories/WisDuino/RAK811-Evaluation-Board/Quickstart/#product-configuration) section or the RAK811 LPWAN Node. Once connecting is successful, open the RAK Serial Port Tool and press the **RESET Button (RST)** to reboot your device to check the LoRa® parameters same with the image shown below:
 
 <rk-img
   src="/assets/images/deployment-guide/build-in-lora-server/rak811-parameters.png"
   width="100%"
-  figure-number="1"
   caption="RAK811 LPWAN Node Parameters"
 />
 
 - In case your device is already configured to work in OTAA same with the image above, it will attempt connecting to the gateway but does not get authenticated as it is not registered yet and needs to be configured first.
 
 :::tip 📝 NOTE:
-Open the [AT Commands for RAK811 LPWAN Node](/Product-Categories/WisDuino/RAK811-Evaluation-Board/Quickstart/#at-commands-for-rak811-lpwan-evaluation-board) section of the RAK811 LPWAN Node to check the complete list of AT Commands compatible.
+Open the [AT Commands for RAK811 LPWAN Node](/Product-Categories/WisDuino/RAK811-Evaluation-Board/Quickstart/#miscellaneous) section of the RAK811 LPWAN Node to check the complete list of AT Commands compatible.
 :::
 
 2. Set the Region/Band by plugging in the AT Command below in the RAK Serial Port Tool. For this demonstration, EU868 frequency band shall be used.
 
-```
+```sh
 at+set_config=lora:region:EU868
 ```
 
 3. Set the authentication mode to OTAA:
 
-```
+```sh
 at+set_config=lora:join_mode:0
 ```
 
@@ -132,16 +127,14 @@ at+set_config=lora:join_mode:0
 <rk-img
   src="/assets/images/deployment-guide/build-in-lora-server/add-application.png"
   width="100%"
-  figure-number="2"
   caption="Adding Application"
 />
 
-5. Refer back to the RAK Serial Port Tool shown in **Figure 1: RAK811 LPWAN Node Parameters** and take note the **Application EUI** and **Application Key**. Input those into the corresponding fields in the **Application Configuration** screen in the Gateway:
+5. Refer back to the RAK Serial Port Tool shown in **Figure 5: RAK811 LPWAN Node Parameters** and take note the **Application EUI** and **Application Key**. Input those into the corresponding fields in the **Application Configuration** screen in the Gateway:
 
 <rk-img
   src="/assets/images/deployment-guide/build-in-lora-server/set-otaa-parameters.png"
   width="100%"
-  figure-number="3"
   caption="Adding Application EUI and Key"
 />
 
@@ -151,13 +144,13 @@ In case your RAK811 LPWAN Node is still not configured, you can manually input a
 
 - Setting the **Application EUI**:
 
-```
+```sh
 at+set_config=lora:app_eui:XXXX
 ```
 
 - Setting the **Application Key**:
 
-```
+```sh
 at+set_config=lora:app_key:XXXX"
 ```
 
@@ -170,7 +163,6 @@ at+set_config=lora:app_key:XXXX"
 <rk-img
   src="/assets/images/deployment-guide/build-in-lora-server/edit-applications.png"
   width="100%"
-  figure-number="4"
   caption="Editing the Application"
 />
 
@@ -179,7 +171,6 @@ at+set_config=lora:app_key:XXXX"
 <rk-img
   src="/assets/images/deployment-guide/build-in-lora-server/add-device-in-application.png"
   width="100%"
-  figure-number="5"
   caption="Adding Device in the Application"
 />
 
@@ -188,7 +179,6 @@ at+set_config=lora:app_key:XXXX"
 <rk-img
   src="/assets/images/deployment-guide/build-in-lora-server/edit-device-parameters.png"
   width="100%"
-  figure-number="6"
   caption="Editing Device Parameters"
 />
 
@@ -202,7 +192,7 @@ Keep the Live Device Data tab opened as we want to monitor traffic.
 
 1. Using the RAK Serial Port Tool, execute the AT command provided below to reboot the RAK811. Alternatively, you could press the **RESET Button (RST)**.
 
-```
+```sh
 at+set_config=device:restart
 ```
 
@@ -211,7 +201,6 @@ at+set_config=device:restart
 <rk-img
   src="/assets/images/deployment-guide/build-in-lora-server/data-monitoring.png"
   width="100%"
-  figure-number="7"
   caption="Live Device Data Monitoring"
 />
 
