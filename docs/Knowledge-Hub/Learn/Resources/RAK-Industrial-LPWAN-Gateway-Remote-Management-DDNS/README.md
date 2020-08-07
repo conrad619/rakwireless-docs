@@ -5,12 +5,12 @@ rak_desc: This is some text to describe this article - Lorem ipsum dolor sit ame
 tags:
   - Deployment-Guide
 header:
-  title: Gateway Remote Management - DDNS
+  title: RAK Industrial LPWAN Gateway Remote Management - DDNS
   caption: by <b>RAKwireless Team</b>
   img: /assets/images/_/banner.png
 ---
 
-# Gateway Remote Management - DDNS
+# RAK Industrial LPWAN Gateway Remote Management - DDNS
 
 * [Register a DDNS Service](#register-a-ddns-service)
 * [Gateway DDNS Service Set-up](#gateway-ddns-service-set-up)

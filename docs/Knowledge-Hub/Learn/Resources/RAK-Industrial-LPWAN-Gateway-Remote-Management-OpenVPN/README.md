@@ -5,12 +5,12 @@ rak_desc: This is some text to describe this article - Lorem ipsum dolor sit ame
 tags:
   - Deployment-Guide
 header:
-  title: Gateway Remote Management - OpenVPN
+  title: RAK Industrial LPWAN Gateway Remote Management - OpenVPN
   caption: by <b>RAKwireless Team</b>
   img: /assets/images/_/banner.png
 ---
 
-# Gateway Remote Management - OpenVPN
+# RAK Industrial LPWAN Gateway Remote Management - OpenVPN
 
 * [OpenVPN Server Deployment](#openvpn-server-deployment)
 * [OpenVPN Management Client Set-up](#openvpn-management-client-set-up)
