@@ -9,7 +9,7 @@
             round
             dense
             :icon="showDrawer ? 'menu_open' : 'menu'"
-            class="lt-sm"
+            class="lt-md"
           />
           <div class="full-height flex flex-center">
             <q-item :to="`/`" class="q-pa-none full-height">
@@ -20,59 +20,9 @@
               </q-item-section>
             </q-item>
           </div>
-          <q-toolbar-title>{{ $siteTitle }}</q-toolbar-title>
+          <div class="gt-xs text-h5 q-px-sm">{{ $siteTitle }}</div>
           <q-space />
-          <rk-dropdown label="RAK Services">
-            <q-list style="min-width: 100px">
-              <q-item class="q-py-md" :to="`/RUI`">
-                <q-item-section>
-                  <q-item-label>RUI</q-item-label>
-                  <q-item-label caption>Rakwireless Unified Interface</q-item-label>
-                </q-item-section>
-              </q-item>
-            </q-list>
-          </rk-dropdown>
-          <rk-dropdown label="Knowledge Hub">
-            <q-list style="min-width: 100px">
-              <q-item class="q-py-md" :to="`/Knowledge-Hub/Learn`">
-                <q-item-section>
-                  <q-item-label>Learn Section</q-item-label>
-                  <q-item-label caption>Learning is never boring</q-item-label>
-                </q-item-section>
-              </q-item>
-              <q-item class="q-py-md" :to="`/Knowledge-Hub/FAQs`">
-                <q-item-section>
-                  <q-item-label>FAQs</q-item-label>
-                  <q-item-label caption>Frequently Asked Questions</q-item-label>
-                </q-item-section>
-              </q-item>
-            </q-list>
-          </rk-dropdown>
-          <q-btn
-            label="Community"
-            class="full-height"
-            size="1rem"
-            @click="openLink('https://forum.rakwireless.com', '_blank')"
-            flat
-            no-caps
-          />
-          <rk-search-box />
-          <rk-dropdown label="Languages">
-            <q-list style="min-width: 100px">
-              <q-item class="q-py-md" @click="openLink('https://doc.rakwireless.com')" clickable>
-                <q-item-section>
-                  <q-item-label>English (US)</q-item-label>
-                  <q-item-label caption>en-US</q-item-label>
-                </q-item-section>
-              </q-item>
-              <q-item class="q-py-md" @click="openLink('https://doc.rakwireless.com.cn')" clickable>
-                <q-item-section>
-                  <q-item-label>Chinese</q-item-label>
-                  <q-item-label caption>zh-CN</q-item-label>
-                </q-item-section>
-              </q-item>
-            </q-list>
-          </rk-dropdown>
+          <rk-toolbar-dropdown class="gt-md" />
         </q-toolbar>
         <q-separator class="bg-primary" style="padding: 0.1px" />
       </q-header>
@@ -82,7 +32,7 @@
         v-model="showDrawer"
         content-class="bg-grey-1 text-grey-9 q-pa-none"
       >
-        <rk-sidebar class="fit" :items="sidebarItems">
+        <rk-sidebar :items="sidebarItems">
           <template #top>
             <slot name="sidebar-top" />
           </template>
@@ -131,8 +81,7 @@ import Navbar from '@theme/components/Navbar.vue'
 import Page from '@theme/components/Page.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
 
-import RkDropdown from '@theme/components/RkDropdown.vue'
-import RkSearchBox from '@theme/components/RkSearchBox.vue'
+import RkToolbarDropdown from '@theme/components/RkToolbarDropdown.vue'
 import RkPage from '@theme/components/RkPage.vue'
 import RkFooter from '@theme/components/RkFooter.vue'
 import RkSidebar from '@theme/components/RkSidebar.vue'
@@ -149,8 +98,7 @@ export default {
     Page,
     Sidebar,
     Navbar,
-    RkDropdown,
-    RkSearchBox,
+    RkToolbarDropdown,
     RkPage,
     RkFooter,
     RkSidebar,
@@ -221,13 +169,14 @@ export default {
     this.$router.afterEach(() => {
       this.isSidebarOpen = false
     })
+    this.showDrawer = this.$q.screen.gt.md
     this.mounted = true
     // console.log('pages: ', this.$site.pages)
     // console.log('page: ', this.$page)
 
     // const min = Math.min(window.innerHeight, window.innerWidth)
     // document.documentElement.style.fontSize = `${0.015 * min}px`
-    document.documentElement.style.fontSize = '14px'
+    // document.documentElement.style.fontSize = '14px'
     // console.log('mounted: ', window.innerHeight, window.innerWidth, min, document.documentElement.style)
     // console.log('sidebaritems: ', this.sidebarItems)
 
@@ -273,9 +222,6 @@ export default {
       )
         this.showBack2Top = true
       else this.showBack2Top = false
-    },
-    openLink(url, opt = '_self') {
-      window.open(url, opt)
     },
     toggle() {},
     toggleSidebar(to) {

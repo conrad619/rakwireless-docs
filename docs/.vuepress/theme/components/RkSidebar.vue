@@ -3,7 +3,7 @@
     <div
       v-if="buySection"
       class="column flex flex-center"
-      style="max-height: 100%; margin: 15px 0;"
+      style="max-height: 100%; margin-top: 15px;"
     >
       <img :src="buySection.img" style="max-width: 80%; max-height: 80%" />
       <q-btn
@@ -17,18 +17,15 @@
         no-caps
         rounded
       />
+      <q-separator class="q-my-md" inset />
     </div>
-    <q-scroll-area
-      ref="scrollArea"
-      class="col q-pb-md"
-      :thumb-style="thumbStyle"
-      :bar-style="barStyle"
-    >
-      <NavLinks />
-
+    <div class="lt-md">
+      <rk-toolbar-dropdown class="text-black" vertical />
+      <q-separator class="q-my-md" inset />
+    </div>
+    <q-scroll-area ref="scrollArea" class="col" :thumb-style="thumbStyle" :bar-style="barStyle">
       <slot name="top" />
-
-      <SidebarLinks :depth="0" :items="items" />
+      <SidebarLinks :depth="0" :items="items" style="padding-bottom: 2.5rem" />
       <slot name="bottom" />
     </q-scroll-area>
   </div>
@@ -37,12 +34,13 @@
 <script>
 import SidebarLinks from '@theme/components/SidebarLinks.vue'
 import NavLinks from '@theme/components/NavLinks.vue'
+import RkToolbarDropdown from '@theme/components/RkToolbarDropdown.vue'
 import Buy from '../../includes/buy'
 
 export default {
   name: 'Sidebar',
   props: ['items'],
-  components: { SidebarLinks, NavLinks },
+  components: { SidebarLinks, NavLinks, RkToolbarDropdown },
   data: () => ({
     thumbStyle: {
       right: '4px',
