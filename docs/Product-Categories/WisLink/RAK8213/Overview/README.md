@@ -2,8 +2,8 @@
 rak_img: /assets/images/wislink-lte/rak8213/quickstart/overview/rak8213.png
 rak_desc: The RAK8213 is a multi-band LTE Cat M1/Cat NB1/EGPRS module based on the Quectel BG96 with a standard PCI Express® form factor (Mini PCIe). It offers a maximum data rate of 375Kbps downlink and 375Kbps uplink.
 rak_grp: [wislink, lpwan]
-prev: false
-next: false
+prev: ../../
+next: ../Quickstart/
 ---
 
 # RAK8213 WisLink NB-IoT Module

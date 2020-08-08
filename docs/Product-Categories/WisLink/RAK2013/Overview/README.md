@@ -2,6 +2,8 @@
 rak_img: /assets/images/wislink-lte/rak2013/datasheet/rak2013.jpg
 rak_desc: The RAK2013 is a Raspberry Pi 3B+ edition cellular communications module that supports Low-Power Wide-Area (LPWA) connectivity to Internet-of-Things (IoT) devices. It has several configuration options including BG96 / EG91 / EG95 for 4G/LTE, NB-IoT, CAT-M, CAT1 or CAT 4 cellular protocol.
 rak_grp: [wislink, cellular]
+prev: ../../
+next: ../Datasheet/
 ---
 
 # RAK2013 WisLink-LTE
