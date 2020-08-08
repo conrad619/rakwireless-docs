@@ -2,7 +2,7 @@
 tags:
   - datasheet
   - wislink
-prev: ../Overview/
+prev: ../Quickstart/
 next: false
 ---
 

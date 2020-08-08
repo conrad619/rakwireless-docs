@@ -2,7 +2,7 @@
 tags:
   - datasheet
   - wislink
-prev: ../Overview/
+prev: ../Quickstart/
 next: false
 certifications:
   - [CE, https://downloads.rakwireless.com/LoRa/RAK2247-Mini-PCIe/Certification-Report/RAK2247_CE_Certificate.zip]

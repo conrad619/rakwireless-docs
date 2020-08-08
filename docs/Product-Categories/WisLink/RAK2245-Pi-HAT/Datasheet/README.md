@@ -2,7 +2,7 @@
 tags:
   - datasheet
   - wislink
-prev: ../Overview/
+prev: ../Quickstart/
 next: false
 certifications:
   - [CE, https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/Certification-Report/RAK2245_Pi_HAT_CE_Certificate.zip]
