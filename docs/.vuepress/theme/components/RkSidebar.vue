@@ -4,14 +4,13 @@
       <rk-toolbar-dropdown class="text-black" vertical />
       <q-separator class="q-mt-md" inset />
     </div>
-    <div
-      v-if="buySection"
-      class="column flex flex-center q-mt-md"
-      style="max-height: 100%;"
-    >
+    <div v-if="buySection" class="column flex flex-center q-mt-md" style="max-height: 100%;">
       <q-expansion-item class="full-width" default-opened>
         <template #header>
-          <div class="fit q-px-lg text-weight-medium" style="margin:auto">{{ buySection.label || 'Device Info' }}</div>
+          <div
+            class="fit q-px-lg text-weight-medium"
+            style="margin:auto"
+          >{{ buySection.label || 'Device Info' }}</div>
         </template>
         <div class="column flex flex-center q-gutter-y-sm">
           <img :src="buySection.img" style="max-width: 80%; max-height: 80%" />
@@ -30,7 +29,13 @@
       </q-expansion-item>
       <q-separator class="q-mb-md" inset />
     </div>
-    <q-scroll-area ref="scrollArea" class="col" :thumb-style="thumbStyle" :bar-style="barStyle">
+    <q-scroll-area
+      v-if="$page.frontmatter.sidebar !== false"
+      ref="scrollArea"
+      class="col"
+      :thumb-style="thumbStyle"
+      :bar-style="barStyle"
+    >
       <slot name="top" />
       <SidebarLinks :depth="0" :items="items" style="padding-bottom: 2.5rem" />
       <slot name="bottom" />

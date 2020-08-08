@@ -1,6 +1,6 @@
 <template>
   <!-- <div class="flex flex-center" style="margin: 0 auto;"> -->
-  <div class="row" :class="{ 'justify-center': $q.screen.lt.md }">
+  <div class="row" :class="{ 'justify-center': ltMdDiv }">
     <div class="cursor-pointer q-pa-sm" v-for="qs in filtered" :key="qs.path">
       <rk-product
         :img="qs.frontmatter.rak_img"
@@ -14,8 +14,11 @@
 </template>
 
 <script>
+import CommonMixin from './common.mixin'
+
 export default {
   name: 'RkProducts',
+  mixins: [CommonMixin],
   props: {
     tags: { type: Array }
   },

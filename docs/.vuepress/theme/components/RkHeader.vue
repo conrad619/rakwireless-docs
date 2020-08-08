@@ -1,7 +1,7 @@
 <template>
   <div
     class="wrapper fit flex flex-center text-white"
-    :class="{ 'height-1': $q.screen.gt.md, 'height-2': $q.screen.lt.md }"
+    :class="{ 'height-1': !ltMdDiv, 'height-2': ltMdDiv }"
   >
     <q-parallax class="fit">
       <template v-slot:media>
@@ -30,8 +30,11 @@
 </template>
 
 <script>
+import CommonMixin from '../../components/common.mixin'
+
 export default {
   name: 'RkHeader',
+  mixins: [CommonMixin],
   computed: {
     header() {
       return {

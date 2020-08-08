@@ -21,9 +21,11 @@
 
 <script>
 import { uid } from 'quasar'
+import CommonMixin from './common.mixin'
 
 export default {
   name: 'RkHead',
+  mixins: [CommonMixin],
   props: {
     img: { type: String },
     imgWidth: { type: String, default: '' },
@@ -35,7 +37,7 @@ export default {
   }),
   computed: {
     v2 () {
-      return this.center || this.$q.screen.lt.md
+      return this.center || this.ltMdDiv
     }
   },
   mounted() {

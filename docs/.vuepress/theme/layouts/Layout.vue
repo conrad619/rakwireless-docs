@@ -1,6 +1,7 @@
 <template>
   <ClientOnly>
     <q-layout view="hHh LpR lfr">
+      <div id="lt-md-div" class="lt-md"></div>
       <q-header class="bg-primary text-white">
         <q-toolbar style="height: 70px">
           <q-btn
@@ -29,7 +30,6 @@
       </q-header>
 
       <q-drawer
-        v-if="shouldShowSidebar || $q.screen.lt.md"
         v-model="showDrawer"
         content-class="bg-grey-1 text-grey-9 q-pa-none"
         @show="onDrawerShow"
@@ -93,6 +93,7 @@ import RkZoom from '@theme/components/RkZoom.vue'
 import RkSearchBox from '@theme/components/RkSearchBox.vue'
 
 import ScrollMixin from '@theme/components/mixins/scroll.mixin'
+import CommonMixin from '../../components/common.mixin'
 
 import { resolveSidebarItems } from '../util'
 
@@ -112,13 +113,12 @@ export default {
     RkZoom,
     RkSearchBox
   },
-  mixins: [ScrollMixin],
+  mixins: [ScrollMixin, CommonMixin],
 
   data() {
     return {
       isSidebarOpen: false,
-      mounted: false,
-      showDrawer: true,
+      showDrawer: false,
       showBack2Top: false,
       disableActiveHash: false
     }
@@ -143,12 +143,12 @@ export default {
       )
     },
 
-    shouldShowSidebar() {
+    showSidebarItems() {
       const { frontmatter } = this.$page
       return (
         !frontmatter.home &&
         frontmatter.sidebar !== false &&
-        this.sidebarItems.length
+        this.sidebarItems.length !== 0
       )
     },
 
@@ -178,8 +178,7 @@ export default {
     this.$router.afterEach(() => {
       this.isSidebarOpen = false
     })
-    this.showDrawer = this.$q.screen.gt.md
-    this.mounted = true
+
     // console.log('pages: ', this.$site.pages)
     // console.log('page: ', this.$page)
 
@@ -188,7 +187,7 @@ export default {
     // document.documentElement.style.fontSize = '14px'
     // console.log('mounted: ', window.innerHeight, window.innerWidth, min, document.documentElement.style)
     // console.log('sidebaritems: ', this.sidebarItems)
-
+    this.setDefaultSidebar()
     window.onscroll = this.onPageScroll
   },
   updated() {
@@ -217,14 +216,21 @@ export default {
       tbl_.classList.add('q-table')
       qtable.appendChild(tbl_)
     }
-
-    // toggle sidebar correctly
-    if (this.$q.screen.gt.md) this.showDrawer = true
   },
 
   methods: {
+    setDefaultSidebar() {
+      // toggle sidebar correctly
+      const { frontmatter } = this.$page
+      if (this.ltMdDiv) this.showDrawer = false
+      else
+        this.showDrawer =
+          !frontmatter.home &&
+          frontmatter.sidebar !== false &&
+          this.sidebarItems.length !== 0
+    },
     onDrawerShow() {
-      if (this.$q.screen.lt.md) {
+      if (this.ltMdDiv) {
         // temporarily disabled setting active hash and smooth scroll
         document.documentElement.style.scrollBehavior = 'unset'
         this.disableActiveHash = true
@@ -274,6 +280,11 @@ export default {
           this.toggleSidebar(false)
         }
       }
+    }
+  },
+  watch: {
+    $page: function() {
+      this.setDefaultSidebar()
     }
   }
 }
