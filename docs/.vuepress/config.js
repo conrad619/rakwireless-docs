@@ -36,7 +36,8 @@ module.exports = {
     test: ['/quick-start/', '/datasheet/'],
 
     sidebarDepth: 4,
-    displayAllHeaders: true
+    displayAllHeaders: true,
+    activeHeaderLinks: false // handled by quasar theme
   },
   plugins: {
     'sitemap': {

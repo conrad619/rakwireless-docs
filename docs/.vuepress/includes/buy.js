@@ -1,6 +1,7 @@
 export default {
   //WisLink
   '/Product-Categories/WisLink/RAK831/': {
+    label: 'RAK831 WisLink-LoRa',
     img: '/assets/images/wislink-lora/rak831/datasheet/rak831-overview.png',
     store: 'https://store.rakwireless.com/products/rak831-gateway-module'
   },

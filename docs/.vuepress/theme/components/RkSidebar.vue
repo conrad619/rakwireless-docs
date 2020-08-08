@@ -1,27 +1,34 @@
 <template>
-  <div class="fit q-pa-xs sidebar column">
-    <div
-      v-if="buySection"
-      class="column flex flex-center"
-      style="max-height: 100%; margin-top: 15px;"
-    >
-      <img :src="buySection.img" style="max-width: 80%; max-height: 80%" />
-      <q-btn
-        class="q-my-md"
-        label="Buy from Store"
-        color="primary"
-        style="width: 15rem"
-        type="a"
-        :href="buySection.store"
-        target="_blank"
-        no-caps
-        rounded
-      />
-      <q-separator class="q-my-md" inset />
-    </div>
+  <div class="fit q-pa-xs sidebar column no-wrap">
     <div class="lt-md">
       <rk-toolbar-dropdown class="text-black" vertical />
-      <q-separator class="q-my-md" inset />
+      <q-separator class="q-mt-md" inset />
+    </div>
+    <div
+      v-if="buySection"
+      class="column flex flex-center q-mt-md"
+      style="max-height: 100%;"
+    >
+      <q-expansion-item class="full-width" default-opened>
+        <template #header>
+          <div class="fit q-px-lg text-weight-medium" style="margin:auto">{{ buySection.label || 'Device Info' }}</div>
+        </template>
+        <div class="column flex flex-center q-gutter-y-sm">
+          <img :src="buySection.img" style="max-width: 80%; max-height: 80%" />
+          <q-btn
+            class="q-my-md"
+            label="Buy from Store"
+            color="primary"
+            style="width: 15rem"
+            type="a"
+            :href="buySection.store"
+            target="_blank"
+            no-caps
+            rounded
+          />
+        </div>
+      </q-expansion-item>
+      <q-separator class="q-mb-md" inset />
     </div>
     <q-scroll-area ref="scrollArea" class="col" :thumb-style="thumbStyle" :bar-style="barStyle">
       <slot name="top" />

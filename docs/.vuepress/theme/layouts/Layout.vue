@@ -23,14 +23,17 @@
           <div class="gt-xs text-h5 q-px-sm">{{ $siteTitle }}</div>
           <q-space />
           <rk-toolbar-dropdown class="gt-md" />
+          <rk-search-box class="lt-md" minimized />
         </q-toolbar>
         <q-separator class="bg-primary" style="padding: 0.1px" />
       </q-header>
 
       <q-drawer
-        v-if="shouldShowSidebar"
+        v-if="shouldShowSidebar || $q.screen.lt.md"
         v-model="showDrawer"
         content-class="bg-grey-1 text-grey-9 q-pa-none"
+        @show="onDrawerShow"
+        @hide="onDrawerHide"
       >
         <rk-sidebar :items="sidebarItems">
           <template #top>
@@ -87,6 +90,9 @@ import RkFooter from '@theme/components/RkFooter.vue'
 import RkSidebar from '@theme/components/RkSidebar.vue'
 import RkHeader from '@theme/components/RkHeader.vue'
 import RkZoom from '@theme/components/RkZoom.vue'
+import RkSearchBox from '@theme/components/RkSearchBox.vue'
+
+import ScrollMixin from '@theme/components/mixins/scroll.mixin'
 
 import { resolveSidebarItems } from '../util'
 
@@ -103,15 +109,18 @@ export default {
     RkFooter,
     RkSidebar,
     RkHeader,
-    RkZoom
+    RkZoom,
+    RkSearchBox
   },
+  mixins: [ScrollMixin],
 
   data() {
     return {
       isSidebarOpen: false,
       mounted: false,
       showDrawer: true,
-      showBack2Top: false
+      showBack2Top: false,
+      disableActiveHash: false
     }
   },
 
@@ -208,9 +217,27 @@ export default {
       tbl_.classList.add('q-table')
       qtable.appendChild(tbl_)
     }
+
+    // toggle sidebar correctly
+    if (this.$q.screen.gt.md) this.showDrawer = true
   },
 
   methods: {
+    onDrawerShow() {
+      if (this.$q.screen.lt.md) {
+        // temporarily disabled setting active hash and smooth scroll
+        document.documentElement.style.scrollBehavior = 'unset'
+        this.disableActiveHash = true
+      }
+    },
+    onDrawerHide() {
+      const self = this
+      setTimeout(() => {
+        // re-enabled stuffs
+        document.documentElement.style.scrollBehavior = 'smooth'
+        self.disableActiveHash = true
+      }, 100)
+    },
     back2Top() {
       document.body.scrollTop = 0
       document.documentElement.scrollTop = 0

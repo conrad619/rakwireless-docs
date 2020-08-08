@@ -1,15 +1,13 @@
 <template>
   <!-- <div class="flex flex-center" style="margin: 0 auto;"> -->
-  <div class="row">
+  <div class="row" :class="{ 'justify-center': $q.screen.lt.md }">
     <div class="cursor-pointer q-pa-sm" v-for="qs in filtered" :key="qs.path">
       <rk-product
         :img="qs.frontmatter.rak_img"
         :path="qs.path"
         :label="qs.title"
         style="height: 19rem; width: 17rem"
-      >
-        {{ qs.frontmatter.rak_desc || 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula est ex, in ullamcorper mauris pretium non. Sed egestas elit nec fermentum aliquet. Nulla molestie nisl fringilla lacus viverra tristique quis ut tellus. Vivamus faucibus porta tellus, eget condimentum enim commodo sit amet.' }}
-      </rk-product>
+      >{{ qs.frontmatter.rak_desc || 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula est ex, in ullamcorper mauris pretium non. Sed egestas elit nec fermentum aliquet. Nulla molestie nisl fringilla lacus viverra tristique quis ut tellus. Vivamus faucibus porta tellus, eget condimentum enim commodo sit amet.' }}</rk-product>
     </div>
   </div>
   <!-- </div> -->

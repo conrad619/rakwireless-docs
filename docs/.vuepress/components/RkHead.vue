@@ -1,15 +1,21 @@
 <template>
   <div :id="id">
     <div class="row fit">
-      <div class="row items-center q-mr-xl" :class="{'col-12': center, 'justify-center': center}">
+      <div
+        class="row items-center"
+        :class="{ 'col-12 justify-center': v2, 'q-mr-xl': !v2 }"
+      >
         <img :src="img" :width="imgWidth" :height="imgHeight" />
       </div>
       <q-space />
-      <div class="column col justify-center text-justify" :class="{'col-12': center}">
+      <div
+        class="column col justify-center text-justify"
+        :class="{'col-12 flex flex-center': v2}"
+      >
         <slot />
       </div>
     </div>
-    <q-separator v-if="!center" class="q-my-md" />
+    <q-separator v-if="!v2" class="q-my-md" />
   </div>
 </template>
 
@@ -27,6 +33,11 @@ export default {
   data: () => ({
     id: ''
   }),
+  computed: {
+    v2 () {
+      return this.center || this.$q.screen.lt.md
+    }
+  },
   mounted() {
     const self = this
     setTimeout(() => {

@@ -1,11 +1,26 @@
 <template>
   <div class="q-mx-md full-height flex flex-center">
-    <q-input v-model="filter" color="white" style="width: 20rem" rounded dark dense standout="bg-white text-black">
+    <q-btn v-if="minimized" icon="search" @click="showDlg=true" round flat />
+    <q-input
+      v-else
+      v-model="filter"
+      color="white"
+      style="width: 20rem"
+      rounded
+      dark
+      dense
+      standout="bg-white text-black"
+    >
       <template v-slot:append>
         <q-icon v-if="filter === ''" name="search" />
         <q-icon v-else name="clear" class="cursor-pointer" @click="filter = ''" />
       </template>
     </q-input>
+    <q-dialog v-model="showDlg" maximized>
+      <q-card>
+        <q-btn icon="close" class="float-right q-pa-sm" color="grey-7" round flat v-ripple v-close-popup />
+      </q-card>
+    </q-dialog>
   </div>
   <!-- <div class="search-box">
     <input
@@ -117,7 +132,9 @@ const SEARCH_HOTKEYS = ['s', '/']
 
 export default {
   name: 'RkSearchBox',
-
+  props: {
+    minimized: { type: Boolean, default: false }
+  },
   data() {
     return {
       query: '',
@@ -125,7 +142,8 @@ export default {
       focusIndex: 0,
       placeholder: undefined,
       counter: 0,
-      filter: ''
+      filter: '',
+      showDlg: false
     }
   },
 
