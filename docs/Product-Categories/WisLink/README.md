@@ -8,7 +8,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula est ex, 
 
 ## WisLink LPWAN
 
-<rk-head img="/assets/rakwireless/product-categories/WisLink.svg">
+<rk-head img="/assets/rakwireless/product-categories/WisLink-LPWAN.svg">
 
 Suspendisse potenti. Mauris scelerisque dolor et elit finibus, at porttitor odio varius. Nam commodo nisl nulla, at mollis odio bibendum eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 
@@ -18,7 +18,7 @@ Suspendisse potenti. Mauris scelerisque dolor et elit finibus, at porttitor odio
 
 ## WisLink Cellular
 
-<rk-head img="/assets/rakwireless/product-categories/WisLink.svg">
+<rk-head img="/assets/rakwireless/product-categories/WisLink-Cellular.svg">
 
 Suspendisse potenti. Mauris scelerisque dolor et elit finibus, at porttitor odio varius. Nam commodo nisl nulla, at mollis odio bibendum eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 

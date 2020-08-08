@@ -8,7 +8,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula est ex, 
 
 ## WisDuo Module
 
-<rk-head img="/assets/rakwireless/product-categories/WisDuo-Breakout.svg">
+<rk-head img="/assets/rakwireless/product-categories/WisDuo-Module.svg">
 
 Suspendisse potenti. Mauris scelerisque dolor et elit finibus, at porttitor odio varius. Nam commodo nisl nulla, at mollis odio bibendum eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 
@@ -27,7 +27,7 @@ Suspendisse potenti. Mauris scelerisque dolor et elit finibus, at porttitor odio
 
 ## WisDuo EVB
 
-<rk-head img="/assets/rakwireless/product-categories/WisDuo-Breakout.svg">
+<rk-head img="/assets/rakwireless/product-categories/WisDuo-EVB.svg">
 
 Suspendisse potenti. Mauris scelerisque dolor et elit finibus, at porttitor odio varius. Nam commodo nisl nulla, at mollis odio bibendum eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 
