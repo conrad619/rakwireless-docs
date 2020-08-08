@@ -1,5 +1,8 @@
 <template>
-  <div class="wrapper fit flex flex-center text-white">
+  <div
+    class="wrapper fit flex flex-center text-white"
+    :class="{ 'height-1': $q.screen.gt.md, 'height-2': $q.screen.lt.md }"
+  >
     <q-parallax class="fit">
       <template v-slot:media>
         <img :src="header.img" />
@@ -7,7 +10,7 @@
 
       <template v-slot:content="scope">
         <div class="absolute-full" style="background-color: rgba(0,0,0,0.2)"></div>
-        <div class="full-width content q-gutter-y-md text-white" style="z-index: 1">
+        <div class="full-width content q-gutter-y-md text-white q-px-md" style="z-index: 1">
           <div class="text-h2 text-weight-regular">{{ header.title }}</div>
           <div class="text-h5 text-weight-light" v-html="header.caption"></div>
           <div class="row q-gutter-xs">
@@ -49,8 +52,13 @@ export default {
 </script>
 
 <style scoped>
-.wrapper {
+.height-1 {
   height: 50vh !important;
+}
+.height-2 {
+  height: 100vh !important;
+}
+.wrapper {
   overflow: hidden;
 }
 .content {

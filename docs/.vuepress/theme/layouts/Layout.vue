@@ -48,7 +48,7 @@
         <rk-header v-if="shouldHaveHeader" />
         <rk-page :sidebar-items="sidebarItems" />
         <rk-zoom />
-        <q-page-sticky position="top-right" :offset="[15, 15]">
+        <q-page-sticky position="top-right" :offset="[15, 15]" style="z-index: 100;">
           <transition
             appear
             enter-active-class="animated bounceIn"
