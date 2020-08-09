@@ -4,7 +4,6 @@ next: false
 tags:
   - datasheet
   - wisblock
-  - wisio
 ---
 
 # RAK5860 WisBlock WisIO Module Datasheet
