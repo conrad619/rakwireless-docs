@@ -23,8 +23,8 @@
           </div>
           <div class="gt-xs text-h5 q-px-sm">{{ $siteTitle }}</div>
           <q-space />
-          <rk-toolbar-dropdown class="gt-md" />
-          <rk-search-box class="lt-md" minimized />
+          <rk-toolbar-dropdown class="gt-sm" />
+          <rk-search-box class="lt-lg" minimized />
         </q-toolbar>
         <q-separator class="bg-primary" style="padding: 0.1px" />
       </q-header>
