@@ -3,7 +3,7 @@ tags:
   - datasheet
   - wishat
 
-prev: ../OveQrview/
+prev: ../Overview/
 ---
 
 # RAK2247 Pi HAT Datasheet
