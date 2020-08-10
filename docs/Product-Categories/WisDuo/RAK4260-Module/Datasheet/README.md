@@ -2,6 +2,9 @@
 tags: 
   - datasheet
   - wisduo
+certifications:
+  - [CE, https://downloads.rakwireless.com/LoRa/RAK4260/Certification-Report/RAK4260H-CE-ATL20191108787-Certificate.pdf]
+  - [FCC, https://downloads.rakwireless.com/LoRa/RAK4260/Certification-Report/RAK4260H-FCC-2AF6B-Certificate.pdf]
 prev: ../Overview/
 ---
 
@@ -267,5 +270,4 @@ The latest firmware for the RAK4260 Breakout Module is provided in the given tab
 
 ## Certification
 
-- [CE](https://downloads.rakwireless.com/LoRa/RAK4260/Certification-Report/RAK4260H-CE-ATL20191108787-Certificate.pdf)
-- [FCC](https://downloads.rakwireless.com/LoRa/RAK4260/Certification-Report/RAK4260H-FCC-2AF6B-Certificate.pdf)
+<rk-certifications :params="$page.frontmatter.certifications" />

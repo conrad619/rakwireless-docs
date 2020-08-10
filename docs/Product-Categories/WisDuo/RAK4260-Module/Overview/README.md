@@ -2,8 +2,8 @@
 rak_grp: [wisduo, module]
 rak_img: /assets/images/wisduo/rak4260-module/overview/RAK4260_LoRa_Module.png
 rak_desc: The RAK4260 LPWAN Module is based on Microchip’s ATSAMR34J18B. It is a SiP device integrating a 32-bit ARM Cortex -M0+ MCU with a LoRa® Transceiver in a 6 millimeter x 6 millimeter compact BGA package.
-prev: false
-next: false
+prev: ../../
+next: ../Datasheet/
 ---
 
 # RAK4260 LPWAN Module

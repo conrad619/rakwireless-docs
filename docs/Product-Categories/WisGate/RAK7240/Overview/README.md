@@ -2,8 +2,8 @@
 rak_img: /assets/images/wisgate/rak7240/quickstart/rak7240.png
 rak_desc: The RAK7240 Prime is an ideal product for large scale LPWAN deployment where cost is essential, however there is no compromises to be made on quality. Its wide range of customization options allow for flexibility when deploying a solution. With its industrial-grade components and high class of ingress protection, it achieves a high standard of reliability.
 rak_grp: [wisgate, edge]
-prev: false
-next: false
+prev: ../../
+next: ../Quickstart/
 ---
 
 # RAK7240 Prime

@@ -3,6 +3,8 @@ static_root: /assets/images/wishat/rak8213-pi-hat/datasheet/
 rak_img: /assets/images/wishat/rak8213-pi-hat/datasheet/rak8213-pi-hat.png
 rak_desc: RAK8213 Pi HAT is designed to work in conjunction with the RAK8213 NB-IoT module. It works as a converter for the RAK8213 mPCIe module to the 40-pin header connector on the Raspberry Pi. Thus, the RAK8213 HAT allows one to easily add NB-IoT functionality to any Raspberry Pi.
 rak_grp: wishat
+prev: ../../
+next: ../Datasheet/
 ---
 
 # RAK8213 Pi HAT

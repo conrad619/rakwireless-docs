@@ -2,7 +2,7 @@
 tags:
   - datasheet
   - wishat
-prev: /Product-Categories/WisHat/RAK9003-PoE-HAT/Overview/
+prev: ../Overview/
 ---
 
 # RAK9003 PoE HAT Datasheet

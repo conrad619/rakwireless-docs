@@ -21,12 +21,6 @@ Before going through the configuration guide of the RAK4600 LPWAN Evaluation Boa
 4. JTAG Emulator Kit
 5. Windows PC
 
-<rk-btn
-  src="https://store.rakwireless.com/products/rak4600-evaluation-board"
-  label=" Buy a RAK4600 LPWAN Evaluation Board"
-  _blank
-/>
-
 :::tip 📝 NOTE
 This device released by RAKWireless is already pre-loaded with its latest firmware upon manufacture. If you want to have your device's firmware burned or upgraded, please refer to the links below:
 
@@ -686,9 +680,9 @@ By default, there is already one or more items in this page, you can use it or c
 The Application EUI which will be set into RAK4600 LPWAN Evaluation Board as “app_eui” is not necessary for ChirpStack, and you can set it to any value with a correct format.
 :::
 
-5. Configure RAK4600 LPWAN Evaluation Board by using the available AT Commands found in this [section](#at-commands-for-rak4600-lpwan-evaluation-board). Connect your RAK4600 LPWAN Evaluation Board in your Windows Machine.
+5. Configure RAK4600 LPWAN Evaluation Board by using the available commands found in the [AT Commands for RAK4600 LPWAN Evaluation Board](#at-commands-for-rak4600-lpwan-evaluation-board) section. Connect your RAK4600 LPWAN Evaluation Board in your Windows Machine.
 
-6. Power it **ON** and open **RAK Serial Port Tool** on your PC as instructed [here](#interfacing-with-rak4600).
+6. Power it **ON** and open **RAK Serial Port Tool** on your PC as instructed in the [Interfacing with RAK4600](#interfacing-with-rak4600) section.
 
 ::: tip 📝 NOTE:
 The default join mode is **OTAA**, the default class is **Class A** and the default region is **EU868**.

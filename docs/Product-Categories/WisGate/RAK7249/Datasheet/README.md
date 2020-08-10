@@ -2,12 +2,12 @@
 tags:
   - datasheet
   - wisgate
-prev: /Product-Categories/WisGate/RAK7249/Overview/
+prev: ../Quickstart/
 certifications:
   - [CE, https://downloads.rakwireless.com/LoRa/DIY-Gateway-RAK7249/Certification-Report/RAK7249_RED%28CE%29_Certificate.zip]
   - [FCC, https://downloads.rakwireless.com/LoRa/DIY-Gateway-RAK7249/Certification-Report/RAK7249_FCC_Certificate.zip]
   - [High and Low Temperature Test Report, https://downloads.rakwireless.com/LoRa/DIY-Gateway-RAK7249/Certification-Report/RAK7249_High%26Low-Temperature_Test_Report.pdf]
-  - [IP67, https://downloads.rakwireless.com/LoRa/DIY-Gateway-RAK7249/Certification-Report/RAK7249_Enclosure_IP67_Test_Report.pdf​]
+  - [IP67, https://downloads.rakwireless.com/LoRa/DIY-Gateway-RAK7249/Certification-Report/RAK7249_Enclosure_IP67_Test_Report.pdf]
   - [RoHS, https://downloads.rakwireless.com/LoRa/DIY-Gateway-RAK7249/Certification-Report/RAK7249-ROHS-ATL20191105773R01-Report.pdf]
 ---
 

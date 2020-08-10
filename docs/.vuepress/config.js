@@ -33,7 +33,6 @@ module.exports = {
       'All rights reserved. 粤ICP备16112976号'
     ],
     searchMaxSuggestions: 5,
-    test: ['/quick-start/', '/datasheet/'],
 
     sidebarDepth: 4,
     displayAllHeaders: true,
