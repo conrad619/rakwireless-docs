@@ -6,7 +6,7 @@ prev: /Product-Categories/
 
 <rk-head img="/assets/rakwireless/product-categories/WisGate.svg" center>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula est ex, in ullamcorper mauris pretium non. Sed egestas elit nec fermentum aliquet. Nulla molestie nisl fringilla lacus viverra tristique quis ut tellus. Vivamus faucibus porta tellus, eget condimentum enim commodo sit amet. Praesent sed orci semper, lacinia enim non, bibendum ipsum. Integer maximus nibh vel risus tempor, quis rhoncus justo porttitor. Praesent venenatis convallis dictum. Donec erat leo, posuere sed leo in, consectetur commodo tellus. Curabitur vehicula sagittis nisi, ac feugiat nunc vestibulum vitae. Proin aliquam quam at placerat mattis. Aenean volutpat lectus eget nulla placerat gravida. Vestibulum iaculis orci et quam volutpat cursus sit amet blandit justo. Curabitur hendrerit quam rutrum urna pulvinar venenatis. Ut nulla ipsum, pulvinar vitae dignissim quis, vulputate sed urna.
+This is the backbone of your network. RAKwireless provides complete, cost efficient gateway solutions for building LPWAN for the purpose of both private and public networks. There is a wide range of gateway products split in two main categories in order to cater to two different market segments. Between the two a large number of use case scenarios is provided for. We offer gateway for different environments, power constraints, size, range, ingress protections, etc. If you need a gateway of any time, we got you covered.
 
 </rk-head>
 
@@ -14,7 +14,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula est ex, 
 
 <rk-head img="/assets/rakwireless/product-categories/WisGate-Edge.svg">
 
-Suspendisse potenti. Mauris scelerisque dolor et elit finibus, at porttitor odio varius. Nam commodo nisl nulla, at mollis odio bibendum eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+This is our flagship line of commercial grade gateways. They are cost efficient, robustly designed and are running our custom firmware sitting on top of OpenWRT. Both Indoor and outdoor versions are available. They are customizable with regards to backhaul connectivity options, antenna type, power provisioning, etc. All gateway from this product line, in addition to the customizable features have a set of standard features in order to ascertain a high grade of quality. POE, Wi-Fi + Ethernet, Upgradable antennas, Built-in Network Server, GUI (Graphical User Interface), Packet buffering (via an SD card)
 
 </rk-head>
 
@@ -24,7 +24,8 @@ Suspendisse potenti. Mauris scelerisque dolor et elit finibus, at porttitor odio
 
 <rk-head img="/assets/rakwireless/product-categories/WisGate-Developer.svg">
 
-Suspendisse potenti. Mauris scelerisque dolor et elit finibus, at porttitor odio varius. Nam commodo nisl nulla, at mollis odio bibendum eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+Gateways designed with the developer in mind. Fully featured that offer a great deal in the way of firmware customization. These are small LPWAN Base stations designed with the intention to be used indoor for testing for projects or as the core for developing an outdoor solution. A great deal of customizations is available. One can choose to add Cellular backhaul, Poe, or have the choice to have GPS on board or not. Small, cost efficient and backed by the huge community behind the Raspberry Pi platform.
+
 
 </rk-head>
 
