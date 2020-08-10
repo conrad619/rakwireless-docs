@@ -27,4 +27,3 @@ typedef struct GGAData
 
 !!!include(RUI/rui-sensor-general-format/rui-gps-get.md)!!!
 !!!include(RUI/rui-sensor-general-format/rui-gps-set-mode.md)!!!
-!!!include(RUI/rui-sensor-general-format/rui-voltage-get-battery-level.md)!!!
