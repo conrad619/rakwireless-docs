@@ -5,6 +5,7 @@ module.exports = {
       path: '/Product-Categories/WisLink/RAK831/Overview/',
       collapsable: false,
       nested: true,
+      download: true,
       sidebarDepth: 4
     },
     {

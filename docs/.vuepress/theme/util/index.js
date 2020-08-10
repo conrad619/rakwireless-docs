@@ -281,6 +281,7 @@ function resolveItem(item, pages, base, groupDepth = 1) {
     if (item.path) {
       sub = resolvePage(pages, item.path, base)
       sub.nested = item.nested
+      sub.download = item.download
       sub.sidebarDepth = item.sidebarDepth
     }
 
