@@ -1,7 +1,7 @@
 ---
 tags:
   - datasheet
-  - wisbee
+  - wisduo
 prev: ../Quickstart/
 certifications:
   - [CE, https://downloads.rakwireless.com/LoRa/RAK811/Certification_Report/RAK811%20CE%20Certification.rar]

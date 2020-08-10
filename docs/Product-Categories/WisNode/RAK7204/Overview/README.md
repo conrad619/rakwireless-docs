@@ -2,8 +2,8 @@
 rak_img: /assets/images/wisnode/rak7204/quickstart/1.overview/RAK7204.svg
 rak_desc: The RAK7204 WisNode Sense is an LPWAN node with integrated environmental sensors. The high-precision environmental sensors, can measure changes in temperature, humidity, gas pressure and provide an indoor air quality index.
 rak_grp: [wisnode,sense]
-prev: false
-next: false
+prev: ../../
+next: ../Quickstart/
 ---
 
 # RAK7204 WisNode Sense

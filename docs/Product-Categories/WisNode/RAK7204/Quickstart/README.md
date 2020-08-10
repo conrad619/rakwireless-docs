@@ -1,6 +1,6 @@
 ---
-prev: /Product-Categories/WisNode/RAK7204/Overview/
-next: false
+prev: ../Overview/
+next: ../Datasheet/
 ---
 
 # Quick Start Guide

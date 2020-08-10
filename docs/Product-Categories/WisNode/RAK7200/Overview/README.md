@@ -3,8 +3,8 @@ static_root: /assets/images/wisnode/rak7200/quickstart/overview
 rak_img: /assets/images/wisnode/rak7200/quickstart/overview/RAK7200.svg
 rak_desc: The RAK7200 WisNode Track Lite is an LPWAN Tracker device with a 3.7V rechargeable Li-Ion battery and a GPS modem. It is built around low power LPWAN Module, which integrates the ultra low power STM32L073 micro-controller, the SX1276 LoRa® long range modem and the CXD5603GF GPS modem.
 rak_grp: [wisnode,track]
-prev: false
-next: false
+prev: ../../
+next: ../Quickstart/
 ---
 
 # RAK7200 WisNode Track Lite
