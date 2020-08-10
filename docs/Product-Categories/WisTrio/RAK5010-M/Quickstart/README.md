@@ -1,5 +1,5 @@
 ---
-prev: /Product-Categories/WisTrio/RAK5010-M/Overview/
+prev: ../Overview/
 next: false
 ---
 

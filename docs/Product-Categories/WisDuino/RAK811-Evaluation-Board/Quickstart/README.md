@@ -1,5 +1,5 @@
 ---
-prev: /Product-Categories/WisDuino/RAK811-Evaluation-Board/Overview/
+prev: ../Overview/
 next: false
 ---
 
@@ -15,7 +15,7 @@ next: false
 
 ### What do you need?
 
-Before going through each and every step in the installation guide of the RAK811 LPWAN Evaluation Board, make sure to prepare the necessary items listed below:
+Before going through in the installation guide of the RAK811 LPWAN Evaluation Board, make sure to prepare the necessary items listed below:
 
 1. **RAK811 LPWAN Evaluation Board**
 2. Micro- USB cable
@@ -23,7 +23,7 @@ Before going through each and every step in the installation guide of the RAK811
 4. A Windows/Mac OS/Linux Computer
 
 ::: tip 📝 NOTE
-The bootloader of the RAK811 LPWAN Evaluation Board is already pre-installed upon manufacturing so flashing the bootloader is not necessary for you to perform. If you find that the bootloader of your RAK811 LPWAN Evaluation Board damaged, kindly contact our support though our [RAKwireless forum](https://forum.rakwireless.com/). However, if you want to upgrade the firmware of the device, please refer to the section below:
+The bootloader of the RAK811 LPWAN Evaluation Board is already pre-installed upon manufacturing, so flashing the bootloader is not necessary for you to perform. If you find that the bootloader of your RAK811 LPWAN Evaluation Board damaged, kindly contact our support though our [RAKwireless forum](https://forum.rakwireless.com/). However, if you want to upgrade the firmware of the device, refer to the section below:
 
 1. [Firmware Upgrading](/Product-Categories/WisDuino/RAK811-Evaluation-Board/Quickstart/#upgrading-the-firmware)
    :::
@@ -40,19 +40,19 @@ The bootloader of the RAK811 LPWAN Evaluation Board is already pre-installed upo
 
 ### Interfacing with RAK811 LPWAN Evaluation Board
 
-In order for you to be able to interface with the RAK811 LPWAN Evaluation Board with your Windows Machine, you need to download the RAK Serial Port Tool **[here](https://downloads.rakwireless.com/en/LoRa/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip).**
+In order to interface with the RAK811 LPWAN Evaluation Board with your Windows Machine, you need to download the RAK Serial Port Tool **[here](https://downloads.rakwireless.com/en/LoRa/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip).**
 
 ::: warning ⚠️ WARNING
-Before powering the RAK811 LPWAN Evaluation Board , you should install the LoRa® antenna first . Not doing so might damage the board
+Before powering the RAK811 LPWAN Evaluation Board, install the LoRa® antenna first. Not doing so might damage the board.
 :::
 
 - Using a standard **Micro - USB Cable**, connect your RAK811 LPWAN Evaluation Board to your computer.
 
 ::: tip 📝 NOTE
-If this is your first time to connect your RAK811 LPWAN Evaluation Board to your computer, it should automatically download the CH340 driver in order for them to communicate properly. Make sure to have an internet access if you want such automatic installation to be successful. If such process fails, re-plug your Micro - USB cord and proceed to the next step.
+If this is your first time connecting you RAK811 LPWAN Evaluation Board to the computer, it should automatically download the CH340 driver for them to communicate properly. Make sure to have an internet access if you want such automatic installation to be successful. If such process fails, re-plug your Micro-USB cord and proceed to the next step.
 :::
 
-- Go to your **Device Manager** by pressing : **Windows + R** and type `devmgmt.msc` or **search in Start Menu** or right click "**My Computer**" or "**This PC**" and click **Manage**. Look for **Other Devices.**
+- To go to your **Device Manager**, press **Windows + R** and type `devmgmt.msc`. You can also **search in Start Menu** or right click "**My Computer**" or "**This PC**". Then click **Manage** and look for **Other Devices**.
 
 <rk-img
   src="/assets/images/wisduino/rak811-evaluation-board/quickstart/interfacing-with-rak811/ojnphsuvfgrvwzd4dvu8.png"
@@ -60,7 +60,7 @@ If this is your first time to connect your RAK811 LPWAN Evaluation Board to your
   caption="Missing Driver for the RAK811 LPWAN Evaluation Board"
 />
 
-- Under "**Other devices**" drop down list, an unknown **USB2.0-Serial** driver must appear. Right click into it and choose "**Search automaticaly for updated driver software**". Again, before doing so, make sure to have an internet access or it will fail.
+- Under "**Other devices**" drop down list, an unknown **USB2.0-Serial** driver must appear. Right click the unknown driver and choose "**Search automatically for updated driver software**". Again, before doing so, make sure to have an internet access or it will fail.
 
 <rk-img
   src="/assets/images/wisduino/rak811-evaluation-board/quickstart/interfacing-with-rak811/ejfeqklgjwmjjky5ewag.png"
@@ -77,7 +77,7 @@ If this is your first time to connect your RAK811 LPWAN Evaluation Board to your
 />
 
 ::: tip 📝 NOTE
-In case the driver is still not installed upon doing the previous steps, kindly download the driver manually through this [link](https://downloads.rakwireless.com/en/LoRa/RAK811/Tools/).
+In case the driver is still not installed upon doing the previous steps, [download](https://downloads.rakwireless.com/en/LoRa/RAK811/Tools/) the driver manually through this .
 :::
 
 - Let us now test if your RAK811 LPWAN Evaluation Board can now communicate with the RAK Serial Port Tool. Connect with the RAK Serial Port Tool using the parameters listed below and click "**Open**".
@@ -103,11 +103,11 @@ at+version
   caption="AT+Command Sample Serial Communication Test"
 />
 
-Congratulations! :tada: You have just successfully interfaced your RAK811 LPWAN Evaluation Board with your computer! Go on to the next sections to fully configure your RAK811 LPWAN Evaluation Board and Connect it to The Things Network (TTN).
+Congratulations! :tada: You have just successfully interfaced your RAK811 LPWAN Evaluation Board with your computer! Go on to the next section to fully configure your RAK811 LPWAN Evaluation Board and connect it to The Things Network (TTN).
 
 ### Connecting to The Things Network (TTN)
 
-In this section, we will be connecting the RAK811 LPWAN Evaluation Board to The Things Network (TTN). If you don't have an account yet, head on to [https://www.thethingsnetwork.org/](https://www.thethingsnetwork.org/) and create one. Once done, Log in to your account and go to the console which can be found here:
+In this section, you will be connecting the RAK811 LPWAN Evaluation Board to The Things Network (TTN). If you don't have an account yet, head on to [TTN website](https://www.thethingsnetwork.org/) and create one. Once done, log in to your account and go to the console which can be found here:
 
 <rk-img
   src="/assets/images/wisduino/rak811-evaluation-board/quickstart/connecting-to-ttn/ajvucmil4rrtco9pvi7n.jpg"
@@ -141,12 +141,12 @@ In this section, we will be connecting the RAK811 LPWAN Evaluation Board to The 
 
 Here are the things that you should take note in adding an application:
 
-1. **Application ID** - this will be the unique id of your application in the Network. Please note that characters should be in lower case, no spaces are allowed.
+1. **Application ID** - this will be the unique id of your application in the Network. Note that the characters should be in lower case, no spaces are allowed.
 2. **Description** - this is a short and concise human readable description of your application.
 3. **Application EUI** - this will be generated automatically by The Things Network for convenience.
 4. **Handler Registration** - handler you want to register this application to.
 
-- After you fill in the necessary information, press the "**Add application**" button at the bottom of this page. If you see the following page, this means that you have successfully registered your application.
+- After you fill in the necessary information, press the "**Add application**" button at the bottom of the page. If you see the following page, this means that you have successfully registered your application.
 
 <rk-img
   src="/assets/images/wisduino/rak811-evaluation-board/quickstart/connecting-to-ttn/b8569qy8g7xlvekg84xt.png"
@@ -174,8 +174,8 @@ Here are the things that you should take note in adding an application:
 
 Here are the things that you should take note in registering your device:
 
-1. **Device ID** - this is the unique identifier for your RAK811 LPWAN Evaluation Board in your application. You need to enter this manually.
-2. **Device EUI** - this is the unique identifier for your device in the network. You can change it later, if you want.
+1. **Device ID** - a unique identifier for your RAK811 LPWAN Evaluation Board in your application. You need to enter this manually.
+2. **Device EUI** - a unique identifier for your device in the network. You can change it later, if you want.
 
 Click the following icon and the Device EUI will be automatically generated. The App Key should be in auto generation mode by default.
 
@@ -187,7 +187,7 @@ Click the following icon and the Device EUI will be automatically generated. The
   caption="Device Overview"
 />
 
-Depending on which authentication method you want to use ,proceed to either the **OTAA mode** or **ABP mode** section.
+Depending on which authentication method you want to use, proceed to either the **OTAA mode** or **ABP mode** section.
 
 #### OTAA Mode
 
@@ -225,7 +225,7 @@ at+set_config=lora:region:EU868
   caption="Setting up the RAK811 Operation Mode"
 />
 
-2. Now that the modes are set, enter the parameters: : **Device EUI, Application EUI** and **App Key**. Use the commands below. Remember to replace the **"XXXX"** with the corresponding parameter value for your particular case:
+2. Now that the modes are set, enter the following parameters: **Device EUI, Application EUI** and **App Key**. Use the commands below. Remember to replace the **"XXXX"** with the corresponding parameter value for your particular case:
 
 ```sh
 at+set_config=lora:dev_eui:XXXX
@@ -245,9 +245,9 @@ at+set_config=lora:app_key:XXXX
   caption="Setting up the RAK811 OTAA Parameters"
 />
 
-- You should end up with a window as the one in **Figure** above (**a series of OK messages**).
+- You should end up with a window as the one in **Figure 17** shown (**a series of OK messages**).
 
-3. Finally execute the join command:
+3. Execute the join command:
 
 ```sh
 at+join
@@ -271,10 +271,10 @@ at+send=lora:1:12345678
   caption="Sending an uplink frame"
 />
 
-- If you get a response in your TTN live data feed as in **Figure** below, than you are all set!
+- If you get a response in your TTN live data feed as in **Figure 20** below, then you are all set.
 
 ::: tip 📝 NOTE
-Be sure to have this window opened prior to sending data through the RAK Serial Port or you will not be able to receive the packet sent. Logging out your The Things Network acccount would also clear all the data sent and not being able to receive packets sent.
+Be sure to have this window opened prior to sending data through the RAK Serial Port or you will not be able to receive the packet sent. Logging out your TTN acccount would also clear all the data sent and not being able to receive packets sent.
 :::
 
 <rk-img
@@ -288,13 +288,14 @@ Be sure to have this window opened prior to sending data through the RAK Serial 
 1. To join the ABP mode, go to device settings and switch the activation method to **ABP**.
 
 2. The **Device Address**, **Network Session Key** and **App Session Key** will be generated automatically by default.
+
    <rk-img
      src="/assets/images/wisduino/rak811-evaluation-board/quickstart/ttn-abp-mode/ghtjt9jvmsfgkbqyrbkz.png"
      width="100%"
      caption="Switching to ABP Mode"
    />
 
-3. Save the mode change and return to the **Device Overview page**. You can copy the keys by pressing the button after the value fields marked in red in **Figure** below.
+3. Save the mode change and return to the **Device Overview page**. You can copy the keys by pressing the button after the value fields marked in red in **Figure 22** below.
 
 <rk-img
   src="/assets/images/wisduino/rak811-evaluation-board/quickstart/ttn-abp-mode/pexuiehqh0dkh1hjpymk.png"
@@ -302,13 +303,13 @@ Be sure to have this window opened prior to sending data through the RAK Serial 
   caption="ABP Parameters Window"
 />
 
-4. Now, we need to update the RAK811 configuration (mode and parameters). Open the RAK Serial Port Tool and type the command below to change the region (in case you have not done so already):
+4. Now, we need to update the RAK811 configuration (mode and parameters). Open the RAK Serial Port Tool and type the command below to change the region (in case you haven't done it already):
 
 ```sh
 at+set_config=lora:region:EU868
 ```
 
-As you can see in **Figure** below, as we were in the same region (EU868), there was no change.
+As you can see in **Figure 23**, there was no change. The region is still EU868.
 
 <rk-img
   src="/assets/images/wisduino/rak811-evaluation-board/quickstart/ttn-abp-mode/gkaye44gsjjuxhtptjmv.png"
@@ -328,7 +329,7 @@ at+set_config=lora:join_mode:1
   caption="Join Mode Setup"
 />
 
-6. Now that the mode has been changed, enter the parameters: **Device Address, Network Session Key**, and **Application Session Key**. Use the commands below. Remember to replace the **"X"** with the corresponding parameter value for your particular case (**Figure 22** for reference of the parameters):
+6. Now that the mode has been changed, enter the following parameters: **Device Address, Network Session Key**, and **Application Session Key**. Use the commands below. Remember to replace the **"X"** with the corresponding parameter value for your particular case. Refer to **Figure 22** for reference of the parameters.
 
 ```sh
 at+set_config=lora:dev_addr:X
@@ -348,7 +349,7 @@ at+set_config=lora:apps_key:X
   caption="Setting up the RAK811 ABP Parameters"
 />
 
-You should end up with a window as the one in **Figure** above (**a series of OK messages**).
+You should have the same window as the one in **Figure 25** above with **a series of OK messages**.
 
 7. Finally, execute the join command:
 
@@ -362,7 +363,7 @@ width="100%"
 caption="Join Command""
 />
 
-8. You can test the connection by sending an uplink frame. Use the following for example:
+8. You can test the connection by sending an uplink frame. Use the following command, as an example:
 
 ```sh
 at+send=lora:1:12345678
@@ -374,10 +375,10 @@ width="100%"
 caption="Sending an uplink frame""
 />
 
-- If you get a response in your TTN live data feed as in **Figure** below, than you are all set!
+- If you get a response in your TTN live data feed the same with **Figure 28** below, then you are all set.
 
 ::: tip 📝 NOTE
-Be sure to have this window opened prior to sending data through the RAK Serial Port or you will not be able to receive the packet sent. Logging out your The Things Network acccount would also clear all the data sent and not being able to receive packets sent.
+Be sure to have this window opened prior to sending data through the RAK Serial Port or you will not be able to receive the packet sent. Logging out your TTN acccount would also clear all the data sent and not being able to receive packets sent.
 :::
 
 <rk-img
@@ -390,10 +391,10 @@ caption="Sending Data to TTN from RAK811""
 
 The ChirpStack or previously known as LoRaServer project provides open-source components for building LoRaWAN® networks. You can learn more about ChirpStack [**here**](https://www.chirpstack.io/).
 
-You can use RAK811 LPWAN Evaluation Board to connect with ChirpStack according to the following steps:
+You can use RAK811 LPWAN Evaluation Board to connect with ChirpStack by following these steps:
 
 ::: tip 📝 NOTE
-In this section, it is an assumption that you have already connected your Gateway with TTN correctly. If not, please have a look at the documentation of RAK Gateway.
+In this section, it is an assumption that you have already connected your Gateway with TTN correctly. If not, take a look at the documentation of RAK Gateway.
 :::
 
 1. Open the web page of the ChirpStack which you want to connect with and login.
@@ -406,7 +407,7 @@ In this section, it is an assumption that you have already connected your Gatewa
   caption="ChirpStack Applications"
 />
 
-3. Fill up the necessary information then Click "**CREATE APPLICATION**”.
+3. Fill up the necessary information then click "**CREATE APPLICATION**”.
 
 <rk-img
   src="/assets/images/wisduino/rak811-evaluation-board/quickstart/connecting-to-chirpstack/lfckimcgh5dlghvhggro.png"
@@ -445,7 +446,9 @@ In this section, it is an assumption that you have already connected your Gatewa
 />
 
 ::: tip 📝 NOTE
-If you want to join in OTAA mode, select “**DeviceProfile_OTAA**” in the “Device-profile” item. If you want to join in ABP mode and CN470 frequency, then, select “**DeviceProfile_ABP_CN470**” in the “Device-Profile” item. If you want to join in ABP mode and other frequencies except AS923 and CN470, you should select “**DeviceProfile_ABP**” in the “Device-profile” item.
+- If you want to join in OTAA mode, select “**DeviceProfile_OTAA**” in the “Device-profile” item.
+- If you want to join in ABP mode and CN470 frequency, then select “**DeviceProfile_ABP_CN470**” in the “Device-Profile” item.
+- If you want to join in ABP mode and other frequencies except AS923 and CN470, you should select “**DeviceProfile_ABP**” in the “Device-profile” item.
 :::
 
 #### OTAA Mode

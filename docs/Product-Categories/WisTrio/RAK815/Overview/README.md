@@ -2,8 +2,8 @@
 rak_img: /assets/images/wistrio/rak815/quickstart/1main/RAK815.svg
 rak_desc: RAK815 Hybrid Location Tracker is a wireless remote solution based from RAK813 with built-in GPS, acceleration, temperature and humidity sensor plus an expanded I2C LCD Interface.
 rak_grp: wistrio
-prev: false
-next: false
+prev: ../../
+next: ../Quickstart/
 ---
 
 # RAK815 Hybrid Location Tracker

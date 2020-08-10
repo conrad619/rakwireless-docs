@@ -1,5 +1,5 @@
 ---
-prev: /Product-Categories/WisTrio/RAK7205-5205/Overview/
+prev: ../Overview/
 next: false
 tags:
   - datasheet
@@ -13,6 +13,8 @@ tags:
   width="25%"
   caption="RAK5205 WisTrio LPWAN Tracker"
 />
+
+## Overview
 
 ### Product Description
 
@@ -41,6 +43,8 @@ This is the best sensor board available in the market, ideal as a quick prototyp
 ## Specifications
 
 ### Overview
+
+The overview covers the RAK5205 WisTrio board top view and also, its block diagram with the corresponding external interfaces of the RAK5205.
 
 #### Board Overview
 
@@ -71,6 +75,8 @@ In figure 4, it shows the block diagram of the external interfaces of RAK4200 LP
 />
 
 ### Hardware
+
+The hardware specification is categorized into eight parts. It discusses the interfacing, pinouts, and its corresponding functions and diagrams. It also covers the parameters and standard values in terms of electrical, environmental mechanical and the antennas specifications. 
 
 #### Interfaces
 
@@ -450,6 +456,8 @@ The table below lists the operation and storage temperature requirements:
 />
 
 ### Software
+
+Download the supported firmwares of RAK5205 in the table provided below. 
 
 #### Firmware
 

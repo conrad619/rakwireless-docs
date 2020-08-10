@@ -1,6 +1,6 @@
 ---
-prev: /Product-Categories/WisTrio/RAK5010/Overview/
-next: false
+prev: ../Overview/
+next: ../Datasheet/
 ---
 
 # Quick Start Guide
@@ -120,7 +120,7 @@ There are 3 ways that you can check the logs for debugging purposes on your RAK5
 />  
 
 
-- Then open a serial port tool in your PC. If you haven’t a serial port tool, I recommend using RAK Serial Port Tool which you can download from **[here](https://downloads.rakwireless.com/en/LoRa/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip).**
+- Then open a serial port tool in your PC. If you haven’t a serial port tool, I recommend using RAK Serial Port Tool which you can download from **[RAKwireless Downloads](https://downloads.rakwireless.com/en/LoRa/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip).**
 - After pushing the RST button on RAK5010, you can see the following contents in the serial port tool:
 
 <rk-img
@@ -144,7 +144,7 @@ There are 3 ways that you can check the logs for debugging purposes on your RAK5
 - Open the serial port tool in your PC.
 
 :::tip 📝 NOTE:
- For this method, you need a serial port tool which can support DTR function, like Termite. You can download Termite [here](https:\/\/www.compuphase.com\/software_termite.htm).
+ For this method, you need a serial port tool which can support DTR function, like Termite. You can download Termite on their [website](https:\/\/www.compuphase.com\/software_termite.htm).
 :::
 
 - Alright, after opening the serial tool, configure its setting by following the picture below:
@@ -184,19 +184,19 @@ The purpose of this section is to demonstrate on how to configure the RAK5010 Wi
 |`at+set_config=hologram:XXX` | Configure the Hologram SIM card. <br>**• XXX** - the device key of the Hologram SIM card. You can find it on [Hologram web page](https://dashboard.hologram.io) after activating the Hologram SIM card. | 
 | `at+send=hologram:user:XXX` | Send a data to Hologram server. <br>**• XXX** - the data you want to send. | 
 | `at+send=hologram:sensor` | Send a packet of the current sensor’s data to Hologram server. | 
-| `at+set_config=ble:work_mode:X:Y`| Set the work mode for BLE. <br>**• X** - 0: BLE peripheral mode, 1: BLE central mode, 2: Beacon scan mode <br>**• Y** - 0: normal range, 1: BLE long range More information about BLE Connection Modes is explained [here](bluetooth-connection-modes) | 
+| `at+set_config=ble:work_mode:X:Y`| Set the work mode for BLE. <br>**• X** - 0: BLE peripheral mode, 1: BLE central mode, 2: Beacon scan mode <br>**• Y** - 0: normal range, 1: BLE long range More information about BLE Connection Modes is explained [here](#bluetooth-connection-modes) | 
 
 ### Configuring RAK5010
 
 You can configure your RAK5010 WisTrio NB-IoT Tracker by sending AT Commands either through UART, through BLE or through Micro USB.
 
 :::tip 📝 NOTE:
- For the full list of AT Commands available for configuring your RAK5010, kindly check [here](/Product-Categories/WisTrio/RAK5010/Quickstart/#at-commands-for-rak5010-wistrio-nb-iot-tracker)
+ For the full list of AT Commands available for configuring your RAK5010, kindly check [here](#at-commands-for-rak5010-wistrio-nb-iot-tracker)
 :::
 
 #### Through UART
 
-1. As mentioned in [Checking Device Logs](/Product-Categories/WisTrio/RAK5010/Quickstart/#checking-device-logs), if you want to use RAK5010 WisTrio NB-IoT Tracker through UART, you should connect the RAK5010 in your machine through UART as shown in the image below:
+1. As mentioned in [Checking Device Logs](#checking-device-logs), if you want to use RAK5010 WisTrio NB-IoT Tracker through UART, you should connect the RAK5010 in your machine through UART as shown in the image below:
 
 <rk-img
   src="/assets/images/wistrio/rak5010/quickstart/4.configuring-rak5010/g1rz6rigcuznvqtlfcb5.jpg"
@@ -461,7 +461,7 @@ Great! As we see, the server has received the packet which RAK5010 sends out suc
 
 ### Bluetooth Connection Modes
 
-There are three BLE modes in RAK5010 from the firmware V3.0.0.6 on, the **Peripheral Mode**, the **Central Mode** and the **Beacon Scan Mode**. You can change the work mode of RAK5010’s BLE using this command provided below which is defined [here](/Product-Categories/WisTrio/RAK5010/Quickstart/#at-commands-for-rak5010-wistrio-nb-iot-tracker)
+There are three BLE modes in RAK5010 from the firmware V3.0.0.6 on, the **Peripheral Mode**, the **Central Mode** and the **Beacon Scan Mode**. You can change the work mode of RAK5010’s BLE using this command provided in the [AT Commands for RAK5010 WisTrio NB-IoT Tracker](/Product-Categories/WisTrio/RAK5010/Quickstart/#at-commands-for-rak5010-wistrio-nb-iot-tracker) section.
 
 ```sh
 at+set_config=ble:work_mode:X:Y
@@ -490,7 +490,7 @@ If you set the RAK5010 to work in Central Mode, the RAK5010 will work first on P
 
 ### Burning the Firmware
 
-An easy and quick way to get started with your RAK5010 is through using a pre-compiled firmware.  However, if you wanted to compile your own customized firmware, you can visit [here](/Product-Categories/WisTrio/RAK5010/Quickstart/#rui-online-compiler) to learn how.
+An easy and quick way to get started with your RAK5010 is through using a pre-compiled firmware.  However, if you wanted to compile your own customized firmware, you can visit [RUI Online Compiler](/Product-Categories/WisTrio/RAK5010/Quickstart/#rui-online-compiler) section to learn how.
 
 #### Installing J-Flash
 
@@ -554,7 +554,7 @@ An easy and quick way to get started with your RAK5010 is through using a pre-co
 
 #### Connecting the RAK5010 with JTAG
 
-- Connect your RAK5010 to your PC through [JTAG](https://store.rakwireless.com/products/emulator-kit) using the following pinout diagram below:
+- Connect your RAK5010 to your PC through JTAG using the following pinout diagram below:
 
 <rk-img
   src="/assets/images/wistrio/rak5010/quickstart/7.burning-the-firmware/hx3crsaspcr2aadaesnc.jpg"
@@ -562,7 +562,7 @@ An easy and quick way to get started with your RAK5010 is through using a pre-co
   caption="RAK5010 and JTAG Hardware Interface"
 />
 
-- Download the latest pre-compiled firmware  [here](https://downloads.rakwireless.com/en/Cellular/RAK5010/Firmware/RAK5010_V3.0.0.8.rar) and extract it in your PC.
+- Download the latest pre-compiled firmware from the [RAKwireless Downloads](https://downloads.rakwireless.com/Cellular/RAK5010/Firmware/) and extract it in your PC.
 - In the J-Flash software Menu Bar, Choose Target -> Connect
 
 <rk-img

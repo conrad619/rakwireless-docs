@@ -1,5 +1,5 @@
 ---
-prev: /Product-Categories/WisNode/RAK612/Overview/
+prev: .../Overview/
 next: false
 ---
 

@@ -1,5 +1,5 @@
 ---
-prev: /Product-Categories/WisTrio/RAK815/Overview/
+prev: ../Quickstart/
 next: false
 tags: 
   - datasheet
@@ -18,7 +18,7 @@ tags:
 
 **RAK815** is a wireless remote solution based on the RAK813 + GPS + MEMS + HT+LCD design. It integrates the latest LoRaWAN® 1.0.2 protocoland Bluetooth 5.0, supporting the LoRaWAN® working mode and Bluetooth transparent transmission up to 300 meters.
 
-RAK815(RAK813 BreakBoard) has a built in GPS, acceleration, temperature and humidity sensors, expanded I2C LCD interface. We provide case applications that can configure LoRaWAN® parameters using Bluetooth, display sensor data using LCD, and upload sensor data to the LoRaWAN® network. The board is equipped with 3 customizable buttons and 2 customizable LEDs, allowing users to implement their ideas with open-source code available in **[Github](https://github.com/RAKWireless/RAK813-BreakBoard).**
+RAK815(RAK813 BreakBoard) has a built in GPS, acceleration, temperature and humidity sensors, expanded I2C LCD interface. We provide case applications that can configure LoRaWAN® parameters using Bluetooth, display sensor data using LCD, and upload sensor data to the LoRaWAN® network. The board is equipped with 3 customizable buttons and 2 customizable LEDs, allowing users to implement their ideas with open-source code available on our **[Github Repository](https://github.com/RAKWireless/RAK813-BreakBoard).**
 
 The board also supports battery powered products which greatly expand the product application scenarios. We also designed the function to enter the low power mode when the device is detected to be stationary to ensure battery life. The device also supports RAK831 + Ri3 gateway to use, you can graphically display the various data of the sensor in the Cayenne platform, but also support the real time observation of sensor data on the phone.
 

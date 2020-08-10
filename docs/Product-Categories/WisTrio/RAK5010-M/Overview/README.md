@@ -2,12 +2,12 @@
 rak_img: /assets/images/wistrio/rak5010-m/overview/RAK5010-M_Illustration.png
 rak_desc: The RAK5010-M is an advanced, highly flexible NB-IoT tracker based on Quectel BG96 LTE Cat M1&NB1, integrated with GPS, BLE and a variety of sensors. The MCU running the board is a Nordic nRF52840 controller.
 rak_grp: wistrio
-prev: false
-next: false
+prev: ../../
+next: ../Quickstart/
 ---
 
 # RAK5010-M WisTrio NB-IoT Tracker
-Thank You For choosing **RAK5010-M WisTrio NB-IoT Tracker** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
+Thank you for choosing **RAK5010-M WisTrio NB-IoT Tracker** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
 * [Quick Start Guide](../Quickstart/)
 

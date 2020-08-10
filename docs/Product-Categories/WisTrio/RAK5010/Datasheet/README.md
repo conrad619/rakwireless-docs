@@ -1,5 +1,5 @@
 ---
-prev: /Product-Categories/WisTrio/RAK5010/Overview/
+prev: ../Quickstart/
 next: false
 tags:
   - datasheet
@@ -660,8 +660,8 @@ The table below lists the operation and storage temperature requirements:
 
 | Model     | Version  | Source                                                                                       |
 | --------- | -------- | -------------------------------------------------------------------------------------------- |
-| RAK5010   | V3.0.0.8 | [Download](https://downloads.rakwireless.com/Cellular/RAK5010/Firmware/RAK5010_V3.0.0.8.rar) |
-| RAK5010-M | V3.0.0.8 | [Download](https://downloads.rakwireless.com/Cellular/RAK5010/Firmware/RAK5010-M.zip)        |
+| RAK5010   | V3.0.0.8 | [Download](https://downloads.rakwireless.com/Cellular/RAK5010/Firmware/RAK5010_Latest_Firmware.zip) |
+| RAK5010-M | V3.0.0.8 | [Download](https://downloads.rakwireless.com/Cellular/RAK5010/Firmware/RAK5010-M_Latest_Firmware.zip)        |
 
 ## Models / Bundles
 
