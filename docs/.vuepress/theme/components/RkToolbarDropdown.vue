@@ -47,7 +47,7 @@
       flat
       no-caps
     />
-    <rk-search-box v-if="!vertical" />
+    <rk-search-box v-if="!vertical" class="gt-md" />
     <rk-dropdown label="Languages" :v2="vertical">
       <q-list style="min-width: 100px">
         <q-item

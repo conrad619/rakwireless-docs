@@ -19,6 +19,7 @@
         auto-close
         fit
         max-width="15rem"
+        @hide="opened=false"
       >
         <slot></slot>
       </q-menu>

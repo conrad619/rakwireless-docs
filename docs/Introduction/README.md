@@ -7,24 +7,24 @@ next: /Product-Categories/
 
 <rk-head img="/assets/rakwireless/RAK-favicon-blue.svg" img-height="200px">
 <h1 class="q-mt-none q-mb-sm" style="font-size: 3.75rem">Welcome!</h1>
-The RAK® Documentation Center is a great place to explore our hardware, software and developer tools, and find all the information you need to get started in your LoRa® project!
+The RAK® Documentation Center is a perfect place to explore and delve deeper into the potential of our products on the Internet of Things (IoT). Herein lies a set of comprehensive documents that provides the fundamentals and the specifications of our devices. Information curated here by our experts will help you initiate and build your next LoRa® project. 
 
 </rk-head>
 
-What you can find in RAK Documentation Center are:
+## RAK Documentation Center
 
-- Quick Start Guide - Set of instructions on how to set up your device for the first time and deploy with only its core functionality in mind.
-- Datasheet - Detailed information about the components of the device and its functionality.
-- User Manual - A software reference cheat sheet to help you navigate the firmware and interface of our devices.
-- Deployment Guide - Practical examples and tutorials on common use cases. Contains varied documents, specifically addressing one use case.
+The files are sorted per device and will contain the following documentation:
 
-## What you need to know before you start
+* **Quick Start Guide:** a set of concise instructions in installing and deploying your device with only its core functionality in mind
+* **Datasheet:** comprehensive information on the device components and functionality with their technical and specific characteristics
+* **User Manual:** a reference for all the foundational information that assists you in navigating the firmware and interface of your device
+* **Deployment Guide:** a catalog of practical examples and tutorials addressing common use cases of the device at hand
 
-When IoT solution just seems to work, it is always the result of hard work. Home automation is fascinating and requires a considerable investment of your time. Here are some key considerations especially for new users. To be successful, you will need to:
+Since the advent of technological innovations, data gathering has now been made efficient and unrestrained through the availability of the internet. This free access has then empowered developers in IoT to continue innovating - resulting in a newfound capability of the system to turn everything into a smart device. From a smart car to a smart home or a smart city, IoT is now able to make everything clever. 
 
-- Start slowly and one step at a time
-- Be prepared to learn
-- Remain flexible in how you want to achieve your goal
-- Celebrate all the small successes
+To keep up with IoT’s accelerated development, RAK offers you robust devices that work great in the different IoT technologies of today, including Amazon Alexa, Wireless Video Solution, Cellular LTE Technology, and LoRa Technology. 
 
-Remember, ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula est ex, in ullamcorper mauris pretium non. Sed egestas elit nec fermentum aliquet. Nulla molestie nisl fringilla lacus viverra tristique quis ut tellus. Vivamus faucibus porta tellus, eget condimentum enim commodo sit amet. Praesent sed orci semper, lacinia enim non, bibendum ipsum. Integer maximus nibh vel risus tempor, quis rhoncus justo porttitor. Praesent venenatis convallis dictum. Donec erat leo, posuere sed leo in, consectetur commodo tellus. Curabitur vehicula sagittis nisi, ac feugiat nunc vestibulum vitae. Proin aliquam quam at placerat mattis. Aenean volutpat lectus eget nulla placerat gravida. Vestibulum iaculis orci et quam volutpat cursus sit amet blandit justo. Curabitur hendrerit quam rutrum urna pulvinar venenatis. Ut nulla ipsum, pulvinar vitae dignissim quis, vulputate sed urna.
+Furthermore, RAK has partnered with some of the IoT ecosystems of the world’s leading tech brands — Apple, Alibaba, Amazon, and Microsoft. This collaboration has brought IoT solutions closer not just to prominent companies in the community but also to individual developers and enthusiasts alike.
+
+Hence, the RAK Documentation Center is committed to providing indispensable documents to assist and guide all of you in implementing IoT technology solutions to your everyday needs. 
+
