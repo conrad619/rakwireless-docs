@@ -179,7 +179,8 @@ The RAK4200 LPWAN Module when in sleep mode consumes **11.8 uA** of current.
 
 #### Mechanical Characteristics
 
-The following figure is the mechanical dimensions of the RAK4200 LPWAN Module.
+
+<!---The following figure is the mechanical dimensions of the RAK4200 LPWAN Module.--->
 
 <rk-img
   src="/assets/images/wisduo/rak4200-module/datasheet/mechanical-dimensions.jpg"
@@ -189,7 +190,7 @@ The following figure is the mechanical dimensions of the RAK4200 LPWAN Module.
 
 #### Recommended Reflow Profile
 
-In this section, the recommended reflow profile for RAK4200 LPWAN Module is described in the image below:
+<!--- In this section, the recommended reflow profile for RAK4200 LPWAN Module is described in the image below: --->
 
 
 <rk-img

@@ -52,6 +52,8 @@ Thus the RAK7249 is suited for any use case scenario, be it rapid deployment or 
 
 ### Overview
 
+The overview presents the circuit board of RAK7249 Max and its block diagram that shows the board works with MT7628 chip as the core. It also lists the components and accessories of the RAK7249 Max.
+
 #### Circuit Board
 
 <rk-img
@@ -62,7 +64,7 @@ Thus the RAK7249 is suited for any use case scenario, be it rapid deployment or 
 
 #### Components and Accessories
 
-Create your own RAK7249 Max using the supplied building Blocks:
+Create your own RAK7249 Max using the supplied building blocks:
 
 - Main Board
 - Enclosure
@@ -128,6 +130,9 @@ The image below shows the block diagram for RAK7249 Max with MT7628 chip as the 
 />
 
 ### Hardware
+
+The hardware specification presents the interfacing of RAK7249 Max both in hardware and board interfaces. 
+
 
 #### Interfaces
 

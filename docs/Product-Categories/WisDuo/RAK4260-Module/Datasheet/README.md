@@ -233,7 +233,7 @@ The following chart shows the receiving sensitivity of RAK4260 at 868 Mhz.
 
 #### Mechanical Characteristics
 
-The dimensions of the RAK4260 WisDuo LPWAN Module is shown in the figures below.
+<!--- The dimensions of the RAK4260 WisDuo LPWAN Module is shown in the figures below. --->
 
 <rk-img
   src="/assets/images/wisduo/rak4260-module/datasheet/rak4260-top-view-dimensions.jpg"

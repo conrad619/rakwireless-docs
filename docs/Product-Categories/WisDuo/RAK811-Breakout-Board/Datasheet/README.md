@@ -53,7 +53,7 @@ This module is a complete solution in developing your LoRaWAN® protocol techniq
 
 ### Overview
 
-The **RAK811 WisBee™ Breakout Module** is shown in Figure 2 with its corresponding board dimension of **42mm x 25mm**. This module weighs only at about **0.2kg**.
+The **RAK811 WisBee™ Breakout Module** is shown in Figure 2 with its corresponding board dimension of **42mm x 25mm**. This module weighs at about **0.2kg**.
 
 <rk-img
   src="/assets/images/wisduo/rak811-breakout-board/datasheet/2.dimensions.png"
@@ -62,6 +62,7 @@ The **RAK811 WisBee™ Breakout Module** is shown in Figure 2 with its correspon
 />
 
 ### Hardware
+
 The hardware specification is categorized into five parts. It discusses the interfacing, pinouts, and its corresponding functions and diagrams. It also covers the electrical, mechanical, and environmental parameters that include the tabular data of the functionalities and standard values of the RAK811 WisBee™ Breakout Module.
 
 #### Interfaces

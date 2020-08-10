@@ -1,22 +1,22 @@
 ---
 tags:
   - datasheet
-  - wisbee
+  - wisduo
 prev: /Product-Categories/WisDuo/RAK4200-Breakout-Board/Overview/
 
 ---
 
-# RAK4200 WisBee™ Breakout Module Datasheet
+# RAK4200 Breakout Module Datasheet
 
 <rk-img
   src="/assets/images/wisduo/rak4200-breakout-board/datasheet/rak4200-breakout-module.png"
   width="50%"
-  caption="RAK4200 WisBee™ Breakout Module"
+  caption="RAK4200 Breakout Module"
 />
 
 ### Product Description
 
-**RAK4200 WisBee™ Breakout Module** is specifically designed to allow easy excess to the pins on the module in order to simplify development and testing. The breakout board utilized is of an Xbee form factor and its main purpose is to allow the RAK4200 stamp module form factor pinout to be transferred to 2.54mm headers.
+**RAK4200 Breakout Module** is specifically designed to allow easy excess to the pins on the module in order to simplify development and testing. The breakout board utilized is of an Xbee form factor and its main purpose is to allow the RAK4200 stamp module form factor pinout to be transferred to 2.54mm headers.
 
 The module itself has the RAK4200 at its core, integrating an **STM32L071 MCU** and an **SX1276 LoRa® chip**. It has Ultra-Low Power Consumption of 1.5uA in sleep mode and high LoRa® output power (19dBm) in work mode.
 
@@ -48,19 +48,18 @@ LoRa® module for Smart City, Smart Agriculture, Smart Industry
 
 ### Overview
 
-The RAK4200 WisBee™ Breakout Module is shown in Figure 2. It displays the top view of the module.
-
+The RAK4200 Breakout Module is shown in Figure 2. It displays the top view of the module.
 
 <rk-img
   src="/assets/images/wisduo/rak4200-breakout-board/datasheet/rak4200-breakout-board-illustration.png"
   width="50%"
-  caption="RAK4200 WisBee™ Breakout Board Illustration"
+  caption="RAK4200 Breakout Board Illustration"
 />
 
 ### Hardware
 
 
-The hardware specification is categorized into four parts. It discusses the interfacing, pinouts, and its corresponding functions and diagrams. It also covers the electrical, mechanical, and environmental parameters that include the tabular data of the functionalities and standard values of the RAK4200 WisBee™ Breakout Module.
+The hardware specification is categorized into four parts. It discusses the interfacing, pinouts, and its corresponding functions and diagrams. It also covers the electrical, mechanical, and environmental parameters that include the tabular data of the functionalities and standard values of the RAK4200 Breakout Module.
 
 
 #### Interfaces
@@ -107,15 +106,15 @@ The SPI interface (**_SPIMOSI, SPI MISO, SPI_CLK_**) is connected to **SX1276** 
 
 #### Pin Definition
 
-The figure below shows the pinout of the RAK4200 WisBee™ Breakout Module:
+The figure below shows the pinout of the RAK4200 Breakout Module:
 
 <rk-img
   src="/assets/images/wisduo/rak4200-breakout-board/datasheet/rak4200-breakout-board-pinout.png"
   width="75%"
-  caption="RAK4200 WisBee™ Breakout Module Pinout"
+  caption="RAK4200 Breakout Module Pinout"
 />
 
-The pin definitions of RAK4200 WisBee™ Breakout Module are shown in the following tables below:
+The pin definitions of RAK4200 Breakout Module are shown in the following tables below:
 
 ##### J1 Pin Definitions
 
@@ -154,7 +153,7 @@ The pin definitions of RAK4200 WisBee™ Breakout Module are shown in the follow
 
 ##### Operating Frequencies
 
-The RAK4200 WisBee™ Breakout Module supports the following LoRa® bands:
+The RAK4200 Breakout Module supports the following LoRa® bands:
 
 | Module          | Region                                                                                     | Frequency                                                                    |
 | --------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
@@ -165,7 +164,7 @@ The RAK4200 WisBee™ Breakout Module supports the following LoRa® bands:
 
 ##### Power Consumption
 
-The table below shows the power consumption of RAK4200 WisBee™ Breakout Module:
+The table below shows the power consumption of RAK4200 Breakout Module:
 
 | Item                    | Power Consumption | Condition                       |
 | ----------------------- | ----------------- | ------------------------------- |
@@ -176,17 +175,17 @@ The table below shows the power consumption of RAK4200 WisBee™ Breakout Module
 
 ##### Schematic Diagram
 
-The RAK4200 WisBee™ Breakout Board circuit is shown below:
+The RAK4200 Breakout Board circuit is shown below:
 
 <rk-img
   src="/assets/images/wisduo/rak4200-breakout-board/datasheet/rak4200-breakout-module-schematic.png"
   width="100%"
-  caption="RAK4200 WisBee™ Breakout Module Schematic"
+  caption="RAK4200 Breakout Module Schematic"
 />
 
 ### Software
 
-Download the latest firmware and bootloader of the RAK400 WisBee™ Breakout Module provided in the table below.
+Download the latest firmware and bootloader of the RAK400 Breakout Module provided in the table below.
 
 
 #### Firmware
