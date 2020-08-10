@@ -30,6 +30,14 @@
       @blur="menuFocused=false"
     >
       <q-list style="max-width: 30rem">
+        <q-item v-if="!filtered.length">
+          <q-item-section>
+            <q-item-label>
+              No results found for query "
+              <b>{{ filter }}</b>"
+            </q-item-label>
+          </q-item-section>
+        </q-item>
         <q-item v-for="f in filtered" :key="f.path" :to="f.path" @click="filter=''">
           <q-item-section>
             <q-item-label caption>
@@ -47,26 +55,18 @@
         </q-item>
       </q-list>
     </q-menu>
-    <q-dialog v-model="showDlg" maximized>
-      <q-card>
-        <q-btn
-          icon="close"
-          class="float-right q-pa-sm"
-          style="z-index: 1"
-          color="grey-7"
-          round
-          flat
-          v-ripple
-          v-close-popup
-        />
-        <q-card-section>
+    <q-dialog v-model="showDlg" persistent>
+      <q-card style="width: 90vw; max-width: 30rem">
+        <q-card-section class="flex flex-center bg-primary">
           <q-input
             v-model="filter"
             color="white"
-            style="width: 20rem"
+            :debounce="250"
             rounded
             dense
+            dark
             standout="bg-white text-black"
+            style="width: 20rem"
           >
             <template v-slot:append>
               <q-icon v-if="filter === ''" name="search" />
@@ -74,6 +74,54 @@
             </template>
           </q-input>
         </q-card-section>
+        <q-card-section
+          class="scroll q-pa-sm"
+          :class="{ 'flex flex-center': !filtered.length }"
+          style="min-height: 15rem; max-height: 20rem;"
+        >
+          <q-list v-if="filtered.length" class="fit">
+            <q-item
+              v-for="f in filtered"
+              :key="f.path"
+              :to="f.path"
+              @click="filter=''; showDlg=false"
+            >
+              <q-item-section>
+                <q-item-label caption>
+                  <q-breadcrumbs class="text-grey-7" gutter="xs">
+                    <q-breadcrumbs-el icon="home" />
+                    <q-breadcrumbs-el
+                      v-for="(item, id) in breadcrumbs(f.path)"
+                      :key="`${f.path}-${id}`"
+                      :label="item.replace(/-/g, ' ')"
+                    />
+                  </q-breadcrumbs>
+                </q-item-label>
+                <q-item-label>{{ f.title }}</q-item-label>
+              </q-item-section>
+            </q-item>
+          </q-list>
+          <div v-else class="text-grey-8">
+            <span v-if="!filter">Type something to start searching...</span>
+            <span v-else>
+              No results found for query "
+              <b>{{ filter }}</b>"
+            </span>
+          </div>
+        </q-card-section>
+        <q-card-actions align="center">
+          <q-btn
+            label="Dismiss"
+            color="primary"
+            rounded
+            v-ripple
+            v-close-popup
+            no-caps
+            class="q-px-md"
+            style="width: 10rem"
+            @click="filter=''"
+          />
+        </q-card-actions>
       </q-card>
     </q-dialog>
   </div>
@@ -98,7 +146,7 @@ export default {
   computed: {
     showMenu: {
       get() {
-        return (this.focused || this.menuFocused) && this.filtered.length > 0
+        return (this.focused || this.menuFocused) && this.filter.trim().length !== 0
       },
       set(val) {}
     },
