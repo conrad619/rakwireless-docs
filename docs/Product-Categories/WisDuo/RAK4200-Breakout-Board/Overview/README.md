@@ -3,8 +3,8 @@ static_root: /assets/images/wisduo/rak4200-breakout-board/quickstart/main
 rak_img: /assets/images/wisduo/rak4200-breakout-board/quickstart/main/rak4200-breakout.png
 rak_desc: The RAK4200 LPWAN Breakout Module is specifically designed to allow easy excess to the pins on the module in order to simplify development and testing. The breakout board utilized is of an Xbee form factor and its main purpose is to allow the RAK4200 stamp module form factor pin-out to be transferred to 2.54mm headers. 
 rak_grp: [wisduo, breakout]
-prev: false
-next: false
+prev: ../../
+next: ../Quickstart/
 ---
 
 # RAK4200 Breakout Module

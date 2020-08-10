@@ -3,7 +3,7 @@ tags:
   - datasheet
   - wishat
 
-prev: /Product-Categories/WisHat/RAK2247-Pi-HAT/Overview/
+prev: ../Overview/
 ---
 
 # RAK2247 Pi HAT Datasheet

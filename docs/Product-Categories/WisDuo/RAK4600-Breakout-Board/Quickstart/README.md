@@ -1,6 +1,6 @@
 ---
-prev: /Product-Categories/WisDuo/RAK4600-Breakout-Board/Overview/
-next: false
+prev: ../Overview/
+next: ../Datasheet/
 ---
 
 # Quick Start Guide

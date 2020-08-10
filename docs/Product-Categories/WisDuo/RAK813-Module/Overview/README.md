@@ -2,6 +2,8 @@
 rak_img: /assets/images/wisduo/rak813-module/datasheet/overview/RAK813.jpg
 rak_desc: The RAK813 is a combination of the BLE and LoRa® in a single module. The BLE short-range technology combined with low-power LoRa® can provide long-distance wireless communication capabilities. Both technologies are low power, eliminating the need to change batteries frequently.
 rak_grp: [wisduo, module]
+prev: ../../
+next: ../Datasheet/
 ---
 # RAK813  BLE+LoRa®
 Thank You For choosing **RAK813  BLE+LoRa®** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.

@@ -1,8 +1,8 @@
 ---
 tags:
   - datasheet
-  - wisduo
-prev: /Product-Categories/WisDuo/RAK4200-Breakout-Board/Overview/
+  - wisbee
+prev: ../Quickstart/
 
 ---
 

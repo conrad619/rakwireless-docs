@@ -23,11 +23,6 @@ Before going through each and every step in the installation guide of the RAK420
 ::: tip 📝 NOTE
 In order to have an optimal antenna matching for the Low and High LoRa® bands there are two types of modules with different hardware. The L type module only works for the 433MHz and 470MHz LoRa® bands. The H type module is for the 868MHz to 923MHz (the rest of the spectrum). Note that the hardware is specific for your selected band and can't be changed.
 :::
-<rk-btn
-  src="https://store.rakwireless.com/products/rak4200-evaluation-board"
-  label="Buy a RAK4200 LPWAN Evaluation Board"
-  _blank
-/>
 
 ### What's included in the Package?
 
@@ -503,9 +498,9 @@ By default, there is already one or more items in this page, you can use it or c
    The Application EUI which will be set into RAK4200 LPWAN Evaluation Board as “app_eui” is not necessary for ChirpStack, and you can set it to any value with a correct format.
    :::
 
-5. Configure RAK4200 LPWAN Evaluation Board by using the available AT Commands found in this [section](#at-commands-for-rak4200-lpwan-evaluation-board). Connect your RAK4200 LPWAN Evaluation Board in your Windows Machine.
+5. Configure RAK4200 LPWAN Evaluation Board by using the available commands found in the [AT Commands for RAK4200 LPWAN Evaluation Board](#at-commands-for-rak4200-lpwan-evaluation-board) section. Connect your RAK4200 LPWAN Evaluation Board in your Windows Machine.
 
-6. Power it **ON** and open **RAK Serial Port Tool** on your PC as instructed [here](#interfacing-with-rak4200-lpwan-evaluation-board).
+6. Power it **ON** and open **RAK Serial Port Tool** on your PC as instructed in the [Interfacing with RAK4200 LPWAN Evaluation Board](#interfacing-with-rak4200-lpwan-evaluation-board) section.
 
 ::: tip 📝 NOTE
 The default join mode is **OTAA**, the default class is **Class A** and the default region is **EU868**.
@@ -860,7 +855,7 @@ The following steps show you how to update the firmware for RAK4200 LPWAN Module
 - [RAK Firmware Upgrade Tool](https://downloads.rakwireless.com/en/LoRa/Tools/RAK_Upgrade_Tool_V1.0.rar)
 - [RAK4200 Firmware](https://downloads.rakwireless.com/en/LoRa/RAK4200/Firmware/RAK4200_V3.2.0.12.rar)
 
-2. Connect your RAK4200 LPWAN Evaluation Board in your windows machine as instructed in the [Interfacing with RAK4200 LPWAN Evaluation Board](#interfacing-with-rak4200-lpwan-evaluation-board)
+2. Connect your RAK4200 LPWAN Evaluation Board in your windows machine as instructed in the [Interfacing with RAK4200 LPWAN Evaluation Board](#interfacing-with-rak4200-lpwan-evaluation-board) section. 
 
 3. Open the RAK Serial Port Tool you have just installed and let RAK4200 work in boot mode by setting an AT command through serial port as follows:
 

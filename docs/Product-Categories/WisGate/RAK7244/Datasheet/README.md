@@ -2,7 +2,7 @@
 tags:
   - datasheet
   - wisgate
-prev: /Product-Categories/WisGate/RAK7244/Overview/
+prev: ../Quickstart/
 ---
 
 # RAK7244 Developer Datasheet

@@ -1,6 +1,6 @@
 ---
-prev: /Product-Categories/WisGate/RAK7246G/Overview/
-next: false
+prev: ../Overview/
+next: ../Datasheet/
 
 ---
 
@@ -349,10 +349,10 @@ http://[IP Address]:8080/#/login
 
 ### Connecting to the Things Network (TTN)
 
-The Things Network is about enabling low power devices to use long range gateways to connect to an open-source, decentralized network to exchange data with Application. Learn more about the Things Network [here](https://www.thethingsnetwork.org/docs/).
+The Things Network is about enabling low power devices to use long range gateways to connect to an open-source, decentralized network to exchange data with Application. Learn more about the Things Network through their [documentation](https://www.thethingsnetwork.org/docs/).
 
-* First, you should have connected your Gateway to the router in order to access the internet according to the method which has been introduced in the [Accessing the Internet](/Product-Categories/WisGate/RAK7246G/Quickstart/#accessing-the-internet) section.
-* Second, config your Gateway and choose TTN as the LoRa® Server and choose a correct frequency according to the method which has been introduced in the [Configuring the Gateway](/Product-Categories/WisGate/RAK7246G/Quickstart/#configuring-the-gateway) section.
+* First, you should have connected your Gateway into the internet through a router according to the method which has been introduced in the [Accessing the Internet](#accessing-the-internet) section.
+* Second, config your Gateway and choose TTN as the LoRa® Server and choose a correct frequency according to the method which has been introduced in the [Configuring the Gateway](#configuring-the-gateway) section.
 * Now go to the [TTN Website](https://www.thethingsnetwork.org/) and Login. You will then see the following page:
 
 
@@ -471,7 +471,7 @@ Assuming you have set it up correctly, Login to your ChirpStack to register your
   caption="Registering your own Gateway"
 />
 
-* Fill in the Gateway ID that we got from the last section ([Configuring the Gateway](/Product-Categories/WisGate/RAK7246G/Quickstart/#configuring-the-gateway)), also called Gateway EUI.
+* Fill in the Gateway ID that we got from the last section ([Configuring the Gateway](#configuring-the-gateway)), also called Gateway EUI.
 
 <rk-img
   src="/assets/images/wisgate/rak7246g/quickstart/gateway_id.png"
@@ -567,7 +567,7 @@ width="80%"
 caption="Getting the Wi-Fi MAC Address of the RAK7246G Developer"
 />
 
-3. **Gateway EUI/ID:** This is the Gateway ID which you can get in the [Configuring your Gateway](/Product-Categories/WisGate/RAK7246G/Quickstart/#configuring-the-gateway) section.
+3. **Gateway EUI/ID:** This is the Gateway ID which you can get in the [Configuring your Gateway](#configuring-the-gateway) section.
 
 <rk-img 
   src="/assets/images/wisgate/rak7246g/quickstart/gateway_id.png" 

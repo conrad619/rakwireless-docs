@@ -1,6 +1,6 @@
 ---
-prev: /Product-Categories/WisGate/RAK7243C/Overview/
-next: false
+prev: ../Overview/
+next: ../Datasheet/
 ---
 
 # Quick Start Guide
@@ -588,10 +588,10 @@ Then, set the IP address of the ChirpStack which you want your Lgateway to work 
 
 ### Connecting to The Things Network (TTN)
 
-The Things Network is about enabling low power devices to use long range [gateways](https://www.thethingsnetwork.org/docs/gateways/) to connect to an open-source, decentralized network to exchange data with Application. Learn more about the Things Network [here](https://www.thethingsnetwork.org/docs/).
+The Things Network is about enabling low power devices to use long range [gateways](https://www.thethingsnetwork.org/docs/gateways/) to connect to an open-source, decentralized network to exchange data with Application. Learn more about the Things Network through their [documentation](https://www.thethingsnetwork.org/docs/).
 
-- First, you should have connected your gateway to the router in order to access the internet according to the method which has been introduced in the [Accessing the Internet](/Product-Categories/WisGate/RAK7243C/Quickstart/#accessing-the-internet) section of this document.
-- Second, config your gateway and choose TTN as the LoRa® Server and choose a correct frequency according to the method which has been introduced in the [Configuring the Gateway](/Product-Categories/WisGate/RAK7243C/Quickstart/#configuring-the-gateway) section.
+- First, you should have connected your gateway into the internet through the router according to the method which has been introduced in the [Accessing the Internet](#accessing-the-internet) section of this document.
+- Second, config your gateway and choose TTN as the LoRa® Server and choose a correct frequency according to the method which has been introduced in the [Configuring the Gateway](#configuring-the-gateway) section.
 - Now go to the TTN Website: [https://www.thethingsnetwork.org/](https://www.thethingsnetwork.org/) and Login. You will then see the following page:
 
 <rk-img
@@ -647,7 +647,7 @@ For the RAK7243C LPWAN Developer Gateway, there are 2 ways to use the ChirpStack
 There is a built-in ChirpStack in every RAK Developer gateway if you use the latest firmware.
 
 - When you use it for the first time after burning the latest firmware, the gateway will work in the EU868 Band and use the built-in ChirpStack as its default LoRa® Server. If you don't want to change the frequency or LoRa® Server, you don't have to do anything as this will be configured automatically when the gateway boots.
-- However if it is not the first time and you want to use the built-in ChirpStack as the LoRa® Server, follow the steps discussed in [Configuring the Gateway](/Product-Categories/WisGate/RAK7243C/Quickstart/#configuring-the-gateway) section.
+- However if it is not the first time and you want to use the built-in ChirpStack as the LoRa® Server, follow the steps discussed in [Configuring the Gateway](#configuring-the-gateway) section.
 - **Optional:** If ever you disabled the AP Mode and you have connected it to your own Wifi network (Client Mode). You can search for your gateway’s IP Address via [**Advanced IP Scanner**](https://www.advanced-ip-scanner.com/). Copy the IP Address of your Gateway, it should have a Manufacturer name of **Raspberry Pi Foundation**:
 
 <rk-img

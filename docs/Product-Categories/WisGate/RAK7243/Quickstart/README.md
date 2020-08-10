@@ -1,5 +1,5 @@
 ---
-prev: /Product-Categories/WisGate/RAK7243/Overview/
+prev: ../Overview/
 next: false
 ---
 
@@ -415,9 +415,9 @@ First, select "**1 ChirpStack Channel-plan configuration**" for configuring your
 
 ### Connecting to the Things Network (TTN)
 
-The Things Network is about enabling low power devices to use long range gateways to connect to an open-source, decentralized network to exchange data with Application. Learn more about the Things Network [here](https://www.thethingsnetwork.org/docs/).
+The Things Network is about enabling low power devices to use long range gateways to connect to an open-source, decentralized network to exchange data with Application. Learn more about the Things Network throught their [documentation](https://www.thethingsnetwork.org/docs/).
 
-* First, you should have connected your gateway to the router in order to access the internet according to the method which has been introduced in the [Accessing the Internet](/Product-Categories/WisGate/RAK7243/Quickstart/#accessing-the-internet) section.
+* First, you should have connected your gateway into the internet through the router according to the method which has been introduced in the [Accessing the Internet](#accessing-the-internet) section.
 * Second, config your gateway and choose TTN as the LoRa® Server and choose a correct frequency according to the method which has been introduced in the [Configuring the Gateway](/Product-Categories/WisGate/RAK7243/Quickstart/#configure-the-gateway) section.
 * Now go to the [TTN Website](https://www.thethingsnetwork.org/) and Login. You will then see the following page:
 

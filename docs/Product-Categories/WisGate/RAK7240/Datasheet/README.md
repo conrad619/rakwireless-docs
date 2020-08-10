@@ -2,7 +2,7 @@
 tags:
   - datasheet
   - wisgate
-prev: /Product-Categories/WisGate/RAK7240/Overview/
+prev: ../Quickstart/
 certifications:
   - [CE, https://downloads.rakwireless.com/LoRa/RAK7240/Certification-Report/RAK7240_CE_Certificate.zip]
   - [FCC, https://downloads.rakwireless.com/LoRa/RAK7240/Certification-Report/RAK7240_FCC_Certificate.zip]

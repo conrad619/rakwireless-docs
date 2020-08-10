@@ -1,8 +1,8 @@
 ---
 tags:
   - datasheet
-  - wisduo
-prev: /Product-Categories/WisDuo/RAK4260-Breakout-Board/Overview/
+  - wisbee
+prev: ../Quickstart/
 ---
 
 # RAK4260 Breakout Module Datasheet

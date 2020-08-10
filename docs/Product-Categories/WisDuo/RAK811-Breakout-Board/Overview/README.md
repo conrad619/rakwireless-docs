@@ -3,8 +3,8 @@ static_root: /assets/images/wisduo/rak811-breakout-board/quickstart/overview
 rak_img: /assets/images/wisduo/rak811-breakout-board/quickstart/overview/RAK811-wisduo.svg
 rak_desc: RAK811 Breakout Module is a wireless remote sensor node solution based from RAK811 + MEMS Sensor. The board uses the latest LoRaWAN® Version 1.0.2 and supports the LoRaWAN® working mode, making it easier to link into the LoRaWAN® network.
 rak_grp: [wisduo, breakout]
-prev: false
-next: false
+prev: ../../
+next: ../Quickstart/
 ---
 
 # RAK811 Breakout Module

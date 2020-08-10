@@ -4,7 +4,7 @@ tags:
   - datasheet
   - wisgate
 
-prev: /Product-Categories/WisGate/RAK7246G/Overview/
+prev: ../Quickstart/
 ---
 
 # RAK7246G Developer Datasheet

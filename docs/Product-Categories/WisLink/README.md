@@ -2,7 +2,8 @@
 
 <rk-head img="/assets/rakwireless/product-categories/WisLink.svg" center>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula est ex, in ullamcorper mauris pretium non. Sed egestas elit nec fermentum aliquet. Nulla molestie nisl fringilla lacus viverra tristique quis ut tellus. Vivamus faucibus porta tellus, eget condimentum enim commodo sit amet. Praesent sed orci semper, lacinia enim non, bibendum ipsum. Integer maximus nibh vel risus tempor, quis rhoncus justo porttitor. Praesent venenatis convallis dictum. Donec erat leo, posuere sed leo in, consectetur commodo tellus. Curabitur vehicula sagittis nisi, ac feugiat nunc vestibulum vitae. Proin aliquam quam at placerat mattis. Aenean volutpat lectus eget nulla placerat gravida. Vestibulum iaculis orci et quam volutpat cursus sit amet blandit justo. Curabitur hendrerit quam rutrum urna pulvinar venenatis. Ut nulla ipsum, pulvinar vitae dignissim quis, vulputate sed urna.
+RAKwireless offers a number of connectivity modules that are designed to be integrated in existing hardware in order to provide LPWAN connectivity capabilities. These include LoRaWAN and Nb-IoT devices with different form factors, that provides for flexibility when choosing one suitable for a given application.
+
 
 </rk-head>
 
@@ -10,7 +11,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula est ex, 
 
 <rk-head img="/assets/rakwireless/product-categories/WisLink-LPWAN.svg">
 
-Suspendisse potenti. Mauris scelerisque dolor et elit finibus, at porttitor odio varius. Nam commodo nisl nulla, at mollis odio bibendum eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+Connectivity modules designed to work as LoRaWAN concentrator modules in order to turn a hardware platform in to a fully capable LPWAN gateway. These come in two varieties: 1st, As a Raspberry Pi HAT for easy integration in developer platforms based on the immensely popular SBS, the Raspberry Pi. 2nd, As an mPCIe form factor card for rapid integration with hardware supporting the standard. These are mostly designed for commercial use and large-scale deployment.
+
 
 </rk-head>
 <rk-products :tags="['wislink', 'lpwan']" />
@@ -20,7 +22,8 @@ Suspendisse potenti. Mauris scelerisque dolor et elit finibus, at porttitor odio
 
 <rk-head img="/assets/rakwireless/product-categories/WisLink-Cellular.svg">
 
-Suspendisse potenti. Mauris scelerisque dolor et elit finibus, at porttitor odio varius. Nam commodo nisl nulla, at mollis odio bibendum eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+A collection of cellular modem boards in different form factors, with different capabilities and set of features. These boards can serve as both backhaul for base stations and routers and as cellular modems for end-user devices.
+
 
 </rk-head>
 <rk-products :tags="['wislink', 'cellular']" />
