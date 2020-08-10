@@ -6,30 +6,37 @@ export default {
     store: 'https://store.rakwireless.com/products/rak831-gateway-module'
   },
   '/Product-Categories/WisLink/RAK833/': {
+    label: 'RAK833-WisLink-LoRa',
     img: '/assets/images/wislink-lora/rak833/datasheet/rak833.png',
     store: 'https://store.rakwireless.com/products/rak833-gateway-module'
   },
   '/Product-Categories/WisLink/RAK2013/': {
+    label: 'RAK2013-WisLink-LTE',
     img: '/assets/images/wislink-lte/rak2013/datasheet/rak2013.jpg',
     store: 'https://store.rakwireless.com/products/rak2013-cellular-pi-hat'
   },
   '/Product-Categories/WisLink/RAK2245-Pi-HAT/': {
+    label: 'RAK2245 Pi Hat WisLink-LoRa',
     img: '/assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/1.product-overview/1.index/RAK2245-pi-hat.svg',
     store: 'https://store.rakwireless.com/products/rak2245-pi-hat/'
   },
   '/Product-Categories/WisLink/RAK2245-Stamp-Edition/': {
+    label: 'RAK2245 WisLink-LoRa Stamp Edition',
     img: '/assets/images/wislink-lora/rak2245-stamp-edition/quickstart/overview/RAK2245-stamp-edition.svg',
     store: 'https://store.rakwireless.com/products/rak2245-stamp-edition'
   },
   '/Product-Categories/WisLink/RAK2247/': {
+    label: 'RAK2247 WisLink-LoRa ',
     img: '/assets/images/wislink-lora/rak2247/quickstart/1.main/RAK2247.svg',
     store: 'https://store.rakwireless.com/products/rak2247-lorawan-gateway-concentrator-module'
   },
   '/Product-Categories/WisLink/RAK2287/': {
+    label: 'RAK2287 WisLink-LoRa',
     img: '/assets/images/wislink-lora/rak2287/quickstart/1main/rak2287.jpg',
     store: 'https://store.rakwireless.com/products/rak2287-lpwan-gateway-concentrator-module/'
   },
   '/Product-Categories/WisLink/RAK8213/': {
+    label: 'RAK8213 WisLink NB-IoT Module',
     img: '/assets/images/wislink-lte/rak8213/quickstart/overview/rak8213.png',
     store: 'https://store.rakwireless.com/'
   },
