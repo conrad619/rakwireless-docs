@@ -1,6 +1,6 @@
 ---
-prev: /Product-Categories/WisDuo/RAK811-Breakout-Board/Overview/
-next: false
+prev: ../Overview/
+next: ../Datasheet/
 ---
 
 # Quick Start Guide
@@ -891,4 +891,4 @@ at+set_config=device:restart
 
 This information means that you have uploaded the Firmware successfully!
 
-If you want to configure your RAK811 Breakout Module using the available **AT commands**, check [AT Commands for RAK811 Breakout Module](/Product-Categories/WisDuo/RAK811-Breakout-Board/Quickstart/#at-commands-for-rak811-lpwan-breakout-module).
+If you want to configure your RAK811 Breakout Module using the available **AT commands**, check [AT Commands for RAK811 Breakout Module](#at-commands-for-rak811-breakout-module).

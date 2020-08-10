@@ -1,6 +1,6 @@
 ---
-next: false
-prev: /Product-Categories/WisGate/RAK7240/Overview/
+next: ../Datasheet/
+prev: ../Overview/
 ---
 # Quick Start Guide
 
@@ -127,9 +127,9 @@ Connect the Ethernet cable to the port marked “ETH” on the Gateway and the o
 
 ### Connecting to The Things Network (TTN)
 
-The Things Network is about enabling low power devices to use long range gateways to connect to an open-source, decentralized network to exchange data with Application. Learn more about The Things Network [here](https://www.thethingsnetwork.org/docs/).
+The Things Network is about enabling low power devices to use long range gateways to connect to an open-source, decentralized network to exchange data with Application. Learn more about The Things Network through their [documentation](https://www.thethingsnetwork.org/docs/).
 
-- First, you should have connected your RAK7240 Prime to the router in order to access the internet according to the method which has been introduced in the [Access the Internet](/Product-Categories/WisGate/RAK7240/Quickstart/#access-the-internet) section of this document.
+- First, you should have connected your RAK7240 Prime into the internet through a  router according to the method which has been introduced in the [Access the Internet](#access-the-internet) section of this document.
 - Now go to the TTN Website: [https://www.thethingsnetwork.org/](https://www.thethingsnetwork.org/) and Login. You will then see the following page:
 
 <rk-img
@@ -162,7 +162,7 @@ The Things Network is about enabling low power devices to use long range gateway
 />
 
 :::tip 📝 NOTE
- By default, the Gateway is set to connect to TTN. For detailed information about advanced configuration options refer to the [LoRaWAN® Gateway Configuration](/user-manual/web-management-platform/lorawan-gateway-configuration.html#_1-lora®-packet-forwarder) section.
+ By default, the Gateway is set to connect to TTN. For detailed information about advanced configuration options refer to the [WEB Management Platform - LoRa® Network](/Knowledge-Hub/Learn/Resources/WEB-Management-Platform/#lora®-network) section.
 :::
 
 <!---

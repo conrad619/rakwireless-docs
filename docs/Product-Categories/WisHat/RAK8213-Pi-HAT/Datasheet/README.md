@@ -3,8 +3,7 @@ static_root: /assets/images/wishat/rak8213-pi-hat/datasheet/
 tags: 
   - datasheet
   - wishat
-  
-prev: /Product-Categories/WisHat/RAK8213-Pi-HAT/Overview/
+prev: ../Overview/
 ---
 
 # RAK8213 Pi HAT Datasheet

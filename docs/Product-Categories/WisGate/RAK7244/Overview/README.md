@@ -3,8 +3,8 @@ static_root: /assets/images/wisgate/rak7244/quickstart/1.main
 rak_img: /assets/images/wisgate/rak7244/quickstart/1.main/RAK7244.svg
 rak_desc: The RAK7244 LPWAN Developer Gateway is a complete and cost efficient Gateway Solution that will help you get started in developing a full LoRa® System. It is built with the RAK2245 Pi HAT stacked with the newest Raspberry Pi 4, along with the GPS module and Heat Sink, increasing its performance and thermal dissipation.
 rak_grp: [wisgate, developer]
-prev: false
-next: false
+prev: ../../
+next: ../Quickstart/
 ---
 
 # RAK7244 LPWAN Developer D4 Gateway

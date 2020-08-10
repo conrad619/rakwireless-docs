@@ -3,8 +3,8 @@ static_root: /assets/images/wisgate/rak7246g/quickstart/
 rak_img: /assets/images/wisgate/rak7246g/quickstart/RAK7246.png
 rak_desc: The RAK7246G is an LPWAN Developer Gateway with GPS function. It is a device composed of a the RAK2246 Pi HAT LPWAN Concentrator module and Raspberry Pi Zero W.
 rak_grp: [wisgate, developer]
-prev: false
-next: false
+prev: ../../
+next: ../Quickstart/
 ---
 
 # RAK7246G Developer D0+

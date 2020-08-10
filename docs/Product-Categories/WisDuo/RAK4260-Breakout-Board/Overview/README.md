@@ -3,8 +3,8 @@ static_root: /assets/images/wisduo/rak4260-breakout-board/quickstart/main
 rak_img: /assets/images/wisduo/rak4260-breakout-board/datasheet/RAK4260_Breakout_Board_Illustration.png
 rak_desc: The RAK4260 Breakout Module is specifically designed to allow easy excess to the pins on the module in order to simplify development and testing. The breakout board utilized is of an Xbee form factor and its main purpose is to allow the RAK4260 stamp module form factor pinout to be transferred to 2.54 mm headers.
 rak_grp: [wisduo, breakout]
-prev: false
-next: false
+prev: ../../
+next: ../Quickstart/
 ---
 
 # RAK4260 Breakout Module

@@ -3,8 +3,8 @@ static_root: /assets/images/wisduo/rak4260-evaluation-board/overview
 rak_img: /assets/images/wisduo/rak4260-evaluation-board/overview/RAK4260_Evaluation_Board.png
 rak_desc: The RAK4260 LPWAN Evaluation Board is a WisBlock product that consists of RAK4260 LPWAN Module in a Breakout board and the RAK5005 WisBase. This development board allows access to all serial and GPIO ports for easy configuration.
 rak_grp: [wisduo, evb]
-prev: false
-next: false
+prev: ../../
+next: ../Quickstart/
 ---
 # RAK4260 LPWAN Evaluation Board
 Thank You For choosing **RAK4260 LPWAN Evaluation Board** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
@@ -13,7 +13,7 @@ Thank You For choosing **RAK4260 LPWAN Evaluation Board** in your awesome IoT Pr
 
 ## Product Background
 
-The **RAK4260 LPWAN Evaluation Board** is a WisBlock product that consists of [RAK4260 LPWAN Module](https://store.rakwireless.com/products/rak4260-lora-module) in a Breakout board and the RAK5005 WisBase. This development board allows access to all serial and GPIO ports for easy configuration. The RAK4260 core module includes RAK Unified Interface (RUI) to help you quickly and easily develop and test your firmware.
+The **RAK4260 LPWAN Evaluation Board** is a WisBlock product that consists of [RAK4260 LPWAN Module](https://store.rakwireless.com/products/rak4260-lora-module) in a Breakout board and the [RAK5005 WisBase](/Product-Categories/WisBlock/RAK5005-O/Overview/). This development board allows access to all serial and GPIO ports for easy configuration. The RAK4260 core module includes RAK Unified Interface (RUI) to help you quickly and easily develop and test your firmware.
 
 The RAK4260 module is based on Microchip’s ATSAMR34J18B. It is a SiP device integrating a 32-bit ARM Cortex -M0+ MCU with a LoRa® Transceiver in a 15 millimeter x 15 millimeter compact BGA package.
 

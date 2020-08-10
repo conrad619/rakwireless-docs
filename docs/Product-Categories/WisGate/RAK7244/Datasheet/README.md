@@ -2,7 +2,7 @@
 tags:
   - datasheet
   - wisgate
-prev: /Product-Categories/WisGate/RAK7244/Overview/
+prev: ../Quickstart/
 ---
 
 # RAK7244 Developer Datasheet
@@ -149,7 +149,7 @@ The RAK9003 Pi HAT is a PoE (802.3 af) board, that is designed to be mounted on 
   caption="RAK7244P Hardware Structure"
 />
 
-For detailed information about the RAK9003 Pi Hat, go to the [RAK9003 PoE Hat Datasheet](/Product-Categories/WisHat/RAK9003-PoE-HAT/Quickstart/#configuring-the-gatewayat/).
+For detailed information about the RAK9003 Pi Hat, go to the [RAK9003 PoE Hat Datasheet](/Product-Categories/WisHat/RAK9003-PoE-HAT/Datasheet/).
 
 ##### RAK2245 Pi Hat
 
@@ -161,7 +161,7 @@ The **RAK2245 Pi HAT** is an LPWAN Gateway Concentrator Module based on the Pi H
   caption="RAK7244C LPWAN Developer Gateway Hardware Structure"
 />
 
-For detailed information about the RAK2245 Pi Hat, Go to the [RAK2245 Pi Hat Datasheet](/Product-Categories/WisHat/RAK2245/Quickstart/#configuring-the-gatewaydatasheet/).
+For detailed information about the RAK2245 Pi Hat, Go to the [RAK2245 Pi Hat Datasheet](/Product-Categories/WisLink/RAK2245-Pi-HAT/Datasheet/).
 
 ##### RAK2013 Pi HAT
 
@@ -173,7 +173,7 @@ The RAK2013 is an add-on board based on the Raspberry Pi HAT standard that can t
   caption="Cellular Hardware Structure"
 />
 
-For detailed information about the RAK2013 Pi HAT, Go to the [RAK2013 Pi HAT Datasheet](/wislink-lte/rak2013/datasheet/)(/Product-Categories/WisHat/RAK20103-Pi-HAT/Quickstart/#configuring-the-gateway).
+For detailed information about the RAK2013 Pi HAT, Go to the [RAK2013 Pi HAT Datasheet](/Product-Categories/WisLink/RAK2013/Datasheet/).
 
 #### RF Characteristics
 

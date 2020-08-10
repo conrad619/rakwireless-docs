@@ -3,8 +3,8 @@ static_root: /assets/images/wisgate/rak7243c/quickstart/1.product-overview/1.ind
 rak_img: /assets/images/wisgate/rak7243c/quickstart/1.product-overview/1.index/RAK7243C.svg
 rak_desc: The RAK7243C Developer D3+ Gateway is a complete and cost efficient Gateway Solution that will help you get started in developing a full LoRa System. It is built with the RAK2245 Pi Hat stacked with the Raspberry Pi 3B+ along with the GPS module and Heat Sink, increasing its performance and thermal dissipation, plus a RAK2013 Cellular Pi HAT for cellular connectivity. 
 rak_grp: [wisgate, developer]
-prev: false
-next: false
+prev: ../../
+next: ../Quickstart/
 ---
 
 # RAK7243C Developer D3+ Gateway

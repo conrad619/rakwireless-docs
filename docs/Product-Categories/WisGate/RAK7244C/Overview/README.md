@@ -3,8 +3,8 @@ static_root: /assets/images/wisgate/rak7244c/quickstart/overview
 rak_img: /assets/images/wisgate/rak7244c/quickstart/overview/RAK7244C.svg
 rak_desc: The RAK7244C Developer is a complete and cost efficient Gateway Solution that will help you get started in developing a full LoRa® System. It is built with the RAK2245 Pi Hat stacked with the newest Raspberry Pi 4, along with the GPS module and Heat Sink, increasing its performance and thermal dissipation, plus a RAK2013 Cellular Pi HAT for cellular connectivity.
 rak_grp: [wisgate, developer]
-prev: false
-next: false
+prev: ../../
+next: ../Quickstart/
 ---
 
 # RAK7244C Developer D4+

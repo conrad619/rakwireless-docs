@@ -2,6 +2,8 @@
 rak_img: /assets/images/wisduo/rak811-module/overview/nwgqobrzwanalynildkc.jpg
 rak_desc: RAK811 Low-Power Long Range LoRa® Technology Transceiver module provides an easy to use, small size, low-power solution for long range wireless data transmission.
 rak_grp: [wisduo, module]
+prev: ../../
+next: ../Datasheet/
 ---
 
 # RAK811 LPWAN Module

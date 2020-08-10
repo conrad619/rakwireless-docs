@@ -2,7 +2,7 @@
 tags:
   - datasheet
   - wisgate
-prev: /Product-Categories/WisGate/RAK7243C/Overview/
+prev: ../Quickstart/
 certifications:
   - [CE, https://downloads.rakwireless.com/LoRa/Pilot-Gateway-Pro-RAK7243/Certification-Report/RAK7243_CE_Certificate.zip]
   - [FCC, https://downloads.rakwireless.com/LoRa/Pilot-Gateway-Pro-RAK7243/Certification-Report/RAK7243_FCC_Certificate.zip]
@@ -90,7 +90,7 @@ The RAK7243C Pilot Gateway is composed of the LPWAN Concentrator RAK2245 Pi HAT 
 
 RAK2245 Pi HAT(Model Name is: RAK2243) is an LPWAN Concentrator board which follows the Pi HAT standard, and can be mounted to Pi board with 40-pin connector.
 
-- For detailed information about the RAK2245, Go to the [RAK2245 Pi HAT Datasheet](/Product-Categories/WisHat/RAK2245-Pi-HAT/Datasheet/).
+- For detailed information about the RAK2245, Go to the [RAK2245 Pi HAT Datasheet](/Product-Categories/WisLink/RAK2245-Pi-HAT/Datasheet/).
 
 <rk-img
   src="/assets/images/wisgate/rak7243c/datasheet/6.lora-hardware-structure.jpg"
@@ -110,7 +110,7 @@ RAK2013 is an add-on board following Raspberry Pi HAT standard. It can transmit 
 
 The RAK2013 integrates audio codec and audio amplifier on it, with carrier operator's network, it can support VoLTE function. For easy use, there are earphone connector, MIC connector and speaker connector with audio amplifier
 
-- For detailed information about the RAK2013, go to [RAK2013 Cellular Datasheet](/Product-Categories/WisLink-LTE/RAK2013/Datasheet/).
+- For detailed information about the RAK2013, go to [RAK2013 Cellular Datasheet](/Product-Categories/WisLink/RAK2013/Datasheet/).
 
 <rk-img
   src="/assets/images/wisgate/rak7243c/datasheet/8.cellular-hardware-structure.png"

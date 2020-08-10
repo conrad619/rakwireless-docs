@@ -2,7 +2,7 @@
 tags:
   - datasheet
   - wisgate
-prev: /Product-Categories/WisGate/RAK7258/Overview/
+prev: ../Quickstart/
 next: false 
 certifications:
   - [CE, https://downloads.rakwireless.com/LoRa/Indoor-Gateway-RAK7258/Certification-Report/RAK7258_CE_Certificate.zip]
