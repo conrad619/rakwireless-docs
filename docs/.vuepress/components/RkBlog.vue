@@ -1,46 +1,32 @@
 <template>
   <div class="q-gutter-y-md" style="max-width: 80vw; margin: 0 auto;">
-    <div class="row q-gutter-xs justify-center">
-      <q-item
-        v-for="tag in tags"
-        :key="tag"
-        :class="{'bg-grey-2': !activeTags.includes(tag)}"
-        style="width: 8rem; ; border-radius: 20px"
-        :active="activeTags.includes(tag)"
-        active-class="bg-primary"
-        @click="onTagClick(tag)"
-        clickable
-        dense
-      >
-        <q-item-section>
-          <img
-            :src="`/assets/rakwireless/product-categories/${tag}.svg`"
-            style="max-width: 100%; max-height: 100%;"
-          />
-        </q-item-section>
-      </q-item>
-      <q-separator v-if="activeTags.length" class="q-mx-md" vertical />
-      <q-btn
-        v-if="activeTags.length"
-        label="Clear Tags"
-        color="primary"
-        icon="close"
-        @click="activeTags=[]"
-        no-caps
-        rounded
+    <div class="row justify-end">
+      <q-select
+        class="full-width"
+        label="Filter tags"
+        filled
+        v-model="qsModel"
+        use-input
+        use-chips
+        multiple
+        input-debounce="0"
+        :options="filterOptions"
+        @filter="filterFn"
+        style="max-width: 25rem"
+        clearable
       />
     </div>
-    <q-separator class="q-mb-md" color="blue-10" inset />
+    <q-separator class="q-mb-md" color="blue-10" />
     <div class="row justify-center" style="margin: 0 auto;">
       <div
         class="col-12 col-xs-6 col-sm-4 cursor-pointer q-pa-sm"
-        v-for="(article, id) in articles"
+        v-for="(article, id) in filteredArticles"
         :key="`article-${id}`"
         style="width: 20rem;"
       >
         <div
           class="column my-card full-width relative-position"
-          style="height: 22.5rem;"
+          style="height: 22rem;"
           @mouseenter="hovered=article.path"
           @mouseleave="hovered=null"
           @click="nav(article.path)"
@@ -59,30 +45,25 @@
               >{{ article.frontmatter.rak_desc || 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut aliquam massa. Curabitur pellentesque, neque in cursus lobortis, lacus nibh tincidunt erat, eget mollis justo augue ac risus. Duis gravida, erat ut mollis volutpat, ex arcu gravida elit, vel aliquam turpis nulla quis tellus.' }}</div>
             </transition>
           </div>
-          <div class="col-5 q-pa-md">
+          <div class="col-3 q-px-md q-py-sm">
             <div
               class="text-weight-medium ellipsis-2-lines"
               style="font-size: 1.25rem; line-height: normal"
             >{{ article.title }}</div>
-            <div class="row q-gutter-x-sm q-mt-md">
-              <q-btn
-                :label="article.lastUpdated || (new Date().toISOString())"
-                icon="far fa-calendar"
-                color="grey-8"
-                size="sm"
-                flat
-                dense
-              />
-              <q-btn
-                :label="category(article)"
-                icon="far fa-folder-open"
-                color="grey-8"
-                size="sm"
-                flat
-                dense
-                no-caps
-              />
-            </div>
+          </div>
+          <div class="col-2 q-px-md q-py-none">
+            <q-item class="q-pa-none" style="font-size: 0.8rem" dense>
+              <q-item-section>
+                <div class="row q-gutter-x-sm">
+                  <q-icon name="far fa-calendar" size="0.9rem" />
+                  <div>{{ article.lastUpdated || td }}</div>
+                </div>
+                <div class="row q-gutter-x-sm q-mt-sm">
+                  <q-icon name="fas fa-tags" size="0.9rem" />
+                  <div>{{ stringTags(article) }}</div>
+                </div>
+              </q-item-section>
+            </q-item>
           </div>
         </div>
       </div>
@@ -95,36 +76,63 @@ export default {
   name: 'RkBlog',
   data: () => ({
     hovered: null,
-    activeTags: []
+    qsModel: [],
+    td: new Date().toISOString(),
+    model: null,
+    filterOptions: []
   }),
   computed: {
+    activeTags () {
+      return this.qsModel || []
+    },
     articles() {
-      const fltrd = this.$site.pages.filter(t => {
-        return t.path.match(
-          /^\/Knowledge-Hub\/Learn\/[\w\d-._]+\/[\w\d-._]+\/$/g
-        )
+      return this.$site.pages.filter(t => {
+        return t.path.match(/^\/Knowledge-Hub\/Learn\/[\w\d-._]+\/$/g)
       })
-      if (!this.activeTags.length) return fltrd
-      return fltrd.filter(
+    },
+    filteredArticles() {
+      if (!this.activeTags.length) return this.articles
+      return this.articles.filter(
         t =>
           t.frontmatter.tags &&
-          t.frontmatter.tags.some(tt => this.activeTags.includes(tt))
+          t.frontmatter.tags.some(tt => this.activeTags.includes(tt.replace(/-/g, ' ')))
       )
     },
     tags() {
-      return [
-        'WisGate',
-        'WisNode',
-        'WisBlock',
-        'WisDuo',
-        'WisTrio',
-        'WisLink',
-        'WisHat',
-        'WisDuino'
-      ]
+      const tags = []
+      this.articles.map(a => {
+        tags.push(
+          ...(a.frontmatter.tags || []).map(t => {
+            t = t.replace(/-/g, ' ')
+            return tags.includes(t) ? null : t
+          })
+        )
+      })
+      return tags.filter(t => t!== null)
     }
   },
   methods: {
+    filterFn(val, update) {
+      update(() => {
+        if (val === '') {
+          this.filterOptions = this.tags
+        } else {
+          const needle = val.toLowerCase()
+          this.filterOptions = this.tags.filter(
+            v => v.toLowerCase().indexOf(needle) > -1
+          )
+        }
+      })
+    },
+    stringTags(article) {
+      // show only first 3 tags
+      return (article.frontmatter.tags || [])
+        .map(t => {
+          return t.replace(/-/g, ' ')
+        })
+        .slice(0, 3)
+        .join(' • ')
+    },
     onTagClick(tag) {
       if (this.activeTags.includes(tag))
         this.activeTags = this.activeTags.filter(t => t != tag)
@@ -145,6 +153,7 @@ export default {
     for (const sub of x) {
       sub.classList.add('rk-content')
     }
+    this.filterOptions = this.tags
   }
 }
 </script>
