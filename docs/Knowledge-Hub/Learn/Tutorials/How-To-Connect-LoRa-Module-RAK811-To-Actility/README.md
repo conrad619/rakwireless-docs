@@ -1,7 +1,7 @@
 ---
 sidebar: false
 rak_img: /assets/images/knowledge-hub/tutorials/how-to-connect-lora-module-rak811-to-actility/overview.png
-rak_desc: A brief guide on how to connect your RAK811 LPWAN Module to Actility IoT Platform.
+rak_desc: A brief guide on how to connect your RAK811 LPWAN Module to the Actility IoT Platform.
 tags:
   - Tutorials
 header:
