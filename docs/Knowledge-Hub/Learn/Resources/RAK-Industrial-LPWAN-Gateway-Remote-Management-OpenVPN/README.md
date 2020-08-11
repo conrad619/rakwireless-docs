@@ -1,13 +1,14 @@
 ---
 sidebar: false
-rak_img: /assets/images/deployment-guide/gateway-remote-management-openvpn/network-topology.png
-rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+rak_img: /assets/images/knowledge-hub/banners/general_banner.jpg
+rak_desc: This document introduces a remote management of RAK Industrial LPWAN Gateways based on OpenVPN
 tags:
   - Deployment-Guide
+  - WisGate
 header:
   title: RAK Industrial LPWAN Gateway Remote Management - OpenVPN
   caption: by <b>RAKwireless Team</b>
-  img: /assets/images/_/banner.png
+  img: /assets/images/knowledge-hub/banners/general_banner.jpg
 ---
 
 # RAK Industrial LPWAN Gateway Remote Management - OpenVPN

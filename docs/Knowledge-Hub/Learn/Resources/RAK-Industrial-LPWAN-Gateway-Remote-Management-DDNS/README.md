@@ -1,13 +1,14 @@
 ---
 sidebar: false
-rak_img: 
-rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+rak_img: /assets/images/knowledge-hub/banners/general_banner.jpg
+rak_desc: This tutorial describes on how to use the fast and simple Dynamic Domain Name System (DDNS) Service to access the RAK Industrial Gateways. 
 tags:
   - Deployment-Guide
+  - WisGate
 header:
   title: RAK Industrial LPWAN Gateway Remote Management - DDNS
   caption: by <b>RAKwireless Team</b>
-  img: /assets/images/_/banner.png
+  img: /assets/images/knowledge-hub/banners/general_banner.jpg
 ---
 
 # RAK Industrial LPWAN Gateway Remote Management - DDNS

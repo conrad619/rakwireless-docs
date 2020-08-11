@@ -1,7 +1,7 @@
 ---
 sidebar: false
 rak_img: /assets/images/knowledge-hub/tutorials/uart-wifi-module-best-way-to-enhance-the-performance-economically/overview.png
-rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+rak_desc: A brief discussion on the improvements in the performance can UART WiFi Module can do.
 tags:
   - Tutorials
 header:

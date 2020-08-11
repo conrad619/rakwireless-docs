@@ -1,13 +1,14 @@
 ---
 sidebar: false
-rak_img: 
-rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+rak_img: /assets/images/knowledge-hub/banners/general_banner.jpg
+rak_desc: A sample calculation for the frequency template for spectral band under the WEB Management Platform.
 tags:
   - User-Manual
+  - WisGate
 header:
   title: LoRa® Concentrator Spectrum Settings Guide
   caption: by <b>RAKwireless Team</b>
-  img: /assets/images/_/banner.png
+  img: /assets/images/knowledge-hub/banners/general_banner.jpg
 ---
 
 # LoRa® Concentrator Spectrum Settings Guide
@@ -24,8 +25,7 @@ The concentrator module supports up to 8 Multi-Spreading Factor Channels (Multi-
 
 # EU868 Spectrum Settings
 
-Let us take as an example the **EU863-870 frequency band**. When accessing the Web Management Platform, there is a template for it that you can
-import directly which would not need to set every channel manually. However, the way it has been configured is in accordance with principles that apply for any band.
+Let us take as an example the **EU863-870 frequency band**. When accessing the Web Management Platform, there is a template for it that you can import directly which would not need to set every channel manually. However, the way it has been configured is in accordance with principles that apply for any band.
 
 ## Center Frequency Settings
 

@@ -1,7 +1,7 @@
 ---
 sidebar: false
 rak_img: /assets/images/knowledge-hub/tutorials/applications-of-lorawan-more-than-just-tech/overview.jpg
-rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+rak_desc: A brief discussion of the different fields of application LoRaWAN is a great help.
 tags:
   - Tutorials
 header:
@@ -22,10 +22,11 @@ It is no longer news that IoT aims at giving any object the ability to connect t
 
 We cannot but wonder how this will change daily living in the nearest future. After all that has been explained, it is pertinent to understand that this is more than mere technology.  As it seems now, it will probably take the world to the next level.
 
-8 Applications of LoRaWAN
+## 8 Applications of LoRaWAN
+
 Now, let’s take a journey through the applications of this great technology and see how it would be changing lives in the future.
 
-## Smart Agriculture
+### Smart Agriculture
 Agriculture is one of the most important sectors in many countries in the world. It is the essential to life and the economy.
 
 The application of IoT with the use of LoRaWAN enables maximum efficiencies which reduces environmental impact, maximise yield and minimise expenses. From measuring environmental conditions, which influences crop production, to tracking livestock health indicators, IoT is gradually improving our agricultural system.
@@ -64,7 +65,7 @@ Now let’s see how LoRa technology has enabled efficiencies in the farming worl
 
     Autonomous irrigation and presence of IoT networks in rural areas.
 
-## Smart Cities
+### Smart Cities
 Wow, smart cities? Yes, smart cities. You may be wondering just how this would be possible. Well, the possibility of this is not farfetched as LoRaWAN is designed to improve everyday municipal operations.
 
 Just by connecting services such as lighting, waste removal and many more, smart cities is very possible. Imagine a Sci-Fi movie with flying cars and all, well maybe not!
@@ -103,7 +104,7 @@ This technology is indeed, making the world a better place.
 
     For instance, LoRa equipped sensors have been placed in black Rhinos to monitor their movements and activities.
 
-## Smart Healthcare
+### Smart Healthcare
 
 LoRa technology is suitable for critical smart healthcare applications by virtue of its low power and low cost and its ability to cover a wide range. LoRa technology is indeed, improving healthcare and livelihood.
 
@@ -135,7 +136,7 @@ LoRa technology is suitable for critical smart healthcare applications by virtue
 
     LoRa based medical refrigerators that are suited to store vaccines, medications and blood are also made. This will definitely improve the face of medical laboratory science.
 
-## Smart Homes and Buildings
+### Smart Homes and Buildings
 
 The ability of LoRa technology devices to penetrate dense building materials make them the ideal platform for LoRa based smart home and building devices. Due to the long range abilities of this technology, LoRa enabled sensors can track strayed assets from home and detect danger, optimize utility usage and provide overall safety.
 
@@ -145,25 +146,25 @@ The ability of LoRa technology devices to penetrate dense building materials mak
 
     Because damage caused by water leakage pose a significant threat to property and house owners, LoRa based temperature and humidity sensors can prevent water leakage and damage in homes. Through the simple installation of LoRa based devices in home areas susceptible to this, like bathrooms and kitchens.
 
-## Smart Fire Evacuation System
+### Smart Fire Evacuation System
 LoRa-enabled sensors can detect danger zones and help people navigate through these zones by indicating the quickest and safest direction out of the hazardous premises.
 
-## Home Security
+### Home Security
 LoRa-enabled security systems offer full-time protection for homes. By integrating sensors for alarms and doors with security cameras and automatic door locks, your home is in safe hands.
 
-## Smart Industrial Control
+### Smart Industrial Control
 LoRa based technology can favor industrial operations by smart construction machine usage, conveyor belt sensors to detect danger, prevent failure of belt and reduce costs of maintenance. Also, smart sensors for seam tanks, backhoes, forklift, diesel tankers and trucks.
 
 Due to its wide range abilities, LoRa based solutions can monitor industrial applications in remote areas with harsh weather conditions. It does this by overcoming distance boundaries whilst still maximizing monitoring efficiencies and overall productivity.
 
-## Smart Metering, Supply Chain and Logistics
+### Smart Metering, Supply Chain and Logistics
 Traditional labour intensive operations which utilizes subjective measurements by field personnel, shows the need to incorporate LoRaWAN technology into utilities. Additionally, meters are often situated in dense urban environments, indoors or even underground, making them difficult and even almost impossible to reach.
 
 With the aid of LoRa technology, utility and metering companies can easily collect data and use personnel more efficiently to streamline operations. From introducing water metering solutions to smart metering, LoRaWAN technology is enabling companies improve efficiencies and manage costs.
 
 Also, LoRa technology makes it easier to track highly valued assets that are in transit by affordable smart supply chain and logistics. Due to its long range, low power consumption qualities and GPS-free geo-location abilities, vehicles, cargos, trucks and other assets can be easily monitored over large geographic regions and within harsh environmental conditions.
 
-## The Future is LoRaWAN
+### The Future is LoRaWAN
 Another fantastic news about LoRa technology is the ability to recover stolen vehicles through its tracking features.
 
 Indeed, the future is bright with LoRaWAN technology, as global, national and regional networks have to support even trillions of devices.

@@ -1,13 +1,14 @@
 ---
 sidebar: false
 rak_img: /assets/images/user-manual/web-management-platform/1.webui.jpg
-rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+rak_desc: This document describes in detail the functionality of the Web Management UI and how to use it for configuration and management of the Gateway.
 tags:
   - User-Manual
+  - WisGate
 header:
   title: WEB Management Platform
   caption: by <b>RAKwireless Team</b>
-  img: /assets/images/user-manual/web-management-platform/1.webui.jpg
+  img: /assets/images/knowledge-hub/banners/general_banner.jpg
 ---
 
 # WEB Management Platform
@@ -692,7 +693,7 @@ To change the global settings press on the text "**To change global settings cli
 
 If you want to have separate settings/rules for IPv4/IPv6, you need to define two sets, one for each. You can do this by filling in a name in the text box and pressing the “**Add**” button.
 
-An IPv4 example is created by default and you only need to configure its parameters by pressing the “**Edit**” button. Refer to the [DDNS/VPN Document](/Knowledge-Hub/Learn/) for a practical example on how to configure this feature.
+An IPv4 example is created by default and you only need to configure its parameters by pressing the “**Edit**” button. Refer to the [DDNS/VPN Document](/Knowledge-Hub/Learn/Resources/) for a practical example on how to configure this feature.
 
 ## 2. OpenVPN Tunnels
 

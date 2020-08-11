@@ -1,18 +1,19 @@
 ---
 sidebar: false
 rak_img: /assets/images/wisgate/rak7243c/quickstart/1.product-overview/1.index/RAK7243C.svg
-rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+rak_desc: This document is a sample demonstration on how to burn the latest firmware of the WisGate Developer Series.
 tags:
   - User-Manual
+  - WisGate
 header:
   title: Developer Gateway Firmware Setup
   caption: by <b>RAKwireless Team</b>
-  img: /assets/rakwireless/product-categories/WisGate-Developer.svg
+  img: /assets/images/knowledge-hub/banners/general_banner.jpg
 ---
 
 # WisGate Developer Gateway Firmware Setup
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra orci porttitor ipsum efficitur, ut ornare nibh ultrices. Ut id metus nec neque fringilla hendrerit id vitae augue. Nullam finibus turpis eu aliquet aliquet. Aliquam porta metus luctus ipsum posuere commodo. Duis id ligula justo.
+This document is a sample demonstration on how to burn the latest firmware of the WisGate Developer Series.
 
 # Firmwares
 
