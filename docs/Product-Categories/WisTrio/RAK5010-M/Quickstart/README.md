@@ -1,6 +1,8 @@
 ---
 prev: ../Overview/
 next: false
+tags:
+  - RAK5010-M
 ---
 
 # Quick Start Guide

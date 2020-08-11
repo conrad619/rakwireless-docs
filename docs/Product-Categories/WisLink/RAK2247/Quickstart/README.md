@@ -1,6 +1,8 @@
 ---
 prev: ../Overview/
 next: ../Datasheet/
+tags:
+  - RAK2247
 ---
 
 # Quick Start Guide

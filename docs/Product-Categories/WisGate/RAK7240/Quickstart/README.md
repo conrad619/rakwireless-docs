@@ -1,6 +1,8 @@
 ---
 next: ../Datasheet/
 prev: ../Overview/
+tags:
+  - RAK7240
 ---
 # Quick Start Guide
 

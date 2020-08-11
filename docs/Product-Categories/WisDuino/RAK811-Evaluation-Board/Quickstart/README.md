@@ -1,6 +1,7 @@
 ---
 prev: ../Overview/
 next: false
+tags: RAK811 Evaluation Board
 ---
 
 # Quick Start Guide

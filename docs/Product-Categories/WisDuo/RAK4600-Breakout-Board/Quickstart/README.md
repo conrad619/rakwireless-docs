@@ -1,6 +1,8 @@
 ---
 prev: ../Overview/
 next: ../Datasheet/
+tags:
+  - RAK4600 Breakout Board
 ---
 
 # Quick Start Guide

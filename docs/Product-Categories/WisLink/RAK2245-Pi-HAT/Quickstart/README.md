@@ -1,6 +1,8 @@
 ---
 prev: ../Overview/
 next: ../Datasheet/
+tags:
+  - RAK2245 Pi Hat
 ---
 
 # Quick Start Guide

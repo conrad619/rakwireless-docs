@@ -1,6 +1,9 @@
 ---
 prev: ../Overview/
 next: ../Datasheet/
+tags:
+  - RAK5205
+  - RAK7205
 ---
 # Quick Start Guide
 

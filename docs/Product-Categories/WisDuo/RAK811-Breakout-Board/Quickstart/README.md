@@ -1,6 +1,8 @@
 ---
 prev: ../Overview/
 next: ../Datasheet/
+tags:
+  - RAK811 Breakout Board
 ---
 
 # Quick Start Guide
