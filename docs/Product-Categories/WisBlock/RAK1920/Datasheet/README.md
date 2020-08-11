@@ -36,6 +36,8 @@ The RAK1920 module is a sensor extension module, it supports several defacto-sta
 
 ### Hardware
 
+The hardware specification is categorized into four parts. It discusses the interfacing, its corresponding functions and the diagram of the module as well. It also covers the electrical and mechanical parameters that include the tabular data of the functionalities and standard values of the RAK1920 WisBlock WisIO Module.
+
 #### Interfaces
 
 ##### Mikroe Click Boards Interfaces

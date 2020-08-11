@@ -25,9 +25,7 @@ Based on the global leading Nordic Semiconductor Corporation's nRF52832 (BLE)
 and Semtech's SX127x (LoRa®) chipset, the RAK813 module provides a perfect
 combination of ultra low power and ultra long distance.
 
-The RAK813 module uses
-TCXO as the LoRa® clock source, so at different temperatures (such as indoor and
-outdoor) LoRa® module of radio frequency close to the maximum, can effectively
+The RAK813 module uses TCXO as the LoRa® clock source, so at different temperatures (such as indoor and outdoor) LoRa® module of radio frequency close to the maximum, can effectively
 improve the decoding rate, so as to enhance the communication quality.
 
 RAK813 supports various protocols, including the newest BLE and LoRaWAN®, where customers can choose multi frequency, including: 433MHz, 470MHz, 868MHz, and 915MHz.
@@ -43,7 +41,7 @@ RAK813 supports various protocols, including the newest BLE and LoRaWAN®, where
 - Building in both TX and RX filter
 - Building in TCXO for high frequency stability
 - Provides multiple band selection including 433/470/868/915 MHz for LoRa®, and 2.4GHz for BLE
-- Storage Temperature: -40°C to 85 °C
+- Storage Temperature: -40°C to 85°C
 - Supports LoRa® Point to Point Communication in all the bands
 - FSK, GFSK, and LoRa® Technology modulation
 - llP3 = -11dBm
@@ -53,9 +51,11 @@ RAK813 supports various protocols, including the newest BLE and LoRaWAN®, where
 
 ### Overview
 
+The overview covers the RAK813 board overview with its corresponding outer dimensions. It also includes the block diagram and the system diagram of the module.
+
+
 #### Board Overview
 
-**RAK813 BLE+ LoRa®** has outer dimensions of 27.2 mm x 23 mm x 1.7 mm.
 
 <rk-img
   src="/assets/images/wisduo/rak813-module/datasheet/board-overview/rak813-board-dimension.png"
@@ -65,7 +65,7 @@ RAK813 supports various protocols, including the newest BLE and LoRaWAN®, where
 
 #### Block Diagram
 
-The block diagram of the module is depicted in the figure below.
+The short-range technology nRF52832 (BLE) is paired with the Semtech's SX127x (LoRa®) chipset making the RAK813 capable of long-distance wireless communication. 
 
 <rk-img
   src="/assets/images/wisduo/rak813-module/datasheet/interfaces/block-diagram.png"
@@ -82,6 +82,9 @@ The block diagram of the module is depicted in the figure below.
 />
 
 ### Hardware
+
+The hardware specification is categorized into five parts. It discusses the pinouts of the module and its corresponding functions and diagrams. It also covers the electrical and mechanical parameters that include the tabular data of the functionalities and standard values of the RAK813 Module.
+
 
 #### Pin Definition
 
@@ -162,7 +165,6 @@ The block diagram of the module is depicted in the figure below.
 
 #### Mechanical Characteristics
 
-This section provides the mechanical Dimension of RAK813 as shown below.
 
 <rk-img
   src="/assets/images/wisduo/rak813-module/datasheet/mechanical-dimension/veq8asjwdqh1rpm9fape.png"

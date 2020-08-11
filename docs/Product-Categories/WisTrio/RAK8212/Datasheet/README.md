@@ -1,13 +1,13 @@
 ---
 static_root: /assets/images/wistrio/rak8212/datasheet/
-prev: /Product-Categories/WisTrio/RAK8212/Overview/
+prev: ../Quickstart/
 next: false
 tags:
   - datasheet
   - wistrio
 ---
 
-# RAK8212 iTracker Pro
+# RAK8212 iTracker Pro Datasheet
 
 <rk-img
   :src="`${$frontmatter.static_root}/rak8212-overview.png`"
@@ -70,6 +70,8 @@ Applications can be made with the RAK8212 like Vehicle location/fleet transporta
 
 ### Overview
 
+The overview covers the RAK8212 board overview where the front and back views are presented. It also includes the block diagram that shows the core of the module.
+
 #### Module Overview
 
 <rk-img
@@ -93,6 +95,8 @@ Applications can be made with the RAK8212 like Vehicle location/fleet transporta
 />
 
 ### Hardware
+
+The hardware specification is categorized into six parts. It discusses the pinout and its corresponding functions and diagrams. It also covers the parameters and standard values of the board in terms of electrical and environmental
 
 #### Pin Definition
 
@@ -235,6 +239,8 @@ Applications can be made with the RAK8212 like Vehicle location/fleet transporta
 />
 
 ### Software
+
+Download the latest firmware of RAK8212 in the table provided below.
 
 | Model     | Version  | Source                                                                                         |
 | --------- | -------- | ---------------------------------------------------------------------------------------------- |

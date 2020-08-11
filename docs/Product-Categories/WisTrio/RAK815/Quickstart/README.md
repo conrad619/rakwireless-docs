@@ -26,8 +26,8 @@ next: ../Datasheet/
 
 :::tip 📝 NOTE
 This device released by RAKwireless is already pre-loaded with its latest firmware upon manufacturing. If you want to have your device's firmware burned or upgraded, please refer to the sections below:
-* [Firmware Burning](/Product-Categories/WisTrio/RAK815/Quickstart/#device-firmware-setup)
-* [Firmware Upgrading](/Product-Categories/WisTrio/RAK815/Quickstart/#upgrading-the-firmware)
+* [Firmware Burning](#device-firmware-setup)
+* [Firmware Upgrading](#upgrading-the-firmware)
 :::
 
 ### What's included in the Package?

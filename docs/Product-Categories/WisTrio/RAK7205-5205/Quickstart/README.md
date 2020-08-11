@@ -1,6 +1,6 @@
 ---
-prev: /Product-Categories/WisTrio/RAK7205-5205/Overview/
-next: false
+prev: ../Overview/
+next: ../Datasheet/
 ---
 # Quick Start Guide
 

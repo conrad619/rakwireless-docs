@@ -1,5 +1,5 @@
 ---
-prev: /Product-Categories/WisNode/RAK7200/Overview/
+prev: ../Quickstart/
 next: false
 tags:
   - datasheet

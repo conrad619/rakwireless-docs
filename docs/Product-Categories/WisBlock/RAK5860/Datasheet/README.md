@@ -5,6 +5,7 @@ tags:
   - datasheet
   - wisblock
 ---
+
 # RAK5860 WisBlock WisIO Module Datasheet
 
 <rk-img
@@ -31,9 +32,15 @@ For debugging purpose, a Micro-USB connector is used for sending AT commands, da
 - Power Supply: 2.6-4.2V, typical supply voltage 3.3V
 - Module size: 25mm x 35mm
 
-## Overview
 
-### Board Overview
+
+## Specifications
+
+### Overview
+
+The overview shows the realistic view of the RAK5860 module and its block diagram. It also covers the installation mechanism of the module into the baseboard.
+
+#### Board Overview
 
 Figure 2 shows a realistic view and main component description of the RAK5860 Module
 
@@ -43,10 +50,10 @@ Figure 2 shows a realistic view and main component description of the RAK5860 Mo
   caption="RAK5860 Board Realistic View"
 />
 
-#### RAK2305 Mounting Sketch
+#### Mounting Sketch
 
 Figure 3 shows how RAK5860 module (a WisIO module) is integrated with the
-RAK5005 base board. The mounting sketch is shown.
+RAK5005 baseboard. The mounting sketch is shown.
 
 <rk-img
   src="/assets/images/wisblock/rak5860/datasheet/mounting-sketch.png"
@@ -55,8 +62,8 @@ RAK5005 base board. The mounting sketch is shown.
 />
 
 
-### Block Diagram
-Figure 4 shows the block diagram of the RAK5860 Module
+#### Block Diagram
+
 
 <rk-img
   src="/assets/images/wisblock/rak5860/datasheet/block_diagram.png"
@@ -64,10 +71,13 @@ Figure 4 shows the block diagram of the RAK5860 Module
   caption="RAK5860 Block Diagram"
 />
 
-## Specifications
+### Hardware
 
-### Electrical Characteristics
-#### Absolute Maximum Ratings
+The hardware specification of the RAK5860 is categorized into two. It covers the electrical standard ratings and the functionalities of the module. It also discusses the diagram of the module and its mechanism.
+
+
+#### Electrical Characteristics
+##### Absolute Maximum Ratings
 
 Table below shows the absolute maximum ratings of the RAK5860 module.
 
@@ -78,7 +88,7 @@ Table below shows the absolute maximum ratings of the RAK5860 module.
 | Voltage at Digital Pins |  | -0.3 |  | 2.09 | V | 
 
 
-#### Recommended Operating Conditions
+##### Recommended Operating Conditions
 
 Table below shows the recommended operating conditions of the RAK5860 module.
 
@@ -96,7 +106,7 @@ Figure 5 shows the dimensions of the RAK5860 module.
   caption="Mechanical Dimensions"
 />
 
-### Schematic Diagram
+#### Schematic Diagram
 The following sections will describe the schematic of the RAK5860 module, which include: 
 
 - Turn on/off module
@@ -108,7 +118,7 @@ The following sections will describe the schematic of the RAK5860 module, which 
 - Main Antenna
 - GNSS Antenna
 
-#### Turn on/off mechanism
+##### Turn on/off mechanism
 
 Figure 6 shows a circuit to allow turn on or to turn off the module. By default, the internal Quectel BG77 module is in power off mode, it can be turned on by driving WIS_PWRKEY to high state (positive digital pulse) for a period of 500-1000ms. 
 
@@ -122,7 +132,7 @@ Alternatively, the user can send a command **AT+QPOWD** command turn off the int
   caption="Turn On/Off Module Circuit"
 />
 
-#### WisIO Connector
+##### WisIO Connector
 
 Figure 7 shows the definition of WisIO connector. 
 
@@ -144,7 +154,7 @@ The RAK5860 only uses a subset of all the pins available in the WisIO connector.
 | WIS_RX | UART RXD | BG77 MAIN_TX, 1.8V power domain | 
 
 
-#### WisIO Connector Pin order
+##### WisIO Connector Pin order
 
 Figure 8 shows the WisIO connector’s pin order. The connector is located in the
 bottom layer of the RAK5860 module.
@@ -155,7 +165,7 @@ bottom layer of the RAK5860 module.
   caption="WisIO Connector Pin Order"
 />
 
-#### Voltage-level translator
+##### Voltage-level translator
 
 Within the BG77, all interfaces are designed to work with 1.8V level. RAK5860 features  a voltage-level translator in order to down convert the 3.3V coming from the WisCore module. The Figure 9 shows the design of the internal voltage-level translator.
 
@@ -183,7 +193,7 @@ When BG77TX is high (1.8V), the NPN triode is turned off, WIS RX is pulled high 
 VDD_EXT is 1.8V, from BG77 internal regulator, BG77 pin 21
 :::
 
-#### SIM card circuit
+##### SIM card circuit
 
 The RAK5860 module only supports the 1.8V ESIM/SIM card, the following Figure 12 shows SIM interface circuit. by default, we use Nano SIM card, eSIM is no mounting. In order to offer good ESD protection, a TVS diode array is added in the SIM card circuitry
 
@@ -193,7 +203,7 @@ The RAK5860 module only supports the 1.8V ESIM/SIM card, the following Figure 12
   caption="SIM Card Circuit"
 />
 
-#### USB Connector
+##### USB Connector
 
 The RAK5860 module provides a Micro-USB connector for connection with a host device. The USB data lines USB+ and USB- are connected directly to the BG77. The VBUS line can be used for USB connection detection. 
 
@@ -215,7 +225,7 @@ The USB connection detection pin input voltage range is 1.3-1.8V. The Figure 14 
   caption="USB connection detection pin power supply"
 />
 
-#### Power supply for USB PHY circuit
+##### Power supply for USB PHY circuit
 
 The Figure 15 shows the power supply for USB PHY circuit.
 
@@ -225,7 +235,7 @@ The Figure 15 shows the power supply for USB PHY circuit.
   caption="Power supply for USB PHY circuit"
 />
 
-#### Status Indication LEDs
+##### Status Indication LEDs
 
 Figure 16 shows the operation status and network activity status led circuit, when BG77 is powered on, blue led is lit, different activity network status, the green led is lit or not is different.
 
@@ -235,7 +245,7 @@ Figure 16 shows the operation status and network activity status led circuit, wh
   caption="Status indication LED circuit"
 />
 
-#### Main Antenna
+##### Main Antenna
 
 The RAK5860 module’s main antenna has a reserve π-type matching circuit for better RF performance, we use U.FL connector for main antenna.
 
@@ -245,7 +255,7 @@ The RAK5860 module’s main antenna has a reserve π-type matching circuit for b
   caption="Main Antenna Circuit"
 />
 
-#### GNNS Antenna
+##### GNNS Antenna
 
 The RAK5860 module is designed with an active antenna, the Figure 18 shows the GNSS antenna circuit. 3V3_S from WisIO connector, we use a U.FL connector for GNSS antenna.
 

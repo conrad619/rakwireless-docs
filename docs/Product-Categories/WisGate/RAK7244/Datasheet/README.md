@@ -58,6 +58,8 @@ The RAK7244 LoRaWAN® Developer Gateway is ideal for prototyping, proof-of-conce
 
 ### Overview
 
+The overview covers the RAK7244 board overview and block diagram of the three configuration options:RAK7244, RAK7244C and RAK7244P.
+
 #### Board Overview
 
 The outer dimensions of Casing are 92 x 68.3 x 53.5 mm as shown below. They are the same for all 3 models: RAK7244/7244C/7244P. The example in Figure 4 is RAK7244C
@@ -100,6 +102,8 @@ The figure below summarizes the basic building blocks of RAK7244C. It has the sa
 />
 
 ### Hardware
+
+The hardware specification is categorized into six parts. It discusses the interfacing, pinouts, and its corresponding functions and diagrams. It also covers the parameters of operating frequencies, antenna, electrical, and environmental.
 
 #### Interfaces
 
@@ -378,7 +382,7 @@ Environmental test performance specifications are listed below:
 **2** - Low temperature test: soap in temperature (-40º C) chamber for 24-hour and return to normal temperature (at least for 1-hour) without visual shape change
 :::
 
-#### Electrical Requirements
+#### Electrical Characteristics
 
 The Pilot Gateway Pro operates at 5V/2.5A, that are provisioned through an USB Type C port.
 
@@ -399,6 +403,9 @@ The table below lists the operation and storage temperature requirements for RAK
 | **Storage Temperature Range**   | -40 ˚C   |             | +80 ˚C  |
 
 ### Software
+
+Download the latest firmware of RAK7244X series in the table provided below.
+
 #### Firmware
 
 | Model                | Raspberry Pi Board | Firmware Version | Source                                                                                                                               |

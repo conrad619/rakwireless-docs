@@ -36,6 +36,9 @@ RAK1921 is an OLED display module with a **128×64 dot matrix**. The main charac
 
 ### Hardware
 
+The hardware specification is categorized into four parts. It discusses the interfacing, pinouts, and its corresponding functions and diagrams. It also covers the electrical and mechanical parameters that include the tabular data of the functionalities and standard values of the RAK1921 WisBlock WisIO Module.
+
+
 #### Interfaces
 
 The RAK1921 module is compatible with the RAK5005-O WisBoard baseboard. The RAK5005-O has reserved a dedicated I2C port with a 2.54 mm header, as shown in Figure 1 highlighted in a red rectangle, in which the RAK1921 can be attached to. 
@@ -55,7 +58,7 @@ Be careful in selecting the baseboard, and make sure that RAK5005-O is chosen, b
 #### Pin Definition
 
 
-RAK1921 supports a I2C interface. Refer to figure 1 for the pins available in the module.  
+RAK1921 supports an I2C interface. For the pins available in the module, refer to Figure 1 above.  
 
 <rk-img
   src="/assets/images/wisblock/rak1921/datasheet/pin-definition.png"
@@ -74,7 +77,7 @@ RAK1921 supports a I2C interface. Refer to figure 1 for the pins available in th
 
 #### Electrical Characteristics
 
-This section shows the absolute minimum and maximum ratings of the RAK1921 WisBlock WisIO Module in tabular representation.
+The absolute minimum and maximum ratings of the RAK1921 WisBlock WisIO Module are presenten in tabular representation. This should be followed accordingly to avoid future damages.
 
 ##### Absolute Maximum Ratings
 
@@ -94,8 +97,6 @@ This section shows the absolute minimum and maximum ratings of the RAK1921 WisBl
 
 #### Mechanical Characteristics
 
-
-Figure 3 below shows the RAK1921 physical dimensions.
 
 <rk-img
   src="/assets/images/wisblock/rak1921/datasheet/mechanical-dimensions.png"

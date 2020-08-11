@@ -36,8 +36,9 @@ The RAK7246G is an ideal choice for prototype design, concept verification and d
 
 ### Overview
 
-#### Board Overview
+The overview covers the RAK7246G board overview and the block diagram that shows how the componets operatate.
 
+#### Board Overview
 ##### Module Overview
 
 <rk-img
@@ -131,7 +132,11 @@ The unique multi data-rate multi-channel demodulation capacity SF7 to SF12 and o
 
 ### Hardware
 
+The hardware specification is categorized into four parts. It includes the interfacing, pinouts and its corresponding functionalities and diagram. It also presents the features of RAK7246G and its parameters.
+
+
 #### Interfaces
+
 
 ##### External Module Interfaces
 
@@ -305,6 +310,8 @@ The FEM chosen is a SKYWORKS SKY66422, which integrates a PA, LNA and a Switch. 
 
 ### Software
 
+Download the latest firmware of RAK7246G in the table provided below. The supported software feutures are also included with the standard parameters.
+
 #### Firmware
 
 | Model   | Raspberry Pi Board  | Firmware Version | Source                                                                                                        |
@@ -313,23 +320,16 @@ The FEM chosen is a SKYWORKS SKY66422, which integrates a PA, LNA and a Switch. 
 
 #### Software Specifications
 
-##### LoRa
 
-- Class A, C
-- LoRa package forwarder
-- Country code setup
-- TX power setup
-- Location setup
-- Supports server address & port setup
+|               LoRa                    | Network                 | Management          |
+|-------------------------------------- |------------------------ |-------------------- |
+| Class A, C                            | Wi-Fi AP/Client mode    | SSH2                |
+| LoRa package forwarder                | DHCP Client             |                     |
+| Country code setup                    |                         |                     |
+| TX power setup                        |                         |                     |
+| Location setup                        |                         |                     |
+| Supports server address & port setup  |                         |                     |
 
-##### Network
-
-- Wi-Fi AP/Client mode
-- DHCP Client
-
-##### Management
-
-- SSH2
 
 #### LoRaWAN Systems, Network Approach
 

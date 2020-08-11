@@ -1,6 +1,6 @@
 ---
-prev: /Product-Categories/WisTrio/RAK8212/Overview/
-next: false
+prev: ../Overview/
+next: ../Datasheet/
 ---
 
 # Quick Start Guide
@@ -25,7 +25,7 @@ Before going through each and every step in the installation guide of the RAK821
 6. Android/IOS Mobile Device
 
 ::: tip 📝 NOTE
-This device released by RAKwireless is already pre-loaded with its latest firmware upon manufacturing. If you want to have your device's firmware burned or upgraded, please refer to the sections below:
+This device released by RAKwireless is already pre-loaded with its latest firmware upon manufacturing. If you want to have your device's firmware burned or upgraded, refer to the sections below:
 
 1. [Device Firmware Setup](/Product-Categories/WisTrio/RAK8212/Quickstart/#device-firmware-setup)
    :::
@@ -169,7 +169,7 @@ This section is a sample guide on how to connect you RAK8212 iTracker Pro to a C
 
 2. Make sure that your RAK8212 iTracker Pro is connected to your mobile device over BLE according to the [Configuring your RAK8212 iTracker Pro](/Product-Categories/WisTrio/RAK8212/Quickstart/#configuring-your-rak8212-itracker-pro) section.
 
-3. Now, send `at+scan=cellular` from Mobile device over BLE to RAK8212 iTracker Pro as shown in the image below:
+3. Now, send `at+scan=cellular` from mobile device over BLE to RAK8212 iTracker Pro as shown in the image below:
 
 <rk-img
   src="/assets/images/wistrio/rak8212/quickstart/connecting-to-cellular-network/kzxbfaxur2zen98rb4c2.jpg"

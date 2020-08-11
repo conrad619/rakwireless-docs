@@ -35,7 +35,6 @@ In addition, the RAK5802 supports one I2C interface, customer can use this I2C i
 
 ## Specifications
 
-
 ### Overview
 
 #### Block Diagram
@@ -48,6 +47,9 @@ The figure below shows the block diagram of the RAK5802 module. Internally, a RS
 />
 
 ### Hardware
+
+The hardware specification is categorized into four parts. It discusses the pinouts of the module and its corresponding functions and diagrams. It also covers the electrical and mechanical characteristics that include the tabular data of the functionalities and standard values of the RAK5802 WisBlock™ Module.
+
 
 #### Pin Definition
 

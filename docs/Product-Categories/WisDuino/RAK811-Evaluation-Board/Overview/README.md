@@ -2,13 +2,14 @@
 rak_img: /assets/images/wisduino/rak811-evaluation-board/quickstart/overview/RAK811-wisnode.svg
 rak_desc: The RAK811 LPWAN Evaluation Board is a development board which comes in an Arduino Uno form factor. It has a built-in MCU which allows it to function as a standalone solution or as an Arduino shield. 
 rak_grp: wisduino
-prev: false
-next: false
+prev: ../../
+next: ../Quickstart/
 ---
 
 # RAK811 LPWAN Evaluation Board
 
-Thank You For choosing **RAK811 LPWAN Evaluation Board** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
+Thank you for choosing **RAK811 LPWAN Evaluation Board** in your awesome IoT Project! 🎉 
+To help you get started, we have provided the necessary documentations for the product.
 
 * [Quick Start Guide](../Quickstart/)
 
@@ -23,7 +24,7 @@ Thank You For choosing **RAK811 LPWAN Evaluation Board** in your awesome IoT Pro
 
 The **RAK811 LPWAN Evaluation Board** is a development board which comes in an Arduino Uno form factor. It has a built-in MCU which allows it to function as a standalone solution or as an Arduino shield. This board is highly suitable for rapid development and testing, with its form factor and easy access to GPIOs (via the headers), plus the integrated USB-UART convert and port.
 
-The module integrates the **Semtech SX1276** and a **STM32 Chip** that comes along with a firmware which comes with AT command support. It is easy to configure via the Micro USB and connects with LoRaWAN® Network Server in just a couple of minutes. Now, Rapid testing is made easy.
+The module integrates the **Semtech SX1276** and a **STM32 Chip** that comes along with a firmware which comes with AT command support. It is easy to configure via the Micro USB and connects with LoRaWAN® Network Server in just a couple of minutes. Now, rapid testing is made easy.
 
 <!-- <rk-btn
   src="/Product-Categories/WisDuino/RAK811-Evaluation-Board/Quickstart/"

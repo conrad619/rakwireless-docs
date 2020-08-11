@@ -44,46 +44,56 @@ export default {
 
   //WisDuino
   '/Product-Categories/WisDuino/RAK811-Evaluation-Board/': {
-    img: '/assets/images/wisduino/rak811-evaluation-board/quickstart/overview/RAK811-wisnode.svg',
+    label: 'RAK811 LPWAN Evaluation Board',
+    img:   '/assets/images/wisduino/rak811-evaluation-board/quickstart/overview/RAK811-wisnode.svg',
     store: 'https://store.rakwireless.com/products/rak811-wisnode-lora-module'
   },
 
   //WisNode
   '/Product-Categories/WisNode/RAK612/': {
-    img: '/assets/images/wisnode/rak612/quickstart/main/RAK612.svg',
+    label: 'RAK612 WisNode Button',
+    img:   '/assets/images/wisnode/rak612/quickstart/main/RAK612.svg',
     store: 'https://store.rakwireless.com/products/rak612-lora-button'
   },
   '/Product-Categories/WisNode/RAK7200/': {
-    img: '/assets/images/wisnode/rak7200/quickstart/overview/RAK7200.svg',
+    label: 'RAK7200 WisNode Track Lite',
+    img:   '/assets/images/wisnode/rak7200/quickstart/overview/RAK7200.svg',
     store: 'https://store.rakwireless.com/products/rak7200-lora-tracker'
   },
   '/Product-Categories/WisNode/RAK7204/': {
-    img: '/assets/images/wisnode/rak7204/quickstart/1.overview/RAK7204.svg',
+    label: 'RAK7204 WisNode Sense',
+    img:   '/assets/images/wisnode/rak7204/quickstart/1.overview/RAK7204.svg',
     store: 'https://store.rakwireless.com/products/rak7204-lpwan-environmental-node'
   },
   '/Product-Categories/WisNode/RAK7431/': {
-    img: '/assets/images/wisnode/rak7431/datasheet/RAK7431.png',
+    label: 'RAK7431 WisNode Bridge',
+    img:   '/assets/images/wisnode/rak7431/datasheet/RAK7431.png',
     store: 'https://store.rakwireless.com/products/rak7431'
   },
 
   //WisTrio
   '/Product-Categories/WisTrio/RAK815/': {
-    img: '/assets/images/wistrio/rak815/quickstart/1main/RAK815.svg',
+    label: 'RAK815 Hybrid Location Tracker',
+    img:   '/assets/images/wistrio/rak815/quickstart/1main/RAK815.svg',
     store: 'https://store.rakwireless.com/products/rak815-hybrid-location-tracker"'
   },
   '/Product-Categories/WisTrio/RAK5010/': {
-    img: '/assets/images/wistrio/rak5010/quickstart/1.overview/RAK5010.svg',
+    label: 'RAK5010 WisTrio NB-IoT Tracker',
+    img:   '/assets/images/wistrio/rak5010/quickstart/1.overview/RAK5010.svg',
     store: 'https://store.rakwireless.com/products/rak5010-nb-iot-tracker'
   },
   '/Product-Categories/WisTrio/RAK5010-M/': {
-    img: '/assets/images/wistrio/rak5010-m/overview/rak5010-m-wistrio.jpg',
+    label: 'RAK5010-M WisTrio NB-IoT Tracker',
+    img:   '/assets/images/wistrio/rak5010-m/overview/rak5010-m-wistrio.jpg',
     store: 'https://store.rakwireless.com/products/rak5010-nb-iot-tracker?variant=35173395660958'
   },
   '/Product-Categories/WisTrio/RAK7205-5205/': {
+    label: 'RAK7205/RAK5205 WisTrio LPWAN Tracker',
     img: '/assets/images/wistrio/rak7205-5205/quickstart/overview/RAK5205.svg',
     store: 'https://store.rakwireless.com/products/rak5205-lora-tracker'
   },
   '/Product-Categories/WisTrio/RAK8212/': {
+    label: 'RAK8212 iTracker Pro',
     img: '/assets/images/wistrio/rak8212/quickstart/overview/RAK8212.svg',
     store: 'https://store.rakwireless.com/products/rak8212-itracker-pro'
   },

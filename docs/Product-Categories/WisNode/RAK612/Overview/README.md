@@ -2,8 +2,8 @@
 rak_img: /assets/images/wisnode/rak612/quickstart/main/RAK612.svg
 rak_desc: The RAK612 WisNode Button is a remote wireless trigger device. It supports user-defined functions for each key and is based on the LoRaWAN® 1.0.2 standard. 
 rak_grp: [wisnode, button]
-prev: false
-next: false
+prev: ../../
+next: ../Quickstart/
 ---
 # RAK612 WisNode Button
 

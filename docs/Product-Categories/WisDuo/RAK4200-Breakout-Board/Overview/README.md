@@ -7,8 +7,8 @@ prev: ../../
 next: ../Quickstart/
 ---
 
-# RAK4200 WisBee™ Breakout Module
-Thank You For choosing **RAK4200 WisBee™ Breakout Module** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
+# RAK4200 Breakout Module
+Thank You For choosing **RAK4200 Breakout Module** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
 * [Quick Start Guide](../Quickstart/)
 * [Datasheet](../Datasheet/)
@@ -16,7 +16,7 @@ Thank You For choosing **RAK4200 WisBee™ Breakout Module** in your awesome IoT
 <rk-img
   :src="`${$frontmatter.static_root}/peojuzuyfj5wzl51igyk.jpg`"
   width="50%"
-  caption="RAK4200 WisBee™ Breakout Module"
+  caption="RAK4200 Breakout Module"
 /> -->
 
 ## Product Description
@@ -29,7 +29,7 @@ The module complies with **LoRaWAN® 1.0.2 protocols**. It also supports Lora® 
 
 <!-- <rk-btn
   src="/Product-Categories/WisDuo/RAK4200-Breakout-Board/Quickstart/#quick-start-guide"
-  label="Get Started with RAK4200 WisBee™ Breakout Module"
+  label="Get Started with RAK4200 Breakout Module"
 /> -->
 
 

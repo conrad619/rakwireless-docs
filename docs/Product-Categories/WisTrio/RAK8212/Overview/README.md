@@ -1,11 +1,13 @@
 ---
 rak_img: /assets/images/wistrio/rak8212/quickstart/overview/RAK8212.svg
 rak_grp: wistrio
-rak_desc: The RAK8212 iTracker Pro  is versatile developer board aimed at aiding in quick prototypes using NB-IOT. The board includes a vast array of  connectivity options like NB-IoT, Bluetooth 5.0 and GPS and sensors like an accelerometer, light sensor and barometric sensor
+rak_desc: The RAK8212 iTracker Pro is versatile developer board aimed at aiding in quick prototypes using NB-IOT. The board includes a vast array of  connectivity options like NB-IoT, Bluetooth 5.0 and GPS and sensors like an accelerometer, light sensor and barometric sensor.
+prev: ../../
+next: ../Quickstart/
 ---
 
 # RAK8212 iTracker Pro
-Thank You For choosing **RAK8212 iTracker Pro** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
+Thank you for choosing **RAK8212 iTracker Pro** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
 * [Quick Start Guide](../Quickstart/)
 * [Datasheet](../Datasheet/)

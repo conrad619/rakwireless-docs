@@ -31,7 +31,10 @@ All external expansion interfaces of the RAK5804 module are equipped with a TVS 
 
 
 
-## Overview
+## Specifications
+
+
+### Overview
 
 The RAK5804 module can be mounted on the WisIO slot of the WisBase board. Figure 1 shows the mounting mechanism of the RAK5804 on a WisBase module, such as a RAK5005.
 
@@ -41,9 +44,10 @@ The RAK5804 module can be mounted on the WisIO slot of the WisBase board. Figure
   caption="RAK5804 Mounting Mechanism on a WisBase module"
 />
 
-## Specifications
 
 ### Hardware
+
+The hardware specification is categorized into four parts. It discusses the interfacing, pinouts, and its corresponding functions and diagrams of the module. It also covers the electrical and mechanical characteristics that include the tabular data of the functionalities and standard values of the RAK5804 WisBlock™ Module.
 
 #### Interfaces
 
@@ -100,6 +104,9 @@ The RAK5804 presents an application to the IO pins and I2C and UART communicatio
 | 5 | GND | 
 
 <br>
+
+#### Pin Definition
+
 
 The RAK5804 module, as one of the WisIO module, comprises a standard WisIO connector. This connector allows the RAK5804 module to be mounted on a WisBlock baseboard, such as RAK5005. The pin order of the connector is shown in Figure 3.
 

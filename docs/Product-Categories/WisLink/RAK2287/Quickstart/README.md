@@ -432,7 +432,7 @@ Once Wi-Fi AP Mode has been disabled by choosing "**2 Enable Client Mode/Disable
 - Enter the SSID of the network you want to connect:
 
 :::warning ⚠️WARNING
-Make sure to input the correct Wi-Fi SSID and Password or you will not be able to connect to the RAK2287 Concentrator Module WisLink Series again via SSH in Wi-Fi AP Mode. If stuck in this situation, follow the procedure listed in [Connecting to a Network](/en-us/quick-start-guide/gateways/rak2287/connecting-to-a-network.html#reverting-to-wi-fi-ap-mode) document which is applicable for all Raspberry Pi based gateways to work again in Wi-Fi AP mode.
+Make sure to input the correct Wi-Fi SSID and Password or you will not be able to connect to the RAK2287 Concentrator Module WisLink Series again via SSH in Wi-Fi AP Mode. If stuck in this situation, follow the procedure listed in [Connecting to a Network](#reverting-to-wi-fi-ap-mode) document which is applicable for all Raspberry Pi based gateways to work again in Wi-Fi AP mode.
 :::
 
 <rk-img

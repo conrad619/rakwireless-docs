@@ -2,7 +2,7 @@
 
 <rk-head img="/assets/rakwireless/product-categories/WisNode.svg" center>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula est ex, in ullamcorper mauris pretium non. Sed egestas elit nec fermentum aliquet. Nulla molestie nisl fringilla lacus viverra tristique quis ut tellus. Vivamus faucibus porta tellus, eget condimentum enim commodo sit amet. Praesent sed orci semper, lacinia enim non, bibendum ipsum. Integer maximus nibh vel risus tempor, quis rhoncus justo porttitor. Praesent venenatis convallis dictum. Donec erat leo, posuere sed leo in, consectetur commodo tellus. Curabitur vehicula sagittis nisi, ac feugiat nunc vestibulum vitae. Proin aliquam quam at placerat mattis. Aenean volutpat lectus eget nulla placerat gravida. Vestibulum iaculis orci et quam volutpat cursus sit amet blandit justo. Curabitur hendrerit quam rutrum urna pulvinar venenatis. Ut nulla ipsum, pulvinar vitae dignissim quis, vulputate sed urna.
+IoT nodes that offer a complete, out of the box solution. These end-user devices are designed to serve a particular case scenario and do this in a cost-efficient manner
 
 </rk-head>
 
@@ -10,7 +10,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula est ex, 
 
 <rk-head img="/assets/rakwireless/product-categories/WisNode-Track.svg">
 
-Suspendisse potenti. Mauris scelerisque dolor et elit finibus, at porttitor odio varius. Nam commodo nisl nulla, at mollis odio bibendum eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+These are nodes with onboard GPS that use the power of IoT to relay coordinates data in the most resource economic way. There are options with Nb-IoT or LoRaWAN® transceivers. Additionally, there is a variety of options as far as onboard sensors go, making it possible to construct a set of deployment scenarios where GPS is triggered on a number of metrics – movement, temperature change, etc.
+
 
 </rk-head>
 
@@ -20,7 +21,7 @@ Suspendisse potenti. Mauris scelerisque dolor et elit finibus, at porttitor odio
 
 <rk-head img="/assets/rakwireless/product-categories/WisNode-Sense.svg">
 
-Suspendisse potenti. Mauris scelerisque dolor et elit finibus, at porttitor odio varius. Nam commodo nisl nulla, at mollis odio bibendum eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+These are nodes integrating one or more sensors designed to collect data. Environmental parameters like temperature and humidity are just one example of what these can measure and relay to your server.
 
 </rk-head>
 
@@ -30,7 +31,7 @@ Suspendisse potenti. Mauris scelerisque dolor et elit finibus, at porttitor odio
 
 <rk-head img="/assets/rakwireless/product-categories/WisNode-Button.svg">
 
-Suspendisse potenti. Mauris scelerisque dolor et elit finibus, at porttitor odio varius. Nam commodo nisl nulla, at mollis odio bibendum eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+A variety of nodes design for the purpose of user interaction. From a simple button to act as a switch to turn on/off your equipment to a 4 key button to be used as programable hub to execute a series of task there are 
 
 </rk-head>
 
@@ -40,7 +41,8 @@ Suspendisse potenti. Mauris scelerisque dolor et elit finibus, at porttitor odio
 
 <rk-head img="/assets/rakwireless/product-categories/WisNode-Bridge.svg">
 
-Suspendisse potenti. Mauris scelerisque dolor et elit finibus, at porttitor odio varius. Nam commodo nisl nulla, at mollis odio bibendum eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+These are our heavy hitters. Industrial grade nodes with top notch build quality and a set of features that make the node feature proof. WisNode Bridge devices serves as the means of converting conventional industrial networks into a wireless, monitoring solution of todays s day and age. The nodes can operate as RS485 converters, CAN bus converters or Analog or digital ones. Especially suited for industry 4.0 deployment scenarios.
+
 
 </rk-head>
 

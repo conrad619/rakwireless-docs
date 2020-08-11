@@ -39,6 +39,7 @@ The module complies with LoRaWAN® 1.0.2 protocols. It also supports LoRa® Poin
 
 ### Overview
 
+The overview covers the RAK4200 WisDuo™ board overview where the front and back views are presented. It includes also the block diagram that shows the external interfaces of the RAK4200 WisDuo™.
 
 
 #### Board Overview
@@ -47,7 +48,6 @@ The module complies with LoRaWAN® 1.0.2 protocols. It also supports LoRa® Poin
 (Mechanical Characteristics)
 --->
 
-The overview covers the RAK4200 WisDuo™ board overview where the front and back views are presented. It includes also the block diagram that shows the external interfaces of the RAK4200 WisDuo™.
 
 <rk-img
   src="/assets/images/wisduo/rak4200-module/datasheet/back_view.png"
@@ -179,7 +179,8 @@ The RAK4200 LPWAN Module when in sleep mode consumes **11.8 uA** of current.
 
 #### Mechanical Characteristics
 
-The following figure is the mechanical dimensions of the RAK4200 LPWAN Module.
+
+<!---The following figure is the mechanical dimensions of the RAK4200 LPWAN Module.--->
 
 <rk-img
   src="/assets/images/wisduo/rak4200-module/datasheet/mechanical-dimensions.jpg"
@@ -189,7 +190,7 @@ The following figure is the mechanical dimensions of the RAK4200 LPWAN Module.
 
 #### Recommended Reflow Profile
 
-In this section, the recommended reflow profile for RAK4200 LPWAN Module is described in the image below:
+<!--- In this section, the recommended reflow profile for RAK4200 LPWAN Module is described in the image below: --->
 
 
 <rk-img

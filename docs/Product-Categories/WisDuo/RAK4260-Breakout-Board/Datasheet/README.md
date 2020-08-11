@@ -1,11 +1,11 @@
 ---
 tags:
   - datasheet
-  - wisbee
+  - wisduo
 prev: ../Quickstart/
 ---
 
-# RAK4260 WisBee™ Breakout Module Datasheet
+# RAK4260 Breakout Module Datasheet
 
 <rk-img
   src="/assets/images/wisduo/rak4260-breakout-board/datasheet/rak4260-breakout.jpg"
@@ -15,7 +15,7 @@ prev: ../Quickstart/
 
 ### Product Description
 
-The **RAK4260 WisBee™ Breakout Module** is specifically designed to allow easy excess to the pins on the module in order to simplify development and testing. The breakout board utilized is of an **Xbee form factor** and its main purpose is to allow the RAK4260 stamp module form factor pinout to be transferred to 2.54 mm headers. This makes it more convenient for developer to debug their solution.
+The **RAK4260 Breakout Module** is specifically designed to allow easy excess to the pins on the module in order to simplify development and testing. The breakout board utilized is of an **Xbee form factor** and its main purpose is to allow the RAK4260 stamp module form factor pinout to be transferred to 2.54 mm headers. This makes it more convenient for developer to debug their solution.
 
 The module itself has the RAK4260 at its core, which is a module that utilizes the **ATSAMR34J18B SIP**. This high level of integration allows for outstanding performance: 860 nA in sleep mode and LoRa® TX Power of up to 20 dBm.
 
@@ -45,23 +45,24 @@ The low power, long range LoRa® communication capabilities of the module make i
 
 ### Overview
 
-The figure below shows the top and bottom view of the RAK4260 WisBee™ Breakout Module:
+The RAK4260 Breakout Module is shown in Figures 2 and 3 that display the top and back view of the module, respectively.
 
 <rk-img
   src="/assets/images/wisduo/rak4260-breakout-board/datasheet/rak4260b-top-view.jpg"
   width="25%"
-  caption="RAK4260 WisBee™ Breakout Module Top View"
+  caption="RAK4260 Breakout Module Top View"
 />
 
 <rk-img
   src="/assets/images/wisduo/rak4260-breakout-board/datasheet/rak4260b-bottom-view.jpg"
   width="25%"
-  caption="RAK4260 WisBee™ Breakout Module Bottom View"
+  caption="RAK4260 Breakout Module Bottom View"
 />
 
 ### Hardware
 
-The hardware specifications is categorized into five that discuss the interfacing, pinouts, operating frequencies, and the standard values of the board. These categories also include tabular data and diagrams of the RAK4260 Breakout Module.
+The hardware specification is categorized into five part. It discusses the interfacing, pinouts, and its corresponding functions and diagrams. It also covers the RF and electrical parameters of the module that include the tabular data of the functionalities and standard values of the RAK4260 Breakout Module.
+
 
 #### Interfaces
 
@@ -99,10 +100,10 @@ There are two UART interfaces on RAK4200 module:
 <rk-img
   src="/assets/images/wisduo/rak4260-breakout-board/datasheet/pinout.jpg"
   width="75%"
-  caption="RAK4260 WisBee™ Breakout Module Pinout"
+  caption="RAK4260 Breakout Module Pinout"
 />
 
-The tables below show the pin definition of the RAK4260 WisBee™ Breakout Module:
+The tables below show the pin definition of the RAK4260 Breakout Module:
 
 ##### J5 Pin Definitions
 
@@ -162,7 +163,7 @@ The tables below show the pin definition of the RAK4260 WisBee™ Breakout Modul
 
 ##### Operating Frequencies
 
-The RAK4260 WisBee™ Breakout Module supports the following LoRa® bands:
+The RAK4260 Breakout Module supports the following LoRa® bands:
 
 | Module         | Region                                                                               | Frequency (MHz)                                                         |
 | -------------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------- |
@@ -185,12 +186,12 @@ The RAK4260 WisBee™ Breakout Module supports the following LoRa® bands:
 <rk-img
   src="/assets/images/wisduo/rak4260-breakout-board/datasheet/schematic-diagram.png"
   width="100%"
-  caption="RAK4260 WisBee™ Breakout Module Schematic Diagram"
+  caption="RAK4260 Breakout Module Schematic Diagram"
 />
 
 ### Software
 
-A downloadable the latest firmware for the RAK4260 Breakout Module is provided in the given table.
+Download the latest firmware of the RAK4260 Breakout Module in the table provided.
 
 #### Firmware
 

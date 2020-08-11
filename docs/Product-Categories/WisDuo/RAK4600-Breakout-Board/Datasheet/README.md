@@ -1,22 +1,22 @@
 ---
 tags:
   - datasheet
-  - wisbee
+  - wisduo
 prev: ../Quickstart/
 ---
 
-# RAK4600 WisBee™ Breakout Module Datasheet
+# RAK4600 Breakout Module Datasheet
 
 <rk-img
   src="/assets/images/wisduo/rak4600-breakout-board/datasheet/overview/xfnxl2vaseqi9anuveom.jpg"
   width="60%"
-  caption="RAK4600 WisBee™ Breakout Module"
+  caption="RAK4600 Breakout Module"
 />
 
 
 ### Product Description
 
-**RAK4600 WisBee™ Breakout Module** is specifically designed to allow easy excess to the pins on the module in order to simplify development and testing. The breakout board utilized is of an Xbee form factor and its main purpose is to allow the RAK4600 stamp module form factor pinout to be transferred to 2.54mm headers.
+**RAK4600 Breakout Module** is specifically designed to allow easy excess to the pins on the module in order to simplify development and testing. The breakout board utilized is of an Xbee form factor and its main purpose is to allow the RAK4600 stamp module form factor pinout to be transferred to 2.54mm headers.
 
 The module itself has the RAK4600 at its core, integrating an **nRF52832 MCU** and a **SX1276 LoRa® chip**. It has Ultra-Low Power Consumption of 2.0uA in sleep mode, high LoRa® max output power (20dBm) in work mode, and BLE output power up to 4dBm.
 
@@ -41,18 +41,17 @@ The RF communication capabilities of the module (LoRa® + BLE) make it suitable 
 
 ### Overview
 
-
-The figure below shows the top view of the RAK4600 WisBee™ Breakout Module.
+The RAK4600 Breakout Module is shown in Figure 2 that displays the top view of the module.
 
 <rk-img
   src="/assets/images/wisduo/rak4600-breakout-board/datasheet/board-overview/cwr7pftlffhyogeuzahz.jpg"
   width="40%"
-  caption="RAK4600 WisBee™ Breakout Board Illustration"
+  caption="RAK4600 Breakout Board Illustration"
 />
 
 ### Hardware
 
-Hardware specifications are categorized into five parts that covers the interfacing and functionalities of the pinouts. It also covers the standrard values of the board including standard freqiencies of the coard.mThese categories also include tabular data and diagrams of the RAK4600 Breakout Module.
+Hardware specification is categorized into five parts that covers the interfacing, pinouts, and its corresponding functions and diagrams. It also covers the RF and electrical parameters that include the tabular data of the functionalities and standard values of the RAK4600 Breakout Board.
 
 
 #### Interfaces
@@ -89,21 +88,20 @@ The following pins are intended for I2C (_require 10k resistance pull-up_):
 
 Both are utilizing an IPEX connector, where one is for the LoRa® antenna and the other for the BLE.
 
-NFC interface
+##### NFC interface
 
 Two physical pins can be configured either as NFC antenna pins (factory default), or as GPIOs, When configured as NFC antenna pins, the GPIOs on those pins will automatically be set to DISABLE state and a protection circuit will be enabled preventing the chip from being damaged in the presence of a strong NFC field. The protection circuit will short the two pins together if the voltage difference exceeds approximately 2V.
 
 #### Pin Definition
 
-The figure below shows the pinout of the RAK4600 WisBee™ Breakout Module:
 
 <rk-img
   src="/assets/images/wisduo/rak4600-breakout-board/datasheet/pin-definition/bqiem8snfmmzg4hl3mk3.jpg"
   width="100%"
-  caption="RAK4600 WisBee™ Breakout Module Pinout"
+  caption="RAK4600 Breakout Module Pinout"
 />
 
-The pin definitions of the RAK4600 WisBee™ Breakout Module are shown in the following tables below:
+The pin definitions of the RAK4600 Breakout Module are shown in the following tables below:
 
 ##### J7 Pin Definitions
 
@@ -142,7 +140,7 @@ The pin definitions of the RAK4600 WisBee™ Breakout Module are shown in the fo
 
 ##### Operating Frequencies
 
-The RAK4600 WisBee™ Breakout Module supports the following LoRa® bands:
+The RAK4600 Breakout Module supports the following LoRa® bands:
 
 | **Module**      | **Region**    | **Frequency** |
 | --------------- | ------------- | ------------- |
@@ -158,7 +156,7 @@ The RAK4600 WisBee™ Breakout Module supports the following LoRa® bands:
 
 ##### Power Consumption
 
-The table below shows the power consumption of RAK4600 WisBee™ Breakout Module:
+The table below shows the power consumption of RAK4600 Breakout Module:
 
 | **Item**                   | **Power<br>Consumption** | **Condition**                   |
 | -------------------------- | ------------------------ | ------------------------------- |
@@ -172,18 +170,17 @@ The table below shows the power consumption of RAK4600 WisBee™ Breakout Module
 
 #### Schematic Diagram
 
-The RAK4600 WisBee™ Breakout Board circuit is shown below:
+The RAK4600 Breakout Board circuit is shown below:
 
 <rk-img
   src="/assets/images/wisduo/rak4600-breakout-board/datasheet/schematic-diagram/tyd3goloywnp7wbiflva.jpg"
   width="100%"
-  caption="RAK4600 WisBee™ Breakout Module Schematic"
+  caption="RAK4600 Breakout Module Schematic"
 />
 
 ### Software
 
-Downloadable the latest firmware for the RAK4600 Breakout Module that is provided down below.
-
+Download the latest firmware of the RAK4600 Breakout Module in the table provided.
 
 #### Firmware
 

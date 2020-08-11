@@ -42,9 +42,11 @@ Pilot Gateway Pro is ideal for prototyping, proof-of-concept demonstration or fo
 
 ### Overview
 
+The overview covers the board overview of RAK7240 and its block diagram that discusses the basic concept of LoRaWAN® system.
+
 #### Board Overview
 
-The outer dimension of Pilot Gateway is **92 x 68.3 x 53.5 mm** as shown below
+<!--- The outer dimension of Pilot Gateway is **92 x 68.3 x 53.5 mm** as shown below --->
 
 <rk-img
   src="/assets/images/wisgate/rak7243c/datasheet/2.rak7243-dimensions.png"
@@ -371,6 +373,8 @@ The table below lists the operation and storage temperature requirements:
 | Storage Temperature Range   | -40 ˚C |         | +85 ˚C |
 
 ### Software
+
+Download the latest firmware of RAK7243 and RAK7243C in the table provided below.
 
 #### Firmware
 
