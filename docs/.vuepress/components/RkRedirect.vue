@@ -8,7 +8,8 @@ export default {
     to: { type: String }
   },
   mounted() {
-    this.$router.push(this.to)
+    const { to } = this
+    this.$router.push(to[to.length - 1] === '/' ? to : `${to}/`)
   }
 }
 </script>

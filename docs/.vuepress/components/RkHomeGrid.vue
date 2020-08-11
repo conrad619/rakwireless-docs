@@ -99,8 +99,6 @@ export default {
     rakGrp(rak_grp) {
       if (!rak_grp) return 'Others'
       switch (rak_grp) {
-        case 'wisbase':
-          return 'WisBase'
         case 'wisbee':
           return 'WisBee'
         case 'wisblock':
@@ -128,7 +126,13 @@ export default {
   },
   mounted() {
     // console.log('pages: ', this.overviews)
+    let count = index => {
+      return Object.keys(this.groups[index]).filter(t => typeof t === 'number')
+        .length
+    }
+
     for (const qs of this.overviews) {
+      // console.log('qs: ', qs)
       const { rak_grp } = qs.frontmatter
       let index, index2
 
@@ -138,23 +142,26 @@ export default {
           break
         case 'object':
           if (Array.isArray(rak_grp)) {
+            // console.log(qs.path, rak_grp)
             index = rak_grp[0] || 'others'
             index2 = rak_grp[1] || null
             break
           }
         default:
           console.error(
-            `[RkHomeGrid] Invalid rak_grp of type ${typeof rak_grp}: `,
-            rak_grp
+            `[RkHomeGrid] Invalid rak_grp of type ${typeof rak_grp} for ${
+              qs.path
+            }`
           )
+          continue
       }
       // console.log('indexes: ', index, index2)
       if (!this.groups) this.groups = {}
-      if (!this.groups[index]) this.groups[index] = []
+      if (!this.groups[index]) this.groups[index] = {}
       if (index2) {
         if (!this.groups[index][index2]) this.groups[index][index2] = []
         this.groups[index][index2] = [...this.groups[index][index2], qs]
-      } else this.groups[index] = [...this.groups[index], qs]
+      } else this.groups[index] = { ...this.groups[index], [count(index)]: qs }
     }
     // sort keys
     const ordered = {}

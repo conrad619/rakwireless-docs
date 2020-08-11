@@ -1,1 +1,0 @@
-<rk-redirect to="/wishat/rak9003-poe-hat/overview" />

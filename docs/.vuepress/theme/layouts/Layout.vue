@@ -1,35 +1,81 @@
 <template>
-  <div
-    v-if="mounted"
-    class="theme-container"
-    :class="pageClasses"
-    @touchstart="onTouchStart"
-    @touchend="onTouchEnd"
-  >
-    <Navbar v-if="shouldShowNavbar" @toggle-sidebar="toggleSidebar" />
+  <ClientOnly>
+    <q-layout view="hHh LpR lfr">
+      <div id="lt-md-div" class="lt-md"></div>
+      <q-header class="bg-primary text-white">
+        <q-toolbar style="height: 70px">
+          <q-btn
+            flat
+            @click="showDrawer = !showDrawer"
+            round
+            dense
+            :icon="showDrawer ? 'menu_open' : 'menu'"
+            class="lt-md"
+          />
+          <div class="full-height flex flex-center">
+            <q-item :to="`/`" class="q-pa-none full-height">
+              <q-item-section>
+                <!-- <a href="/"> -->
+                <img :src="`/assets/rakwireless/rak-white.svg`" style="width: 7.5rem" />
+                <!-- </a> -->
+              </q-item-section>
+            </q-item>
+          </div>
+          <div class="gt-xs text-h5 q-px-sm">{{ $siteTitle }}</div>
+          <q-space />
+          <rk-toolbar-dropdown class="gt-sm" />
+          <rk-search-box class="lt-lg" minimized />
+        </q-toolbar>
+        <q-separator class="bg-primary" style="padding: 0.1px" />
+      </q-header>
 
-    <div class="sidebar-mask" @click="toggleSidebar(false)" />
-
-    <Sidebar :items="sidebarItems" @toggle-sidebar="toggleSidebar">
-      <template #top>
-        <slot name="sidebar-top" />
-      </template>
-      <template #bottom>
-        <slot name="sidebar-bottom" />
-      </template>
-    </Sidebar>
-
-    <Home v-if="$page.frontmatter.home" />
-
-    <Page v-else :sidebar-items="sidebarItems">
-      <template #top>
-        <slot name="page-top" />
-      </template>
-      <template #bottom>
-        <slot name="page-bottom" />
-      </template>
-    </Page>
-  </div>
+      <q-drawer
+        v-model="showDrawer"
+        content-class="bg-grey-1 text-grey-9 q-pa-none"
+        @show="onDrawerShow"
+        @hide="onDrawerHide"
+      >
+        <rk-sidebar :items="sidebarItems">
+          <template #top>
+            <slot name="sidebar-top" />
+          </template>
+          <template #bottom>
+            <slot name="sidebar-bottom" />
+          </template>
+        </rk-sidebar>
+      </q-drawer>
+      <q-page-container @scroll="onPageScroll">
+        <rk-header v-if="shouldHaveHeader" />
+        <rk-page :sidebar-items="sidebarItems" />
+        <rk-zoom />
+        <q-page-sticky position="top-right" :offset="[15, 15]" style="z-index: 100;">
+          <transition
+            appear
+            enter-active-class="animated bounceIn"
+            leave-active-class="animated bounceOut"
+          >
+            <q-btn
+              v-if="showBack2Top"
+              color="primary"
+              icon="fas fa-chevron-up"
+              @click="back2Top"
+              round
+              v-ripple
+            >
+              <q-tooltip
+                content-class="bg-black text-white"
+                transition-show="scale"
+                transition-hide="scale"
+              >Back to Top</q-tooltip>
+            </q-btn>
+          </transition>
+        </q-page-sticky>
+      </q-page-container>
+      <q-footer>
+        <rk-footer />
+      </q-footer>
+    </q-layout>
+  </ClientOnly>
 </template>
 
 <script>
@@ -37,6 +83,18 @@ import Home from '@theme/components/Home.vue'
 import Navbar from '@theme/components/Navbar.vue'
 import Page from '@theme/components/Page.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
+
+import RkToolbarDropdown from '@theme/components/RkToolbarDropdown.vue'
+import RkPage from '@theme/components/RkPage.vue'
+import RkFooter from '@theme/components/RkFooter.vue'
+import RkSidebar from '@theme/components/RkSidebar.vue'
+import RkHeader from '@theme/components/RkHeader.vue'
+import RkZoom from '@theme/components/RkZoom.vue'
+import RkSearchBox from '@theme/components/RkSearchBox.vue'
+
+import ScrollMixin from '@theme/components/mixins/scroll.mixin'
+import CommonMixin from '../../components/common.mixin'
+
 import { resolveSidebarItems } from '../util'
 import { Screen } from 'quasar'
 
@@ -47,17 +105,30 @@ export default {
     Home,
     Page,
     Sidebar,
-    Navbar
+    Navbar,
+    RkToolbarDropdown,
+    RkPage,
+    RkFooter,
+    RkSidebar,
+    RkHeader,
+    RkZoom,
+    RkSearchBox
   },
+  mixins: [ScrollMixin, CommonMixin],
 
   data() {
     return {
       isSidebarOpen: false,
-      mounted: false
+      showDrawer: false,
+      showBack2Top: false,
+      disableActiveHash: false
     }
   },
 
   computed: {
+    shouldHaveHeader() {
+      return this.$page.frontmatter.header || this.$page.frontmatter.article
+    },
     shouldShowNavbar() {
       const { themeConfig } = this.$site
       const { frontmatter } = this.$page
@@ -73,12 +144,12 @@ export default {
       )
     },
 
-    shouldShowSidebar() {
+    showSidebarItems() {
       const { frontmatter } = this.$page
       return (
         !frontmatter.home &&
         frontmatter.sidebar !== false &&
-        this.sidebarItems.length
+        this.sidebarItems.length !== 0
       )
     },
 
@@ -108,13 +179,17 @@ export default {
     this.$router.afterEach(() => {
       this.isSidebarOpen = false
     })
-    this.mounted = true
+
     // console.log('pages: ', this.$site.pages)
     // console.log('page: ', this.$page)
-    // console.log('screen: ', Screen)
-    const min = Math.min(window.innerHeight, window.innerWidth)
-    if (Screen.gt.sm) document.documentElement.style.fontSize = `${0.015 * min}px`
+
+    // const min = Math.min(window.innerHeight, window.innerWidth)
+    // document.documentElement.style.fontSize = `${0.015 * min}px`
+    // document.documentElement.style.fontSize = '14px'
     // console.log('mounted: ', window.innerHeight, window.innerWidth, min, document.documentElement.style)
+    // console.log('sidebaritems: ', this.sidebarItems)
+    this.setDefaultSidebar()
+    window.onscroll = this.onPageScroll
   },
   updated() {
     // replace all table with q-table instances
@@ -145,6 +220,44 @@ export default {
   },
 
   methods: {
+    setDefaultSidebar() {
+      // toggle sidebar correctly
+      const { frontmatter } = this.$page
+      if (this.ltMdDiv) this.showDrawer = false
+      else
+        this.showDrawer =
+          !frontmatter.home &&
+          frontmatter.sidebar !== false &&
+          this.sidebarItems.length !== 0
+    },
+    onDrawerShow() {
+      if (this.ltMdDiv) {
+        // temporarily disabled setting active hash and smooth scroll
+        document.documentElement.style.scrollBehavior = 'unset'
+        this.disableActiveHash = true
+      }
+    },
+    onDrawerHide() {
+      const self = this
+      setTimeout(() => {
+        // re-enabled stuffs
+        document.documentElement.style.scrollBehavior = 'smooth'
+        self.disableActiveHash = true
+      }, 100)
+    },
+    back2Top() {
+      document.body.scrollTop = 0
+      document.documentElement.scrollTop = 0
+    },
+    onPageScroll() {
+      if (
+        document.body.scrollTop > 50 ||
+        document.documentElement.scrollTop > 50
+      )
+        this.showBack2Top = true
+      else this.showBack2Top = false
+    },
+    toggle() {},
     toggleSidebar(to) {
       this.isSidebarOpen = typeof to === 'boolean' ? to : !this.isSidebarOpen
       this.$emit('toggle-sidebar', this.isSidebarOpen)
@@ -169,6 +282,17 @@ export default {
         }
       }
     }
+  },
+  watch: {
+    $page: function() {
+      this.setDefaultSidebar()
+    }
   }
 }
 </script>
+
+<style>
+/* html {
+  scroll-behavior: unset !important;
+} */
+</style>

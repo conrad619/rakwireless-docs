@@ -1,1 +1,0 @@
-<rk-redirect to="/wisbee/rak811-breakout-module/overview" />

@@ -24,7 +24,7 @@
       />
       <SidebarLink
         v-else
-        :sidebar-depth="sidebarDepth"
+        :sidebar-depth="item.sidebarDepth || sidebarDepth"
         :item="item"
         :open="i === openGroupIndex"
         @toggle="toggleGroup(i)"
@@ -64,6 +64,9 @@ export default {
   created () {
     this.refreshIndex()
   },
+  // mounted () {
+  //   console.log('items: ', this.items)
+  // },
 
   methods: {
     refreshIndex () {

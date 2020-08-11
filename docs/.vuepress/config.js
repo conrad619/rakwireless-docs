@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'RAK Documentation Center',
+  title: 'Documentation Center',
   head: [
     ['link', {
       rel: 'icon',
@@ -9,7 +9,11 @@ module.exports = {
       rel: 'stylesheet',
       href: 'https://cdn.jsdelivr.net/npm/animate.css@^4.0.0/animate.min.css'
     }],
-    ['script', { src: '/js/livechat.js' }]
+    ['script', {
+      id: 'ze-snippet',
+      src: 'https://static.zdassets.com/ekr/snippet.js?key=1a5ac733-fac6-4769-9091-f47005c3893d',
+      async: true
+    }]
   ],
   themeConfig: {
     logo: '/assets/rakwireless/rak-blue-dark.svg',
@@ -29,7 +33,10 @@ module.exports = {
       'All rights reserved. 粤ICP备16112976号'
     ],
     searchMaxSuggestions: 5,
-    test: ['/quick-start/', '/datasheet/']
+
+    sidebarDepth: 4,
+    displayAllHeaders: true,
+    activeHeaderLinks: false // handled by quasar theme
   },
   plugins: {
     'sitemap': {
@@ -49,11 +56,11 @@ module.exports = {
         allow: []
       }]
     },
-    '@vuepress/medium-zoom': {
-      selector: '.zoomable',
-      delay: 200,
-      options: {},
-    },
+    // '@vuepress/medium-zoom': {
+    //   selector: '.zoomable',
+    //   delay: 200,
+    //   options: {},
+    // },
     // '@vuepress/back-to-top': {},
     'vuepress-plugin-code-copy': {
       selector: 'div[class*="language-"] pre',

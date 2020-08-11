@@ -1,1 +1,0 @@
-<rk-redirect to="/wisgate/rak7240/overview" />

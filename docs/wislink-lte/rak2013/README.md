@@ -1,1 +1,0 @@
-<rk-redirect to="/wislink-lte/rak2013/overview" />

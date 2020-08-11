@@ -1,1 +1,0 @@
-<rk-redirect to="/wistrio/rak815/overview" />

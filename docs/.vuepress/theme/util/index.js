@@ -253,13 +253,17 @@ function resolveItem(item, pages, base, groupDepth = 1) {
     //     title: item.title
     //   })
     // }
-    if (children.length === 0 && item.path) {
-      page = Object.assign(resolvePage(pages, item.path, base), {
-        title: item.title
-      })
-      // console.log('page: ', page)
-      return page
-    }
+
+    // NOTE: temporarily removed
+    
+    // if (children.length === 0 && item.path) {
+    //   page = Object.assign(resolvePage(pages, item.path, base), {
+    //     title: item.title
+    //   })
+    //   // console.log('page: ', page)
+    //   return page
+    // }
+
     // if (item.nested && item.path && children.length){
     //   page = Object.assign(resolvePage(pages, item.path, base), {
     //     title: item.title
@@ -276,7 +280,9 @@ function resolveItem(item, pages, base, groupDepth = 1) {
     let sub = null
     if (item.path) {
       sub = resolvePage(pages, item.path, base)
-      sub.nested = true
+      sub.nested = item.nested
+      sub.download = item.download
+      sub.sidebarDepth = item.sidebarDepth
     }
 
     page = {

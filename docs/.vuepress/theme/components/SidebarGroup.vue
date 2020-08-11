@@ -20,31 +20,21 @@
       @click.native="$emit('toggle')"
     >
       <span>{{ item.title }}</span>
-      <span
-        v-if="collapsable"
-        class="arrow"
-        :class="open ? 'down' : 'right'"
-      />
+      <span v-if="collapsable" class="arrow" :class="open ? 'down' : 'right'" />
+      <div v-if="item.download" class="float-right">
+        <q-btn icon="fas fa-download" size="xs" @click="onDownload" round flat dense />
+      </div>
     </RouterLink>
 
-    <p
-      v-else
-      class="sidebar-heading"
-      :class="{ open }"
-      @click="$emit('toggle')"
-    >
+    <p v-else class="sidebar-heading" :class="{ open }" @click="$emit('toggle')">
       <span>{{ item.title }}</span>
-      <span
-        v-if="collapsable"
-        class="arrow"
-        :class="open ? 'down' : 'right'"
-      />
+      <span v-if="collapsable" class="arrow" :class="open ? 'down' : 'right'" />
     </p>
 
     <DropdownTransition>
       <SidebarLink
-        v-if="item.nested && $page.path === item.path"
-        :sidebar-depth="sidebarDepth"
+        v-if="item.nested"
+        :sidebar-depth="item.sidebarDepth || sidebarDepth"
         :item="item"
       />
     </DropdownTransition>
@@ -53,7 +43,7 @@
         v-if="open || !collapsable"
         class="sidebar-group-items"
         :items="item.children"
-        :sidebar-depth="item.sidebarDepth"
+        :sidebar-depth="item.sidebarDepth || sidebarDepth"
         :depth="depth + 1"
       />
     </DropdownTransition>
@@ -73,20 +63,28 @@ export default {
     SidebarLink
   },
 
-  props: [
-    'item',
-    'open',
-    'collapsable',
-    'depth',
-    'sidebarDepth'
-  ],
+  props: ['item', 'open', 'collapsable', 'depth', 'sidebarDepth'],
 
   // ref: https://vuejs.org/v2/guide/components-edge-cases.html#Circular-References-Between-Components
-  beforeCreate () {
+  beforeCreate() {
     this.$options.components.SidebarLinks = require('@theme/components/SidebarLinks.vue').default
   },
+  mounted() {
+    // console.log('item: ', this.item)
+  },
 
-  methods: { isActive }
+  methods: {
+    isActive,
+    onDownload () {
+      const { origin, pathname } = window.location
+      // this.$q.dialog({
+      //   title: 'Information',
+      //   message: `This should open a new tab to download <b>${origin}/${pathname}</b>.`,
+      //   html: true
+      // })
+      window.open(`http://m.aspac.io:8888/api/render?url=${origin}/${pathname}`, '_blank')
+    }
+  }
 }
 </script>
 

@@ -1,1 +1,0 @@
-<rk-redirect to="/wisduo/rak4600-module/overview"/>

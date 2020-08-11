@@ -1,1 +1,0 @@
-<rk-redirect to="/wisnode/rak7431/overview" />
