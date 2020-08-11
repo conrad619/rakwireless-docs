@@ -107,6 +107,8 @@ Execute the following steps of the crimping process:
 
 ### Hardware
 
+The hardware specification is categorized into four parts. It discusses the pinouts of the board and its functionalities and diagrams.
+
 #### Device Specification
 
 The following table shows the parameters and the description of the RAK5801 WisBlock WisIO Module:

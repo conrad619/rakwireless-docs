@@ -62,6 +62,8 @@ The block diagram below shows the internal architecture and external interfaces 
 
 ### Hardware
 
+The hardware specification is categorized into six parts. It discusses the interfacing, pinouts, and the corresponding functions and diagrams of the board. It also includes the parameters and the standard values in terms of the electrical and environmental. 
+
 #### Interfaces
 
 The RAK7200 WisNode Track Lite provides three external interfaces, as shown in the following figure.
@@ -120,7 +122,7 @@ The RAK7200 WisNode Track Lite provides three LEDs for indicating the operating 
 | 7   | TX1   | UART1_TX     |
 | 8   | 3V3   | 3.3V Output  |
 
-#### RF Requirements
+#### RF Characteristics
 
 ##### Operating Frequencies
 

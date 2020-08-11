@@ -39,6 +39,8 @@ The PoE HAT is designed to be compatible with the IEEE 802.3af/at Power-over-Eth
 
 ### Overview
 
+The overview covers only the block diagram of the RAK9003 PoE HAT.
+
 #### Block Diagram
 
 <rk-img
@@ -48,6 +50,8 @@ The PoE HAT is designed to be compatible with the IEEE 802.3af/at Power-over-Eth
 />
 
 ### Hardware
+
+The hardware specification shows the pinouts of the RAK9003 and its corresponding functions. It also presents the parameters and the standard values of the board.
 
 #### Pin Definition
 

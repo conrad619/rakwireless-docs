@@ -140,21 +140,21 @@ The status of the LEDs is described as below. Please refer to the printing of th
 
 ### Software
 
-RAK7240 supports software in LoRa, Network, Management. Supported software features are shown in the table below. 
+RAK7240 supports different software features such as LoRa®, Network, and Management.
 
 
-<!--- #### Software Features
+#### Software Software
 
-Supported Software --->
+<!---Supported Software --->
 
-| LoRa                          | Network                        | Management                                   |
+| LoRa®                          | Network                        | Management                                   |
 | ----------------------------- | ------------------------------ | -------------------------------------------- |
 | Supports class A, B, C        | CPE and AP mode                | WEB Management                               |
-| Supports LoRaWAN protocol     | Bridge, WISP and router module | Supports SSH2                                |
+| Supports LoRaWAN® protocol     | Bridge, WISP and router module | Supports SSH2                                |
 | Country code setup            | Supports 802.1q backup         | Firmware update                              |
 | TX power up setup             | DHCP Server/Client             | NTP                                          |
-| Datalogger & statistic        | Router module NAT              | Supports configure the LoRa Packet Forwarder |
-| Location setup                | Firewall                       | Build-in LoRa Server                       |
+| Datalogger & statistic        | Router module NAT              | Supports configure the LoRa® Packet Forwarder |
+| Location setup                | Firewall                       | Build-in LoRa® Server                       |
 | Server address and port setup |                                | Supports OpenVPN                             |
 |                               |                                | Supports Ping Watch Dog                      |
 |                               |                                | Supports MQTT Bridge                         |

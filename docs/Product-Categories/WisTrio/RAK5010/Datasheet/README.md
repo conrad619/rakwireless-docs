@@ -90,7 +90,7 @@ The block diagram below shows the internal architecture and external interfaces 
 
 ### Hardware
 
-The hardware specification is categorized into seven parts. It discusses the interfacing, pinouts, and its corresponding functions and diagrams. It also covers the standard parameters of the board in terms of Electrical, Mechanical and Environmental of which the tabular data of the functionalities and the standard values are presented. Moreover, a thorough discussion of the RAK5010 is included in this section.
+The hardware specification is categorized into seven parts. It discusses the interfacing, pinouts, and its corresponding functions and diagrams. It also covers the standard parameters of the board in terms of Electrical, Mechanical and Environmental of which the tabular data of the functionalities and the standard values are presented. Moreover, a thorough discussion of the RAK5010 specification is included in this section.
 
 #### Interfaces
 

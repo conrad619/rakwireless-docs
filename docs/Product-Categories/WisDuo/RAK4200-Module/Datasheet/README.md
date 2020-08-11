@@ -70,6 +70,7 @@ The overview covers the RAK4200 WisDuo™ board overview where the front and bac
 
 ### Hardware
 
+The hardware specification is categorized into five parts. It covers the pinouts and the corresponding functions and diagrams of the board. It also presents the parameters and its standard values in terms of electrical and mechanical. 
 
 
 #### Pin Definition

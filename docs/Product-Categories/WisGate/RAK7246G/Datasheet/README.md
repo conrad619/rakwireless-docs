@@ -312,7 +312,7 @@ The FEM chosen is a SKYWORKS SKY66422, which integrates a PA, LNA and a Switch. 
 
 ### Software
 
-Download the latest firmware of RAK7246G in the table provided below. The supported software feutures are also included with the standard parameters.
+Download the latest firmware of RAK7246G in the table provided below. The supported software features are also included with the standard parameters.
 
 #### Firmware
 

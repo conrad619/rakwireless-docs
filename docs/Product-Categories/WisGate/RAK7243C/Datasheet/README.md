@@ -44,7 +44,7 @@ Pilot Gateway Pro is ideal for prototyping, proof-of-concept demonstration or fo
 
 ### Overview
 
-The overview covers the board overview of RAK7240 and its block diagram that discusses the basic concept of LoRaWAN® system.
+The overview covers the board overview of RAK7243C and its block diagram that discusses the basic concept of LoRaWAN® system.
 
 #### Board Overview
 
@@ -67,6 +67,8 @@ The following figure shows the basic concept for LoRaWAN® system. RAK7243 Pilot
 />
 
 ### Hardware
+
+The hardware specification is categorized into six parts. It discusses the interfacing, pinouts, and the corresponding functions and diagrams of the board. It also covers the parameters and the standard values of the antenna, and the electrical and environmental requirements. 
 
 #### Interfaces
 
@@ -354,7 +356,7 @@ Antenna specifications are listed in the table below:
 **2** - Low temperature test: soap in temperature (-40º C) chamber for 24-hour and return to normal temperature (at least for 1-hour) without visual shape change
 :::
 
-#### Electrical Requirements
+#### Electrical Characteristics
 
 The Pilot Gateway operates at **5V/2.5A**. It can be powered by micro USB with 5V.
 
