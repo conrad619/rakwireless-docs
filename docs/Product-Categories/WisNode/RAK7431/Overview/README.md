@@ -2,8 +2,8 @@
 rak_img: /assets/images/wisnode/rak7431/datasheet/RAK7431.png
 rak_grp: [wisnode,bridge]
 rak_desc: RAK7431 WisNode Bridge is an RS485 to LoRaWAN® converter designed for industrial applications. The device relays ModBUS data using the LoRaWAN® network as means of wirelessly transmitting to and from the end devices.
-prev: false
-next: false
+prev: ../../
+next: ../Quickstart/
 ---
 
 # RAK7431 WisNode Bridge

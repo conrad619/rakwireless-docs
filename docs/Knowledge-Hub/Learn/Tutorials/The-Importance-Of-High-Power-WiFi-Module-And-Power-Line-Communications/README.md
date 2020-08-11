@@ -1,7 +1,7 @@
 ---
 sidebar: false
 rak_img: /assets/images/knowledge-hub/tutorials/the-importance-of-high-power-wifi-module-and-power-line-communications/overview.png
-rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+rak_desc: A brief discussion of a high power WiFi Module and Power Line Communications (PLC).
 tags:
   - Tutorials
 header:

@@ -1,13 +1,15 @@
 ---
 sidebar: false
-rak_img: 
-rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+rak_img: /assets/images/knowledge-hub/banners/general_banner.jpg
+rak_desc: This document is a sample demonstration on how to interconnect the WisGate Edge Gateway with its Built-in LoRa Network Server and make an application for the RAK LPWAN Node.
 tags:
   - Deployment-Guide
+  - WisGate
+  - WisDuino
 header:
   title: Build-in LoRa® Network Server Configuration
   caption: by <b>RAKwireless Team</b>
-  img: /assets/images/_/banner.png
+  img: /assets/images/knowledge-hub/banners/general_banner.jpg
 ---
 
 #  Build-in LoRa® Network Server Configuration

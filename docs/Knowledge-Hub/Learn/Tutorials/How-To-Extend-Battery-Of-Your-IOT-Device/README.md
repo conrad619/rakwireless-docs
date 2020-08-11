@@ -1,7 +1,7 @@
 ---
 sidebar: false
 rak_img: /assets/images/knowledge-hub/tutorials/how-to-extend-battery-of-your-iot-device/overview.jpg
-rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+rak_desc: A brief discussion on how to maximize the battery life of your IoT device.
 tags:
   - Tutorials
 header:

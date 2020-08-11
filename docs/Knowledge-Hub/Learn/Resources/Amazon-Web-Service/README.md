@@ -1,16 +1,18 @@
 ---
 sidebar: false
-rak_img: 
-rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+rak_img: /assets/images/knowledge-hub/banners/aws.png
+rak_desc: This document walks through the details on the steps on how to configure the free cloud services of Amazon to work with the WisGate Edge Gateways.
 tags:
   - Deployment-Guide
+  - WisGate
 header:
   title: Amazon Web Service
   caption: by <b>RAKwireless Team</b>
-  img: /assets/images/_/banner.png
+  img: /assets/images/knowledge-hub/banners/general_banner.jpg
 ---
 
 # Amazon Web Service
+
 
 * [Installing Chirpstack](#installing-chirpstack)
 * [Installing the Gateway Bridge](#installing-the-gateway-bridge)

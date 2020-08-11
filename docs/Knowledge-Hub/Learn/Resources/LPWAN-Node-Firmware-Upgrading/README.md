@@ -1,13 +1,17 @@
 ---
 sidebar: false
-rak_img: 
-rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+rak_img: /assets/images/wisduino/rak811-evaluation-board/quickstart/overview/RAK811-wisnode.svg
+rak_desc: This document is a sample demonstration on how to upgrade the firmware of you LPWAN Node.
 tags:
   - User-Manual
+  - WisNode
+  - WisDuino
+  - WisDuo
+  - WisTrio
 header:
   title: LPWAN Node Firmware Upgrading
   caption: by <b>RAKwireless Team</b>
-  img: /assets/images/_/banner.png
+  img: /assets/images/knowledge-hub/banners/general_banner.jpg
 ---
 
 # LPWAN Node Firmware Upgrading

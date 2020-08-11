@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/wistrio/rak8212/datasheet/
-prev: /Product-Categories/WisTrio/RAK8212/Overview/
+prev: ../Quickstart/
 next: false
 tags:
   - datasheet

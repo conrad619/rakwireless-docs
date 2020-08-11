@@ -1,7 +1,7 @@
 ---
 sidebar: false
 rak_img: /assets/images/knowledge-hub/tutorials/access-lorawan-using-solar-energy/overview.jpg
-rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+rak_desc: A demonstration on how to deploy your LoRaWAN using the RAKwireless' Solar Panel and Battery Kit.
 tags:
   - Tutorials
 header:
@@ -27,7 +27,7 @@ Fortunately, IoT companies like RAKwireless are indeed making our access to IoT 
 
 ![Solar Panel Kit](/assets/images/knowledge-hub/tutorials/access-lorawan-using-solar-energy/Solar_Kit_757x.progressive.png)
 
-👉[Solar Panel and Battery Kit Installation](/wisgate/rak7249/quickstart/solar-panel-and-battery-kit-installation.html)
+👉[Solar Panel and Battery Kit Installation](/Product-Categories/WisGate/RAK7249/Quickstart/#solar-panel-and-battery-kit-installation)
 
 you can now enjoy your disruption-free access from a LoRaWAN® kit. If you want to have a try on this sustainable set-up, you will have to first learn how to calculate a battery’s capacity.
 

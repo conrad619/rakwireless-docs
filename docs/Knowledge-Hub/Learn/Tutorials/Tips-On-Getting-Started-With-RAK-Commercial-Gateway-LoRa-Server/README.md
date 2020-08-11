@@ -1,7 +1,7 @@
 ---
 sidebar: false
 rak_img: /assets/images/knowledge-hub/tutorials/tips-on-getting-started-with-rak-commercial-gateway-lora-server/overview.jpg
-rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+rak_desc: A quick start guide on how to setup your RAK Commercial Gateway LoRa Server.
 tags:
   - Tutorials
 header:

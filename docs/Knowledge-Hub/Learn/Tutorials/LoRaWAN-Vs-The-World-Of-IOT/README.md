@@ -1,7 +1,7 @@
 ---
 sidebar: false
 rak_img: /assets/images/knowledge-hub/tutorials/lorawan-vs-the-world-of-iot/overview.png
-rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+rak_desc: A detailed comparison between LoRaWAN and the different IoT protocols using S.W.O.T. Analysis.
 tags:
   - Tutorials
 header:

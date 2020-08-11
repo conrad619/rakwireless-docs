@@ -1,5 +1,5 @@
 ---
-prev: /Product-Categories/WisNode/RAK7204/Overview/
+prev: ../Quickstart/
 next: false
 tags:
   - datasheet
@@ -11,7 +11,7 @@ tags:
 <rk-img
   src="/assets/images/wisnode/rak7204/datasheet/rak7204-overview.png"
   width="40%"
-  caption="RAK7204  LPWAN Environmental Sensor"
+  caption="RAK7204 LPWAN Environmental Sensor"
 />
 
 ### Product Description
