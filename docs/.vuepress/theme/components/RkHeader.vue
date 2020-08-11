@@ -14,13 +14,17 @@
           <div class="text-h2 text-weight-regular">{{ header.title }}</div>
           <div class="text-h5 text-weight-light" v-html="header.caption"></div>
           <div class="row q-gutter-xs">
-            <q-chip
+            <q-btn
               v-for="(tag, id) of header.tags"
               :key="`tag-${id}`"
-              :label="tag"
+              :label="tag.replace(/-/g, ' ')"
               color="white"
-              class="text-weight-medium"
+              class="text-weight-medium q-px-sm"
+              @click="onTagClick(tag)"
               outline
+              rounded
+              dense
+              no-caps
             />
           </div>
         </div>
@@ -50,6 +54,13 @@ export default {
       }
     },
     bgImg() {}
+  },
+  methods: {
+    onTagClick (tag) {
+      this.$root.tag = tag.replace(/-/g, ' ')
+      // console.log(this.$root.tag)
+      this.$router.push('/Knowledge-Hub/Learn/')
+    }
   }
 }
 </script>

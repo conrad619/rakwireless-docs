@@ -82,12 +82,12 @@ export default {
     filterOptions: []
   }),
   computed: {
-    activeTags () {
+    activeTags() {
       return this.qsModel || []
     },
     articles() {
       return this.$site.pages.filter(t => {
-        return t.path.match(/^\/Knowledge-Hub\/Learn\/[\w\d-._]+\/$/g)
+        return t.path.match(/^\/Knowledge-Hub\/Learn\/[\w\d-._]{2,}\/$/g)
       })
     },
     filteredArticles() {
@@ -95,7 +95,9 @@ export default {
       return this.articles.filter(
         t =>
           t.frontmatter.tags &&
-          t.frontmatter.tags.some(tt => this.activeTags.includes(tt.replace(/-/g, ' ')))
+          t.frontmatter.tags.some(tt =>
+            this.activeTags.includes(tt.replace(/-/g, ' '))
+          )
       )
     },
     tags() {
@@ -108,7 +110,7 @@ export default {
           })
         )
       })
-      return tags.filter(t => t!== null)
+      return tags.filter(t => t !== null)
     }
   },
   methods: {
@@ -154,6 +156,8 @@ export default {
       sub.classList.add('rk-content')
     }
     this.filterOptions = this.tags
+    this.qsModel = this.$root.tag ? [this.$root.tag] : []
+    if (this.$root.tag) delete this.$root.tag
   }
 }
 </script>
