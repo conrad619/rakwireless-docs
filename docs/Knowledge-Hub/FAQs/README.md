@@ -13,7 +13,7 @@ header:
   label="General FAQs"
 >
 
-A list of pre-answered questions encountered mostly during the product installation or when general browsing of the document is done. 
+A list of pre-answered questions mostly encountered during the product installation or when general browsing of the document is done. 
 
 </rk-faq-card>
 
@@ -23,7 +23,7 @@ A list of pre-answered questions encountered mostly during the product installat
   label="Hardware FAQs"
 >
 
-A list of pre-answered and hardware-related questions. Mostly encountered in the Quick Start Guide and Datasheet documentation.
+A list of pre-answered and hardware-related questions mostly encountered in the Quick Start Guide and Datasheet documentation.
 
 </rk-faq-card>
 
@@ -33,7 +33,7 @@ A list of pre-answered and hardware-related questions. Mostly encountered in the
   label="Software FAQs"
 >
 
-A list of pre-answered and software-related questions. Mostly encountered during product installation documentation.
+A list of pre-answered and software-related questions mostly encountered during product installation documentation.
 
 </rk-faq-card>
 
