@@ -15,7 +15,9 @@ prev: ../Quickstart/
   caption="RAK7246G Developer"
 />
 
-### Product Description
+## Overview
+
+### Description
 
 The RAK7246G is a LoRaWAN® Developer gateway with GPS function. It is a device composed of a the RAK2246 Pi HAT LPWAN Concentrator module and Raspberry Pi Zero W.
 
@@ -23,7 +25,7 @@ The RAK2246 Pi HAT is based on a Semtech SX1308 chip, which allows for simultane
 
 The RAK7246G is an ideal choice for prototype design, concept verification and demonstrations, development evaluation and other scenarios. It is developer friendly due to its minimalistic design that reduces cost and allows for easily accessing the internals. It is easy to set-up, which makes it a good choice for both experienced and novice LoRa specialists.
 
-### Product Features
+### Features
 
 - Using **SX1308** baseband processor couple with dual **SX1257**, full 8 uplink channels and 1 downlink channel LoRaWAN® Gateway
 - Built-in Ublox **MAX-7Q GPS** module

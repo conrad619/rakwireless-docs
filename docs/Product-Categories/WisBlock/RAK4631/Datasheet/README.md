@@ -15,8 +15,9 @@ tags:
   caption="RAK4631 WisBlock WisCore Module"
 />
 
+## Overview
 
-### Product Description
+### Description
 
 The RAK4631 module is part of the WisBlock series, specifically it’s one of the modules that belongs to the WisCore category. 
 
@@ -28,7 +29,7 @@ The module complies with LoRaWAN® 1.0.2 protocols, it also supports LoRa® poin
 
 The RF communication characteristic of the module (Lora® + BLE) make it suitable for a variety of applications in the IoT field such as home automation, sensor networks, building automation, personal area networks applications (health/fitness sensors and monitors, etc.).
 
-### Product Features
+### Features
 
 - TCXO crystal for LoRa chip
 - I/O ports: UART/I2C/GPIO/USB/SPI (optional NFC interface)

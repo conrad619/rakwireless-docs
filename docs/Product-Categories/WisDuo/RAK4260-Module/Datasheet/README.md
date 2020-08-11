@@ -16,7 +16,9 @@ prev: ../Overview/
   caption="RAK4260 Module"
 />
 
-### Product Description
+## Overview
+
+### Description
 
 The **RAK4260 module** is based on **Microchip’s ATSAMR34J18B**. It is a SiP device integrating a 32-bit ARM Cortex -M0+ MCU with a LoRa® Transceiver in a 6 millimeter x 6 millimeter compact BGA package.
 
@@ -26,7 +28,7 @@ It is a perfect solution for any LoRaWAN® end node developer. The integration o
 
 RAK4260 is a solution that is cost efficient and flexible that can be deployed in a wide variety of IoT scenarios that require the long range connectivity and great battery life that LoRaWAN® provides.
 
-### Product Features
+### Features
 
 - Industry's lowest power LoRa® SiP device
 - 32-bit Arm® Cortex M0+ MCU and LoRa® Transceiver

@@ -14,7 +14,9 @@ tags:
   caption="RAK815 Breakout Board"
 />
 
-### Product Description
+## Overview
+
+### Description
 
 **RAK815** is a wireless remote solution based on the RAK813 + GPS + MEMS + HT+LCD design. It integrates the latest LoRaWAN® 1.0.2 protocoland Bluetooth 5.0, supporting the LoRaWAN® working mode and Bluetooth transparent transmission up to 300 meters.
 
@@ -24,7 +26,7 @@ The board also supports battery powered products which greatly expand the produc
 
 Overall, this LoRa® device has various functionalities designed in a single board that could help you develop your own LoRa® projects.
 
-### Product Features
+### Features
 
 - Based on Semtech SX1276 LoRaWAN® Version V1.0.2
 - Supports NRF52832 Bluetooth Version 5.0
@@ -38,6 +40,8 @@ Overall, this LoRa® device has various functionalities designed in a single boa
 ## Specifications
 
 ### Overview
+
+The overview shows the RAK815 board and its block diagram. It shows the internal structure of the board which is composed of Semtech SX1276 and NRF52832.
 
 #### Board Overview
 
@@ -61,6 +65,8 @@ Shown below is the System Diagram of RAK815 Breakout Board.
 
 ### Hardware
 
+The hardware specification is categorized into three parts. It discusses the interfacing, pinouts, and its corresponding functions and diagrams of the board. It also covers the LoRaWAN® frequency parameters necessary for the device setup.
+
 #### Pin Definition
 
 <rk-img
@@ -69,8 +75,8 @@ Shown below is the System Diagram of RAK815 Breakout Board.
   caption="RAK815 Interface"
 />
 
-::: w
-The pin numbers in the succeeding tables are sorted from top to bottom as shown in the above figure.
+:::tip 📝 NOTE
+The pin numbers in the succeeding tables are sorted from top to bottom as shown Figure 4.
 :::
 
 ##### SWD Debug Interface
@@ -183,7 +189,7 @@ The pin numbers in the succeeding tables are sorted from top to bottom as shown 
 | 13  |   P0.03    | P0.03 for NRF52832, used to control LIS3DH module INT2   |
 | 14  |   P0.02    | P0.02 for NRF52832, used as ADC to detect battery charge |
 
-#### RF Requirements
+#### RF Characteristics
 
 ##### Operating Frequencies
 
@@ -225,6 +231,8 @@ The board supports the following LoRaWAN® frequency channels shown in the table
 />
 
 ### Software
+
+Download the latest firmware of RAK813 WisTrio in the table provided below.
 
 #### Firmware
 

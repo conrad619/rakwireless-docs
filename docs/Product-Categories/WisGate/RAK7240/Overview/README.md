@@ -7,7 +7,7 @@ next: ../Quickstart/
 ---
 
 # RAK7240 Prime
-Thank You For choosing **RAK7240 Prime** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
+Thank you for choosing **RAK7240 Prime** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
 * [Quick Start Guide](../Quickstart/)
 * [Datasheet](../Datasheet/)

@@ -18,7 +18,7 @@ certifications:
 
 ## Overview
 
-### Product Description
+### Description
 
 The **RAK7240 Prime** is an ideal product for large scale LPWAN deployment where cost is essential, however there is no compromises to be made on quality. Its wide range of customization options allow for flexibility when deploying a solution. With its industrial-grade components and high class of ingress protection, it achieves a high standard of reliability.
 
@@ -26,7 +26,7 @@ The Gateway provides for a solid out of the box experience where quick deploymen
 
 Thus, the **RAK7240 Prime**, is suited for any use case scenario, be it rapid deployment or customization with regards to User Interface and functionality.
 
-### Product Features
+### Features
 
 #### Hardware
 

@@ -39,9 +39,11 @@ Rich Internet protocol, industry-standard interfaces (USB/UART/I2C/Status indica
 
 ### Overview
 
+The overview shows the top and back view of the RAK8213 board. It also presents the block diagram that discusses how the board works. 
+
 #### Module Overview
 
-The boards is of standard mPCIe size. The top of the board is populated by the **Cellular and GNSS antenna connectors** (both **IPEX**) and the keys (Power and Reset), together with the **BG96 module** itself. The bottom contains the **Micro Sim Slot** and the **ESIM** pad (optional, not provided)
+The board is of standard mPCIe size. The top of the board is populated by the **Cellular and GNSS antenna connectors** (both **IPEX**) and the keys (Power and Reset), together with the **BG96 module** itself. The bottom contains the **Micro Sim Slot** and the **ESIM** pad (optional, not provided)
 
 <rk-img
   src="/assets/images/wislink-lte/rak8213/datasheet/kocsckltisyzgecsg2ta.png"
@@ -60,6 +62,8 @@ The RAK8213 card integrates **one BG96 module** which represent the core of the 
 />
 
 ### Hardware
+
+The hardware is categorized into seven parts. It discusses the pinouts and its corresponding functions and diagrams. It also covers the parameters and standard values of the board. 
 
 #### Pin Definition
 
@@ -428,6 +432,8 @@ The following graph shows RAK8213’s PCIe interface schematic:
 />
 
 ### Software
+
+Download the latest firmware version of RAK8212 in the table provided below.
 
 | Model   | Version | Source                                                                                                            |
 | ------- | ------- | ----------------------------------------------------------------------------------------------------------------- |

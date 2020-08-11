@@ -19,7 +19,7 @@ certifications:
 
 ## Overview
 
-### Product Description
+### Description
 
 The **RAK7258 Micro Gateway** is a full 8-channel gateway with built-in Ethernet connectivity for a straightforward setup. Additionally, there is an on-board Wi-Fi setup that allows it to be easily configured via the default Wi-Fi AP mode.
 
@@ -33,7 +33,7 @@ The Gateway has Line-of-Sight (LoS) ranges of up to **15 kilometers**, while for
 
 The RAK Micro Gateway package includes a LoRa® antenna, mounting screws, and anchors. It is a full 8-channel gateway with built-in Ethernet connectivity for a straightforward.
 
-### Product Features
+### Features
 
 - Full LoRaWAN® Stack support (V 1.0.2)
 - 100M base-T Ethernet with **PoE (802.3 af)**
@@ -46,6 +46,8 @@ The RAK Micro Gateway package includes a LoRa® antenna, mounting screws, and an
 ## Specifications
 
 ### Overview
+
+The overview shows the circuit board of RAK7258. It also presents the block diagram that shows the internal architecture of the board. 
 
 #### Circuit Board (Main Electronic Circuit Board)
 
@@ -65,7 +67,9 @@ The RAK Micro Gateway package includes a LoRa® antenna, mounting screws, and an
 
 ### Hardware
 
-#### Interfaces (Hardware Interfaces)
+The hardware specification covers only the interfacing of the RAK7258 and its corresponding functionalities. It also presents the parameters and the standard values of the board.
+
+#### Interfaces
 
 The hardware interfaces of RAK7258 Micro Gateway include DC 12V, ETH interface, Console interface, Reset key, USB port, Nano SIM slot, TF Card slot, six (6) Status indicator LEDs, LoRa® Antenna connector etc. as shown in the following figure.
 
@@ -135,17 +139,18 @@ The status of the LEDs is described as below:
 
 ### Software
 
+RAK7258 supports software in LoRa®, Network and Management. Supported features are shown in the table below.
+
 #### Software Features
 
-Supported Software
 
-| LoRa                          | Network            | Management                                   |
+| LoRa®                          | Network            | Management                                   |
 | ----------------------------- | ------------------ | -------------------------------------------- |
 | Supports class A, C           | WiFi AP mode       | WEB Management                               |
-| LoRa package forward          | LTE APN setup      | Supports SSH2 , NTP                          |
+| LoRa® package forward          | LTE APN setup      | Supports SSH2 , NTP                          |
 | Country code setup            | Uplink backup      | Firmware update                              |
-| TX power up setup             | Supports 802.1q    | Supports configure the LoRa Packet Forwarder |
-| Datalogger                    | DHCP Server/Client | Supports Build-in LoRa Server                |
+| TX power up setup             | Supports 802.1q    | Supports configure the LoRa® Packet Forwarder |
+| Datalogger                    | DHCP Server/Client | Supports Build-in LoRa® Server                |
 | Statistic                     | Router module NAT  | Supports OpenVPN, Ping Watch Dog             |
 | Location setup                | Firewall           | Supports MQTT Bridge                         |
 | Server address and port setup |                    |                                              |

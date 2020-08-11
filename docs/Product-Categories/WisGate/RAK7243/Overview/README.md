@@ -8,7 +8,7 @@ next: ../Quickstart/
 ---
 
 # RAK7243 LPWAN Developer D3 Gateway
-Thank You For choosing **RAK7243 LPWAN Developer D3 Gateway** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
+Thank you for choosing **RAK7243 LPWAN Developer D3 Gateway** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
 * [Quick Start Guide](../Quickstart/)
 

@@ -9,7 +9,7 @@ next: ../Quickstart/
 
 # RAK811 Breakout Module
 
-Thank You For choosing **RAK811 Breakout Module** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
+Thank you for choosing **RAK811 Breakout Module** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
 * [Quick Start Guide](../Quickstart/)
 * [Datasheet](../Datasheet/)

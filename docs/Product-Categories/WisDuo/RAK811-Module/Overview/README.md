@@ -7,7 +7,7 @@ next: ../Datasheet/
 ---
 
 # RAK811 LPWAN Module
-Thank You For choosing **RAK811 LPWAN Module** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
+Thank you for choosing **RAK811 LPWAN Module** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
 * [Datasheet](../Datasheet/)
 <!-- <rk-img

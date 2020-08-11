@@ -7,7 +7,7 @@ next: ../Quickstart/
 ---
 
 # RAK2247 WisLink-LoRa
-Thank You For choosing **RAK2247 WisLink-LoRa** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
+Thank you for choosing **RAK2247 WisLink-LoRa** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
 * [Quick Start Guide](../Quickstart/)
 * [Datasheet](../Datasheet/)

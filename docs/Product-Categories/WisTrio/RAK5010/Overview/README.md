@@ -8,7 +8,7 @@ next: ../Quickstart/
 
 # RAK5010 WisTrio NB-IoT Tracker
 
-Thank You For choosing **RAK5010 WisTrio NB-IoT Tracker** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
+Thank you for choosing **RAK5010 WisTrio NB-IoT Tracker** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
 * [Quick Start Guide](../Quickstart/)
 * [Datasheet](../Datasheet/)

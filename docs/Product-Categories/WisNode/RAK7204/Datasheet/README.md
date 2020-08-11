@@ -14,7 +14,9 @@ tags:
   caption="RAK7204 LPWAN Environmental Sensor"
 />
 
-### Product Description
+## Overview
+
+### Description
 
 The **RAK7204** is an LPWAN node with integrated environmental sensors. The high-precision environmental sensors, can measure changes in temperature, humidity, gas pressure and provide an indoor air quality index. All the accumulated data can be send to a gateway in order for it to be forwarded to the Cloud.
 
@@ -24,7 +26,7 @@ The firmware has built-in functionality that allows the user to adjust the sampl
 
 Last but not least, the RAK7204 adopts a highly integrated design. The environmental sensors, LoRa® transceiver module, LoRa® antenna, and the battery are fitted in a 90 mm x 85 mm x 34 mm sized housing. These small dimensions allow for installation in tight spaces or ones that require the sensor to have a minimal impact on the overall feel of the surrounding environment. The housing adopts a hollow, permeable design to facilitate air flow in order to more accurately detect the environmental changes.
 
-### Product Features
+### Features
 
 - Measurement of a variety of environmental parameters: **Temperature**, **Humidity**, **Gas Pressure** and **Indoor Air Quality (IAQ)**
 - **BOSCH BME680** Integrated Environmental Unit
@@ -56,7 +58,9 @@ The aforementioned combination of RAK7204 and RAK7258 is visualized in Figure be
 
 ### Hardware
 
-#### RF Requirements
+The hardware specification covers the parameters of the RAK7204 in terms of electrical and the sensors attached within. It also presents the supported LoRaWAN® frequency parameters.
+
+#### RF Characteristics
 
 ##### Operating Frequencies
 
@@ -150,6 +154,8 @@ Listed below are the individual specifications of sensors attached within the RA
 | Output Resolution |      | 1       |      |
 
 ### Software
+
+Download the latest firmware of the RAK7204 in table provided below.
 
 | Model   | Version   | Source                                                                                                  |
 | ------- | --------- | ------------------------------------------------------------------------------------------------------- |

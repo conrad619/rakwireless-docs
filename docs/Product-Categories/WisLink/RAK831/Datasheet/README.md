@@ -16,7 +16,9 @@ certifications:
   caption="RAK831 LPWAN Gateway"
 />
 
-### Product Description
+## Overview
+
+### Description
 
 The concentrator module **RAK831** is designed for a wide variety of applications like **Smart Metering**, **IoT** (Internet of Things) and **M2M** (Machine-to-machine) applications. It is a multi- channel high performance Transceiver module designed to receive several LoRa® packets simultaneously using different spreading factors on multiple channels. The concentrator module RAK831 can be integrated into a gateway as a complete RF front-end of this gateway. It provides the possibility to enable robust communication between a gateway and a huge amount of LoRa® end-nodes spread over a wide range of distance. The RAK831 needs a host system for proper operation.
 
@@ -30,7 +32,7 @@ End-point nodes (e.g. sensor nodes) can change frequency with each transmission 
 
 Applications possible with the RAK831 include Smart Metering , Wireless Star Networks, Home, Building, Industrial automation, Remote Control, Wireless Sensors Network, M2M, IoT and Wireless Alarm and Security Systems.
 
-### Product Features
+### Features
 
 - **Compact size** 80 mm 50 mm x 5 mm
 - LoRaWAN® modulation technology
@@ -54,6 +56,8 @@ Applications possible with the RAK831 include Smart Metering , Wireless Star Net
 ## Specifications
 
 ### Overview
+
+The overview shows the top view of the RAK831 board and its outer dimension. It also presents the block diagram that discusses how the board works. 
 
 #### Board Overview
 
@@ -138,6 +142,8 @@ The unique multi data-rate multi-channel demodulation capacity SF7 to SF12 and o
 />
 
 ### Hardware
+
+The hardware is categorized into five parts. It discusses the interfacing, pinouts and its corresponding functions and diagrams. It also covers the parameters and standard values of the board. 
 
 #### Interfaces
 
@@ -501,6 +507,8 @@ The following images are the schematic diagram of the RAK831 WisLink-LoRa:
 />
 
 ### Software
+
+Download the latest firmware of the RAK831 in the table provided below.
 
 #### Firmware
 

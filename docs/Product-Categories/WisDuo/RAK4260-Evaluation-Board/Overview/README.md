@@ -7,7 +7,7 @@ prev: ../../
 next: ../Quickstart/
 ---
 # RAK4260 LPWAN Evaluation Board
-Thank You For choosing **RAK4260 LPWAN Evaluation Board** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
+Thank you for choosing **RAK4260 LPWAN Evaluation Board** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
 * [Quick Start Guide](../Quickstart/)
 

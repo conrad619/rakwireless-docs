@@ -17,7 +17,9 @@ certifications:
   caption="RAK2245 Pi Hat"
 />
 
-### Product Description
+## Overview
+
+### Description
 
 **RAK2245 Pi HAT** is a module with Raspberry PI form factor. It can be plugged into
 Raspberry PI such as Raspberry Pi 3 Model B+ as a complete RF front end of gateway. It supports eight channels and is available for LoRaWAN® global frequency bands. The board is the smallest gateway concentrator which integrates the **Ublox MAX-7Q GPS Module** and heat sink.
@@ -26,7 +28,7 @@ The board can provide low data rate LoRa® radio links in ultra-fast speed. It i
 
 The RAK2245 Pi HAT is a complete and cost efficient gateway solution that can help you develop a full LoRa® system. This is an economical way to create different solutions like smart grid, intelligent farm and other IoT applications. It is also ideal for manufacturing small series that can expand into more applications.
 
-### Product Features
+### Features
 
 - Compatible with Raspberry Pi 3 Model B+ edition.
 - Integrated Ublox MAX-7Q GPS Module and heat sink.
@@ -42,6 +44,8 @@ The RAK2245 Pi HAT is a complete and cost efficient gateway solution that can he
 ## Specifications
 
 ### Overview
+
+The overview shows the top view of the RAK2245 Pi HAT board and its corresponding outer dimension. It also presents the block diagram that shows how the board works. 
 
 #### Board Overview
 
@@ -62,6 +66,8 @@ The RAK2245 Pi HAT is a complete and cost efficient gateway solution that can he
 />
 
 ### Hardware
+
+The hardware is categorized into five parts. It discusses the interfacing, pinouts and its corresponding functions and diagrams. It also covers the parameters and standard values of the board in terms of electrical and environmental. 
 
 #### Interface
 
@@ -216,7 +222,7 @@ We recommended you to use optimized RSSI calibration values which is part of HAL
 |          500           |        12        |       -134        |
 |          500           |        7         |       -120        |
 
-#### Electrical Requirements
+#### Electrical Characteristics
 
 The following are the electrical characteristics of RAK2245 Pi HAT. [Contact us](mailto:support@rakwireless.com) if you need other details for your project
 
@@ -267,6 +273,8 @@ The table below lists the operation temperature range.
 | Normal Operating Temperature | -40°C | +25°C   | +85°C | Fully functional and meets 3GPP specifications |
 
 ### Software
+
+Download the latest firmware of RAK 2245 Pi HAT in the table provided below.
 
 #### Firmware
 

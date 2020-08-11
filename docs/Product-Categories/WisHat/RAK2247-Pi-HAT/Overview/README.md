@@ -6,7 +6,7 @@ next: ../Datasheet/
 ---
 
 # RAK2247 Pi HAT WisHat™
-Thank You For choosing **RAK2247 Pi HAT WisHat™** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
+Thank you for choosing **RAK2247 Pi HAT WisHat™** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
 * [Datasheet](../Datasheet/)
 

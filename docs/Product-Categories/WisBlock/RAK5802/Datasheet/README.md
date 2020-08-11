@@ -9,8 +9,9 @@ next: false
 # RAK5802 WisBlock WisIO Module Datasheet
 
 
+## Overview
 
-### Product Description
+### Description
 
 The RAK5802 module is part of the WisBlock series, specifically, it is one of the modules that belongs to the WisIO category. This module was designed to be part of a production-ready IoT solution in a modular way, and must be combined with a WisCore and a WisBase module.
 
@@ -20,7 +21,7 @@ The RAK5802 module features one RS485 interface. Inside, a protection circuity i
 
 In addition, the RAK5802 supports one I2C interface, customer can use this I2C interface to connect external sensors.
 
-### Product Features
+### Features
 
 * Supports one RS485 interface and ModBus.
 * Supports WisIO interface. It is compatible with multiple WisCore modules, such as RAK4201.

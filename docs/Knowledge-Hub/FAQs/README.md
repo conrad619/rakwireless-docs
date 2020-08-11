@@ -33,7 +33,7 @@ A list of pre-answered and hardware-related questions mostly encountered in the 
   label="Software FAQs"
 >
 
-A list of pre-answered and software-related questions mostly encountered during product installation documentation.
+A list of pre-answered and software-related questions mostly encountered during product installation.
 
 </rk-faq-card>
 

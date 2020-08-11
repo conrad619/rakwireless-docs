@@ -14,13 +14,15 @@ next: false
   caption="RAK833 WisLink-Lora™ Module"
 />
 
-## Product Description
+## Overview
+
+### Description
 
 The **RAK833 WisLink-Lora™ Module** is a family of LoRa® concentrator modules with mini PCIe form factor based on SX1301, which enables an easy integration into an existing routers and other network equipments with gateway capabilities.This can be used in any embedded platform offering a free mini-PCIe slot with USB and SPI connectivity.
 
 RAK833 WisLink-Lora™ Module is a complete and cost efficient gateway solution offering up to 10 programmable parallel demodulation paths. It is targeted at smart metering fixed networks and Internet of Things applications with up to 500 nodes per square kilometer (km²) in moderately interfered environment. These modules have the industry standard PCI Express Mini Card form factor which enables easy integration into an application board.
 
-## Product Features
+### Product Features
 
 - Full LoRaWAN® 1.0.2 stack support
 - Compact size in the form of a mPCIe 52pin form factor card
@@ -34,6 +36,8 @@ RAK833 WisLink-Lora™ Module is a complete and cost efficient gateway solution 
 ## Specifications
 
 ### Overview
+
+The overview shows the top and back view of the RAK833 board. It also presents the block diagram that shows how the board works. 
 
 #### Board Overview
 
@@ -52,6 +56,8 @@ RAK833 WisLink-Lora™ Module is a complete and cost efficient gateway solution 
 />
 
 ### Hardware
+
+The hardware is categorized into seven parts. It discusses the interfacing, pinouts and its corresponding functions and diagrams. It also covers the parameters and standard values of the board in terms of electrical, mechanical, and environmental. 
 
 #### Interfaces
 
@@ -317,6 +323,9 @@ The figure below shows the minimum application schematic of the RAK833 WisLink-L
 />
 
 ### Software
+
+Download the latest version of RAK833 in the table provided below.
+
 
 #### Firmware
 

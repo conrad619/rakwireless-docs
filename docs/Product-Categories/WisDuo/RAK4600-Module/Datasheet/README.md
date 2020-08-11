@@ -13,13 +13,15 @@ prev: ../Overview/
   caption="RAK4600 WisDuo™"
 />
 
-### Product Description
+## Overview
+
+### Description
 
 RAK4600 WisDuo™ includes an nRF52832 MCU and an SX1276 LoRa® chip. It has Ultra-Low Power Consumption of 2.0uA in sleep mode, high LoRa® output power up to 20dB max in work mode, and BLE output power up to 4dBm.
 
 The module complies with LoRaWAN® 1.0.2 protocols. It also supports LoRa® Point to Point communications. The Module supports BLE 5.0 in addition to LoRa®. Its RF communication capabilities (LoRa®+BLE) make it suitable for a variety of applications in the IoT field.
 
-### Product Features
+### Features
 
 - LoRa® module for Smart City, Smart Agriculture, Smart Industry
 - Compact Form Factor: 15 x 23 x 2.5 mm

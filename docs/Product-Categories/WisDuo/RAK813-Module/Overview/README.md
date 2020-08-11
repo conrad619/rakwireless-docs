@@ -6,7 +6,7 @@ prev: ../../
 next: ../Datasheet/
 ---
 # RAK813  BLE+LoRa®
-Thank You For choosing **RAK813  BLE+LoRa®** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
+Thank you for choosing **RAK813  BLE+LoRa®** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
 * [Datasheet](../Datasheet/)
 <!-- <rk-img

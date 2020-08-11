@@ -12,13 +12,15 @@ prev: ../Overview/
   caption="RAK4200 Module"
 />
 
-### Product Description
+## Overview
+
+### Description
 
 **RAK4200 LPWAN Module** includes an STM32L071 MCU and an SX1276 LoRa® chip. It has Ultra-Low Power Consumption of 1.5uA in sleep mode and high LoRa® output power up to 19dBm max in work mode.
 
 The module complies with LoRaWAN® 1.0.2 protocols. It also supports LoRa® Point to Point communications. The module is suitable for various applications that require long range data acquisition and low power consumption.
 
-### Product Features
+### Features
 
 * LoRa® module for Smart City, Smart Agriculture, Smart Industry
 * **Compact Form Factor**: 15 x 15.5 x 2.5 mm

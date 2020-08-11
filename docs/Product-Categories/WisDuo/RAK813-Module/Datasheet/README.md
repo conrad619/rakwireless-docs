@@ -15,7 +15,7 @@ prev: ../Overview/
 
 ## Overview
 
-### Product Description
+### Description
 
 The **RAK813** is a combination of the BLE and LoRa® in a single module. The BLE short-range technology combined with low-power LoRa® can provide long-distance wireless communication capabilities. Both technologies are low power, eliminating the need to change batteries frequently.
 
@@ -30,7 +30,7 @@ improve the decoding rate, so as to enhance the communication quality.
 
 RAK813 supports various protocols, including the newest BLE and LoRaWAN®, where customers can choose multi frequency, including: 433MHz, 470MHz, 868MHz, and 915MHz.
 
-### Product Features
+### Features
 
 - Base on nRF52832(BLE) and SX127X (LoRa®)
 - Supports UART, SPI, I2C and GPIOs Interface.

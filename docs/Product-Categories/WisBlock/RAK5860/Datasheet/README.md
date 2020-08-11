@@ -14,7 +14,9 @@ tags:
   caption="RAK5860 WisBlock WisIO Module"
 />
 
-### Product Description
+## Overview
+
+### Description
 
 The RAK5860 module is part of the WisBlock series, specifically, it is one of the modules that belongs to the WisIO category. This module was designed to be part of a production-ready IoT solution in a modular way, and must be combined with a WisCore and a WisBase module. 
 
@@ -22,7 +24,7 @@ The RAK5860 is a module designed to work with the RAK5005 base board, it provide
 
 For debugging purpose, a Micro-USB connector is used for sending AT commands, data transmission and receiving GNSS NMEA output. Once the module is integrated with the RAK5005 base board, the internal UART port of the module is connected through the WisIO connector to a WisCore module.
 
-### Product Features 
+### Features 
 
 - Quectel BG77 with LTE Cat M1, LTE cat NB2 and GNSS
 - iPEX connectors for the LTE and GPS antenna

@@ -13,8 +13,9 @@ prev: ../Quickstart/
   caption="RAK4600 Breakout Module"
 />
 
+## Overview
 
-### Product Description
+### Description
 
 **RAK4600 Breakout Module** is specifically designed to allow easy excess to the pins on the module in order to simplify development and testing. The breakout board utilized is of an Xbee form factor and its main purpose is to allow the RAK4600 stamp module form factor pinout to be transferred to 2.54mm headers.
 
@@ -24,7 +25,7 @@ The module complies with LoRaWAN® 1.0.2 protocols. It also supports Lora® Poin
 
 The RF communication capabilities of the module (LoRa® + BLE) make it suitable for a variety of applications in the IoT field such as home automation, sensor networks, building automation, personal area networks applications (health/fitness sensors and monitors, etc.).
 
-### Product Features
+### Features
 
 - LoRa® module for Smart City, Smart Agriculture, Smart Industry
 - I/O ports: **UART/I2C/GPIO** (optional NFC interface)
