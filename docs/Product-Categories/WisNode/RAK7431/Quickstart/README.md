@@ -1446,9 +1446,92 @@ The platform adds DTU scheduled task message and transmits the result through th
 
 This message needs to be sent to the platform no matter whether the scheduled task is added successfully or not. When the execution fails, the STATUS bit position in the DTU_CMD command is 1, and the data length is 0. When the execution is successful, the STATUS flag position in the DTU_CMD command is 0.
 
-* The format of the downlink instruction message:
+* The format of the downlink instruction message: 
+
+<table style="text-align: center">
+<thead>
+  <tr>
+    <th>DTU_CMD</th>
+    <th>MSER</th>
+    <th>MDATA_LEN</th>
+    <th colspan=7>MDATA</th>
+  </tr>
+</thead>
+<tbody>
+        <tr>
+            <td rowspan=2>0x0A</td>
+            <td rowspan=2>2Byte</td>
+            <td rowspan=2>2Byte</td>
+            <td>TASK_ID</td>
+            <td>SCH_TYPE</td>
+            <td>W</td>
+            <td>H</td>
+            <td>M</td>
+            <td>S</td>
+            <td>DATA</td>
+        </tr>
+        <tr>
+            <td>1Byte</td>
+            <td>nByte</td>
+            <td>1Byte</td>
+            <td>1Byte</td>
+            <td>1Byte</td>
+            <td>1Byte</td>
+            <td>nByte</td>
+        </tr>
+</tbody>
+</table>
+
 * Uplink data message when execution successful:
+
+<table style="text-align: center">
+<thead>
+  <tr>
+    <th>DTU_CMD</th>
+    <th>MSER</th>
+    <th>MDATA_LEN</th>
+    <th>MDATA</th>
+  </tr>
+</thead>
+<tbody>
+        <tr>
+            <td rowspan=2>0x8A</td>
+            <td rowspan=2>2Byte</td>
+            <td rowspan=2>2Byte</td>
+            <td>TASK_ID</td>
+        </tr>
+        <tr>
+            <td>1Byte</td>
+        </tr>
+</tbody>
+</table>
+
 * Uplink data message when execution failed:
+
+<table style="text-align: center">
+<thead>
+  <tr>
+    <th>DTU_CMD</th>
+    <th>MSER</th>
+    <th>MDATA_LEN</th>
+    <th colspan=2>MDATA</th>
+  </tr>
+</thead>
+<tbody>
+        <tr>
+            <td rowspan=2>0xCA</td>
+            <td rowspan=2>2Byte</td>
+            <td rowspan=2>2Byte</td>
+            <td>TASK_ID</td>
+            <td>ERROR_CODE</td>
+        </tr>
+        <tr>
+            <td>1Byte</td>
+            <td>1Byte</td>
+        </tr>
+</tbody>
+</table>
+
 
 ::: tip 📝 NOTE
 * **TASK_ID**：Task ID
