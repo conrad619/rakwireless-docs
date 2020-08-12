@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/wisgate/rak7243/quickstart/1.main/
-rak_img: /assets/images/wisgate/rak7243/quickstart/1.main/rak7243.svg
+rak_img: /assets/images/wisgate/rak7243/quickstart/1.main/RAK7243.svg
 rak_desc: The RAK7243 LPWAN Developer D3 Gateway is a complete and cost efficient Gateway Solution that will help you get started in developing a full LoRa® System. The RAK7243 Developer is just a RAK2245 Pi Hat which can be easily stacked on top of a cheap Single Board Computer (SBC) such as the Raspberry Pi 3B+ which is enclosed in a Pilot Gateway Casing.
 rak_grp: [wisgate, developer]
 prev: ../../
