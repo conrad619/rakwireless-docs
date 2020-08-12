@@ -1,5 +1,5 @@
 ---
-prev: /Product-Categories/WisBlock/RAK5804/Overview/
+prev: ../Overview/
 next: false
 tags:
   - datasheet

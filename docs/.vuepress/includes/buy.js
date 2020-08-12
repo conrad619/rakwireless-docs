@@ -224,6 +224,64 @@ export default {
     img: '/assets/images/wisgate/rak7258/quickstart/1.main/RAK7258.svg',
     store: 'https://store.rakwireless.com/products/rak7258-micro-gateway'
   },
+
+// WisBlock
+'/Product-Categories/WisBlock/RAK1920/': {
+  label: 'RAK1920 WisBlock WisIO Module',
+  img:   '/assets/images/wisblock/rak1920/datasheet/htkmdakt0tdhi3ixvzpj.jpg',
+  store: 'https://store.rakwireless.com'
+},
+
+'/Product-Categories/WisBlock/RAK1921/': {
+  label: 'RAK1921 WisBlock WisIO Module',
+  img:   '/assets/images/wisblock/rak1921/datasheet/interface.png',
+  store: 'https://store.rakwireless.com'
+},
+
+'/Product-Categories/WisBlock/RAK2305/': {
+  label: 'RAK2305 WisBlock WisIO Module',
+  img:   '/assets/images/wisblock/rak2305/datasheet/rak2305.png',
+  store: 'https://store.rakwireless.com'
+},
+
+'/Product-Categories/WisBlock/RAK4631/': {
+  label: 'RAK4631 WisBlock WisCore Module',
+  img:   '/assets/images/wisblock/rak4631/datasheet/overview.jpg',
+  store: 'https://store.rakwireless.com'
+},
+
+'/Product-Categories/WisBlock/RAK5005-O/': {
+  label: 'RAK5005-O WisBlock WisBase Board',
+  img:   '/assets/images/wisblock/rak5005-o/datasheet/4.top-view-interfaces.png',
+  store: 'https://store.rakwireless.com'
+},
+
+'/Product-Categories/WisBlock/RAK5801/': {
+  label: 'RAK5801 WisBlock WisIO Module',
+  img:   '/assets/images/wisblock/rak5801/datasheet/sensor-connector.png',
+  store: 'https://store.rakwireless.com'
+},
+
+'/Product-Categories/WisBlock/RAK5802/': {
+  label: 'RAK5802 WisBlock WisIO Module',
+  img:   '/assets/images/wisblock/rak5802/datasheet/rak5802-pins.jpg',
+  store: 'https://store.rakwireless.com'
+},
+
+'/Product-Categories/WisBlock/RAK5804/': {
+  label: 'RAK5804 WisBlock WisIO Module',
+  img:   '/assets/images/wisblock/rak5804/datasheet/j-connectors.png',
+  store: 'https://store.rakwireless.com'
+},
+
+'/Product-Categories/WisBlock/RAK5860/': {
+  label: 'RAK5860 WisBlock WisIO Module',
+  img:   '/assets/images/wisblock/rak5860/datasheet/rak5860.png',
+  store: 'https://store.rakwireless.com'
+},
+
+
+
 }
   
 

@@ -1,27 +1,18 @@
 ---
+rak_img: /assets/images/wisblock/rak5860/datasheet/rak5860.png
+rak_desc: The RAK5860 module is part of the WisBlock series, specifically, it is one of the modules that belongs to the WisIO category. This module was designed to be part of a production-ready IoT solution in a modular way, and must be combined with a WisCore and a WisBase module. 
 rak_grp: [wisblock, wisio]
-prev: false
-next: false
-params:
-  qlinks:
-    learnMore:
-      - name: Projects 
-        href: https://www.hackster.io/search?i=projects&q=rak811
-      - name: Community
-        href: https://forum.rakwireless.com/
-      - name: Support
-        href: mailto:fomi@rakwireless.com
-    resources:
-      - name: Datasheet
-        href: /Product-Categories/WisBlock/RAK5860/Datasheet/
-      - name: User Manual
-        href: /user-manual/
-      - name: Deployment Guide
-        href: /deployment-guide/
+prev: ../../
+next: ../Datasheet/
+
 ---
 
 # RAK5860 WisBlock WisIO Module
 
+Thank you for choosing **RAK5860 WisBlock WisIO Module** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
+
+
+* [Datasheet](../Datasheet/)
 
 ## Product Description
 
@@ -31,13 +22,6 @@ The RAK5860 is a module designed to work with the RAK5005 base board, it provide
 
 For debugging purpose, a Micro-USB connector is used for sending AT commands, data transmission and receiving GNSS NMEA output. Once the module is integrated with the RAK5005 base board, the internal UART port of the module is connected through the WisIO connector to a WisCore module.
 
-
-<rk-btn
-  src="../Datasheet/"
-  label="Get Started with RAK5860 WisBlock WisIO Module"
-/>
-
-<rk-quick-links :params="$page.frontmatter.params.qlinks"/>
 
 ## Product Features 
 
@@ -49,8 +33,3 @@ For debugging purpose, a Micro-USB connector is used for sending AT commands, da
 - Power Supply: 2.6-4.2V, typical supply voltage 3.3V
 - Module size: 25mm x 35mm
 
-<rk-btn
-  src="https://store.rakwireless.com/"
-  label="Buy a RAK5860 WisBlock WisIO Module"
-  _blank
-/>

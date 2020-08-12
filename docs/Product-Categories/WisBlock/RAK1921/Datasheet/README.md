@@ -3,7 +3,7 @@ tags:
   - datasheet
   - wisblock
 next: false
-prev: /Product-Categories/WisBlock/RAK1921/Overview/
+prev: ../Overview/
 ---
 
 # RAK1921 WisBlock WisIO Module Datasheet

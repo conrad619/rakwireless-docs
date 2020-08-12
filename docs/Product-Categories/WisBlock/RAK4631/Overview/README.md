@@ -1,35 +1,20 @@
 ---
 rak_img: /assets/images/wisblock/rak4631/datasheet/overview.jpg
+rak_desc: The RAK4631 module is part of the WisBlock series, specifically it’s one of the modules that belongs to the WisCore category. It is a breakout module designed to work with RAK5005 base board. Essentially, it is a RAK4630 stamp module with an expansion PCB and connectors compatible with the RAK5005 base board. It allows an easy way to access to the pins of the RAK4630 module in order to simplify development and testing processes.
 rak_grp: [wisblock, wiscore]
-prev: false
-next: false
-params:
-  qlinks:
-    learnMore:
-      - name: Community
-        href: https://forum.rakwireless.com/
-      - name: Support
-        href: mailto:support@rakwireless.com
-    resources:
-      - name: Datasheet
-        href: /Product-Categories/WisBlock/RAK4631/Datasheet/
-      - name: User Manual
-        href: /user-manual/
-      - name: Deployment Guide
-        href: /deployment-guide/
+prev: ../../
+next: ../Datasheet/
 ---
 
 # RAK4631 WisBlock WisCore Module
 
-<rk-img
-  src="/assets/images/wisblock/rak4631/datasheet/overview.jpg"
-  width="40%"
-  caption="RAK4631 WisBlock WisCore Module"
-/>
+Thank you for choosing **RAK4631 WisBlock Module** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
+
+* [Datasheet](../Datasheet/)
 
 ## Product Description
 
-The RAK4631 module is part of the WisBlock series, specifically it’s one of the modules that belongs to the WisCore category. 
+The **RAK4631 WisBlock** module is part of the WisBlock series, specifically it’s one of the modules that belongs to the WisCore category. 
 
 The RAK4631 is a breakout module designed to work with RAK5005 base board. Essentially, it is a RAK4630 stamp module with an expansion PCB and connectors compatible with the RAK5005 base board. It allows an easy way to access to the pins of the RAK4630 module in order to simplify development and testing processes.
 
@@ -39,12 +24,6 @@ The module complies with LoRaWAN® 1.0.2 protocols, it also supports LoRa® poin
 
 The RF communication characteristic of the module (Lora® + BLE) make it suitable for a variety of applications in the IoT field such as home automation, sensor networks, building automation, personal area networks applications (health/fitness sensors and monitors, etc.).
 
-<rk-btn
-  src="../Datasheet/"
-  label="Get Started with RAK4631 WisBlock WisCore Module"
-/>
-
-<rk-quick-links :params="$page.frontmatter.params.qlinks"/>
 
 ## Product Features
 
@@ -58,10 +37,3 @@ The RF communication characteristic of the module (Lora® + BLE) make it suitabl
 - BLE5.0 (Tx power -20 to +4dBm in 4dB steps)
 - Serial Wire Debug (SWD) interface
 - Module size: 20 x 30mm
-
-<rk-btn
-  src="https://store.rakwireless.com/"
-  label="Buy a RAK4631 WisBlock WisCore Module"
-  _blank
-/>
-

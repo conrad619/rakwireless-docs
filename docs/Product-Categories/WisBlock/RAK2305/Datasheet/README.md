@@ -2,7 +2,7 @@
 tags:
   - datasheet
   - wisblock
-prev: /Product-Categories/WisBlock/RAK2305/Overview/
+prev: ../Overview/
 next: false
 ---
 
