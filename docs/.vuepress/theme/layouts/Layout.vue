@@ -284,8 +284,9 @@ export default {
     }
   },
   watch: {
-    $page: function() {
+    $page: function(newval, oldval) {
       this.setDefaultSidebar()
+      this.$root.lastPath = oldval.path
     }
   }
 }

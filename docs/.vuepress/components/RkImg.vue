@@ -18,7 +18,6 @@
 
 <script>
 let count = 0
-let lastPath = null
 let zoomFactor = 1.15
 let imgEl
 
@@ -82,8 +81,7 @@ export default {
     }
   },
   mounted() {
-    if (this.$page.path !== lastPath) {
-      lastPath = this.$page.path
+    if (this.$page.path !== this.$root.lastPath) {
       count = 1
       this.figNum = count
     } else this.figNum = ++count
