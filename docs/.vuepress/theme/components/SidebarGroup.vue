@@ -22,7 +22,7 @@
       <span>{{ item.title }}</span>
       <span v-if="collapsable" class="arrow" :class="open ? 'down' : 'right'" />
       <div v-if="item.download" class="float-right">
-        <q-btn icon="fas fa-download" size="xs" @click="onDownload" round flat dense />
+        <q-btn icon="fas fa-download" size="xs" @click="onDownload(item.path)" round flat dense />
       </div>
     </RouterLink>
 
@@ -75,14 +75,17 @@ export default {
 
   methods: {
     isActive,
-    onDownload () {
-      const { origin, pathname } = window.location
+    onDownload(pathname) {
+      const { origin } = window.location
       // this.$q.dialog({
       //   title: 'Information',
       //   message: `This should open a new tab to download <b>${origin}/${pathname}</b>.`,
       //   html: true
       // })
-      window.open(`http://m.aspac.io:8888/api/render?url=${origin}${pathname}`, '_blank')
+      window.open(
+        `http://m.aspac.io:8888/api/render?emulateScreenMedia=false&url=${origin}${pathname}`,
+        '_blank'
+      )
     }
   }
 }
