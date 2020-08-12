@@ -14,13 +14,15 @@ tags:
   caption="RAK7200 WisNode Track Lite Overview"
 />
 
-### Product Description
+## Overview
+
+### Description
 
 The **RAK7200 WisNode Track Lite** device is the best available prototyping LoRa® sensor device with built-in 3.7V rechargeable Li-ion battery and GPS modem. The RAK7200 WisNode Track Lite has built-in **S76G** which integrates the **ultra low power ARM Cortex-M3 STM32L073 microcontroller** and **SX1276 LoRa®** long range modem and on board **CXD5603GF GPS modem**.
 
 It is a feature-packed tracker device for featured applications development. This device can be used as a quick prototyping tool for Internet-of-Things (IoT) and LoRaWAN® Integration. The RAK7200 WisNode Track Lite is perfect for IoT Applications such as asset tracking, smart vehicle management and location-based services.
 
-### Product Features
+### Features
 
 - **Supports sleep mode**, low power consumption.
 - Built-in **digital output motion sensor LIS3DH**, which has dynamic user selectable full scales of ±2g/±4g/±8g/±18g and it is capable of measuring accelerations with output data rates from 1Hz to 5kHz.
@@ -34,6 +36,9 @@ It is a feature-packed tracker device for featured applications development. Thi
 ## Specifications
 
 ### Overview
+
+The overview shows the board with its enclosure. It also presents the block diagram that shows the internal architecture of the board. 
+
 
 #### Board Overview
 
@@ -56,6 +61,8 @@ The block diagram below shows the internal architecture and external interfaces 
 />
 
 ### Hardware
+
+The hardware specification is categorized into six parts. It discusses the interfacing, pinouts, and the corresponding functions and diagrams of the board. It also includes the parameters and the standard values in terms of the electrical and environmental. 
 
 #### Interfaces
 
@@ -115,7 +122,7 @@ The RAK7200 WisNode Track Lite provides three LEDs for indicating the operating 
 | 7   | TX1   | UART1_TX     |
 | 8   | 3V3   | 3.3V Output  |
 
-#### RF Requirements
+#### RF Characteristics
 
 ##### Operating Frequencies
 
@@ -214,7 +221,7 @@ The RAK7200 WisNode Track Lite has built-in rechargeable 3.7V Li-ion battery whi
 
 #### Environmental Requirements
 
-The table below lists the operation and storage temperature Requirements.
+The table below lists the operation and storage temperature requirements.
 
 | Parameter             | Min.   | Typical | Max.   |
 | --------------------- | ------ | ------- | ------ |
@@ -222,6 +229,8 @@ The table below lists the operation and storage temperature Requirements.
 | Extended Temp. Range  | -10 °C |         | +80 °C |
 
 ### Software
+
+Download the latest firmware version of RAK7200 in tha table provided below.
 
 | Model   | Version   | Source                                                                                                  |
 | ------- | --------- | ------------------------------------------------------------------------------------------------------- |

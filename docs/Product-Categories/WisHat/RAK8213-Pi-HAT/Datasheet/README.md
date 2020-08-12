@@ -14,18 +14,23 @@ prev: ../Overview/
   caption="RAK8213 Pi Hat"
 />
 
+## Overview
 
-### Product Description
+### Description
 
 **RAK8213 Pi HAT** is designed to work in conjunction with the **RAK8213 NB-IoT module**. It works as a converter for the RAK8213 mPCIe module to the **40-pin header connector** on the Raspberry Pi. Thus, the RAK8213 HAT allows one to easily add NB-IoT functionality to any Raspberry Pi.
 
-### Product Features
+### Features
 
 - Pi HAT form factor 
 - mPCIe slot
 - Micro-USB connector serving as both interface and power for the RAK8213
 
-## Block Diagram
+## Specifications
+
+### Overview
+
+#### Block Diagram
 
 RAK8213 Pi HAT maps the RAK8213 pins from the 52pin mPCIe connector to the 40 pin Raspberry Pi connector. Refer to the block diagram in figure 1 shown below and the pin mapping table shown in the Pin Definition section. 
 
@@ -35,7 +40,9 @@ RAK8213 Pi HAT maps the RAK8213 pins from the 52pin mPCIe connector to the 40 pi
   caption="RAK8213 Pi HAT Block Diagram"
 />
 
-## Pin Definition
+### Hardware
+
+#### Pin Definition
 
 The following tables show the pin definition and description of RAK8213 Pi HAT on the 40-PIN Pi HAT connector.
 

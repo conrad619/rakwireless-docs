@@ -1,5 +1,7 @@
 ---
 prev: ../Overview/
+tags:
+  - RAK4200 Evaluation Board
 ---
 
 # Quick Start Guide

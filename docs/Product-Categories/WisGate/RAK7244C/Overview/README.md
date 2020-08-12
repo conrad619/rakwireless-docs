@@ -8,7 +8,7 @@ next: ../Quickstart/
 ---
 
 # RAK7244C Developer D4+
-Thank You For choosing **RAK7244C Developer D4+** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
+Thank you for choosing **RAK7244C Developer D4+** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
 * [Quick Start Guide](../Quickstart/)
 

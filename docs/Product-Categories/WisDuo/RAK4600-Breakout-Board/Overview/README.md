@@ -8,7 +8,7 @@ next: ../Quickstart/
 ---
 
 # RAK4600 LPWAN Breakout Module
-Thank You For choosing **RAK4600 LPWAN Breakout Module** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
+Thank you for choosing **RAK4600 LPWAN Breakout Module** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
 * [Quick Start Guide](../Quickstart/)
 * [Datasheet](../Datasheet/)

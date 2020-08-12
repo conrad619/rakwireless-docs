@@ -21,8 +21,9 @@ certifications:
   caption="RAK811 Breakout Module"
 />
 
+## Overview
 
-### Product Description
+### Description
 
 **RAK811 Breakout Module** is an easy to use, compact and low power long range LoRa® technology with wireless transceiver capabilities. A combination of RAK811 chipset and RAK811 Breakout Board with Semtech SX1276 at its core which takes advantage of all LoRa® features.
 
@@ -32,7 +33,7 @@ The node can work in a number of modes, with different data rates and read data 
 
 This module is a complete solution in developing your LoRaWAN® protocol techniques. A few of its application includes: Automated Meters Reading, Home and Building Automation, Wireless Alarm and Security Systems, Industrial Monitoring and Control and Long Range Irrigation Systems.
 
-### Product Features
+### Features
 
 - Based on **Semtech SX1276**
 - Full **LoRaWAN® 1.0.2** stack support

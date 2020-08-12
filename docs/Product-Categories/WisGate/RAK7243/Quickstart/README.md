@@ -1,6 +1,8 @@
 ---
 prev: ../Overview/
 next: false
+tags:
+  - RAK7243
 ---
 
 # Quick Start Guide

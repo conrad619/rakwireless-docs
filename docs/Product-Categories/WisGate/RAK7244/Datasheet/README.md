@@ -13,7 +13,9 @@ prev: ../Quickstart/
   caption="RAK7244C Fully Assembled"
 />
 
-### Product Description
+## Overview
+
+### Description
 
 The RAK7244 Developer is a device that consists of a Raspberry Pi 4, a RAK2245 Pi HAT, which includes a GPS module and a Heat Sink for better performance and thermal heat dissipation management.
 
@@ -27,7 +29,7 @@ The built-in RAK2245 Pi HAT uses the SX1301 RF front-end chip from Semtech®, wh
 
 The RAK7244 LoRaWAN® Developer Gateway is ideal for prototyping, proof-of-concept demonstrations or for the evaluation on future deployment scenarios. It includes a ready to use Firmware based on Raspbian OS, that makes it possible to connect the Gateway to any standard LoRaWAN® Server. It is developer friendly as the large Raspbian OS community is a well-established one. It is especially suited to addressing a variety of applications like Smart Grids, Intelligent Farms and other IoT Enterprise applications.
 
-### Product Features
+### Features
 
 - Refreshed Case design with a new MCU (**Raspberry Pi4**)
 - Preassembled, fully functioning **LoRaWAN®™ Gateway**

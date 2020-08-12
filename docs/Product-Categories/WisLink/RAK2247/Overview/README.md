@@ -1,5 +1,5 @@
 ---
-rak_img: /assets/images/wislink-lora/rak2247/quickstart/1.main/RAK2247.svg
+rak_img: /assets/images/wislink-lora/rak2247/quickstart/1.main/rak2247.png
 rak_desc: The RAK2247 WisLink-LoRa is a LoRa® Concentrator module with mini-PCIe form factor based on the SX1301. This enables easy integration into routers and other networking equipment, adding gateway capabilities. 
 rak_grp: [wislink, lpwan]
 prev: ../../
@@ -7,7 +7,7 @@ next: ../Quickstart/
 ---
 
 # RAK2247 WisLink-LoRa
-Thank You For choosing **RAK2247 WisLink-LoRa** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
+Thank you for choosing **RAK2247 WisLink-LoRa** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
 * [Quick Start Guide](../Quickstart/)
 * [Datasheet](../Datasheet/)

@@ -19,7 +19,9 @@ certifications:
   caption="RAK7249 Max"
 />
 
-### Product Description
+## Overview
+
+### Description
 
 **RAK7249 Max** is an ideal product for IoT commercial deployment. Its modularity and customization options allow for flexibility when deploying a solution. With its industrial-grade components, it achieves a high standard of reliability.
 
@@ -27,7 +29,7 @@ The gateway provides for a solid out of the box experience for quick deployment.
 
 Thus the RAK7249 is suited for any use case scenario, be it rapid deployment or customization with regards to UI and functionality.
 
-### Product Features
+### Features
 
 #### Hardware
 
@@ -222,15 +224,17 @@ on the mainboard.
 
 ### Software
 
+RAK7249 supports software in LoRa®, Network and Management. Supported features are shown in the table below.
+
 #### Supported Software
 
-| LoRa                          | Network            | Management                                   |
+| LoRa®                          | Network            | Management                                   |
 | ----------------------------- | ------------------ | -------------------------------------------- |
 | Supports class A, C           | WiFi AP mode       | WEB Management                               |
-| LoRa package forward          | LTE APN setup      | Supports SSH2 , NTP                          |
+| LoRa® package forward          | LTE APN setup      | Supports SSH2 , NTP                          |
 | Country code setup            | Uplink backup      | Firmware update                              |
 | TX power up setup             | Supports 802.1q    | Supports configure the LoRa Packet Forwarder |
-| Datalogger                    | DHCP Server/Client | Supports Build-in LoRa Server                |
+| Datalogger                    | DHCP Server/Client | Supports Build-in LoRa® Server                |
 | Statistic                     | Router module NAT  | Supports OpenVPN, Ping Watch Dog             |
 | Location setup                | Firewall           | Supports MQTT Bridge                         |
 | Server address and port setup |                    |                                              |

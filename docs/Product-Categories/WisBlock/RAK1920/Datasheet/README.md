@@ -2,7 +2,7 @@
 tags:
   - datasheet
   - wisblock
-prev: /Product-Categories/WisBlock/RAK1920/Overview/
+prev: ../Overview/
 next: false
 ---
 
@@ -14,16 +14,16 @@ next: false
   caption="RAK1920 WisIO Module"
 />
 
+## Overview
 
-
-### Product Description
+### Description
 
 The RAK1920 module is part of the WisBlock series, specifically, it is one of the modules that belongs to the WisIO category. This module was designed to be part of a production-ready IoT solution in a modular way, and must be combined with a WisCore and a WisBase module. 
 
 The RAK1920 module is a sensor extension module, it supports several defacto-standard interfaces in the IoT market and allows customers to integrate sensors manufactured by Mikroe, SparkFun, SeeedStudio, and others. For example, the RAK1920 supports the Click Boards™ series of module provided by Mikroe, Qwiic Connect™ sensor interface designed by SparkFun, and it supports all kinds of I²C module digital I/O, UART and ADC sensors with a Grove™ interface.
 
 
-### Product Features
+### Features
 
 - Interface to all Click Boards of Mikroe
 - Interface to all Qwiic sensors of SparkFun

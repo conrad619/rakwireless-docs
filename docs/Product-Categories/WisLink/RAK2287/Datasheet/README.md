@@ -14,13 +14,15 @@ next: false
   caption="RRAK2287 WisLink-LoRa"
 />
 
-### Product Description
+## Overview
+
+### Description
 
 **RAK2287** is an LPWAN Concentrator Module with mini-PCIe form factor based on Semtech SX1302, which enables an easy integration into an existing router or other network equipment with LPWAN Gateway capabilities. It can be used in any embedded platform offering a free mini-PCIe slot with SPI connection. Furthermore, **ZOE-M8Q GPS chip** is integrated on board.
 
 This module is an exceptional, complete and cost efficient gateway solution offering up to 10 programmable parallel demodulation paths, an 8 x 8 channel LoRa® packet detectors, 8 x SF5-SF12 LoRa® demodulators and 8 x SF5-SF10 LoRa® demodulators. It is capable of detecting uninterrupted combination of packets at 8 different spreading factors and 10 channels with continuous demodulation of up to 16 packets. This product is best for smart metering fixed networks and Internet-of-Things (IoT) applications, that can cover of up to 500 nodes per km² in an environment of moderate interference.
 
-### Product Features
+### Features
 
 - Designed based on **Mini PCL-e form factor** with Heat Sink.
 - **SX1302 base band processor** emulates 8 x8 channel LoRa packet detectors, 8 x SF5-SF12 LoRa demodulators, 8 x SF5-SF10 LoRa demodulators, one 125 /250 / 500 kHz high-speed LoRa demodulator and one (G)FSK demodulator.
@@ -36,6 +38,8 @@ This module is an exceptional, complete and cost efficient gateway solution offe
 
 ### Overview
 
+The overview shows the top and back view of the RAK2287 board. It also presents the block diagram that discusses how the board works. 
+
 #### Board Overview
 
 RAK2287 is a compact LPWAN Gateway Module, making it suitable for integration in systems where mass and size constraints are essential. It has been designed with the PCI Express Mini Card form factor in mind, so it can easily become a part of products that comply with the standard, where they allow for cards with thickness of at least 10.5 mm.
@@ -45,7 +49,7 @@ The board has two UFL interfaces for the LoRa® and GNSS antennas and a standard
 <rk-img
   src="/assets/images/wislink-lora/rak2287/datasheet/board-overview/yujozcseyi0lmakv0gtz.jpg"
   width="100%"
-  caption="RAK2247 Board Overview"
+  caption="RAK2287 Board Overview"
 />
 
 #### Block Diagram
@@ -59,6 +63,8 @@ RAK2287 card is equipped with one SX1302 chip and two SX1250. The first chip is 
 />
 
 ### Hardware
+
+The hardware is categorized into seven parts. It discusses the interfacing, pinouts and its corresponding functions and diagrams. It also covers the parameters and standard values of the board. 
 
 #### Interface
 
@@ -281,6 +287,8 @@ RAK2287 card refers to Semtech's reference design of SX1302. The SPI interface c
 />
 
 ### Software
+
+Download the latest firmware of the RAK2287 WisLink-LoRa in the table provided below.
 
 #### Firmware
 

@@ -45,6 +45,9 @@ Application development supports the GCC environment.
 
 ### Overview
 
+The overview presents the RAK5010 WisTrio top view and its block diagram that shows the core of the board.
+
+
 #### Module Overview
 
 Figure 2 shows the top view and the interfaces of the RAK5010 NB-IoT tracker board.
@@ -86,6 +89,8 @@ The block diagram below shows the internal architecture and external interfaces 
 />
 
 ### Hardware
+
+The hardware specification is categorized into seven parts. It discusses the interfacing, pinouts, and its corresponding functions and diagrams. It also covers the standard parameters of the board in terms of Electrical, Mechanical and Environmental of which the tabular data of the functionalities and the standard values are presented. Moreover, a thorough discussion of the RAK5010 specification is included in this section.
 
 #### Interfaces
 
@@ -658,6 +663,8 @@ The table below lists the operation and storage temperature requirements:
 
 ### Software
 
+Download the latest firmware version of the RAK5010 WisTrio™ provided in the table below. 
+
 | Model     | Version  | Source                                                                                       |
 | --------- | -------- | -------------------------------------------------------------------------------------------- |
 | RAK5010   | V3.0.0.8 | [Download](https://downloads.rakwireless.com/Cellular/RAK5010/Firmware/RAK5010_Latest_Firmware.zip) |
@@ -672,6 +679,3 @@ The table below lists the operation and storage temperature requirements:
 | RAK5010         | ✓                            | ✓                        | ✓                                            | ✓                                 | ✓                            | ✓                         |
 | RAK5010-M       | ✓                            | ✓                        | ✓                                            | ✓                                 |                              |                           |
 
-## Certifications
-
-**No Certifications provided**

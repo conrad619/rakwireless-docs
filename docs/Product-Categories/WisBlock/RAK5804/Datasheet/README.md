@@ -1,5 +1,5 @@
 ---
-prev: /Product-Categories/WisBlock/RAK5804/Overview/
+prev: ../Overview/
 next: false
 tags:
   - datasheet
@@ -8,8 +8,9 @@ tags:
 
 # RAK5804 WisBlock WisIO Module Datasheet
 
+## Overview
 
-### Product Description
+### Description
 
 
 The RAK5804 module is part of the WisBlock series that belongs to the WisIO category. This module was designed to be part of a production-ready IoT solution in a modular way and must be combined with a WisCore and a WisBase module. 
@@ -20,7 +21,7 @@ Also, the RAK5804 module supports a USB interface, which can be used with RAK500
 
 All external expansion interfaces of the RAK5804 module are equipped with a TVS protection circuit to avoid damaging the mainboard and WisCore circuit with ESD when users plug in or unplug the interface.
 
-### Product Features
+### Features
 
 - WisIO connector
 - Supports **two (2) pieces of 10-pin IO** extension connectors.

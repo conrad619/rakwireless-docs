@@ -96,6 +96,7 @@ import ScrollMixin from '@theme/components/mixins/scroll.mixin'
 import CommonMixin from '../../components/common.mixin'
 
 import { resolveSidebarItems } from '../util'
+import { Screen } from 'quasar'
 
 export default {
   name: 'Layout',

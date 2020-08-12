@@ -1,28 +1,17 @@
 ---
-static_root: /assets/images/wisblock/rak5804/datasheet/
 rak_img: /assets/images/wisblock/rak5804/datasheet/j-connectors.png
+rak_desc: The RAK5804 module is part of the WisBlock series that belongs to the WisIO category. This module was designed to be part of a production-ready IoT solution in a modular way and must be combined with a WisCore and a WisBase module. 
 rak_grp: [wisblock, wisio]
-prev: false
-next: false
-params:
-  qlinks:
-    learnMore:
-      - name: Projects 
-        href: https://www.hackster.io/search?i=projects&q=rak811
-      - name: Community
-        href: https://forum.rakwireless.com/
-      - name: Support
-        href: mailto:fomi@rakwireless.com
-    resources:
-      - name: Datasheet
-        href: /Product-Categories/WisBlock/RAK5804/Datasheet/
-      - name: User Manual
-        href: /user-manual/
-      - name: Deployment Guide
-        href: /deployment-guide/
+prev: ../../
+next: ../Datasheet/
+
 ---
 
 # RAK5804 WisBlock WisIO Module
+
+Thank you for choosing **RAK5804 WisBlock WisIO Module** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
+
+* [Datasheet](../Datasheet/)
 
 ## Product Description
 
@@ -36,14 +25,6 @@ Also, the RAK5804 module supports a USB interface, which can be used with RAK500
 All external expansion interfaces of the RAK5804 module are equipped with a TVS protection circuit to avoid damaging the mainboard and WisCore circuit with ESD when users plug in or unplug the interface.
 
 
-<rk-btn
-  src="../Datasheet/"
-  label="Get Started with RAK5804 WisBlock WisIO Module"
-/>
-
-<rk-quick-links :params="$page.frontmatter.params.qlinks"/>
-
-
 ## Product Features
 
 - WisIO connector
@@ -54,8 +35,3 @@ All external expansion interfaces of the RAK5804 module are equipped with a TVS 
 - Dimension: **25 mm x 15 mm**.
 
 
-<rk-btn
-  src="https://store.rakwireless.com/"
-  label="Buy a RAK5804 WisBlock WisIO Module"
-  _blank
-/>

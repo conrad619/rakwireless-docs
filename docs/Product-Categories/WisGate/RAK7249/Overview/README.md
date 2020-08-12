@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/wisgate/rak7249/quickstart/1.main
-rak_img: /assets/images/wisgate/rak7249/datasheet/rak7249.png
+rak_img: /assets/images/wisgate/rak7249/datasheet/RAK7249.png
 rak_desc: RAK7249 Max is an ideal product for IoT commercial deployment. Its modularity and customization options allow for flexibility when deploying a solution. With its industrial-grade components, it achieves a high standard of reliability.
 rak_grp: [wisgate, edge]
 prev: ../../
@@ -8,7 +8,7 @@ next: ../Quickstart/
 ---
 
 # RAK7249 Max
-Thank You For choosing **RAK7249 Max** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
+Thank you for choosing **RAK7249 Max** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
 * [Quick Start Guide](../Quickstart/)
 * [Datasheet](../Datasheet/)

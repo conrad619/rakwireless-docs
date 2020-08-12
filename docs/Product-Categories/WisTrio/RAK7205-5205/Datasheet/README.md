@@ -16,15 +16,13 @@ tags:
 
 ## Overview
 
-### Product Description
-
-Overview and Package Contents
+### Description
 
 The **RAK5205 LPWAN tracker board** is built on the Semtech SX1276 chip, with the STM32L1 MCU at its core. It is a feature-packed sensor board with LoRa® connectivity and built-in GPS. It provides various interfaces for easy application development.
 
 This is the best sensor board available in the market, ideal as a quick prototyping tool for Internet-of-Things and LoRaWAN® Network integration. It is perfect for IoT applications such as asset tracking, smart vehicle management and location-based services. Most importantly, application development environments such as the CooCox IDE and Kiel are all supported, users can quickly develop own applications.
 
-### Product Features
+### Features
 
 - Compatible with 96Boards IoT Edition Specification.
 - With SX1276 LoRa® long range and Ublox Max 7Q GPS modems which allow to
@@ -88,8 +86,7 @@ The hardware specification is categorized into eight parts. It discusses the int
   caption="RAK5205 Functional Diagram"
 />
 
-It is built around RAK811 module and compatible with 96Boards. It provides the
-following interfaces, headers, jumpers, button and connectors:
+It is built around RAK811 module and compatible with 96Boards. It provides the following interfaces, headers, jumpers, button and connectors:
 
 - Micro USB
 - 30-pin 96Boards Headers (UART, RESET, GPIOS, I2C, ADC)

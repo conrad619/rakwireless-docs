@@ -1,7 +1,8 @@
 ---
 prev: ../Overview/
 next: ../Datasheet/
-
+tags:
+  - RAK7249
 ---
 
 # Quick Start Guide

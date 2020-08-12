@@ -17,13 +17,15 @@ certifications:
   caption="RAK2247 WisLink-LoRa"
 />
 
-### Product Description
+## Overview
+
+### Description
 
 The **RAK2247 WisLink-LoRa** is a LoRa® Concentrator module with mini-PCIe form factor based on the SX1301. This enables easy integration into routers and other networking equipment, adding gateway capabilities. The module can be used in any embedded platform offering a mini-PCIe slot with an SPI or USB connection.
 
 Despite its small size this is an 8 channel concentrator module. By integrating it together with a computing core a fully fledged gateway solution can easily be created.
 
-### Product Features
+### Features
 
 - Mini PCIe form factor, mounted heat-sink.
 - SX1301 base band processor emulates 49 x LoRa® demodulators, 10 parallel demodulation paths. It supports 8 uplinks channel and 1 downlink channel.
@@ -37,6 +39,8 @@ Despite its small size this is an 8 channel concentrator module. By integrating 
 ## Specifications
 
 ### Overview
+
+The overview shows the top and back view of the RAK2247 board. It also presents the block diagram that discusses how the board works. 
 
 #### Board Overview
 
@@ -59,6 +63,8 @@ RAK2247 WisLink-LoRa integrates one SX1301 chip and two SX1255/7. The other chip
 />
 
 ### Hardware
+
+The hardware is categorized into six parts. It discusses the interfacing, pinouts and its corresponding functions and diagrams. It also covers the parameters and standard values of the board. 
 
 #### Interface
 

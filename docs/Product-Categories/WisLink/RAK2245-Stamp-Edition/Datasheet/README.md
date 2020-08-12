@@ -14,7 +14,9 @@ next: false
   caption="RAK2245 WisLink-LoRa Stamp Edition"
 />
 
-### Product Description
+## Overview
+
+### Description
 
 The **RAK2245 WisLink-LoRa Stamp Edition** is a complete and cost efficient gateway solution base on Semtech SX1301 fully utilizing the LoRa System. This LPWAN Concentrator module supports eight channels and is available for all LoRaWAN® international standard bands.
 
@@ -22,7 +24,7 @@ The Stamp form factor feature enables easy integration into the system's main bo
 
 Overall, this gateway module is the most economical way to create different solutions like smart grid, intelligent farm and other IoT applications. It is also ideal for manufacturing small series that can expand into more applications.
 
-### Product Features
+### Features
 
 - Compatible with Stamp Edition specifications with mounted heat-sink.
 - SX1301 base band processor, emulates 49 x LoRa® demodulators 10 parallel demodulation paths, support 8 uplinks channel, 1 downlink channel.
@@ -37,6 +39,8 @@ Overall, this gateway module is the most economical way to create different solu
 ## Specifications
 
 ### Overview
+
+The overview shows the top and back view of the RAK2245 Stamp Edition board. It also presents the block diagram that discusses how the board works. 
 
 #### Board Overview
 
@@ -57,6 +61,8 @@ The **RAK2245 WisLink-LoRa Stamp Edition**, as shown in figure 1 below, has oute
 />
 
 ### Hardware
+
+The hardware is categorized into five parts. It discusses the interfacing, pinouts and its corresponding functions and diagrams. It also covers the parameters and standard values of the board in terms of electrical and environmental. 
 
 #### Interfaces
 
@@ -203,7 +209,7 @@ We recommended you to use optimized RSSI calibration values which is part of HAL
 | 500                        | 12                   | -134                  |
 | 500                        | 7                    | -120                  |
 
-#### Electrical Requirements
+#### Electrical Characteristics
 
 The following are the electrical characteristics of RAK2245 WisLink-LoRa Stamp Edition. [Contact us ](mailto:support@rakwireless.com)if you need other details for your project.
 

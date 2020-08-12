@@ -43,6 +43,8 @@ The RAK2013 is compatible with RAK2245 Pi Hat Concentrator module via the onboar
 
 ### Overview
 
+The overview shows the top view of the RAK2013 WisLink-LTE and its corresponding outer dimension. It also presents the block diagram that shows the internal architecture of the board.
+
 #### Module Overview
 
 Here is the top view and external interfaces of RAK2013 WisLink-LTE add-on board.
@@ -78,6 +80,8 @@ The diagram below shows the internal architecture and external interfaces of RAK
 />
 
 ### Hardware
+
+The hardware is categorized into eight parts. It discusses the interfacing, pinouts and its corresponding functions and diagrams. It also covers the parameters and standard values of the board in terms of electrical, mechanical and environmental. 
 
 #### Interfaces
 

@@ -8,14 +8,14 @@
 #         href: https://forum.rakwireless.com
 #       - name: Support
 #         href: mailto:support@rakwireless.com
-rak_img: /assets/images/wisduo/rak4200-module/datasheet/overview.png
+rak_img: /assets/images/wisduo/rak4200-module/overview/rak4200-module.png
 rak_desc: RAK4200 LPWAN Module includes an STM32L071 MCU and an SX1276 LoRa® chip. It has Ultra-Low Power Consumption of 1.5uA in sleep mode and high LoRa® output power up to 19dBm max in work mode.
 rak_grp: [wisduo, module]
 prev: ../../
 next: ../Datasheet/
 ---
 # RAK4200 LPWAN Module
-Thank You For choosing **RAK4200 LPWAN Module** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
+Thank you for choosing **RAK4200 LPWAN Module** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
 * [Datasheet](../Datasheet/)
 

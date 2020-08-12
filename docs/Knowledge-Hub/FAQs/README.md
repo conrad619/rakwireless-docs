@@ -2,7 +2,7 @@
 sidebar: false
 header:
     title: Welcome to FAQs section!
-    caption: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+    caption: The RAKwireless team compiled some commonly raised questions and categorized them into three — General, Hardware, and Software. Browse through these sections to answer your questions and to provide you more information about the products. If you have unanswered questions left, message us through the chat box or immerse in the RAKWireless Forum.
 ---
 
 <div class="flex flex-center q-gutter-sm">
@@ -13,7 +13,7 @@ header:
   label="General FAQs"
 >
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula est ex, in ullamcorper mauris pretium non. Sed egestas elit nec fermentum aliquet. Nulla molestie nisl fringilla lacus viverra tristique quis ut tellus. Vivamus faucibus porta tellus, eget condimentum enim commodo sit amet.
+A list of pre-answered questions mostly encountered during the product installation or when general browsing of the document is done. 
 
 </rk-faq-card>
 
@@ -23,7 +23,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula est ex, 
   label="Hardware FAQs"
 >
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula est ex, in ullamcorper mauris pretium non. Sed egestas elit nec fermentum aliquet. Nulla molestie nisl fringilla lacus viverra tristique quis ut tellus. Vivamus faucibus porta tellus, eget condimentum enim commodo sit amet.
+A list of pre-answered and hardware-related questions mostly encountered in the Quick Start Guide and Datasheet documentation.
 
 </rk-faq-card>
 
@@ -33,7 +33,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula est ex, 
   label="Software FAQs"
 >
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula est ex, in ullamcorper mauris pretium non. Sed egestas elit nec fermentum aliquet. Nulla molestie nisl fringilla lacus viverra tristique quis ut tellus. Vivamus faucibus porta tellus, eget condimentum enim commodo sit amet.
+A list of pre-answered and software-related questions mostly encountered during product installation.
 
 </rk-faq-card>
 

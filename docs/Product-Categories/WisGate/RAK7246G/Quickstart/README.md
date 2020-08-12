@@ -1,7 +1,8 @@
 ---
 prev: ../Overview/
 next: ../Datasheet/
-
+tags:
+  - RAK7246G
 ---
 
 # Quick Start Guide

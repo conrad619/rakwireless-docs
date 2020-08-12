@@ -7,7 +7,7 @@ next: ../Datasheet/
 ---
 
 # RAK2013 WisLink-LTE
-Thank You For choosing **RAK2013 WisLink-LTE** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
+Thank you for choosing **RAK2013 WisLink-LTE** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
 * [Datasheet](../Datasheet/)
 

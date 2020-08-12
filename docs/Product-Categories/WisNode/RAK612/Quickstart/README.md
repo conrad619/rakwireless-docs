@@ -1,6 +1,8 @@
 ---
 prev: .../Overview/
 next: false
+tags:
+  - RAK612
 ---
 
 # Quick Start Guide

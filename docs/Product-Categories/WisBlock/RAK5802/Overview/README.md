@@ -1,24 +1,18 @@
 ---
+rak_img: /assets/images/wisblock/rak5802/datasheet/rak5802-pins.jpg
+rak_desc: The RAK5802 module is part of the WisBlock series, specifically, it is one of the modules that belongs to the WisIO category. This module was designed to be part of a production-ready IoT solution in a modular way, and must be combined with a WisCore and a WisBase module.
 rak_grp: [wisblock, wisio]
-prev: false
-next: false
-params:
-  qlinks:
-    learnMore:
-      - name: Community
-        href: https://forum.rakwireless.com/
-      - name: Support
-        href: mailto:support@rakwireless.com
-    resources:
-      - name: Datasheet
-        href: /Product-Categories/WisBlock/RAK5802/Datasheet/
-      - name: User Manual
-        href: /user-manual/
-      - name: Deployment Guide
-        href: /deployment-guide/
+prev: ../../
+next: ../Datasheet/
+
 ---
 
 # RAK5802 WisBlock WisIO Module
+
+Thank you for choosing **RAK5802 WisBlock WisIO Module** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
+
+* [Datasheet](../Datasheet/)
+
 
 ## Product Description
 
@@ -30,12 +24,6 @@ The RAK5802 module features one RS485 interface. Inside, a protection circuity i
 
 In addition, the RAK5802 supports one I2C interface, customer can use this I2C interface to connect external sensors.
 
-<rk-btn
-  src="../Datasheet/"
-  label="Get Started with the RAK5802 WisBlock WisIO Module"
-/>
-
-<rk-quick-links :params="$page.frontmatter.params.qlinks"/>
 
 ## Product Features
 
@@ -48,10 +36,4 @@ In addition, the RAK5802 supports one I2C interface, customer can use this I2C i
 * Supports in the field fast crimping terminals.
 * Designed with 18kV ESD protection level.
 * Small dimensions of 35mm x 25mm.
-
-<rk-btn
-  src="https://store.rakwireless.com/"
-  label="Buy a RAK5802 WisBlock WisIO Module"
-  _blank
-/>
 
