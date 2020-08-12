@@ -1,5 +1,5 @@
 ---
-rak_img: /assets/images/wislink-lora/rak833/datasheet/rak833.png
+rak_img: /assets/images/wislink-lora/rak833/datasheet/rak833-concentrator.png
 rak_desc: The RAK833 WisLink-Lora™ is a family of LoRa® concentrator modules with mini PCIe form factor based on SX1301, which enables an easy integration into an existing routers and other network equipments with gateway capabilities.This can be used in any embedded platform offering a free mini-PCIe slot with USB and SPI connectivity.
 rak_grp: [wislink, lpwan]
 prev: ../../
