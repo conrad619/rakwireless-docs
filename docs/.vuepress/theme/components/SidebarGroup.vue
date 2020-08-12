@@ -82,7 +82,7 @@ export default {
       //   message: `This should open a new tab to download <b>${origin}/${pathname}</b>.`,
       //   html: true
       // })
-      window.open(`http://m.aspac.io:8888/api/render?url=${origin}/${pathname}`, '_blank')
+      window.open(`http://m.aspac.io:8888/api/render?url=${origin}${pathname}`, '_blank')
     }
   }
 }
