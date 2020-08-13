@@ -33,3 +33,18 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
+@media print {
+    .q-header,
+    .q-drawer,
+    .q-footer,
+    .page-edit,
+    .page-nav,
+    .q-pa-lg,
+    #launcher{
+        display:none;
+    }
+    .q-page-container{
+        padding:0 !important;
+    }
+}
